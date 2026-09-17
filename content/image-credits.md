@@ -31,5 +31,6 @@ Product photos of the clinic's own equipment, cropped from the brochures the cli
 | public/images/tech/qyros-nd-yag.webp | QYROS Q-switched Nd:YAG brochure, Skinnovation Pvt. Ltd. |
 | public/images/tech/coolite-bolt.webp | Coolite BOLT catalogue, GSD / Skinnovation Pvt. Ltd. |
 | public/images/treatments/laser-hair-removal.webp | Coolite BOLT catalogue, GSD / Skinnovation Pvt. Ltd. |
+| public/images/tech/hydrafacial.webp | 17 in 1 Hydra Facial Machine brochure, BVLASER |
 
 Clinic photos (doctor portraits, procedure photo, Ahmedabad reception) belong to Skin Essence and were taken from the existing site and the clinic's own media.

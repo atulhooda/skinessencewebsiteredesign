@@ -1,5 +1,5 @@
 {
-  "_note": "Pune machines confirmed by the clinic with brochures (WhatsApp 17 Sep 2026): MiraPeel (MIRAmedtech / Skinnovation), Qyros Q-switched Nd:YAG (Skinnovation) and Coolite BOLT diode laser (GSD / Skinnovation, 'for LHR' per Dr. Patel). Their photos are brochure crops. HIFU, MNRF, CoolSculpting and Fractional CO2 remain representative stock until the clinic confirms those machines. `highlight: true` renders the 'New in Pune' badge.",
+  "_note": "Pune machines confirmed by the clinic with brochures (WhatsApp 17 Sep 2026): MiraPeel (MIRAmedtech / Skinnovation), Qyros Q-switched Nd:YAG (Skinnovation) and Coolite BOLT diode laser (GSD / Skinnovation, 'for LHR' per Dr. Patel) and a BVLASER 8+9 (17-in-1) hydra facial machine (brochure received 17 Sep 2026, ~3 PM). Their photos are brochure crops. HIFU, MNRF, CoolSculpting and Fractional CO2 remain representative stock until the clinic confirms those machines. `highlight: true` renders the 'New in Pune' badge.",
   "items": [
     {
       "name": "MiraPeel",
@@ -30,6 +30,17 @@
       "image": {
         "src": "/images/tech/coolite-bolt.webp",
         "alt": "Coolite BOLT high-power diode laser platform",
+        "width": 1200,
+        "height": 900
+      }
+    },
+    {
+      "name": "Hydra Facial Machine (8+9)",
+      "description": "17-handle hydrodermabrasion system with RF, microcurrent and LED. Behind our HydraFacial.",
+      "highlight": true,
+      "image": {
+        "src": "/images/tech/hydrafacial.webp",
+        "alt": "BVLASER 8+9 hydra facial machine with its touch screen, serum bottles and handpieces",
         "width": 1200,
         "height": 900
       }
@@ -75,5 +86,5 @@
       }
     }
   ],
-  "disclaimer": "MiraPeel, Qyros and Coolite BOLT photos are from the manufacturers' brochures. Other photos are representative of each type of equipment."
+  "disclaimer": "MiraPeel, Qyros, Coolite BOLT and Hydra Facial photos are from the manufacturers' brochures. Other photos are representative of each type of equipment."
 }

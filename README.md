@@ -72,7 +72,7 @@ are invented in the data; the site renders "to be confirmed" states until they a
 - Ahmedabad address, hours and who consults there → `content/locations/dermatologist-in-ahmedabad.json` (phone confirmed: +91 98259 71010; the reception / lounge / laser-room photos are the Ahmedabad clinic)
 - Machine brand/model names and photos for the Pune clinic → `content/technology.json` (grid lists the technology types from the client's services graphic with representative Pexels photos and a "photos are representative" line; swap in the clinic's own photos and remove `disclaimer` in technology.json)
 - Signature Mira Peel (MiraPeel system, confirmed): confirm the clinic's standard protocol and pricing → `content/treatments/signature-mira-peel.json` → `todo`
-- Pune machines confirmed with brochures: MiraPeel, Qyros Q-switched Nd:YAG, Coolite BOLT diode laser (brochure photos in use). HIFU, MNRF, CoolSculpting and Fractional CO2 still unconfirmed (representative photos)
+- Pune machines confirmed with brochures: MiraPeel, Qyros Q-switched Nd:YAG, Coolite BOLT diode laser, BVLASER 8+9 hydra facial machine (brochure photos in use). HIFU, MNRF, CoolSculpting and Fractional CO2 still unconfirmed (representative photos)
 - Tattoo removal: the Qyros supports it but it is not on the client's service list; page stays unpublished until confirmed
 - BOLT Tightening (Coolite BOLT skin-tightening protocol): not confirmed as offered; not on the site
 - Clinic interior photos → replace labelled placeholders in `public/images/` (the doctor photo and logo are real)
