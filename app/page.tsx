@@ -21,6 +21,7 @@ import {
   getPrinciples,
   getSite,
   getTechnology,
+  getTechnologyDisclaimer,
   getTestimonials,
   getCategories,
   getFeaturedTiles,
@@ -106,6 +107,7 @@ export default function HomePage() {
         title={home.technology.title}
         description={home.technology.description}
         items={getTechnology()}
+        disclaimer={getTechnologyDisclaimer()}
       />
       <FaqSection eyebrow={home.faq.eyebrow} title={home.faq.title} groups={faqGroups} />
       <LocationsSection eyebrow={home.locations.eyebrow} title={home.locations.title} locations={getLocations()} site={site} />

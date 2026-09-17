@@ -4,7 +4,7 @@ import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { SectionCard } from "@/components/ui/SectionCard";
 
-type Props = { id?: string; eyebrow: string; title: string; description: string; items: Technology[] };
+type Props = { id?: string; eyebrow: string; title: string; description: string; items: Technology[]; disclaimer?: string };
 
 function Tile({ item }: { item: Technology }) {
   return (
@@ -31,7 +31,7 @@ function Tile({ item }: { item: Technology }) {
  * machine. Four columns on desktop (text card + 2 tiles, then 4 tiles), two
  * columns below that. Tiles come from content/technology.json.
  */
-export function TechMosaic({ id = "technology", eyebrow, title, description, items }: Props) {
+export function TechMosaic({ id = "technology", eyebrow, title, description, items, disclaimer }: Props) {
   return (
     <SectionCard id={id} headingId={`${id}-heading`} tone="muted">
       <Container>
@@ -47,6 +47,7 @@ export function TechMosaic({ id = "technology", eyebrow, title, description, ite
             <Tile key={item.name} item={item} />
           ))}
         </div>
+        {disclaimer && <p className="mt-4 text-xs text-muted">{disclaimer}</p>}
       </Container>
     </SectionCard>
   );

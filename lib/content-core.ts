@@ -145,6 +145,10 @@ export function getTechnology(): Technology[] {
   return loadFile("technology.json", TechnologyFileSchema).items;
 }
 
+export function getTechnologyDisclaimer(): string | undefined {
+  return loadFile("technology.json", TechnologyFileSchema).disclaimer;
+}
+
 /** The client's canonical treatment/concern list for the lead form dropdown. */
 export function getLeadOptions(): LeadOption[] {
   return loadFile("lead-options.json", z.array(LeadOptionSchema));

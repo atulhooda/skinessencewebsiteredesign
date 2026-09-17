@@ -102,6 +102,7 @@ const REAL = new Set([
   "treatments/hair-transplant.webp", "treatments/hair-loss-treatment.webp", "treatments/bridal-skin-care.webp", "tiles/injectables.webp",
   "treatments/skin-tightening-treatment.webp", "treatments/fat-reduction.webp", "treatments/mole-and-wart-removal.webp", "treatments/pigmentation-treatment.webp",
   "treatments/signature-mira-peel.webp",
+  "tech/fractional-co2-laser.webp", "tech/q-switched-nd-yag-laser.webp", "tech/laser-hair-reduction.webp", "tech/hifu.webp", "tech/mnrf.webp", "tech/coolsculpting.webp",
 ]);
 
 let written = 0;

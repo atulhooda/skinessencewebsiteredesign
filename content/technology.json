@@ -1,35 +1,66 @@
 {
-  "_note": "TODO: the client asked whether we highlight the machines used in the PUNE clinic. This grid lists the technology platforms named in the client's Sep 2026 services graphic (Fractional CO2, Q-switched Nd:YAG, laser hair reduction, HIFU, MNRF, CoolSculpting). Machine brand/model names and photos for Pune are still to come from the client; all six images are placeholders. Confirm which platforms are in Pune vs Ahmedabad before naming brands.",
+  "_note": "Machine photos are REPRESENTATIVE stock images of each device type (Pexels), not the clinic's own machines; `disclaimer` renders under the grid. Replace with the Pune clinic's photos and brand/model names when the client sends them, then remove the disclaimer. Confirm which platforms are in Pune vs Ahmedabad before naming brands.",
   "items": [
     {
       "name": "Fractional CO2 Laser",
       "description": "Resurfacing for acne scars, texture and skin rejuvenation.",
-      "image": { "src": "/images/tech/fractional-co2-laser.webp", "alt": "Fractional CO2 laser platform at Skin Essence", "width": 800, "height": 600 }
+      "image": {
+        "src": "/images/tech/fractional-co2-laser.webp",
+        "alt": "Aesthetic laser platform with a screen and handpieces beside a treatment couch",
+        "width": 1200,
+        "height": 900
+      }
     },
     {
       "name": "Q-Switched Nd:YAG Laser",
       "description": "Laser toning for pigmentation, tan and melasma control.",
-      "image": { "src": "/images/tech/q-switched-nd-yag-laser.webp", "alt": "Q-switched Nd:YAG laser at Skin Essence", "width": 800, "height": 600 }
+      "image": {
+        "src": "/images/tech/q-switched-nd-yag-laser.webp",
+        "alt": "Laser handpiece being used on a patient's face, both wearing protective goggles",
+        "width": 1200,
+        "height": 900
+      }
     },
     {
       "name": "Laser Hair Reduction",
       "description": "Long-term hair reduction with settings chosen for Indian skin tones.",
-      "image": { "src": "/images/tech/laser-hair-reduction.webp", "alt": "Laser hair reduction machine at Skin Essence", "width": 800, "height": 600 }
+      "image": {
+        "src": "/images/tech/laser-hair-reduction.webp",
+        "alt": "Laser handpiece being passed over a patient's skin, seen from above",
+        "width": 1200,
+        "height": 900
+      }
     },
     {
       "name": "HIFU",
       "description": "Focused ultrasound for skin tightening and a non-surgical lift.",
-      "image": { "src": "/images/tech/hifu.webp", "alt": "HIFU skin tightening device at Skin Essence", "width": 800, "height": 600 }
+      "image": {
+        "src": "/images/tech/hifu.webp",
+        "alt": "Close-up of an ultrasound aesthetic device with its handheld applicator",
+        "width": 1200,
+        "height": 900
+      }
     },
     {
       "name": "MNRF",
       "description": "Microneedling radiofrequency for acne scars, open pores and firmness.",
-      "image": { "src": "/images/tech/mnrf.webp", "alt": "Microneedling radiofrequency device at Skin Essence", "width": 800, "height": 600 }
+      "image": {
+        "src": "/images/tech/mnrf.webp",
+        "alt": "Close-up of a microneedling pen device being used on a patient's face",
+        "width": 1200,
+        "height": 900
+      }
     },
     {
       "name": "CoolSculpting",
       "description": "Cryolipolysis for stubborn fat pockets without surgery.",
-      "image": { "src": "/images/tech/coolsculpting.webp", "alt": "CoolSculpting fat reduction machine at Skin Essence", "width": 800, "height": 600 }
+      "image": {
+        "src": "/images/tech/coolsculpting.webp",
+        "alt": "Therapist holding a body-contouring applicator on a patient's abdomen",
+        "width": 1200,
+        "height": 900
+      }
     }
-  ]
+  ],
+  "disclaimer": "Photos are representative of each type of equipment."
 }

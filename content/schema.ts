@@ -270,6 +270,8 @@ export const TechnologySchema = z.object({
 
 export const TechnologyFileSchema = z.object({
   _note: z.string().optional(),
+  /** Small line rendered under the grid, e.g. while stock photos stand in for the clinic's own. */
+  disclaimer: z.string().optional(),
   items: z.array(TechnologySchema),
 });
 
