@@ -32,14 +32,14 @@ const treatments = [
   "chemical-peel", "skin-glow-treatment", "skin-tightening-treatment", "anti-ageing-treatment", "bridal-skin-care",
   "paediatric-dermatology", "laser-toning", "laser-hair-removal", "tattoo-removal",
   "botox", "dermal-fillers", "hair-transplant", "prp-hair-treatment", "hair-loss-treatment",
-  "fat-reduction", "mole-and-wart-removal",
+  "fat-reduction", "mole-and-wart-removal", "signature-mira-peel",
 ];
 const concerns = [
   "acne", "acne-scars", "pigmentation", "dark-circles", "hair-fall", "unwanted-hair",
   "dull-skin", "wrinkles-and-fine-lines", "open-pores", "stretch-marks", "child-skin-problems",
 ];
 const categories = ["laser-hair-reduction", "skin-glow", "skin-tightening", "acne-and-scars", "pigmentation", "fat-reduction", "hair-regrowth", "anti-ageing", "mole-and-wart-removal", "medical-dermatology"];
-const tech = ["laser-room", "laser-toning", "hair-reduction-laser"];
+const tech = ["fractional-co2-laser", "q-switched-nd-yag-laser", "laser-hair-reduction", "hifu", "mnrf", "coolsculpting"];
 
 const cycle = (list) => (i) => list[i % list.length];
 const warm = cycle(["mist", "sand", "teal-light", "blush", "slate", "teal"]);
@@ -52,7 +52,7 @@ const manifest = [
   ...categories.map((slug, i) => ({ file: `categories/${slug}.webp`, w: 800, h: 600, label: `Category · ${slug}`, palette: warm(i) })),
   ...treatments.map((slug, i) => ({ file: `treatments/${slug}.webp`, w: 1200, h: 900, label: `Treatment · ${slug}`, palette: warm(i + 1) })),
   ...concerns.map((slug, i) => ({ file: `concerns/${slug}.webp`, w: 1200, h: 900, label: `Concern · ${slug}`, palette: warm(i + 2) })),
-  ...tech.map((slug, i) => ({ file: `tech/${slug}.webp`, w: 800, h: 800, label: `Clinic photo · ${slug}`, palette: warm(i + 3) })),
+  ...tech.map((slug, i) => ({ file: `tech/${slug}.webp`, w: 800, h: 600, label: `Machine · ${slug}`, palette: warm(i + 3) })),
   ...[1, 2, 3, 4].map((n, i) => ({ file: `testimonials/patient-${n}.webp`, w: 800, h: 800, label: `Patient photo ${n}`, palette: i % 2 ? "blush" : "sand" })),
   { file: "tiles/injectables.webp", w: 1200, h: 600, label: "Tile · Botox & Dermal Fillers", palette: "mist" },
   { file: "locations/pune.webp", w: 1200, h: 800, label: "Kalyani Nagar clinic", palette: "teal" },
@@ -101,6 +101,7 @@ const REAL = new Set([
   "treatments/acne-treatment.webp", "treatments/chemical-peel.webp", "treatments/laser-hair-removal.webp", "treatments/skin-glow-treatment.webp",
   "treatments/hair-transplant.webp", "treatments/hair-loss-treatment.webp", "treatments/bridal-skin-care.webp", "tiles/injectables.webp",
   "treatments/skin-tightening-treatment.webp", "treatments/fat-reduction.webp", "treatments/mole-and-wart-removal.webp", "treatments/pigmentation-treatment.webp",
+  "treatments/signature-mira-peel.webp",
 ]);
 
 let written = 0;

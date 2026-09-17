@@ -12,7 +12,7 @@
     "It is more accurate to call this hair reduction than hair removal. A full course typically reduces growth substantially, and the hair that regrows is finer and lighter. Hormonal areas, such as the chin in women with PCOS, usually need maintenance sessions. We will tell you honestly what to expect for your hair type before you commit to a package."
   ],
   "whoIsItFor": [
-    "Women tired of waxing, threading or shaving the upper lip, chin, underarms, arms, legs or bikini line",
+    "Women tired of waxing, threading or shaving the upper lip, chin, underarms, arms, legs or bikini area, including full-body packages",
     "Men who want to reduce beard, neck, back or chest hair, or stop ingrown hairs from shaving",
     "Patients with PCOS-related facial hair, alongside hormonal treatment",
     "Anyone with recurrent folliculitis, razor bumps or darkening from repeated waxing",
@@ -86,12 +86,11 @@
     "height": 900
   },
   "subTreatments": [
+    "Full Body",
+    "Bikini",
     "Full Face",
     "Upper Lip & Chin",
     "Underarms",
-    "Arms",
-    "Legs",
-    "Bikini Line",
-    "Full Body"
+    "Arms & Legs"
   ]
 }

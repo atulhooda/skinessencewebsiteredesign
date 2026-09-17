@@ -1,55 +1,35 @@
 {
-  "_note": "TODO: three tiles still use placeholders until the lounge, treatment-room and laser photos are dropped in public/images/_incoming. The clinic confirmed the reception / lounge / laser-room photo set is the Ahmedabad clinic. Device names in the photos (Galaxy-1064, D'Laze, Mermaid) are not named in copy until confirmed.",
+  "_note": "TODO: the client asked whether we highlight the machines used in the PUNE clinic. This grid lists the technology platforms named in the client's Sep 2026 services graphic (Fractional CO2, Q-switched Nd:YAG, laser hair reduction, HIFU, MNRF, CoolSculpting). Machine brand/model names and photos for Pune are still to come from the client; all six images are placeholders. Confirm which platforms are in Pune vs Ahmedabad before naming brands.",
   "items": [
     {
-      "name": "Ahmedabad Clinic Reception",
-      "description": "Front desk at our Ahmedabad clinic.",
-      "image": {
-        "src": "/images/clinic/reception.webp",
-        "alt": "Reception of the Skin Essence clinic in Ahmedabad",
-        "width": 1200,
-        "height": 900
-      }
-    },
-    {
-      "name": "Consultation Room",
-      "description": "Where every plan starts: a detailed skin or scalp examination.",
-      "image": {
-        "src": "/images/doctor/consultation.webp",
-        "alt": "Dr. Daksha Patel in the consultation room at Skin Essence",
-        "width": 1200,
-        "height": 900
-      }
-    },
-    {
-      "name": "Laser Treatment Room",
-      "description": "Dedicated room for laser hair reduction, laser toning and fractional CO2 laser sessions.",
-      "image": {
-        "src": "/images/tech/laser-room.webp",
-        "alt": "Laser treatment room at Skin Essence with treatment chair and laser platforms",
-        "width": 800,
-        "height": 800
-      }
+      "name": "Fractional CO2 Laser",
+      "description": "Resurfacing for acne scars, texture and skin rejuvenation.",
+      "image": { "src": "/images/tech/fractional-co2-laser.webp", "alt": "Fractional CO2 laser platform at Skin Essence", "width": 800, "height": 600 }
     },
     {
       "name": "Q-Switched Nd:YAG Laser",
-      "description": "Used for laser toning and pigmentation sessions.",
-      "image": {
-        "src": "/images/tech/laser-toning.webp",
-        "alt": "Laser toning platform at Skin Essence",
-        "width": 800,
-        "height": 800
-      }
+      "description": "Laser toning for pigmentation, tan and melasma control.",
+      "image": { "src": "/images/tech/q-switched-nd-yag-laser.webp", "alt": "Q-switched Nd:YAG laser at Skin Essence", "width": 800, "height": 600 }
     },
     {
       "name": "Laser Hair Reduction",
-      "description": "Settings chosen for Indian skin tones, supervised by a dermatologist.",
-      "image": {
-        "src": "/images/tech/hair-reduction-laser.webp",
-        "alt": "Laser hair reduction machine at Skin Essence",
-        "width": 800,
-        "height": 800
-      }
+      "description": "Long-term hair reduction with settings chosen for Indian skin tones.",
+      "image": { "src": "/images/tech/laser-hair-reduction.webp", "alt": "Laser hair reduction machine at Skin Essence", "width": 800, "height": 600 }
+    },
+    {
+      "name": "HIFU",
+      "description": "Focused ultrasound for skin tightening and a non-surgical lift.",
+      "image": { "src": "/images/tech/hifu.webp", "alt": "HIFU skin tightening device at Skin Essence", "width": 800, "height": 600 }
+    },
+    {
+      "name": "MNRF",
+      "description": "Microneedling radiofrequency for acne scars, open pores and firmness.",
+      "image": { "src": "/images/tech/mnrf.webp", "alt": "Microneedling radiofrequency device at Skin Essence", "width": 800, "height": 600 }
+    },
+    {
+      "name": "CoolSculpting",
+      "description": "Cryolipolysis for stubborn fat pockets without surgery.",
+      "image": { "src": "/images/tech/coolsculpting.webp", "alt": "CoolSculpting fat reduction machine at Skin Essence", "width": 800, "height": 600 }
     }
   ]
 }

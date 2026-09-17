@@ -70,7 +70,8 @@ are invented in the data; the site renders "to be confirmed" states until they a
 - Pune opening hours → `content/locations/dermatologist-in-kalyani-nagar.json` → `hours`
 - Google Maps place URL / Place ID (Pune) → `mapLink`, `mapEmbedUrl`, and `NEXT_PUBLIC_GOOGLE_PLACE_ID` for the reviews slot
 - Ahmedabad address, hours and who consults there → `content/locations/dermatologist-in-ahmedabad.json` (phone confirmed: +91 98259 71010; the reception / lounge / laser-room photos are the Ahmedabad clinic)
-- Device / technology names → `content/technology.json` (currently technique names, flagged with `_note`)
+- Machine brand/model names and photos for the Pune clinic → `content/technology.json` (grid lists the technology types from the client's services graphic; all six images are placeholders)
+- Signature Mira Peel: confirm what it contains, sessions, downtime and pricing → `content/treatments/signature-mira-peel.json` → `todo`
 - Clinic interior photos → replace labelled placeholders in `public/images/` (the doctor photo and logo are real)
 - Before/after images with written consent → results section (not built yet)
 - Instagram and other social handles → `content/site.json` → `social`, `doctors/*.json` → `sameAs`

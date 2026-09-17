@@ -1,0 +1,97 @@
+{
+  "slug": "signature-mira-peel",
+  "name": "Signature Mira Peel",
+  "category": "skin-glow",
+  "order": 2,
+  "shortDesc": "Skin Essence's own glow peel, built up in gentle layers chosen for your skin type, for brighter skin with minimal downtime.",
+  "heroTitle": "Signature Mira Peel: Our Own Glow Peel, Matched To Your Skin",
+  "metaTitle": "Signature Mira Peel in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Signature Mira Peel in Kalyani Nagar, Pune: Skin Essence's own glow peel, layered for your skin type by an MD dermatologist. Book a consultation.",
+  "intro": [
+    "The Signature Mira Peel is Skin Essence's own glow peel, for skin that looks dull, tanned or uneven when you want a visible difference without days of peeling. Rather than a single acid at a single strength, it is built up in gentle layers chosen for your skin type, tone and concern, which makes it suitable for Indian skin that pigments easily when over-treated.",
+    "Like every peel, it loosens the dull surface layer and signals the skin beneath to renew faster. Designed as a superficial peel, it brightens tone, softens rough texture and lifts light tan and post-acne marks, with skin that looks fresher within days. It is the first step of most glow plans at our Kalyani Nagar clinic and a favourite before weddings, festivals and photographs.",
+    "Every Mira Peel is planned and supervised by Dr. Daksha Patel, an MD dermatologist with 17+ years of experience. Your skin is examined first and the number of layers is adjusted to what it can comfortably take on the day. Most patients return to work the same day and repeat the peel every three to four weeks for results that build over a course."
+  ],
+  "whoIsItFor": [
+    "Dull, tired skin that needs a visible glow within a week",
+    "Light tan and uneven tone from sun, dust and daily commuting",
+    "Rough texture, congestion and post-acne marks once breakouts are under control",
+    "A first peel for patients who are nervous about visible peeling and downtime",
+    "Pre-wedding and pre-event skin, timed 5 to 10 days before the day"
+  ],
+  "howItWorks": [
+    {
+      "title": "Skin assessment",
+      "description": "Skin type, tone and concern are assessed under magnification and current products reviewed. Sensitive or melasma-prone skin is patch-tested first."
+    },
+    {
+      "title": "Preparation",
+      "description": "The skin is cleansed and degreased, and the corners of the nose, lips and eyes are protected with a barrier cream."
+    },
+    {
+      "title": "The peel, layer by layer",
+      "description": "The peel is applied in stages over 15 to 20 minutes, with the number of layers set by how your skin responds. You feel warmth or tingling that fades within a minute or two."
+    },
+    {
+      "title": "Soothe and protect",
+      "description": "A calming mask and broad-spectrum sunscreen finish the session. You leave with written aftercare and a date for the next peel if a course is planned."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "1 session for an event glow; 3–4 sessions, 3–4 weeks apart, for lasting results",
+    "sessionTime": "About 30 minutes",
+    "downtime": "Minimal; mild dryness or light flaking for 1–3 days",
+    "results": "Brighter skin within days; tone and texture improve over the course"
+  },
+  "aftercare": [
+    "Sunscreen every morning, reapplied outdoors, for at least two weeks; skipping it is the commonest cause of darkening.",
+    "Use only the gentle cleanser and moisturiser advised, and pause retinoids, scrubs and other actives for about a week.",
+    "Do not pull at any flaking skin; let it shed on its own.",
+    "Avoid waxing, threading, steam and swimming pools for a week."
+  ],
+  "faqs": [
+    {
+      "q": "How is the Signature Mira Peel different from a regular chemical peel?",
+      "a": "A standard peel applies one acid at one strength for a set time. The Mira Peel is built up in gentle layers matched to your skin and adjusted as it responds. We choose it when the goal is glow with minimal downtime, and a targeted peel when scars or stubborn pigmentation need a deeper result."
+    },
+    {
+      "q": "Will my skin peel visibly?",
+      "a": "The Mira Peel is designed as a superficial peel, so most patients get light flaking at most, similar to mild dryness, for a day or two."
+    },
+    {
+      "q": "How many sessions will I need?",
+      "a": "One session gives a visible glow for an event. For lasting improvement, a course of three to four peels spaced three to four weeks apart works best, then a maintenance peel every two to three months."
+    },
+    {
+      "q": "Is it suitable for sensitive or Indian skin?",
+      "a": "Yes. The layered approach lets the dermatologist stop at the right point for your skin, and sensitive or melasma-prone skin is patch-tested first. That is why we prefer it to stronger peels on Indian skin."
+    },
+    {
+      "q": "How soon before my wedding should I have it?",
+      "a": "If you have had the Mira Peel before, 5 to 10 days before the event is ideal. For a first peel, book 3 to 4 weeks ahead so we know how your skin responds, then a final session close to the day."
+    }
+  ],
+  "relatedConcerns": [
+    "dull-skin",
+    "pigmentation"
+  ],
+  "relatedTreatments": [
+    "skin-glow-treatment",
+    "chemical-peel",
+    "bridal-skin-care"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/signature-mira-peel.webp",
+    "alt": "Peel solution being brushed onto a patient's cheek during a glow peel session",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "Single Glow Session",
+    "3–4 Session Course",
+    "Pre-Event Timing"
+  ],
+  "todo": [
+    "Confirm with the clinic what the Signature Mira Peel contains, the standard number of layers and sessions, expected downtime and pricing. The page currently describes it as a superficial, layered glow peel."
+  ]
+}

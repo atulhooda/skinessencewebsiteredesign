@@ -1,12 +1,122 @@
 [
-  { "slug": "laser-hair-reduction", "name": "Laser Hair Reduction", "shortDesc": "Long-term hair reduction on face and body with settings chosen for Indian skin.", "order": 1, "image": { "src": "/images/treatments/laser-hair-removal.webp", "alt": "Laser hair reduction session", "width": 1200, "height": 900 } },
-  { "slug": "skin-glow", "name": "Skin Glow Treatment", "shortDesc": "Signature Mira Peel, HydraFacial and skin boosters for dull, tired or dehydrated skin.", "order": 2, "image": { "src": "/images/treatments/skin-glow-treatment.webp", "alt": "Woman with glowing skin", "width": 1200, "height": 900 } },
-  { "slug": "skin-tightening", "name": "Skin Tightening Treatment", "shortDesc": "HIFU, thread lifts and mesotherapy to firm the jawline, neck and cheeks without surgery.", "order": 3, "image": { "src": "/images/treatments/skin-tightening-treatment.webp", "alt": "Skin tightening treatment", "width": 1200, "height": 900 } },
-  { "slug": "acne-and-scars", "name": "Acne & Scar Treatment", "shortDesc": "Medical acne care, then fractional CO2 laser, microneedling, subcision, TCA cross and MNRF for scars.", "order": 4, "image": { "src": "/images/treatments/acne-treatment.webp", "alt": "Acne consultation", "width": 1200, "height": 900 } },
-  { "slug": "pigmentation", "name": "Pigmentation Treatment", "shortDesc": "Q-switched Nd:YAG laser, chemical peels and laser toning for tan, dark patches and melasma.", "order": 5, "image": { "src": "/images/treatments/pigmentation-treatment.webp", "alt": "Pigmentation treatment", "width": 1200, "height": 900 } },
-  { "slug": "fat-reduction", "name": "Fat Reduction", "shortDesc": "CoolSculpting, lipolytic mesotherapy and lipo treatments for stubborn areas.", "order": 6, "image": { "src": "/images/treatments/fat-reduction.webp", "alt": "Fat reduction treatment", "width": 1200, "height": 900 } },
-  { "slug": "hair-regrowth", "name": "Hair Regrowth Treatment", "shortDesc": "GFC, exosomes, hair fillers and hair threads on top of a proper diagnosis of hair fall.", "order": 7, "image": { "src": "/images/treatments/hair-loss-treatment.webp", "alt": "Healthy hair", "width": 1200, "height": 900 } },
-  { "slug": "anti-ageing", "name": "Anti-Ageing Treatment", "shortDesc": "Botox, fillers, HIFU, thread face lifts and MNRF, dosed for a natural result.", "order": 8, "image": { "src": "/images/tiles/injectables.webp", "alt": "Anti-wrinkle injection", "width": 1200, "height": 600 } },
-  { "slug": "mole-and-wart-removal", "name": "Mole & Wart Removal", "shortDesc": "Dermatoscopic check, then radiofrequency, laser or cryotherapy removal with minimal marking.", "order": 9, "image": { "src": "/images/treatments/mole-and-wart-removal.webp", "alt": "Mole examination", "width": 1200, "height": 900 } },
-  { "slug": "medical-dermatology", "name": "Medical Dermatology", "shortDesc": "Skin conditions in children and adults, treated by an MD dermatologist.", "order": 10, "image": { "src": "/images/treatments/paediatric-dermatology.webp", "alt": "Paediatric dermatology consultation", "width": 1200, "height": 900 } }
+  {
+    "slug": "laser-hair-reduction",
+    "name": "Laser Hair Reduction",
+    "shortDesc": "Long-term hair reduction for the full body, bikini, face, underarms, arms and legs, with settings chosen for Indian skin.",
+    "order": 1,
+    "image": {
+      "src": "/images/treatments/laser-hair-removal.webp",
+      "alt": "Laser hair reduction session",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  {
+    "slug": "skin-glow",
+    "name": "Skin Glow Treatment",
+    "shortDesc": "Signature Mira Peel, HydraFacial and skin boosters for dull, tired or dehydrated skin.",
+    "order": 2,
+    "image": {
+      "src": "/images/treatments/skin-glow-treatment.webp",
+      "alt": "Woman with glowing skin",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  {
+    "slug": "skin-tightening",
+    "name": "Skin Tightening Treatment",
+    "shortDesc": "HIFU, thread lifts and mesotherapy to firm the jawline, neck and cheeks without surgery.",
+    "order": 3,
+    "image": {
+      "src": "/images/treatments/skin-tightening-treatment.webp",
+      "alt": "Skin tightening treatment",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  {
+    "slug": "acne-and-scars",
+    "name": "Acne & Scar Treatment",
+    "shortDesc": "Medical acne care, then fractional CO2 laser, microneedling, subcision, TCA cross and MNRF for scars.",
+    "order": 4,
+    "image": {
+      "src": "/images/treatments/acne-treatment.webp",
+      "alt": "Acne consultation",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  {
+    "slug": "pigmentation",
+    "name": "Pigmentation Treatment",
+    "shortDesc": "Q-switched Nd:YAG laser, chemical peels and laser toning for tan, dark patches and melasma.",
+    "order": 5,
+    "image": {
+      "src": "/images/treatments/pigmentation-treatment.webp",
+      "alt": "Pigmentation treatment",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  {
+    "slug": "fat-reduction",
+    "name": "Fat Reduction",
+    "shortDesc": "CoolSculpting, lipolytic mesotherapy and lipo treatments for stubborn areas.",
+    "order": 6,
+    "image": {
+      "src": "/images/treatments/fat-reduction.webp",
+      "alt": "Fat reduction treatment",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  {
+    "slug": "hair-regrowth",
+    "name": "Hair Regrowth Treatment",
+    "shortDesc": "GFC, exosomes, hair fillers and hair threads on top of a proper diagnosis of hair fall.",
+    "order": 7,
+    "image": {
+      "src": "/images/treatments/hair-loss-treatment.webp",
+      "alt": "Healthy hair",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  {
+    "slug": "anti-ageing",
+    "name": "Anti-Ageing Treatment",
+    "shortDesc": "Botox, fillers, HIFU, thread face lifts and MNRF, dosed for a natural result.",
+    "order": 8,
+    "image": {
+      "src": "/images/tiles/injectables.webp",
+      "alt": "Anti-wrinkle injection",
+      "width": 1200,
+      "height": 600
+    }
+  },
+  {
+    "slug": "mole-and-wart-removal",
+    "name": "Mole & Wart Removal",
+    "shortDesc": "Dermatoscopic check, then radiofrequency, laser or cryotherapy removal with minimal marking.",
+    "order": 9,
+    "image": {
+      "src": "/images/treatments/mole-and-wart-removal.webp",
+      "alt": "Mole examination",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  {
+    "slug": "medical-dermatology",
+    "name": "Medical Dermatology",
+    "shortDesc": "Skin conditions in children and adults, treated by an MD dermatologist.",
+    "order": 10,
+    "image": {
+      "src": "/images/treatments/paediatric-dermatology.webp",
+      "alt": "Paediatric dermatology consultation",
+      "width": 1200,
+      "height": 900
+    }
+  }
 ]

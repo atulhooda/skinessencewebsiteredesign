@@ -331,6 +331,7 @@ export function buildContentReport(): ContentReport {
 
   for (const t of loadDir("treatments", TreatmentSchema).filter((x) => !x.published)) warnings.push(`treatments/${t.slug}: unpublished (page, links and sitemap entry hidden)`);
   for (const t of treatments) {
+    for (const todo of t.todo) warnings.push(`treatments/${t.slug}: TODO ${todo}`);
     for (const slug of t.relatedTreatments) {
       if (!treatmentSlugs.has(slug)) warnings.push(`treatments/${t.slug}: related treatment "${slug}" is not published yet`);
     }

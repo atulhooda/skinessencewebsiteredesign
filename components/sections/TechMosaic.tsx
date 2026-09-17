@@ -8,45 +8,44 @@ type Props = { id?: string; eyebrow: string; title: string; description: string;
 
 function Tile({ item }: { item: Technology }) {
   return (
-    <figure className="group relative aspect-square overflow-hidden rounded-2xl md:aspect-[4/3]">
+    <figure className="group relative aspect-[4/3] overflow-hidden rounded-2xl bg-surface-3 lg:aspect-auto lg:h-full">
       <Image
         src={item.image.src}
         alt={item.image.alt}
         width={item.image.width}
         height={item.image.height}
         loading="lazy"
-        sizes="(min-width: 768px) 30vw, 50vw"
+        sizes="(min-width: 1024px) 25vw, 50vw"
         className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
       />
-      <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-white">
-        <span className="block text-sm font-medium">{item.name}</span>
+      <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/65 to-transparent p-4 text-white">
+        <span className="block text-sm font-semibold">{item.name}</span>
         <span className="mt-0.5 hidden text-xs text-white/90 md:block">{item.description}</span>
       </figcaption>
     </figure>
   );
 }
 
-/** 3×2 image mosaic with a teal text tile in the middle of the second row. */
+/**
+ * Technology grid: a teal text card two columns wide, then one tile per
+ * machine. Four columns on desktop (text card + 2 tiles, then 4 tiles), two
+ * columns below that. Tiles come from content/technology.json.
+ */
 export function TechMosaic({ id = "technology", eyebrow, title, description, items }: Props) {
-  const [a, b, c, d, e] = items;
   return (
     <SectionCard id={id} headingId={`${id}-heading`} tone="muted">
       <Container>
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-3">
-          {a && <Tile item={a} />}
-          {b && <Tile item={b} />}
-          {c && <Tile item={c} />}
-          {d && <Tile item={d} />}
-          <div className="col-span-2 flex flex-col justify-center rounded-2xl bg-brand-700 p-6 text-center text-white md:col-span-1 md:aspect-[4/3] md:p-7">
-            <Eyebrow tone="light" className="justify-center">
-              {eyebrow}
-            </Eyebrow>
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-4 lg:auto-rows-[224px] xl:auto-rows-[248px]">
+          <div className="col-span-2 flex flex-col justify-center rounded-2xl bg-brand-700 p-6 text-white md:p-8 lg:h-full">
+            <Eyebrow tone="light">{eyebrow}</Eyebrow>
             <h2 id={`${id}-heading`} className="mt-3 text-xl font-medium leading-snug md:text-2xl">
               {title}
             </h2>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">{description}</p>
+            <p className="mt-3 text-sm leading-relaxed text-white/90 lg:line-clamp-3">{description}</p>
           </div>
-          {e && <Tile item={e} />}
+          {items.map((item) => (
+            <Tile key={item.name} item={item} />
+          ))}
         </div>
       </Container>
     </SectionCard>

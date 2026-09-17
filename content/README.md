@@ -39,6 +39,7 @@ every unresolved reference and client TODO.
      `howItWorks` ≥ 2 steps, `faqs` ≥ 2, `relatedConcerns` ≥ 2, `relatedTreatments` ≥ 3
    - `subTreatments` = pill chips (areas or types), optional
    - `priceFrom` only once the client confirms prices may be published
+   - `todo`: list anything still to confirm with the clinic; `npm run content:check` reports it
 4. Add the hero image at `public/images/treatments/<slug>.webp` (1200×900) or run
    `npm run images:placeholders` for a labelled placeholder.
 5. `npm run content:check`. The page, sitemap entry, footer link, menu entry, category chip and

@@ -23,7 +23,8 @@
     "featured": [
       {
         "slug": "laser-hair-removal",
-        "name": "Laser Hair Reduction"
+        "name": "Laser Hair Reduction",
+        "subline": "Full Body · Bikini · Full Face · Underarms · Arms & Legs"
       },
       {
         "slug": "skin-glow-treatment",
@@ -86,9 +87,9 @@
     "title": "Hear From Patients Who Shared Your Concerns"
   },
   "technology": {
-    "eyebrow": "Inside Skin Essence",
-    "title": "Our Clinic & Equipment",
-    "description": "Purpose-built clinics in Kalyani Nagar, Pune and Ahmedabad, with dedicated consultation, laser and treatment rooms. Fractional CO2 and Q-switched Nd:YAG lasers, HIFU and MNRF are all operated under Dr. Daksha Patel's supervision."
+    "eyebrow": "Advanced Technology",
+    "title": "The Machines Behind Our Treatments",
+    "description": "Laser, energy-based and body-contouring platforms, each operated under Dr. Daksha Patel's supervision. The technology is chosen for your skin type and concern, not the other way round."
   },
   "faq": {
     "eyebrow": "Helpful Answers",

@@ -114,6 +114,8 @@ export const TreatmentSchema = z.object({
   published: z.boolean().default(true),
   /** Position within its category on the index and menu; lower first. The service's main page is 1. */
   order: z.number().int().default(100),
+  /** Facts still to confirm with the clinic; reported by `npm run content:check`. */
+  todo: z.array(z.string()).default([]),
 });
 
 /* ---------- Concerns ---------- */

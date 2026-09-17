@@ -1,14 +1,54 @@
 [
-  { "value": "laser-hair-reduction", "label": "Laser Hair Reduction" },
-  { "value": "skin-glow-treatment", "label": "Skin Glow Treatment" },
-  { "value": "skin-tightening", "label": "Skin Tightening Treatment" },
-  { "value": "acne-and-scar-treatment", "label": "Acne & Scar Treatment" },
-  { "value": "pigmentation-treatment", "label": "Pigmentation Treatment" },
-  { "value": "fat-reduction", "label": "Fat Reduction" },
-  { "value": "hair-regrowth-treatment", "label": "Hair Regrowth Treatment" },
-  { "value": "anti-ageing-treatment", "label": "Anti-Ageing Treatment" },
-  { "value": "mole-and-wart-removal", "label": "Mole & Wart Removal" },
-  { "value": "paediatric-dermatology", "label": "Paediatric Dermatology" },
-  { "value": "general-consultation", "label": "General Consultation" },
-  { "value": "other", "label": "Other" }
+  {
+    "value": "laser-hair-reduction",
+    "label": "Laser Hair Reduction"
+  },
+  {
+    "value": "skin-glow-treatment",
+    "label": "Skin Glow Treatment"
+  },
+  {
+    "value": "signature-mira-peel",
+    "label": "Signature Mira Peel"
+  },
+  {
+    "value": "skin-tightening",
+    "label": "Skin Tightening Treatment"
+  },
+  {
+    "value": "acne-and-scar-treatment",
+    "label": "Acne & Scar Treatment"
+  },
+  {
+    "value": "pigmentation-treatment",
+    "label": "Pigmentation Treatment"
+  },
+  {
+    "value": "fat-reduction",
+    "label": "Fat Reduction"
+  },
+  {
+    "value": "hair-regrowth-treatment",
+    "label": "Hair Regrowth Treatment"
+  },
+  {
+    "value": "anti-ageing-treatment",
+    "label": "Anti-Ageing Treatment"
+  },
+  {
+    "value": "mole-and-wart-removal",
+    "label": "Mole & Wart Removal"
+  },
+  {
+    "value": "paediatric-dermatology",
+    "label": "Paediatric Dermatology"
+  },
+  {
+    "value": "general-consultation",
+    "label": "General Consultation"
+  },
+  {
+    "value": "other",
+    "label": "Other"
+  }
 ]
