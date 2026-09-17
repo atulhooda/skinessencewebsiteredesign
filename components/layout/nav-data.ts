@@ -1,7 +1,7 @@
 import type { Image } from "@/content/schema";
 
 /** Serialisable navigation model passed from the server Header to the client menu. */
-export type NavLink = { label: string; href: string };
+export type NavLink = { label: string; href: string; /** Shorter label for the top bar, where space is tight. */ short?: string };
 
 export type NavData = {
   brand: string;

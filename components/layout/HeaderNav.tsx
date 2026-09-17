@@ -68,15 +68,15 @@ export function HeaderNav({ nav }: { nav: NavData }) {
         </button>
 
         <div className="hidden items-center justify-self-end gap-6 md:flex">
-          <nav aria-label="Primary" className="hidden lg:block">
-            <ul className="flex items-center gap-6 text-sm text-white/85">
+          <nav aria-label="Primary" className="hidden xl:block">
+            <ul className="flex items-center gap-5 text-sm text-white/85 xl:gap-6">
               {nav.primary.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className={cn("transition-colors hover:text-white", pathname === link.href && "text-white underline underline-offset-4")}
+                    className={cn("whitespace-nowrap transition-colors hover:text-white", pathname === link.href && "text-white underline underline-offset-4")}
                   >
-                    {link.label}
+                    {link.short ?? link.label}
                   </Link>
                 </li>
               ))}

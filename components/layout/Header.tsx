@@ -15,7 +15,7 @@ export function Header() {
       { label: "Treatments", href: routes.treatments },
       { label: "Technology", href: routes.technology },
       { label: "About", href: routes.about },
-      { label: doctor.name, href: routes.doctorProfile(doctor.slug) },
+      { label: doctor.name, short: doctor.name.replace(/^(Dr\.?\s+)\S+\s+/, "$1"), href: routes.doctorProfile(doctor.slug) },
       { label: "Blog", href: routes.blog },
       { label: "Contact", href: routes.contact },
     ],
