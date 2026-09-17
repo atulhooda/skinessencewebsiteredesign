@@ -12,5 +12,9 @@ Stock photos below are from Pexels under the Pexels License (free for commercial
 | public/images/treatments/hair-loss-treatment.webp | https://www.pexels.com/photo/a-beautiful-woman-with-long-hair-in-a-blue-top-13998715/ | Soubhagya Maharana |
 | public/images/tiles/injectables.webp | https://www.pexels.com/photo/woman-getting-a-forehead-botox-7581577/ | cottonbro studio |
 | public/images/treatments/bridal-skin-care.webp | https://www.pexels.com/photo/elegant-south-asian-bride-in-traditional-attire-36102603/ | Gaurav Vishwakarma |
+| public/images/treatments/skin-tightening-treatment.webp | https://www.pexels.com/photo/close-up-of-woman-having-ultrasonic-skin-treatment-in-salon-5042622/ | Lespa số 1 về điều trị   mụn, nám, sẹo rỗ |
+| public/images/treatments/fat-reduction.webp | https://www.pexels.com/photo/topless-man-lying-on-a-bed-having-a-procedure-5042605/ | Lespa số 1 về điều trị   mụn, nám, sẹo rỗ |
+| public/images/treatments/mole-and-wart-removal.webp | https://www.pexels.com/photo/woman-getting-a-check-up-3985305/ | Gustavo Fring |
+| public/images/treatments/pigmentation-treatment.webp | https://www.pexels.com/photo/from-above-female-cosmetologist-providing-cosmetic-procedures-with-laser-to-female-client-in-salon-3985356/ | Gustavo Fring |
 
 Clinic photos (doctor portraits, procedure photo, Ahmedabad reception) belong to Skin Essence and were taken from the existing site and the clinic's own media.

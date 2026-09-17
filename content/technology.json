@@ -23,7 +23,7 @@
     },
     {
       "name": "Laser Treatment Room",
-      "description": "Dedicated room for laser hair reduction, toning and tattoo removal.",
+      "description": "Dedicated room for laser hair reduction, laser toning and fractional CO2 laser sessions.",
       "image": {
         "src": "/images/tech/laser-room.webp",
         "alt": "Laser treatment room at Skin Essence with treatment chair and laser platforms",
@@ -32,8 +32,8 @@
       }
     },
     {
-      "name": "Laser Toning Platform",
-      "description": "Used for pigmentation, tanning and tattoo removal sessions.",
+      "name": "Q-Switched Nd:YAG Laser",
+      "description": "Used for laser toning and pigmentation sessions.",
       "image": {
         "src": "/images/tech/laser-toning.webp",
         "alt": "Laser toning platform at Skin Essence",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "Hair Reduction Laser",
+      "name": "Laser Hair Reduction",
       "description": "Settings chosen for Indian skin tones, supervised by a dermatologist.",
       "image": {
         "src": "/images/tech/hair-reduction-laser.webp",

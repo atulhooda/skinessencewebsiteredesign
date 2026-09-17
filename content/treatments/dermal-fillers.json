@@ -1,7 +1,7 @@
 {
   "slug": "dermal-fillers",
   "name": "Dermal Fillers",
-  "category": "injectables",
+  "category": "anti-ageing",
   "shortDesc": "Hyaluronic acid fillers that restore lost volume, soften folds and define lips, cheeks, chin and jawline naturally.",
   "heroTitle": "Dermal Fillers For Volume And Balance, Not Exaggeration",
   "metaTitle": "Dermal Fillers in Kalyani Nagar, Pune | Skin Essence",
@@ -77,7 +77,7 @@
   "relatedTreatments": [
     "botox",
     "anti-ageing-treatment",
-    "facial-rejuvenation"
+    "skin-tightening-treatment"
   ],
   "heroImage": {
     "src": "/images/treatments/dermal-fillers.webp",
@@ -91,5 +91,6 @@
     "Lips",
     "Chin & Jawline",
     "Nasolabial Folds"
-  ]
+  ],
+  "order": 3
 }

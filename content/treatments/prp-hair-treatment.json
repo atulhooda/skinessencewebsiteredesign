@@ -1,13 +1,13 @@
 {
   "slug": "prp-hair-treatment",
-  "name": "PRP Hair Treatment",
-  "category": "hair",
-  "shortDesc": "Platelet-rich plasma from your own blood, injected into the scalp to support thicker, healthier hair growth.",
+  "name": "PRP & GFC Hair Treatment",
+  "category": "hair-regrowth",
+  "shortDesc": "PRP and GFC growth-factor therapy from your own blood, injected into the scalp to support thicker, healthier hair.",
   "heroTitle": "PRP Hair Treatment To Strengthen Thinning Hair",
-  "metaTitle": "PRP Hair Treatment in Kalyani Nagar, Pune | Skin Essence",
-  "metaDescription": "PRP hair treatment in Kalyani Nagar, Pune by an MD dermatologist: how it works, sessions needed and who benefits from PRP. Book a consultation.",
+  "metaTitle": "PRP & GFC Hair Treatment in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "PRP and GFC hair treatment in Kalyani Nagar, Pune by an MD dermatologist: how growth factor therapy works and who benefits. Book a consultation.",
   "intro": [
-    "Platelet-rich plasma, or PRP, is prepared from a small sample of your own blood. The sample is spun in a centrifuge to concentrate the platelets, which carry growth factors, and the concentrate is injected into the thinning areas of the scalp. The growth factors stimulate resting follicles, improve blood supply and prolong the growth phase of hair.",
+    "Platelet-rich plasma (PRP) and growth factor concentrate (GFC) are both prepared from a small sample of your own blood. The sample is processed to concentrate the platelets and the growth factors they carry, and the concentrate is injected into the thinning areas of the scalp. GFC is a refined preparation with a higher concentration of growth factors, which usually means fewer sessions. The growth factors stimulate resting follicles, improve blood supply and prolong the growth phase of hair.",
     "PRP works best for early to moderate pattern hair loss and diffuse thinning, and as support alongside medical treatment or after a hair transplant. It does not regrow hair on areas that have been bald for years, because the follicles there have gone. Dr. Daksha Patel, an MD dermatologist with a special interest in hair and scalp problems, confirms the diagnosis with trichoscopy before recommending PRP, so patients are not sold sessions that cannot work for them.",
     "Because the material is your own blood, allergic reactions are not a concern, and the procedure is done under sterile conditions at our Kalyani Nagar clinic in under an hour. Most patients in Pune combine PRP with a prescribed home plan of minoxidil, nutritional correction and scalp care, and see reduced shedding within two months."
   ],
@@ -66,8 +66,8 @@
       "a": "Usually three to four sessions a month apart, followed by maintenance every 3 to 6 months. The exact plan depends on your degree of thinning and how you respond."
     },
     {
-      "q": "PRP or hair transplant?",
-      "a": "PRP strengthens existing thinning hair; a transplant adds hair to areas where follicles are gone. Many patients start with medical treatment and PRP, and consider transplant later if needed."
+      "q": "PRP or GFC, which is better?",
+      "a": "GFC delivers a higher concentration of growth factors with fewer platelets and less discomfort, so most patients need three sessions instead of four. PRP remains a good option and costs less per session. Dr. Patel recommends one after assessing your hair loss and budget."
     }
   ],
   "relatedConcerns": [
@@ -75,8 +75,8 @@
   ],
   "relatedTreatments": [
     "hair-loss-treatment",
-    "hair-transplant",
-    "facial-rejuvenation"
+    "skin-tightening-treatment",
+    "skin-glow-treatment"
   ],
   "heroImage": {
     "src": "/images/treatments/prp-hair-treatment.webp",
@@ -85,9 +85,10 @@
     "height": 900
   },
   "subTreatments": [
-    "PRP For Men",
-    "PRP For Women",
-    "Post-Transplant PRP",
+    "PRP",
+    "GFC (Growth Factor Concentrate)",
+    "Exosomes",
     "Maintenance Sessions"
-  ]
+  ],
+  "order": 2
 }

@@ -75,7 +75,8 @@ are invented in the data; the site renders "to be confirmed" states until they a
 - Before/after images with written consent → results section (not built yet)
 - Instagram and other social handles → `content/site.json` → `social`, `doctors/*.json` → `sameAs`
 - Whether to publish starting prices → `priceFrom` on treatments (currently omitted)
-- Breast Reshaping: kept as a form option only; no page until the client confirms scope
+- Hair Transplant and Tattoo Removal are unpublished (redirected) because the client's Sep 2026 service list omits them; confirm before deleting or restoring
+- Breast Reshaping: not in the client's service list; no page and no form option
 - GTM container ID → `NEXT_PUBLIC_GTM_ID` (slot in `components/layout/Gtm.tsx`)
 - `content/testimonials.json` holds SAMPLE testimonials for layout; replace with consented Google reviews
 - Wire `app/api/lead/route.ts` to the follow-up backend (currently validates and logs)

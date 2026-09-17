@@ -17,34 +17,38 @@
     "title": "Our Treatments",
     "featured": [
       {
-        "slug": "acne-treatment",
-        "name": "Acne & Acne Scars"
-      },
-      {
-        "slug": "chemical-peel",
-        "name": "Chemical Peels"
-      },
-      {
         "slug": "laser-hair-removal",
-        "name": "Laser Treatments",
-        "href": "/treatments#laser"
+        "name": "Laser Hair Reduction"
       },
       {
-        "slug": "facial-rejuvenation",
-        "name": "Facial Rejuvenation"
+        "slug": "skin-glow-treatment",
+        "name": "Skin Glow Treatment"
       },
       {
-        "slug": "hair-transplant",
-        "name": "Hair Transplant"
+        "slug": "skin-tightening-treatment",
+        "name": "Skin Tightening Treatment"
+      },
+      {
+        "slug": "acne-treatment",
+        "name": "Acne & Scar Treatment",
+        "subline": "Fractional CO2 Laser · Microneedling · Subcision · TCA Cross · MNRF"
+      },
+      {
+        "slug": "pigmentation-treatment",
+        "name": "Pigmentation Treatment"
+      },
+      {
+        "slug": "fat-reduction",
+        "name": "Fat Reduction"
       },
       {
         "slug": "hair-loss-treatment",
-        "name": "Hair Regrowth"
+        "name": "Hair Regrowth Treatment",
+        "subline": "GFC · Exosomes · Hair Filler · Hair Threads"
       },
       {
-        "slug": "botox",
-        "name": "Botox & Dermal Fillers",
-        "href": "/treatments#injectables",
+        "slug": "anti-ageing-treatment",
+        "name": "Anti-Ageing Treatment",
         "image": {
           "src": "/images/tiles/injectables.webp",
           "alt": "Close-up of a cosmetic injection being given on the forehead in a clinic",
@@ -53,8 +57,8 @@
         }
       },
       {
-        "slug": "bridal-skin-care",
-        "name": "Bridal Skin Care"
+        "slug": "mole-and-wart-removal",
+        "name": "Mole & Wart Removal"
       }
     ]
   },
@@ -79,7 +83,7 @@
   "technology": {
     "eyebrow": "Inside Skin Essence",
     "title": "Our Clinic & Equipment",
-    "description": "Purpose-built clinics in Kalyani Nagar, Pune and Ahmedabad, with dedicated consultation, laser and treatment rooms. Every device is operated under Dr. Daksha Patel's supervision."
+    "description": "Purpose-built clinics in Kalyani Nagar, Pune and Ahmedabad, with dedicated consultation, laser and treatment rooms. Fractional CO2 and Q-switched Nd:YAG lasers, HIFU and MNRF are all operated under Dr. Daksha Patel's supervision."
   },
   "faq": {
     "eyebrow": "Helpful Answers",

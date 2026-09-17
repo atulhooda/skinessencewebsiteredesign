@@ -183,9 +183,10 @@ export function getTreatments(): Treatment[] {
       }
     }
     const categoryOrder = new Map(getCategories().map((c) => [c.slug, c.order]));
-    return [...treatments].sort((a, b) => {
+    return treatments.filter((t) => t.published).sort((a, b) => {
       const byCategory = (categoryOrder.get(a.category) ?? 0) - (categoryOrder.get(b.category) ?? 0);
-      return byCategory !== 0 ? byCategory : a.name.localeCompare(b.name);
+      if (byCategory !== 0) return byCategory;
+      return a.order !== b.order ? a.order - b.order : a.name.localeCompare(b.name);
     });
   });
 }
@@ -204,7 +205,7 @@ export function getTreatmentsByCategory(): CategoryWithTreatments[] {
     .filter((category) => category.treatments.length > 0);
 }
 
-export type FeaturedTile = { treatment: Treatment; name: string; href: string; image?: Image };
+export type FeaturedTile = { treatment: Treatment; name: string; href: string; image?: Image; subline?: string };
 
 /** Homepage tiles from pages/home.json → treatments.featured, in order, skipping any treatment not published. */
 export function getFeaturedTiles(): FeaturedTile[] {
@@ -214,7 +215,7 @@ export function getFeaturedTiles(): FeaturedTile[] {
     const item = typeof entry === "string" ? { slug: entry } : entry;
     const treatment = treatments.find((t) => t.slug === item.slug);
     if (!treatment) continue;
-    tiles.push({ treatment, name: item.name ?? treatment.name, href: item.href ?? `/treatments/${treatment.slug}`, image: item.image });
+    tiles.push({ treatment, name: item.name ?? treatment.name, href: item.href ?? `/treatments/${treatment.slug}`, image: item.image, subline: item.subline ?? treatment.subTreatments.slice(0, 4).join(" · ") });
   }
   return tiles;
 }
@@ -328,6 +329,7 @@ export function buildContentReport(): ContentReport {
   const warnings: string[] = [];
   const imageExists = (src: string) => fs.existsSync(path.join(process.cwd(), "public", src));
 
+  for (const t of loadDir("treatments", TreatmentSchema).filter((x) => !x.published)) warnings.push(`treatments/${t.slug}: unpublished (page, links and sitemap entry hidden)`);
   for (const t of treatments) {
     for (const slug of t.relatedTreatments) {
       if (!treatmentSlugs.has(slug)) warnings.push(`treatments/${t.slug}: related treatment "${slug}" is not published yet`);

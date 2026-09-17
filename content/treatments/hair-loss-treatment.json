@@ -1,11 +1,11 @@
 {
   "slug": "hair-loss-treatment",
-  "name": "Hair Loss & Regrowth Treatment",
-  "category": "hair",
-  "shortDesc": "Diagnosis-first medical treatment for hair fall, thinning and patchy loss, with regrowth plans that fit real life.",
-  "heroTitle": "Hair Loss Treatment That Starts With The Right Diagnosis",
-  "metaTitle": "Hair Loss & Regrowth Treatment in Kalyani Nagar, Pune | Skin Essence",
-  "metaDescription": "Hair loss treatment in Kalyani Nagar, Pune by an MD dermatologist: trichoscopy, tests and regrowth plans for hair fall. Book a consultation.",
+  "name": "Hair Regrowth Treatment",
+  "category": "hair-regrowth",
+  "shortDesc": "Diagnosis-first medical treatment for hair fall, with GFC, exosomes, hair fillers and hair threads for regrowth.",
+  "heroTitle": "Hair Regrowth Treatment That Starts With The Right Diagnosis",
+  "metaTitle": "Hair Regrowth Treatment in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Hair regrowth treatment in Kalyani Nagar, Pune by an MD dermatologist: trichoscopy, GFC, exosomes, hair fillers and threads. Book a consultation.",
   "intro": [
     "Hair fall has many causes and they need different treatments. Pattern hair loss driven by genetics and hormones, sudden shedding after illness, fever, childbirth or stress, iron and vitamin D deficiency, thyroid problems, PCOS, dandruff and scalp inflammation, patchy autoimmune loss and damage from tight hairstyles all present as 'hair fall', and treating the wrong one wastes months.",
     "Hair and scalp problems are a special interest of Dr. Daksha Patel, an MD dermatologist with 17+ years of experience. Every hair consultation at Skin Essence includes trichoscopy, a magnified examination of the scalp and hair roots that distinguishes thinning from shedding, and blood tests where the history suggests a deficiency or hormonal cause.",
@@ -32,8 +32,8 @@
       "description": "Topical or oral medicines, supplements only where deficient, a scalp routine for dandruff, and lifestyle changes are set out in a written plan."
     },
     {
-      "title": "Review and escalation",
-      "description": "Progress is reviewed with photographs at three months. PRP is added for extra density where useful, and transplant is discussed only for established pattern baldness."
+      "title": "Regrowth boosters",
+      "description": "Where useful, GFC (growth factor concentrate), exosome therapy, hair fillers or hair threads are added to the medical plan for extra density. Progress is reviewed with photographs at three months."
     }
   ],
   "sessionsAndDowntime": {
@@ -75,8 +75,8 @@
   ],
   "relatedTreatments": [
     "prp-hair-treatment",
-    "hair-transplant",
-    "paediatric-dermatology"
+    "paediatric-dermatology",
+    "skin-glow-treatment"
   ],
   "heroImage": {
     "src": "/images/treatments/hair-loss-treatment.webp",
@@ -85,10 +85,11 @@
     "height": 900
   },
   "subTreatments": [
-    "Pattern Hair Loss (Men)",
-    "Female Hair Thinning",
-    "Sudden Shedding",
-    "Dandruff & Scalp Care",
-    "Patchy Hair Loss"
-  ]
+    "GFC",
+    "Exosomes",
+    "Hair Filler",
+    "Hair Threads",
+    "Medical Treatment"
+  ],
+  "order": 1
 }

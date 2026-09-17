@@ -22,6 +22,12 @@ const nextConfig: NextConfig = {
       { source: "/clinic/", destination: "/dermatologist-in-kalyani-nagar", permanent: true },
       { source: "/services", destination: "/treatments", permanent: true },
       { source: "/services/", destination: "/treatments", permanent: true },
+      // Renamed to match the client's service list (Sep 2026).
+      { source: "/treatments/facial-rejuvenation", destination: "/treatments/skin-glow-treatment", permanent: true },
+      { source: "/treatments/body-contouring", destination: "/treatments/fat-reduction", permanent: true },
+      // Unpublished pending the client's confirmation that these are not offered.
+      { source: "/treatments/hair-transplant", destination: "/treatments/hair-loss-treatment", permanent: false },
+      { source: "/treatments/tattoo-removal", destination: "/treatments/pigmentation-treatment", permanent: false },
     ];
   },
 };

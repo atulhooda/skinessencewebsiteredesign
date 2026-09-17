@@ -1,7 +1,7 @@
 {
   "slug": "hair-transplant",
   "name": "Hair Transplant",
-  "category": "hair",
+  "category": "hair-regrowth",
   "shortDesc": "Hair restoration for established pattern baldness, planned only after the hair loss has been diagnosed and stabilised.",
   "heroTitle": "Hair Transplant, Only When It Is The Right Answer",
   "metaTitle": "Hair Transplant in Kalyani Nagar, Pune | Skin Essence",
@@ -80,7 +80,7 @@
   "relatedTreatments": [
     "hair-loss-treatment",
     "prp-hair-treatment",
-    "facial-rejuvenation"
+    "skin-glow-treatment"
   ],
   "heroImage": {
     "src": "/images/treatments/hair-transplant.webp",
@@ -93,5 +93,6 @@
     "Hairline Design",
     "Crown Coverage",
     "Female Hair Transplant"
-  ]
+  ],
+  "published": false
 }

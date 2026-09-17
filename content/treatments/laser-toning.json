@@ -1,7 +1,7 @@
 {
   "slug": "laser-toning",
   "name": "Laser Toning",
-  "category": "laser",
+  "category": "pigmentation",
   "shortDesc": "Gentle laser sessions that lighten pigmentation, tan and uneven tone with no downtime, using settings chosen for Indian skin.",
   "heroTitle": "Laser Toning For Even Skin Tone Without Downtime",
   "metaTitle": "Laser Toning in Kalyani Nagar, Pune | Skin Essence",
@@ -70,13 +70,27 @@
       "a": "High energy on Indian skin risks burns, dark patches or light patches that are harder to treat than the original problem. Several gentle sessions give better results with far less risk."
     }
   ],
-  "relatedConcerns": ["pigmentation", "dull-skin"],
-  "relatedTreatments": ["pigmentation-treatment", "chemical-peel", "melasma-treatment"],
+  "relatedConcerns": [
+    "pigmentation",
+    "dull-skin"
+  ],
+  "relatedTreatments": [
+    "pigmentation-treatment",
+    "chemical-peel",
+    "melasma-treatment"
+  ],
   "heroImage": {
     "src": "/images/treatments/laser-toning.webp",
     "alt": "Laser toning session on a patient's face at Skin Essence, Kalyani Nagar, Pune",
     "width": 1200,
     "height": 900
   },
-  "subTreatments": ["Face", "Neck", "Underarms", "Hands & Arms", "Pre-Event Glow"]
+  "subTreatments": [
+    "Q-Switched Nd:YAG",
+    "Face",
+    "Neck",
+    "Underarms",
+    "Pre-Event Glow"
+  ],
+  "order": 4
 }

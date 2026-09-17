@@ -1,0 +1,95 @@
+{
+  "slug": "mole-and-wart-removal",
+  "name": "Mole & Wart Removal",
+  "category": "mole-and-wart-removal",
+  "shortDesc": "Quick removal of moles, warts, skin tags and other small growths after a proper dermatoscopic check, with minimal marking.",
+  "heroTitle": "Mole & Wart Removal, Checked First And Removed Cleanly",
+  "metaTitle": "Mole & Wart Removal in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Mole, wart and skin tag removal in Kalyani Nagar, Pune by an MD dermatologist: dermatoscopic check first, then quick removal. Book a visit.",
+  "intro": [
+    "Moles, warts, skin tags and other small growths are among the commonest reasons for a dermatology visit in Pune. Some are a cosmetic nuisance on the face or neck, some catch on clothing, jewellery or razors, and a few need a proper look because they have changed. Removal itself is quick; the examination before it matters just as much.",
+    "Warts are caused by a virus and spread by touch, so they are treated early and completely to stop new ones appearing on the hands, feet, face or beard area. Moles are checked under a dermatoscope by Dr. Daksha Patel, an MD dermatologist, to confirm they are harmless before removal. Any mole that is growing, changing colour, itching or bleeding is assessed carefully and sent for testing where needed.",
+    "At our Kalyani Nagar clinic, growths are removed under local anaesthesia using radiofrequency, laser or cryotherapy depending on the type, size and site, with the aim of leaving as little mark as possible. Most patients go back to work the same day."
+  ],
+  "whoIsItFor": [
+    "Raised moles on the face, neck or body that you would like removed for cosmetic reasons",
+    "Warts on the hands, feet, face or beard area, including plantar warts that hurt when walking",
+    "Skin tags on the neck, underarms, eyelids or groin that catch on clothing",
+    "Molluscum in children and adults",
+    "Any mole that has changed in size, shape or colour, which needs assessment first"
+  ],
+  "howItWorks": [
+    {
+      "title": "Examination",
+      "description": "Each growth is examined under a dermatoscope to confirm what it is. Suspicious moles are documented and, where needed, removed in a way that allows laboratory testing."
+    },
+    {
+      "title": "Numbing",
+      "description": "The area is numbed with a small injection or cream, so the removal itself is painless."
+    },
+    {
+      "title": "Removal",
+      "description": "Radiofrequency shaves or cauterises the growth precisely; laser is used for flat moles and pigmented spots; cryotherapy freezes warts and skin tags. Most removals take 10 to 20 minutes."
+    },
+    {
+      "title": "Healing",
+      "description": "A small scab forms and falls off in 7 to 10 days. The area is pink for a few weeks and blends in over 1 to 2 months with sunscreen."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "Usually 1 session; stubborn warts may need 2–3",
+    "sessionTime": "15–30 minutes",
+    "downtime": "A small scab for 7–10 days; back to work the same day",
+    "results": "Immediate removal; the mark fades over 4–8 weeks"
+  },
+  "aftercare": [
+    "Keep the area dry for 24 hours, then apply the ointment advised until the scab falls off on its own.",
+    "Do not pick the scab; picking is the main cause of a visible mark.",
+    "Once healed, use sunscreen on the area for two months to prevent darkening, especially on the face.",
+    "For warts, avoid sharing towels or razors and treat any new warts early to prevent spread."
+  ],
+  "faqs": [
+    {
+      "q": "Will mole removal leave a scar?",
+      "a": "Small moles removed by radiofrequency or laser usually leave a faint mark that fades over weeks. Larger or deeper moles can leave a small flat scar, which we discuss before removal. Careful aftercare and sunscreen make the biggest difference."
+    },
+    {
+      "q": "Can warts come back?",
+      "a": "Warts are viral, so new ones can appear if the virus persists in the skin or is caught again. Treating all warts completely, and early, keeps recurrence low. Stubborn warts sometimes need two or three sessions."
+    },
+    {
+      "q": "Is the procedure painful?",
+      "a": "Local anaesthesia makes the removal itself painless. You feel a small pinch from the numbing injection and mild soreness for a day or two afterwards."
+    },
+    {
+      "q": "Can every mole be removed?",
+      "a": "Most can. A mole that looks suspicious under the dermatoscope is removed in a way that allows testing rather than shaved off, and very large moles may be referred for surgical removal."
+    },
+    {
+      "q": "Do you remove warts and molluscum in children?",
+      "a": "Yes. Paediatric dermatology is one of Dr. Patel's special interests. The method is chosen for the child's age, and some molluscum clears on its own, in which case we explain why waiting is the better choice."
+    }
+  ],
+  "relatedConcerns": [
+    "pigmentation",
+    "child-skin-problems"
+  ],
+  "relatedTreatments": [
+    "paediatric-dermatology",
+    "acne-scar-treatment",
+    "laser-toning"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/mole-and-wart-removal.webp",
+    "alt": "Dermatologist examining the skin on a smiling patient's neck",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "Mole Removal",
+    "Wart Removal",
+    "Skin Tag Removal",
+    "Radiofrequency",
+    "Cryotherapy"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "fat-reduction",
+  "name": "Fat Reduction",
+  "category": "fat-reduction",
+  "shortDesc": "Non-surgical fat reduction with CoolSculpting, lipolytic mesotherapy and lipo treatments for stubborn areas, planned realistically.",
+  "heroTitle": "Fat Reduction For Stubborn Areas, With Honest Expectations",
+  "metaTitle": "Fat Reduction in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Non-surgical fat reduction in Kalyani Nagar, Pune: CoolSculpting, mesotherapy and lipo treatments planned by an MD dermatologist. Book a consultation.",
+  "intro": [
+    "Fat reduction treatments target the pockets that diet and exercise do not seem to reach: the lower abdomen, flanks, upper arms, inner thighs and under the chin. They are shaping treatments for people close to their healthy weight, not a substitute for weight loss, and we say so at the first visit.",
+    "Three approaches are used at Skin Essence. CoolSculpting, or cryolipolysis, cools a targeted area so that fat cells break down and are cleared by the body over the following weeks. Lipolytic mesotherapy uses micro-injections of fat-dissolving ingredients for smaller pockets such as the chin or the sides of the abdomen. Lipo treatments use energy-based devices to reduce fat and improve firmness, and are chosen for the area and skin type.",
+    "Results are gradual and depend on the area, the technique and your own metabolism. Dr. Daksha Patel, an MD dermatologist, assesses each patient in person with measurements and photographs, explains which areas are realistic targets and which are not, and refers anyone who would be better served by surgery rather than starting sessions that will disappoint. On Indian skin, heat-based treatments are set carefully to avoid pigmentation."
+  ],
+  "whoIsItFor": [
+    "Stubborn fat pockets on the abdomen, flanks, arms or thighs despite regular exercise",
+    "A double chin that does not improve with weight loss",
+    "Post-pregnancy fullness and laxity of the lower abdomen",
+    "Men with love handles or chest fullness close to their healthy weight",
+    "Not suitable as a treatment for obesity, and not a replacement for diet and exercise"
+  ],
+  "howItWorks": [
+    {
+      "title": "Assessment",
+      "description": "Measurements, photographs, weight and skin laxity are recorded, and we agree on what you want to change and what is achievable without surgery."
+    },
+    {
+      "title": "Plan",
+      "description": "Areas, technique, number of sessions, expected change and maintenance are set out in writing before anything starts."
+    },
+    {
+      "title": "Sessions",
+      "description": "CoolSculpting takes 35 to 60 minutes per area with a cooling applicator; mesotherapy is a 20-minute injection session repeated every 2 to 4 weeks; lipo device sessions take 30 to 45 minutes. None needs anaesthesia beyond numbing cream."
+    },
+    {
+      "title": "Results and lifestyle",
+      "description": "Changes appear gradually over 8 to 12 weeks as the body clears treated fat. Progress is measured at each review, and keeping your weight stable preserves the result."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "CoolSculpting: 1–2 per area; mesotherapy: 4–6; lipo devices: 4–8",
+    "sessionTime": "20–60 minutes per area",
+    "downtime": "None; mild redness, tenderness, swelling or numbness for a few days",
+    "results": "Gradual; visible change in 8–12 weeks"
+  },
+  "aftercare": [
+    "Drink plenty of water and stay active; walking helps the body clear treated fat.",
+    "Expect tenderness or numbness in the area for up to two weeks after CoolSculpting; it settles on its own.",
+    "Avoid heavy meals and alcohol on the day of each session.",
+    "Keep your weight stable; gaining weight after treatment refills the area."
+  ],
+  "faqs": [
+    {
+      "q": "Is fat reduction a weight-loss treatment?",
+      "a": "No. It reshapes specific areas by reducing localised fat. It works best for people within a few kilograms of their healthy weight who have stubborn pockets."
+    },
+    {
+      "q": "CoolSculpting, mesotherapy or lipo, which is right for me?",
+      "a": "CoolSculpting suits well-defined pinchable pockets on the abdomen, flanks and thighs. Mesotherapy suits small areas such as the chin. Lipo device sessions suit areas that need firmness as well as reduction. The choice is made after examining the area."
+    },
+    {
+      "q": "Is it painful?",
+      "a": "CoolSculpting feels intensely cold for the first few minutes, then numb. Mesotherapy involves small injections after numbing cream. Device sessions feel warm. Tenderness for a few days afterwards is normal."
+    },
+    {
+      "q": "Are the results lasting?",
+      "a": "Treated fat cells do not return, but remaining cells can enlarge with weight gain. Keeping your weight stable maintains the result."
+    },
+    {
+      "q": "Is this surgery?",
+      "a": "No. All fat reduction at Skin Essence is non-surgical. If your goals need surgical results, we tell you honestly and refer you rather than start a course that cannot deliver."
+    }
+  ],
+  "relatedConcerns": [
+    "stretch-marks",
+    "dull-skin"
+  ],
+  "relatedTreatments": [
+    "skin-tightening-treatment",
+    "anti-ageing-treatment",
+    "laser-toning"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/fat-reduction.webp",
+    "alt": "Non-surgical fat reduction device being used on a patient's abdomen",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "CoolSculpting",
+    "Mesotherapy",
+    "Lipo"
+  ]
+}

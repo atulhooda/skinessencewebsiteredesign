@@ -1,0 +1,93 @@
+{
+  "slug": "skin-tightening-treatment",
+  "name": "Skin Tightening Treatment",
+  "category": "skin-tightening",
+  "shortDesc": "HIFU, thread lifts and mesotherapy to firm a softening jawline, neck and cheeks without surgery.",
+  "heroTitle": "Skin Tightening Without Surgery, Planned For A Natural Result",
+  "metaTitle": "Skin Tightening Treatment in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Skin tightening in Kalyani Nagar, Pune: HIFU, thread lift and mesotherapy planned by an MD dermatologist for a softening jawline. Book a consultation.",
+  "intro": [
+    "From the mid-thirties onwards the skin slowly loses collagen and elastin, and the face begins to look less defined: a softer jawline, heaviness under the chin, brows that sit lower and folds beside the mouth that show even at rest. Skin tightening treatments rebuild support without surgery, and they suit patients who want a firmer, fresher look rather than a changed face.",
+    "At Skin Essence three approaches are used, alone or together. HIFU, or high-intensity focused ultrasound, delivers focused energy to the deeper layers that a surgical facelift would tighten, prompting new collagen over the following three months. Thread lifts place fine dissolvable threads under the skin to lift sagging areas immediately and stimulate collagen as they dissolve. Mesotherapy delivers micro-injections of skin-nourishing ingredients to improve the firmness and quality of thin, crepey skin.",
+    "Dr. Daksha Patel, an MD dermatologist, assesses skin laxity, volume loss and bone structure before recommending anything, because tightening lax skin over a hollow face without addressing volume gives a tired result. Every plan at our Kalyani Nagar clinic comes with honest timelines, and patients who would be better served by surgery are told so."
+  ],
+  "whoIsItFor": [
+    "Early jowls and a softening jawline, usually between 35 and 55",
+    "Heaviness or laxity under the chin and along the neck",
+    "Mild drooping of the brows or upper eyelids",
+    "Loose skin on the face or body after weight loss",
+    "Thin, crepey skin on the face, neck or hands that needs quality rather than lift"
+  ],
+  "howItWorks": [
+    {
+      "title": "Assessment and photographs",
+      "description": "Laxity is graded area by area, volume loss is checked, and standardised photographs are taken so results can be measured rather than guessed."
+    },
+    {
+      "title": "HIFU",
+      "description": "After numbing cream, the handpiece delivers focused ultrasound in lines across the area for 45 to 90 minutes. One session a year is typical; tightening builds over 2 to 3 months."
+    },
+    {
+      "title": "Thread lift",
+      "description": "Under local anaesthesia, dissolvable threads are placed along the cheeks, jawline, brow or neck and gently tensioned. The lift is visible immediately and improves as collagen forms around the threads."
+    },
+    {
+      "title": "Mesotherapy",
+      "description": "A course of 3 to 4 monthly sessions of micro-injections improves hydration, firmness and texture, and is often combined with HIFU or threads."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "HIFU: 1 session a year; threads: 1 session; mesotherapy: 3–4 sessions",
+    "sessionTime": "45–90 minutes",
+    "downtime": "None after HIFU; 3–7 days of mild swelling or bruising after threads",
+    "results": "Threads lift immediately; HIFU builds over 2–3 months and lasts 12–18 months"
+  },
+  "aftercare": [
+    "After threads, sleep on your back for a week and avoid wide mouth opening, dental work and facial massage for two weeks.",
+    "Mild tenderness or swelling after HIFU settles within days; avoid heat, saunas and the gym for 48 hours.",
+    "Sunscreen every morning protects the new collagen you have paid for.",
+    "Attend the review at 4 weeks and again at 3 months so results are tracked with photographs."
+  ],
+  "faqs": [
+    {
+      "q": "Does HIFU hurt?",
+      "a": "You feel heat and a deep prickling sensation as the energy is delivered, more so over bony areas. Numbing cream and adjusted settings keep it tolerable, and there is no pain afterwards."
+    },
+    {
+      "q": "HIFU or threads, which should I choose?",
+      "a": "HIFU suits mild to moderate laxity and patients who want no downtime and gradual results. Threads suit those who want an immediate, visible lift of the cheeks or jawline. Many patients do best with HIFU first and threads for specific areas."
+    },
+    {
+      "q": "How long do the results last?",
+      "a": "HIFU results last around 12 to 18 months, thread lifts 12 to 18 months as the threads dissolve, and mesotherapy needs maintenance every 4 to 6 months. Ageing continues, so most patients repeat treatment yearly."
+    },
+    {
+      "q": "Is this the same as a facelift?",
+      "a": "No. These treatments tighten and lift without cuts or scars, and the improvement is moderate and natural. Advanced sagging needs surgery, and we say so at the consultation rather than starting a course that cannot deliver."
+    },
+    {
+      "q": "At what age should I consider skin tightening?",
+      "a": "Usually from the mid-thirties, when early laxity appears and the skin still responds strongly to collagen stimulation. Starting early with HIFU can delay more visible sagging."
+    }
+  ],
+  "relatedConcerns": [
+    "wrinkles-and-fine-lines",
+    "dull-skin"
+  ],
+  "relatedTreatments": [
+    "anti-ageing-treatment",
+    "dermal-fillers",
+    "botox"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/skin-tightening-treatment.webp",
+    "alt": "Ultrasound skin tightening handpiece being used on a patient's face",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "HIFU",
+    "Thread Lift",
+    "Mesotherapy"
+  ]
+}

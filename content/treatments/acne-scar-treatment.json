@@ -1,7 +1,7 @@
 {
   "slug": "acne-scar-treatment",
   "name": "Acne Scar Treatment",
-  "category": "skin",
+  "category": "acne-and-scars",
   "shortDesc": "Microneedling, subcision, peels and laser sessions to soften pitted acne scars and fade the marks acne leaves behind.",
   "heroTitle": "Acne Scar Treatment Matched To Each Scar Type",
   "metaTitle": "Acne Scar Treatment in Kalyani Nagar, Pune | Skin Essence",
@@ -29,7 +29,7 @@
     },
     {
       "title": "Procedures",
-      "description": "Depending on the map: microneedling to stimulate collagen, subcision to release tethered rolling scars, TCA peels or TCA cross for ice-pick scars, and laser sessions for marks and texture."
+      "description": "Depending on the map: fractional CO2 laser resurfacing, microneedling or MNRF (microneedling radiofrequency) to stimulate collagen, subcision to release tethered rolling scars, and TCA cross for ice-pick scars."
     },
     {
       "title": "Review and maintenance",
@@ -55,7 +55,7 @@
     },
     {
       "q": "Which treatment is right for my scars?",
-      "a": "It depends on the type. Rolling scars respond to subcision and microneedling, boxcar scars to microneedling and peels, ice-pick scars to TCA cross, and dark marks to peels and laser toning. Most patients need a combination, planned after scar mapping."
+      "a": "It depends on the type. Rolling scars respond to subcision and microneedling, boxcar scars to fractional CO2 laser and MNRF, ice-pick scars to TCA cross, and dark marks to peels and laser toning. Most patients need a combination, planned after scar mapping."
     },
     {
       "q": "Is microneedling suitable for Indian skin?",
@@ -86,10 +86,11 @@
     "height": 900
   },
   "subTreatments": [
+    "Fractional CO2 Laser",
     "Microneedling",
     "Subcision",
     "TCA Cross",
-    "Scar Peels",
-    "Laser Toning For Marks"
-  ]
+    "MNRF"
+  ],
+  "order": 2
 }

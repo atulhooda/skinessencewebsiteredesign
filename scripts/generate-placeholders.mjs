@@ -29,16 +29,16 @@ const PALETTES = {
 // Slugs from the brief (section 7.1 / 7.2).
 const treatments = [
   "acne-treatment", "acne-scar-treatment", "pigmentation-treatment", "melasma-treatment",
-  "chemical-peel", "facial-rejuvenation", "anti-ageing-treatment", "bridal-skin-care",
+  "chemical-peel", "skin-glow-treatment", "skin-tightening-treatment", "anti-ageing-treatment", "bridal-skin-care",
   "paediatric-dermatology", "laser-toning", "laser-hair-removal", "tattoo-removal",
   "botox", "dermal-fillers", "hair-transplant", "prp-hair-treatment", "hair-loss-treatment",
-  "body-contouring",
+  "fat-reduction", "mole-and-wart-removal",
 ];
 const concerns = [
   "acne", "acne-scars", "pigmentation", "dark-circles", "hair-fall", "unwanted-hair",
   "dull-skin", "wrinkles-and-fine-lines", "open-pores", "stretch-marks", "child-skin-problems",
 ];
-const categories = ["skin", "laser", "injectables", "hair", "body"];
+const categories = ["laser-hair-reduction", "skin-glow", "skin-tightening", "acne-and-scars", "pigmentation", "fat-reduction", "hair-regrowth", "anti-ageing", "mole-and-wart-removal", "medical-dermatology"];
 const tech = ["laser-room", "laser-toning", "hair-reduction-laser"];
 
 const cycle = (list) => (i) => list[i % list.length];
@@ -98,8 +98,9 @@ function svgFor({ w, h, label, palette }) {
 const REAL = new Set([
   "hero/home.webp", "hero/treatments.webp", "doctor/dr-daksha-patel.webp", "doctor/consultation.webp",
   "treatments/botox.webp", "treatments/dermal-fillers.webp", "locations/ahmedabad.webp", "clinic/reception.webp",
-  "treatments/acne-treatment.webp", "treatments/chemical-peel.webp", "treatments/laser-hair-removal.webp", "treatments/facial-rejuvenation.webp",
+  "treatments/acne-treatment.webp", "treatments/chemical-peel.webp", "treatments/laser-hair-removal.webp", "treatments/skin-glow-treatment.webp",
   "treatments/hair-transplant.webp", "treatments/hair-loss-treatment.webp", "treatments/bridal-skin-care.webp", "tiles/injectables.webp",
+  "treatments/skin-tightening-treatment.webp", "treatments/fat-reduction.webp", "treatments/mole-and-wart-removal.webp", "treatments/pigmentation-treatment.webp",
 ]);
 
 let written = 0;

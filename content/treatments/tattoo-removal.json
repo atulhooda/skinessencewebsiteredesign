@@ -1,7 +1,7 @@
 {
   "slug": "tattoo-removal",
   "name": "Tattoo Removal",
-  "category": "laser",
+  "category": "pigmentation",
   "shortDesc": "Laser tattoo removal that breaks ink into fragments the body clears, over a planned course of sessions.",
   "heroTitle": "Laser Tattoo Removal, Planned Honestly Session By Session",
   "metaTitle": "Tattoo Removal in Kalyani Nagar, Pune | Skin Essence",
@@ -70,13 +70,26 @@
       "a": "Black and dark blue respond best. Red responds moderately. Green, yellow and light blue are difficult and may only fade. This is assessed at consultation."
     }
   ],
-  "relatedConcerns": ["pigmentation"],
-  "relatedTreatments": ["laser-toning", "laser-hair-removal", "acne-scar-treatment"],
+  "relatedConcerns": [
+    "pigmentation"
+  ],
+  "relatedTreatments": [
+    "laser-toning",
+    "laser-hair-removal",
+    "acne-scar-treatment"
+  ],
   "heroImage": {
     "src": "/images/treatments/tattoo-removal.webp",
     "alt": "Laser tattoo removal session on a patient's forearm at Skin Essence, Pune",
     "width": 1200,
     "height": 900
   },
-  "subTreatments": ["Black Ink Tattoos", "Coloured Tattoos", "Name Tattoos", "Pre-Medical Removal", "Fading For Cover-Up"]
+  "subTreatments": [
+    "Black Ink Tattoos",
+    "Coloured Tattoos",
+    "Name Tattoos",
+    "Pre-Medical Removal",
+    "Fading For Cover-Up"
+  ],
+  "published": false
 }

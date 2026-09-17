@@ -1,7 +1,7 @@
 {
   "slug": "acne-treatment",
   "name": "Acne Treatment",
-  "category": "skin",
+  "category": "acne-and-scars",
   "shortDesc": "Medical treatment for active acne in teens and adults, with a plan for the marks it leaves behind.",
   "heroTitle": "Acne Treatment That Targets The Cause, Not Just The Pimple",
   "metaTitle": "Acne Treatment in Kalyani Nagar, Pune | Skin Essence",
@@ -91,5 +91,6 @@
     "Cystic Acne",
     "Back & Chest Acne",
     "Post-Acne Marks"
-  ]
+  ],
+  "order": 1
 }

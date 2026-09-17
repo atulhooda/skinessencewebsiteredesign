@@ -1,7 +1,7 @@
 {
   "slug": "melasma-treatment",
   "name": "Melasma Treatment",
-  "category": "skin",
+  "category": "pigmentation",
   "shortDesc": "A long-term plan for the stubborn brown patches of melasma, combining prescription care, gentle peels and laser toning.",
   "heroTitle": "Melasma Treatment Built For The Long Run",
   "metaTitle": "Melasma Treatment in Kalyani Nagar, Pune | Skin Essence",
@@ -70,13 +70,26 @@
       "a": "Expect 3 to 6 months for visible lightening, followed by a maintenance routine. Patients who protect against sun and heat consistently keep their results longest."
     }
   ],
-  "relatedConcerns": ["pigmentation", "dull-skin"],
-  "relatedTreatments": ["pigmentation-treatment", "laser-toning", "chemical-peel"],
+  "relatedConcerns": [
+    "pigmentation",
+    "dull-skin"
+  ],
+  "relatedTreatments": [
+    "pigmentation-treatment",
+    "laser-toning",
+    "chemical-peel"
+  ],
   "heroImage": {
     "src": "/images/treatments/melasma-treatment.webp",
     "alt": "Dermatoscopy of melasma patches on a patient's cheek at Skin Essence, Pune",
     "width": 1200,
     "height": 900
   },
-  "subTreatments": ["Facial Melasma", "Post-Pregnancy Melasma", "Oral Tranexamic Acid Plans", "Maintenance Plans"]
+  "subTreatments": [
+    "Facial Melasma",
+    "Post-Pregnancy Melasma",
+    "Oral Tranexamic Acid Plans",
+    "Maintenance Plans"
+  ],
+  "order": 2
 }

@@ -19,7 +19,7 @@ every unresolved reference and client TODO.
 | --- | --- |
 | `site.json` | Brand, tagline, category, positioning, contact, WhatsApp prefill, logo, stats, primary doctor |
 | `doctors/*.json` | One file per doctor (`/dr-daksha-patel`) |
-| `categories.json` | Treatment categories: skin, laser, injectables, hair, body |
+| `categories.json` | The client's nine services (plus Medical Dermatology) that group treatments, the menu and the index |
 | `treatments/*.json` | One file per treatment → `/treatments/[slug]` |
 | `concerns/*.json` | One file per patient concern → `/concerns/[slug]` (phase 2 route) |
 | `locations/*.json` | One file per clinic → `/[slug]` landing page (phase 2 route) |
@@ -31,7 +31,7 @@ every unresolved reference and client TODO.
 
 1. Copy an existing file in `treatments/` to `treatments/<slug>.json`. The file name must equal
    the `slug` field. Slugs and names come from the brief, section 7.1.
-2. Set `category` to `skin`, `laser`, `injectables`, `hair` or `body`.
+2. Set `category` to one of the slugs in `categories.json` (the client's service list). Set `"published": false` to hide a page without deleting it.
 3. Fill every field. Enforced rules:
    - `metaTitle` ≤ 80 chars, pattern `"{Treatment} in Kalyani Nagar, Pune | Skin Essence"`
    - `metaDescription` 50–155 chars, mentions a locality, ends with a call to action

@@ -1,7 +1,7 @@
 {
   "slug": "paediatric-dermatology",
   "name": "Paediatric Dermatology",
-  "category": "skin",
+  "category": "medical-dermatology",
   "shortDesc": "Gentle, age-appropriate care for eczema, rashes, infections, warts, birthmarks and infant skin problems.",
   "heroTitle": "Paediatric Dermatology For Calm Skin And Calmer Parents",
   "metaTitle": "Paediatric Dermatology in Kalyani Nagar, Pune | Skin Essence",
@@ -76,8 +76,8 @@
   ],
   "relatedTreatments": [
     "acne-treatment",
-    "hair-loss-treatment",
-    "pigmentation-treatment"
+    "mole-and-wart-removal",
+    "hair-loss-treatment"
   ],
   "heroImage": {
     "src": "/images/treatments/paediatric-dermatology.webp",

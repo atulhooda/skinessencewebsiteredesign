@@ -1,0 +1,94 @@
+{
+  "slug": "skin-glow-treatment",
+  "name": "Skin Glow Treatment",
+  "category": "skin-glow",
+  "shortDesc": "Our Signature Mira Peel, HydraFacial and skin boosters for dull, tired or dehydrated skin, chosen for your skin type.",
+  "heroTitle": "Skin Glow Treatments That Work On The Cause Of Dullness",
+  "metaTitle": "Skin Glow Treatment in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Skin glow treatment in Kalyani Nagar, Pune: Signature Mira Peel, HydraFacial and skin boosters chosen by an MD dermatologist. Book a consultation.",
+  "intro": [
+    "A skin glow treatment is for skin that looks tired, dull or uneven even when you are well rested. Pune's sun, dust and long commutes leave a build-up of dead cells and tan on the surface and dehydration underneath, so the skin stops reflecting light the way healthy skin does. Rather than a salon facial that adds a day of shine, glow treatments at Skin Essence work on the cause and build results over a short course.",
+    "Three options cover most needs, and they are often combined. Our Signature Mira Peel is a gentle, layered peel matched to your skin type that lifts dullness and tan with little or no visible peeling. HydraFacial cleanses, exfoliates and extracts congestion, then infuses hydrating serums, all in one sitting with no downtime. Skin boosters are micro-injections of hyaluronic acid that hydrate the skin from within for weeks at a time, softening fine lines and rough texture.",
+    "Dr. Daksha Patel, an MD dermatologist with 17+ years of experience, examines your skin first and chooses the combination that suits it, rather than selling a fixed package. Glow treatments are also the starting point of pre-wedding and pre-event plans at our Kalyani Nagar clinic, timed so results peak on the day."
+  ],
+  "whoIsItFor": [
+    "Skin that looks dull, tired or uneven despite a good home routine",
+    "Tan and rough texture from sun, dust and commuting",
+    "Dehydrated skin with fine lines, where skin boosters give lasting hydration",
+    "Congested pores and blackheads, which HydraFacial clears without squeezing",
+    "A pre-event glow with 2 to 6 weeks in hand, for women and men"
+  ],
+  "howItWorks": [
+    {
+      "title": "Skin analysis",
+      "description": "Tone, texture, hydration and congestion are assessed under magnification, your products are reviewed and the right combination of treatments is planned."
+    },
+    {
+      "title": "Signature Mira Peel",
+      "description": "A layered, gentle peel applied in stages for your skin type. It lifts dullness and tan over a few days with minimal flaking, and takes about 30 minutes."
+    },
+    {
+      "title": "HydraFacial",
+      "description": "A cleanse, gentle exfoliation, painless extraction of blackheads and an infusion of hydrating serums in one 45-minute session. You leave with an immediate glow and no downtime."
+    },
+    {
+      "title": "Skin boosters",
+      "description": "After numbing, tiny amounts of hyaluronic acid are injected across the face, neck or hands. Two sessions a month apart give hydration and smoothness that last around six months."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "1 session for an event glow; 3–4 sessions for lasting results",
+    "sessionTime": "30–60 minutes",
+    "downtime": "None after HydraFacial; 0–2 days of mild flaking after a peel; small bumps for a day after skin boosters",
+    "results": "Immediate glow; hydration and texture improve over 2–4 weeks"
+  },
+  "aftercare": [
+    "Sunscreen every morning is what keeps the glow; skipping it brings the tan straight back.",
+    "Skip scrubs, retinoids and other actives for 3 to 5 days after a peel.",
+    "No make-up for 12 hours and no facial massage for 3 days after skin boosters.",
+    "Keep water intake up and follow the simple routine we give you between sessions."
+  ],
+  "faqs": [
+    {
+      "q": "Which glow treatment is right for me?",
+      "a": "It depends on the cause of the dullness. Tan and dead-skin build-up respond to the Signature Mira Peel, congestion and oiliness to HydraFacial, and dehydration with fine lines to skin boosters. Many patients combine two, and the plan is set after examining your skin."
+    },
+    {
+      "q": "How soon before an event should I book?",
+      "a": "For a single glow session, 5 to 7 days before the event is ideal so the skin has settled. For a course, start 6 to 8 weeks ahead. Do not try a new treatment for the first time in the week of the event."
+    },
+    {
+      "q": "Is HydraFacial suitable for sensitive or acne-prone skin?",
+      "a": "Yes, the settings and serums are adjusted for sensitive and acne-prone skin, and it is gentler than manual extraction. Active, inflamed acne is treated medically first."
+    },
+    {
+      "q": "Do skin boosters change the shape of my face?",
+      "a": "No. Skin boosters are not fillers. They are placed superficially in tiny amounts to hydrate and improve skin quality, not to add volume, so the face looks fresher without looking different."
+    },
+    {
+      "q": "How is this different from a salon facial?",
+      "a": "Salon facials clean and moisturise the surface for a day or two. Our glow treatments use medical-grade peels, a HydraFacial platform and injectable hydration, planned by a dermatologist for Indian skin, with results that build over weeks rather than fading overnight."
+    }
+  ],
+  "relatedConcerns": [
+    "dull-skin",
+    "pigmentation"
+  ],
+  "relatedTreatments": [
+    "chemical-peel",
+    "laser-toning",
+    "bridal-skin-care"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/skin-glow-treatment.webp",
+    "alt": "Smiling woman with glowing, healthy skin after a facial routine",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "Signature Mira Peel",
+    "HydraFacial",
+    "Skin Boosters"
+  ],
+  "order": 1
+}

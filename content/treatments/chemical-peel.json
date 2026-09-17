@@ -1,7 +1,7 @@
 {
   "slug": "chemical-peel",
   "name": "Chemical Peels",
-  "category": "skin",
+  "category": "pigmentation",
   "shortDesc": "Controlled exfoliation with medical-grade acids to treat acne, tan, pigmentation and dullness over a short course of sessions.",
   "heroTitle": "Chemical Peels Matched To Your Skin, Not A Menu",
   "metaTitle": "Chemical Peels in Kalyani Nagar, Pune | Skin Essence",
@@ -77,7 +77,7 @@
   "relatedTreatments": [
     "laser-toning",
     "pigmentation-treatment",
-    "acne-treatment"
+    "skin-glow-treatment"
   ],
   "heroImage": {
     "src": "/images/treatments/chemical-peel.webp",
@@ -91,5 +91,6 @@
     "Mandelic Peel",
     "Lactic Peel",
     "TCA Peel"
-  ]
+  ],
+  "order": 3
 }

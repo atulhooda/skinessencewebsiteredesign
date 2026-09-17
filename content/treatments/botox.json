@@ -1,7 +1,7 @@
 {
   "slug": "botox",
   "name": "Botox (Anti-Wrinkle Injections)",
-  "category": "injectables",
+  "category": "anti-ageing",
   "shortDesc": "Anti-wrinkle injections that soften frown lines, forehead lines and crow's feet while keeping your natural expression.",
   "heroTitle": "Botox That Softens Lines, Not Expressions",
   "metaTitle": "Botox (Anti-Wrinkle Injections) in Kalyani Nagar, Pune | Skin Essence",
@@ -77,7 +77,7 @@
   "relatedTreatments": [
     "dermal-fillers",
     "anti-ageing-treatment",
-    "facial-rejuvenation"
+    "skin-tightening-treatment"
   ],
   "heroImage": {
     "src": "/images/treatments/botox.webp",
@@ -91,5 +91,6 @@
     "Crow's Feet",
     "Jaw Slimming (Masseter)",
     "Underarm Sweating"
-  ]
+  ],
+  "order": 2
 }

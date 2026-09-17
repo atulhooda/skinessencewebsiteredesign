@@ -110,6 +110,10 @@ export const TreatmentSchema = z.object({
   heroImage: ImageSchema,
   /** Pill chips, e.g. ["Full Face", "Underarms", "Full Body"]. */
   subTreatments: z.array(z.string()).default([]),
+  /** false hides the page, links, sitemap entry and menu item without deleting the file. */
+  published: z.boolean().default(true),
+  /** Position within its category on the index and menu; lower first. The service's main page is 1. */
+  order: z.number().int().default(100),
 });
 
 /* ---------- Concerns ---------- */
@@ -295,6 +299,8 @@ export const HomePageSchema = z.object({
             href: z.string().startsWith("/").optional(),
             /** Tile image override; defaults to the treatment's heroImage. */
             image: ImageSchema.optional(),
+            /** One-line list of techniques under the name; defaults to the treatment's subTreatments. */
+            subline: z.string().optional(),
           }),
         ]),
       )

@@ -15,13 +15,15 @@ type Props = {
   image?: ImageData;
   /** Small category label above the name. */
   label?: string;
+  /** One-line list of techniques under the name. */
+  subline?: string;
   /** Show a short image header (the treatment's heroImage) above the name. */
   withImage?: boolean;
   className?: string;
 };
 
 /** A rectangle that names one treatment and links to its page, optionally with a small image header. */
-export function TreatmentTile({ treatment, name, href, image, label, withImage = false, className }: Props) {
+export function TreatmentTile({ treatment, name, href, image, label, subline, withImage = false, className }: Props) {
   const img = image ?? treatment.heroImage;
   return (
     <Link
@@ -48,6 +50,7 @@ export function TreatmentTile({ treatment, name, href, image, label, withImage =
         <span className="min-w-0">
           {label && label !== (name ?? treatment.name) && <span className="block text-xs text-brand-700 transition-colors group-hover:text-white/80">{label}</span>}
           <span className="mt-0.5 block text-sm font-semibold leading-snug text-ink transition-colors group-hover:text-white sm:text-base">{name ?? treatment.name}</span>
+          {subline && <span className="mt-1 line-clamp-2 block text-xs leading-snug text-muted transition-colors group-hover:text-white/85">{subline}</span>}
         </span>
         <ArrowBadge tone="brand" className="hidden shrink-0 sm:grid" />
       </span>

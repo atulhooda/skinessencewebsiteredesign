@@ -1,7 +1,7 @@
 {
   "slug": "bridal-skin-care",
   "name": "Bridal Skin Care",
-  "category": "skin",
+  "category": "skin-glow",
   "shortDesc": "A pre-wedding skin and hair plan built around your concerns and your date, for brides, grooms and their families.",
   "heroTitle": "Bridal Skin Care Planned Around Your Wedding Date",
   "metaTitle": "Bridal Skin Care in Kalyani Nagar, Pune | Skin Essence",
@@ -75,7 +75,7 @@
     "unwanted-hair"
   ],
   "relatedTreatments": [
-    "chemical-peel",
+    "skin-glow-treatment",
     "laser-hair-removal",
     "laser-toning"
   ],
@@ -91,5 +91,6 @@
     "Groom Skin Care",
     "Pre-Wedding Glow",
     "Hair & Scalp Prep"
-  ]
+  ],
+  "order": 2
 }

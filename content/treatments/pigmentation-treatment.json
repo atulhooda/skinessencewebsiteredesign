@@ -1,7 +1,7 @@
 {
   "slug": "pigmentation-treatment",
   "name": "Pigmentation Treatment",
-  "category": "skin",
+  "category": "pigmentation",
   "shortDesc": "Prescription care, peels and laser toning to lighten dark patches, tanning and post-acne marks on Indian skin.",
   "heroTitle": "Pigmentation Treatment For Even, Brighter Skin",
   "metaTitle": "Pigmentation Treatment in Kalyani Nagar, Pune | Skin Essence",
@@ -29,7 +29,7 @@
     },
     {
       "title": "In-clinic sessions",
-      "description": "Chemical peels every 2 to 4 weeks and laser toning every 3 to 4 weeks lift surface pigment and calm the cells that overproduce melanin."
+      "description": "Chemical peels every 2 to 4 weeks, and Q-switched Nd:YAG laser toning every 3 to 4 weeks, lift surface pigment and calm the cells that overproduce melanin."
     },
     {
       "title": "Maintenance",
@@ -70,13 +70,25 @@
       "a": "Most patients notice lighter, brighter skin in 6 to 8 weeks. Deeper pigmentation takes 3 to 4 months of consistent treatment."
     }
   ],
-  "relatedConcerns": ["pigmentation", "dull-skin"],
-  "relatedTreatments": ["melasma-treatment", "laser-toning", "chemical-peel"],
+  "relatedConcerns": [
+    "pigmentation",
+    "dull-skin"
+  ],
+  "relatedTreatments": [
+    "melasma-treatment",
+    "laser-toning",
+    "chemical-peel"
+  ],
   "heroImage": {
     "src": "/images/treatments/pigmentation-treatment.webp",
-    "alt": "Dermatologist examining pigmentation on a patient's cheek under magnification",
+    "alt": "Laser toning handpiece being used on a patient's face for pigmentation",
     "width": 1200,
     "height": 900
   },
-  "subTreatments": ["Sun Tan", "Post-Acne Marks", "Dark Patches", "Dark Underarms & Neck", "Freckles"]
+  "subTreatments": [
+    "Q-Switched Nd:YAG Laser",
+    "Chemical Peel",
+    "Laser Toning"
+  ],
+  "order": 1
 }
