@@ -52,7 +52,7 @@ function Tile({ item, span }: { item: Technology; span: Span }) {
           New in Pune
         </span>
       )}
-      <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/65 to-transparent p-4 text-white">
+      <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/45 to-transparent px-4 pb-4 pt-16 text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.7)]">
         <span className="block text-sm font-semibold">{item.name}</span>
         <span className="mt-0.5 hidden text-xs text-white/90 md:block">{item.description}</span>
       </figcaption>

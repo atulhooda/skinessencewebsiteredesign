@@ -9,7 +9,7 @@
   "intro": [
     "People remove tattoos for many reasons: a name that no longer fits, a design done in a hurry, a job that requires a clear medical, or a wedding where family will see it for the first time. In Pune we regularly see candidates for the armed forces, police and airlines who need visible tattoos removed before a physical examination.",
     "Laser tattoo removal works by delivering extremely short pulses of light that shatter ink particles into fragments small enough for the body's immune system to clear. Black ink responds best; green, blue and yellow inks are harder and may not clear fully. Professional tattoos with dense ink need more sessions than amateur ones.",
-    "On Indian skin, Fitzpatrick type IV to V, settings must be lower and sessions more frequent to protect the surrounding pigment, which means a longer course. Dr. Daksha Patel, an MD dermatologist, assesses the tattoo, does a test patch, and gives you a realistic estimate of sessions and outcome at our Kalyani Nagar clinic before the first full session."
+    "On Indian skin, Fitzpatrick type IV to V, settings must be lower and sessions more frequent to protect the surrounding pigment, which means a longer course. At our Kalyani Nagar clinic, tattoo removal is performed on the Qyros Q-switched Nd:YAG, which uses 1064 nm for black, blue and dark brown ink, 532 nm for red, purple, orange and light brown, and 585 and 650 nm handpieces for sky blue and green. Dr. Daksha Patel, an MD dermatologist, assesses the tattoo, does a test patch, and gives you a realistic estimate of sessions and outcome before the first full session."
   ],
   "whoIsItFor": [
     "Small to medium black or dark-blue tattoos on the arms, hands, neck or back",
@@ -67,7 +67,7 @@
     },
     {
       "q": "Can coloured tattoos be removed?",
-      "a": "Black and dark blue respond best. Red responds moderately. Green, yellow and light blue are difficult and may only fade. This is assessed at consultation."
+      "a": "Black and dark blue respond best, and red responds well. Green and sky blue are the hardest colours; the Qyros has dedicated 650 nm and 585 nm handpieces for them, so more colours can be treated than with a standard two-wavelength laser, though some inks still only fade. This is assessed at consultation."
     }
   ],
   "relatedConcerns": [
@@ -85,11 +85,14 @@
     "height": 900
   },
   "subTreatments": [
-    "Black Ink Tattoos",
-    "Coloured Tattoos",
+    "Black & Blue Ink (1064 nm)",
+    "Red & Orange Ink (532 nm)",
+    "Green & Sky Blue Ink",
     "Name Tattoos",
-    "Pre-Medical Removal",
-    "Fading For Cover-Up"
+    "Pre-Medical Removal"
   ],
-  "published": false
+  "published": false,
+  "todo": [
+    "The clinic's Qyros brochure lists tattoo removal in all colours, but tattoo removal is not on the client's Sep 2026 service list. Confirm whether it is offered; set published: true to restore the page."
+  ]
 }

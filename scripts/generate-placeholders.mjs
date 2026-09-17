@@ -39,7 +39,7 @@ const concerns = [
   "dull-skin", "wrinkles-and-fine-lines", "open-pores", "stretch-marks", "child-skin-problems",
 ];
 const categories = ["laser-hair-reduction", "skin-glow", "skin-tightening", "acne-and-scars", "pigmentation", "fat-reduction", "hair-regrowth", "anti-ageing", "mole-and-wart-removal", "medical-dermatology"];
-const tech = ["mirapeel", "fractional-co2-laser", "q-switched-nd-yag-laser", "laser-hair-reduction", "hifu", "mnrf", "coolsculpting"];
+const tech = ["mirapeel", "qyros-nd-yag", "coolite-bolt", "fractional-co2-laser", "hifu", "mnrf", "coolsculpting"];
 
 const cycle = (list) => (i) => list[i % list.length];
 const warm = cycle(["mist", "sand", "teal-light", "blush", "slate", "teal"]);
@@ -102,7 +102,7 @@ const REAL = new Set([
   "treatments/hair-transplant.webp", "treatments/hair-loss-treatment.webp", "treatments/bridal-skin-care.webp", "tiles/injectables.webp",
   "treatments/skin-tightening-treatment.webp", "treatments/fat-reduction.webp", "treatments/mole-and-wart-removal.webp", "treatments/pigmentation-treatment.webp",
   "treatments/signature-mira-peel.webp",
-  "tech/mirapeel.webp", "tech/fractional-co2-laser.webp", "tech/q-switched-nd-yag-laser.webp", "tech/laser-hair-reduction.webp", "tech/hifu.webp", "tech/mnrf.webp", "tech/coolsculpting.webp",
+  "tech/mirapeel.webp", "tech/qyros-nd-yag.webp", "tech/coolite-bolt.webp", "tech/fractional-co2-laser.webp", "tech/hifu.webp", "tech/mnrf.webp", "tech/coolsculpting.webp",
 ]);
 
 let written = 0;

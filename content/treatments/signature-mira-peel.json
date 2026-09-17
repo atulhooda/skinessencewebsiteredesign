@@ -3,38 +3,38 @@
   "name": "Signature Mira Peel",
   "category": "skin-glow",
   "order": 2,
-  "shortDesc": "Our signature MiraPeel facial: hydradermabrasion, wet microneedling, extraction, serum infusion and LED in one no-downtime session.",
-  "heroTitle": "Signature Mira Peel: Hydradermabrasion, Infusion And Glow In One Session",
+  "shortDesc": "Our signature MiraPeel facial: hydradermabrasion, micro-channelling serum infusion, extraction, microcurrent and LED in one no-downtime session.",
+  "heroTitle": "Signature Mira Peel: Resurface, Infuse And Glow In One Session",
   "metaTitle": "Signature Mira Peel (MiraPeel) in Kalyani Nagar, Pune | Skin Essence",
-  "metaDescription": "Signature Mira Peel in Kalyani Nagar, Pune: MiraPeel hydradermabrasion, serum infusion and LED in one session at Skin Essence. Book a consultation.",
+  "metaDescription": "Signature Mira Peel in Kalyani Nagar, Pune: MiraPeel hydradermabrasion, serum infusion, microcurrent and LED in one session. Book a consultation.",
   "intro": [
-    "The Signature Mira Peel is Skin Essence's flagship glow treatment, performed on the MiraPeel system at our Kalyani Nagar clinic. Despite the name, it is not a chemical peel. MiraPeel is a German-developed serum delivery platform that combines hydradermabrasion, wet microneedling, vacuum extraction, lymphatic cupping, microcurrent and LED light therapy in a single session, so the skin is cleansed, resurfaced, infused and toned in one visit.",
-    "Hydradermabrasion uses a fine exfoliation tip with a vortex of water and serum to lift dead cells and tan without the scratching of crystal microdermabrasion. Gentle vacuum clears blackheads and congestion, then wet microneedling channels hydrating and brightening serums into the skin. Microcurrent tones the facial muscles and LED light calms acne and supports collagen. The result is an immediate glow, with skin that feels plumper and smoother for weeks.",
-    "Dr. Daksha Patel, an MD dermatologist with 17+ years of experience, chooses the steps and serums for each patient: a calming, hydrating protocol for sensitive or dry skin, a clarifying one for oily and acne-prone skin, and a brightening one for tan and dullness. There is no downtime, which is why the Mira Peel is the first step of most glow plans and the treatment we recommend closest to a wedding or event."
+    "The Signature Mira Peel is Skin Essence's flagship glow treatment, performed on the MiraPeel system at our Kalyani Nagar clinic. Despite the name, it is not a chemical peel. MiraPeel, short for Micro-Infusion Rolling Abrasion, is a skin transdermal delivery system designed in the European Union: a non-invasive, painless and bloodless way to resurface the skin gently and infuse concentrated serums into it, using six attachments in a single session.",
+    "The MIRAbrasor tip performs a controlled hydradermabrasion that lifts dead cells and tan with cool serum rather than abrasive crystals, and the MIRAextractor's gentle vacuum clears blackheads and congestion without squeezing. The MIRAroller, a micro-channelling tip with tightly placed micro-protrusions, then infuses the MIRAjolie serums deep into the skin: a salicylic acid and aloe exfoliator, a hyaluronic acid and panthenol moisturiser, a vitamin C and algae detoxifier, and a kojic acid, arbutin and vitamin A, C and E brightening complex. Microcurrent tones the facial muscles, cupping drains and relaxes, and red, green and blue LED light calms redness, helps acne-prone skin and supports collagen.",
+    "Dr. Daksha Patel, an MD dermatologist with 17+ years of experience, chooses the attachments and serums for each patient: calming and hydrating for dry or sensitive skin, clarifying for oily and acne-prone skin, brightening for tan and dullness. There is no downtime, which is why the Mira Peel is the first step of most glow plans and the treatment we recommend closest to a wedding or event."
   ],
   "whoIsItFor": [
     "Dull, tired or dehydrated skin that needs a visible glow with no downtime",
-    "Blackheads, congestion and open pores that need gentle, painless extraction",
-    "Light tan, uneven tone and rough texture from sun, dust and commuting",
-    "Sensitive skin that cannot tolerate strong chemical peels",
-    "Pre-wedding and pre-event skin, even in the final week"
+    "Blackheads, congestion, open pores and oily skin",
+    "Light tan, hyperpigmentation and uneven tone",
+    "Fine lines, early sagging and dark circles, where microcurrent and LED help",
+    "Sensitive skin that cannot tolerate chemical peels, and pre-event skin even in the final week"
   ],
   "howItWorks": [
     {
       "title": "Skin analysis",
-      "description": "Skin type, hydration, congestion and tone are assessed under magnification, and the MiraPeel protocol and serums are chosen for your skin."
+      "description": "Skin type, hydration, congestion and tone are assessed under magnification, and the attachments and MIRAjolie serums are chosen for your skin."
     },
     {
-      "title": "Cleanse, exfoliate and extract",
-      "description": "The hydradermabrasion tip lifts dead cells and tan with water and serum, then vacuum extraction clears blackheads and congestion painlessly."
+      "title": "Resurface and extract",
+      "description": "The MIRAbrasor lifts dead cells and tan with a flow of cool serum, then the MIRAextractor's vacuum clears blackheads and congestion painlessly."
     },
     {
       "title": "Infuse and tone",
-      "description": "Wet microneedling channels hydrating or brightening serums into the skin, and microcurrent tones the facial muscles for a subtle lift."
+      "description": "The MIRAroller channels hydrating or brightening serums into the skin, microcurrent tones the facial muscles for a subtle lift, and cupping eases puffiness."
     },
     {
       "title": "LED and protect",
-      "description": "A few minutes of LED light therapy calm redness and support collagen, and sunscreen finishes the session. Most patients return to work immediately."
+      "description": "A few minutes of LED light calm redness and support collagen, and sunscreen finishes the session. Most patients return to work immediately."
     }
   ],
   "sessionsAndDowntime": {
@@ -44,7 +44,7 @@
     "results": "Immediate glow; hydration and texture improve with regular sessions"
   },
   "aftercare": [
-    "Sunscreen every morning; freshly exfoliated skin tans quickly without it.",
+    "Sunscreen every morning; freshly resurfaced skin tans quickly without it.",
     "Skip scrubs, retinoids and other actives for 3 days after the session.",
     "No make-up for a few hours and no steam or sauna for 24 hours.",
     "Keep water intake up; the infused serums work best in well-hydrated skin."
@@ -52,15 +52,15 @@
   "faqs": [
     {
       "q": "Is the Signature Mira Peel a chemical peel?",
-      "a": "No. The name is the clinic's, but the treatment is performed on the MiraPeel system, which uses water-based hydradermabrasion, extraction, serum infusion, microcurrent and LED rather than acids. It suits skin that cannot tolerate chemical peels."
+      "a": "No. The name is the clinic's, but the treatment is performed on the MiraPeel system, which uses serum-based hydradermabrasion, vacuum extraction, micro-channelling serum infusion, microcurrent and LED rather than acids. It suits skin that cannot tolerate chemical peels."
     },
     {
       "q": "Does it hurt, and is there downtime?",
-      "a": "No. Most patients describe a cool, tingling suction and find the session relaxing. There is no peeling, and the skin may look slightly pink for an hour or two."
+      "a": "No. The system is non-invasive and bloodless; most patients describe cool suction and a light rolling sensation and find the session relaxing. There is no peeling, and the skin may look slightly pink for an hour or two."
     },
     {
       "q": "How is it different from a HydraFacial?",
-      "a": "MiraPeel includes hydradermabrasion much like a HydraFacial, and adds wet microneedling, microcurrent, lymphatic cupping and LED in the same session, so more can be addressed in one visit."
+      "a": "The MIRAbrasor step is comparable to a HydraFacial. MiraPeel adds micro-channelling serum infusion, microcurrent, cupping and LED light in the same session, so more can be addressed in one visit."
     },
     {
       "q": "How often should I have it?",
@@ -71,16 +71,30 @@
       "a": "Yes. Because there is no downtime, the Mira Peel can be done 2 to 5 days before an event. For the best result, start monthly sessions 2 to 3 months ahead."
     }
   ],
-  "relatedConcerns": ["dull-skin", "open-pores"],
-  "relatedTreatments": ["skin-glow-treatment", "chemical-peel", "bridal-skin-care"],
+  "relatedConcerns": [
+    "dull-skin",
+    "open-pores"
+  ],
+  "relatedTreatments": [
+    "skin-glow-treatment",
+    "chemical-peel",
+    "bridal-skin-care"
+  ],
   "heroImage": {
     "src": "/images/treatments/signature-mira-peel.webp",
     "alt": "Handheld facial device being used on a patient's face in a clinic",
     "width": 1200,
     "height": 900
   },
-  "subTreatments": ["Hydradermabrasion", "Wet Microneedling", "Vacuum Extraction", "Microcurrent", "LED Light Therapy"],
+  "subTreatments": [
+    "Hydradermabrasion (MIRAbrasor)",
+    "Serum Infusion (MIRAroller)",
+    "Vacuum Extraction",
+    "Microcurrent Toning",
+    "LED Light Therapy",
+    "MIRAjolie Serums"
+  ],
   "todo": [
-    "Confirm the clinic's standard Mira Peel protocol (which MiraPeel steps are included, session length and pricing)."
+    "Confirm the clinic's standard Mira Peel protocol (which attachments and serums are included, session length and pricing)."
   ]
 }

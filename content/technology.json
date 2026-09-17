@@ -1,34 +1,35 @@
 {
-  "_note": "Pune machines confirmed by the clinic (WhatsApp 17 Sep 2026, 2:11 PM): MIRAPEEL and Q-SWITCHED ND YAG (Qyros machine); Dr. Patel will send more. `highlight: true` renders the \"New in Pune\" badge. All photos are still representative stock until the clinic sends its own; `disclaimer` renders under the grid.",
+  "_note": "Pune machines confirmed by the clinic with brochures (WhatsApp 17 Sep 2026): MiraPeel (MIRAmedtech / Skinnovation), Qyros Q-switched Nd:YAG (Skinnovation) and Coolite BOLT diode laser (GSD / Skinnovation, 'for LHR' per Dr. Patel). Their photos are brochure crops. HIFU, MNRF, CoolSculpting and Fractional CO2 remain representative stock until the clinic confirms those machines. `highlight: true` renders the 'New in Pune' badge.",
   "items": [
     {
       "name": "MiraPeel",
-      "description": "Hydradermabrasion, serum infusion, microcurrent and LED in one session. Behind our Signature Mira Peel.",
+      "description": "Hydradermabrasion, serum infusion, extraction, microcurrent and LED in one session. Behind our Signature Mira Peel.",
       "highlight": true,
       "image": {
         "src": "/images/tech/mirapeel.webp",
-        "alt": "Handpiece with blue light being used on a patient's face during a facial device session",
+        "alt": "MiraPeel system with its MIRAjolie serums and MIRAroller and MIRAbrasor handpieces",
         "width": 1200,
         "height": 900
       }
     },
     {
-      "name": "Q-Switched Nd:YAG Laser (Qyros)",
-      "description": "Laser toning for pigmentation, tan and melasma control.",
+      "name": "Qyros Q-Switched Nd:YAG Laser",
+      "description": "1064 and 532 nm Q-switched laser for pigmentation, melasma, sun damage and laser toning.",
+      "highlight": true,
       "image": {
-        "src": "/images/tech/q-switched-nd-yag-laser.webp",
-        "alt": "Laser handpiece being used on a patient's face, both wearing protective goggles",
+        "src": "/images/tech/qyros-nd-yag.webp",
+        "alt": "Qyros Q-switched Nd:YAG laser with its articulated arm and touch screen",
         "width": 1200,
         "height": 900
-      },
-      "highlight": true
+      }
     },
     {
-      "name": "Laser Hair Reduction",
-      "description": "Long-term hair reduction with settings chosen for Indian skin tones.",
+      "name": "Coolite BOLT Diode Laser",
+      "description": "1800 W triple-wavelength diode laser with sapphire cooling, for hair reduction on all skin types.",
+      "highlight": true,
       "image": {
-        "src": "/images/tech/laser-hair-reduction.webp",
-        "alt": "Laser handpiece being passed over a patient's skin, seen from above",
+        "src": "/images/tech/coolite-bolt.webp",
+        "alt": "Coolite BOLT high-power diode laser platform",
         "width": 1200,
         "height": 900
       }
@@ -74,5 +75,5 @@
       }
     }
   ],
-  "disclaimer": "Photos are representative of each type of equipment."
+  "disclaimer": "MiraPeel, Qyros and Coolite BOLT photos are from the manufacturers' brochures. Other photos are representative of each type of equipment."
 }
