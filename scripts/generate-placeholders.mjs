@@ -98,6 +98,8 @@ function svgFor({ w, h, label, palette }) {
 const REAL = new Set([
   "hero/home.webp", "hero/treatments.webp", "doctor/dr-daksha-patel.webp", "doctor/consultation.webp",
   "treatments/botox.webp", "treatments/dermal-fillers.webp", "locations/ahmedabad.webp", "clinic/reception.webp",
+  "treatments/acne-treatment.webp", "treatments/chemical-peel.webp", "treatments/laser-hair-removal.webp", "treatments/facial-rejuvenation.webp",
+  "treatments/hair-transplant.webp", "treatments/hair-loss-treatment.webp", "treatments/bridal-skin-care.webp", "tiles/injectables.webp",
 ]);
 
 let written = 0;

@@ -70,13 +70,26 @@
       "a": "No. The procedures improve skin quality rather than changing features. Any injectables are dosed conservatively so your expressions stay natural."
     }
   ],
-  "relatedConcerns": ["dull-skin", "wrinkles-and-fine-lines"],
-  "relatedTreatments": ["chemical-peel", "laser-toning", "anti-ageing-treatment"],
+  "relatedConcerns": [
+    "dull-skin",
+    "wrinkles-and-fine-lines"
+  ],
+  "relatedTreatments": [
+    "chemical-peel",
+    "laser-toning",
+    "anti-ageing-treatment"
+  ],
   "heroImage": {
     "src": "/images/treatments/facial-rejuvenation.webp",
-    "alt": "Facial rejuvenation session at Skin Essence, Kalyani Nagar, Pune",
+    "alt": "Smiling woman with glowing, healthy skin after a facial routine",
     "width": 1200,
     "height": 900
   },
-  "subTreatments": ["Glow Peels", "Laser Toning", "Microneedling", "Medical Skincare Plan", "Pre-Event Prep"]
+  "subTreatments": [
+    "Glow Peels",
+    "Laser Toning",
+    "Microneedling",
+    "Medical Skincare Plan",
+    "Pre-Event Prep"
+  ]
 }

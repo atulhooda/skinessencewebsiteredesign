@@ -70,13 +70,26 @@
       "a": "Pricing depends on the type of peel and the area treated. Per-session and package pricing for a full course is confirmed at your consultation at our Kalyani Nagar clinic, before you commit to anything."
     }
   ],
-  "relatedConcerns": ["dull-skin", "pigmentation"],
-  "relatedTreatments": ["laser-toning", "pigmentation-treatment", "acne-treatment"],
+  "relatedConcerns": [
+    "dull-skin",
+    "pigmentation"
+  ],
+  "relatedTreatments": [
+    "laser-toning",
+    "pigmentation-treatment",
+    "acne-treatment"
+  ],
   "heroImage": {
     "src": "/images/treatments/chemical-peel.webp",
-    "alt": "Dermatologist applying a chemical peel solution to a patient's cheek with a brush",
+    "alt": "Chemical peel solution being brushed onto a patient's face",
     "width": 1200,
     "height": 900
   },
-  "subTreatments": ["Salicylic Peel", "Glycolic Peel", "Mandelic Peel", "Lactic Peel", "TCA Peel"]
+  "subTreatments": [
+    "Salicylic Peel",
+    "Glycolic Peel",
+    "Mandelic Peel",
+    "Lactic Peel",
+    "TCA Peel"
+  ]
 }

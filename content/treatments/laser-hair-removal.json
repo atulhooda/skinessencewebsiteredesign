@@ -70,13 +70,28 @@
       "a": "Pricing depends on the area and the number of sessions. Small areas such as the upper lip cost less per session than full arms or legs, and a package for the full course lowers the per-session cost. Exact pricing is confirmed at your consultation."
     }
   ],
-  "relatedConcerns": ["unwanted-hair", "pigmentation"],
-  "relatedTreatments": ["laser-toning", "tattoo-removal", "bridal-skin-care"],
+  "relatedConcerns": [
+    "unwanted-hair",
+    "pigmentation"
+  ],
+  "relatedTreatments": [
+    "laser-toning",
+    "tattoo-removal",
+    "bridal-skin-care"
+  ],
   "heroImage": {
     "src": "/images/treatments/laser-hair-removal.webp",
-    "alt": "Laser hair removal session on a patient's forearm at Skin Essence, Kalyani Nagar, Pune",
+    "alt": "Laser treatment being performed on a patient wearing protective goggles",
     "width": 1200,
     "height": 900
   },
-  "subTreatments": ["Full Face", "Upper Lip & Chin", "Underarms", "Arms", "Legs", "Bikini Line", "Full Body"]
+  "subTreatments": [
+    "Full Face",
+    "Upper Lip & Chin",
+    "Underarms",
+    "Arms",
+    "Legs",
+    "Bikini Line",
+    "Full Body"
+  ]
 }
