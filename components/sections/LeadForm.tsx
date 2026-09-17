@@ -14,17 +14,29 @@ type Props = {
   defaultOption?: string;
   defaultLocation?: string;
   whatsappHref: string;
+  /** "wide" lays the fields out in three columns for full-width placements. */
+  layout?: "default" | "wide";
 };
 
 const field =
   "mt-1.5 w-full rounded-xl border border-line bg-white px-4 py-3 text-sm text-ink placeholder:text-muted/80 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200";
 const label = "block text-xs font-medium text-ink-2";
 
-/** Lead form: Full Name, Phone, Treatment/Concern, Location, Message (≤180). Posts JSON to /api/lead. */
-export function LeadForm({ options, locations, defaultOption, defaultLocation, whatsappHref }: Props) {
+function todayIso(): string {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+/**
+ * Patient details form: name, phone, email (optional), treatment/concern,
+ * clinic, preferred date (optional), message (≤180). Posts JSON to /api/lead.
+ */
+export function LeadForm({ options, locations, defaultOption, defaultLocation, whatsappHref, layout = "default" }: Props) {
   const [status, setStatus] = useState<Status>({ state: "idle" });
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [messageLength, setMessageLength] = useState(0);
+  const wide = layout === "wide";
+  const full = wide ? "sm:col-span-2 lg:col-span-3" : "sm:col-span-2";
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -34,8 +46,10 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
     const nextErrors: Record<string, string> = {};
     if (!data.name || data.name.trim().length < LEAD_LIMITS.nameMin) nextErrors.name = "Please enter your full name.";
     if (!data.phone || !LEAD_LIMITS.phonePattern.test(data.phone.trim())) nextErrors.phone = "Enter a valid 10-digit Indian mobile number.";
+    if (data.email && !LEAD_LIMITS.emailPattern.test(data.email.trim())) nextErrors.email = "Enter a valid email address, or leave it blank.";
     if (!data.concern) nextErrors.concern = "Choose the treatment or concern closest to yours.";
     if (!data.location) nextErrors.location = "Choose a clinic.";
+    if (data.preferredDate && data.preferredDate < todayIso()) nextErrors.preferredDate = "Choose today or a later date.";
     if (data.message && data.message.length > LEAD_LIMITS.messageMax) nextErrors.message = `Keep the message under ${LEAD_LIMITS.messageMax} characters.`;
     setErrors(nextErrors);
     if (Object.keys(nextErrors).length) return;
@@ -59,7 +73,7 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
   if (status.state === "success") {
     return (
       <div role="status" className="rounded-2xl bg-brand-50 p-6 text-center">
-        <p className="text-lg font-semibold text-brand-800">Thank you, we have your request.</p>
+        <p className="text-lg font-semibold text-brand-800">Thank you, we have your details.</p>
         <p className="mt-2 text-sm text-ink-2">You will receive a confirmation call or WhatsApp message during clinic hours to fix your slot.</p>
         <Button onClick={() => setStatus({ state: "idle" })} variant="light" icon="none" size="sm" className="mt-5">
           Send another request
@@ -69,23 +83,12 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
   }
 
   return (
-    <form onSubmit={onSubmit} noValidate className="grid gap-5 sm:grid-cols-2">
+    <form onSubmit={onSubmit} noValidate className={cn("grid gap-5 sm:grid-cols-2", wide && "lg:grid-cols-3")}>
       <div>
         <label htmlFor="lead-name" className={label}>
           Full Name
         </label>
-        <input
-          id="lead-name"
-          name="name"
-          type="text"
-          autoComplete="name"
-          required
-          maxLength={LEAD_LIMITS.nameMax}
-          placeholder="Your name"
-          aria-invalid={Boolean(errors.name)}
-          aria-describedby={errors.name ? "lead-name-error" : undefined}
-          className={field}
-        />
+        <input id="lead-name" name="name" type="text" autoComplete="name" required maxLength={LEAD_LIMITS.nameMax} placeholder="Your name" aria-invalid={Boolean(errors.name)} aria-describedby={errors.name ? "lead-name-error" : undefined} className={field} />
         {errors.name && (
           <p id="lead-name-error" className="mt-1 text-xs text-urgent">
             {errors.name}
@@ -96,23 +99,19 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
         <label htmlFor="lead-phone" className={label}>
           Phone Number
         </label>
-        <input
-          id="lead-phone"
-          name="phone"
-          type="tel"
-          inputMode="tel"
-          autoComplete="tel"
-          required
-          placeholder="+91 98765 43210"
-          aria-invalid={Boolean(errors.phone)}
-          aria-describedby={errors.phone ? "lead-phone-error" : undefined}
-          className={field}
-        />
+        <input id="lead-phone" name="phone" type="tel" inputMode="tel" autoComplete="tel" required placeholder="+91 98765 43210" aria-invalid={Boolean(errors.phone)} aria-describedby={errors.phone ? "lead-phone-error" : undefined} className={field} />
         {errors.phone && (
           <p id="lead-phone-error" className="mt-1 text-xs text-urgent">
             {errors.phone}
           </p>
         )}
+      </div>
+      <div>
+        <label htmlFor="lead-email" className={label}>
+          Email <span className="font-normal text-muted">(optional)</span>
+        </label>
+        <input id="lead-email" name="email" type="email" inputMode="email" autoComplete="email" maxLength={120} placeholder="you@example.com" aria-invalid={Boolean(errors.email)} className={field} />
+        {errors.email && <p className="mt-1 text-xs text-urgent">{errors.email}</p>}
       </div>
       <div>
         <label htmlFor="lead-concern" className={label}>
@@ -132,7 +131,7 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
       </div>
       <div>
         <label htmlFor="lead-location" className={label}>
-          Location
+          Preferred Clinic
         </label>
         <select id="lead-location" name="location" required defaultValue={defaultLocation ?? locations[0]?.value ?? ""} className={field}>
           {locations.map((l) => (
@@ -143,19 +142,18 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
         </select>
         {errors.location && <p className="mt-1 text-xs text-urgent">{errors.location}</p>}
       </div>
-      <div className="sm:col-span-2">
+      <div>
+        <label htmlFor="lead-date" className={label}>
+          Preferred Date <span className="font-normal text-muted">(optional)</span>
+        </label>
+        <input id="lead-date" name="preferredDate" type="date" min={todayIso()} aria-invalid={Boolean(errors.preferredDate)} className={field} />
+        {errors.preferredDate && <p className="mt-1 text-xs text-urgent">{errors.preferredDate}</p>}
+      </div>
+      <div className={full}>
         <label htmlFor="lead-message" className={label}>
           Message <span className="font-normal text-muted">(optional)</span>
         </label>
-        <textarea
-          id="lead-message"
-          name="message"
-          rows={5}
-          maxLength={LEAD_LIMITS.messageMax}
-          onChange={(e) => setMessageLength(e.target.value.length)}
-          placeholder="Tell us what you're looking for, and preferred days or times."
-          className={cn(field, "resize-y")}
-        />
+        <textarea id="lead-message" name="message" rows={wide ? 3 : 5} maxLength={LEAD_LIMITS.messageMax} onChange={(e) => setMessageLength(e.target.value.length)} placeholder="Tell us about your concern, how long you have had it, and preferred days or times." className={cn(field, "resize-y")} />
         <p className="mt-1 text-right text-[11px] text-muted" aria-live="polite">
           {messageLength}/{LEAD_LIMITS.messageMax}
         </p>
@@ -166,16 +164,14 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
         <label htmlFor="lead-website">Website</label>
         <input id="lead-website" name="website" type="text" tabIndex={-1} autoComplete="off" />
       </div>
-      <div className="flex flex-col gap-4 sm:col-span-2 sm:flex-row sm:items-center sm:justify-between">
-        <p className="max-w-sm text-xs leading-relaxed text-muted">
-          You will receive a friendly confirmation call or WhatsApp message during clinic hours. No spam, ever.
-        </p>
+      <div className={cn("flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between", full)}>
+        <p className="max-w-sm text-xs leading-relaxed text-muted">You will receive a friendly confirmation call or WhatsApp message during clinic hours. No spam, ever.</p>
         <Button type="submit" variant="primary" icon="arrow-right" disabled={status.state === "submitting"}>
           {status.state === "submitting" ? "Sending…" : "Book Consultation"}
         </Button>
       </div>
       {status.state === "error" && (
-        <p role="alert" className="text-sm text-urgent sm:col-span-2">
+        <p role="alert" className={cn("text-sm text-urgent", full)}>
           {status.message}{" "}
           <a href={whatsappHref} target="_blank" rel="noopener noreferrer" className="font-medium underline underline-offset-2">
             Message us on WhatsApp instead.

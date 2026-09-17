@@ -12,6 +12,11 @@
       "height": 1400
     }
   },
+  "intake": {
+    "eyebrow": "A Simple Start",
+    "lead": "Tell Us About Your Skin Or Hair Concern,",
+    "rest": "And We'll Call You Back With The Right Next Step."
+  },
   "treatments": {
     "eyebrow": "Advanced Care & Treatments",
     "title": "Our Treatments",

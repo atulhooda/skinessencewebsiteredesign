@@ -283,6 +283,8 @@ export const HomePageSchema = z.object({
     secondaryCta: z.string(),
     image: ImageSchema,
   }),
+  /** Patient form under the hero, headed by the two-tone statement. */
+  intake: z.object({ eyebrow: z.string(), lead: z.string(), rest: z.string() }),
   treatments: SectionCopySchema.extend({
     /**
      * Homepage tiles, in order. Each is a treatment slug, or an object with the

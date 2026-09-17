@@ -4,7 +4,7 @@ import { DoctorIntro } from "@/components/sections/DoctorIntro";
 import { FaqSection } from "@/components/sections/FaqSection";
 import { FeaturedTreatments } from "@/components/sections/FeaturedTreatments";
 import { HomeHero } from "@/components/sections/HomeHero";
-import { LeadFormSection } from "@/components/sections/LeadFormSection";
+import { IntakeSection } from "@/components/sections/IntakeSection";
 import { LocationsSection } from "@/components/sections/LocationsSection";
 import { TechMosaic } from "@/components/sections/TechMosaic";
 import { TestimonialBand } from "@/components/sections/TestimonialBand";
@@ -60,6 +60,16 @@ export default function HomePage() {
         ]}
       />
       <HomeHero hero={home.hero} site={site} />
+      <IntakeSection
+        eyebrow={home.intake.eyebrow}
+        lead={home.intake.lead}
+        rest={home.intake.rest}
+        site={site}
+        options={getLeadOptions()}
+        locations={leadLocations}
+        defaultLocation={location.slug}
+        whatsappHref={whatsappHref}
+      />
       <FeaturedTreatments
         eyebrow={home.treatments.eyebrow}
         title={home.treatments.title}
@@ -91,7 +101,6 @@ export default function HomePage() {
         eyebrow={home.testimonials.eyebrow}
         title={home.testimonials.title}
         testimonials={getTestimonials()}
-        stats={site.stats}
       />
       <TechMosaic
         eyebrow={home.technology.eyebrow}
@@ -101,16 +110,6 @@ export default function HomePage() {
       />
       <FaqSection eyebrow={home.faq.eyebrow} title={home.faq.title} groups={faqGroups} />
       <LocationsSection eyebrow={home.locations.eyebrow} title={home.locations.title} locations={getLocations()} site={site} />
-      <LeadFormSection
-        eyebrow={home.leadForm.eyebrow}
-        title={home.leadForm.title}
-        description={home.leadForm.description}
-        location={location}
-        site={site}
-        options={getLeadOptions()}
-        locations={leadLocations}
-        whatsappHref={whatsappHref}
-      />
     </>
   );
 }

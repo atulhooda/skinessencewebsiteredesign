@@ -8,4 +8,5 @@ export const LEAD_LIMITS = {
   phonePattern: /^(?:\+?91[\s-]?|0)?[6-9]\d{4}[\s-]?\d{5}$/,
   /** The existing site's form caps the message at 180 characters (brief 3.7). */
   messageMax: 180,
+  emailPattern: /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/,
 } as const;
