@@ -69,7 +69,7 @@ are invented in the data; the site renders "to be confirmed" states until they a
 
 - Pune opening hours → `content/locations/dermatologist-in-kalyani-nagar.json` → `hours`
 - Google Maps place URL / Place ID (Pune) → `mapLink`, `mapEmbedUrl`, and `NEXT_PUBLIC_GOOGLE_PLACE_ID` for the reviews slot
-- Ahmedabad address, phone, hours and who consults there → `content/locations/dermatologist-in-ahmedabad.json`
+- Ahmedabad address, hours and who consults there → `content/locations/dermatologist-in-ahmedabad.json` (phone confirmed: +91 98259 71010; the reception / lounge / laser-room photos are the Ahmedabad clinic)
 - Device / technology names → `content/technology.json` (currently technique names, flagged with `_note`)
 - Clinic interior photos → replace labelled placeholders in `public/images/` (the doctor photo and logo are real)
 - Before/after images with written consent → results section (not built yet)

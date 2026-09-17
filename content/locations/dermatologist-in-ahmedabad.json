@@ -13,19 +13,19 @@
   "doctorSlugs": [],
   "heroImage": {
     "src": "/images/locations/ahmedabad.webp",
-    "alt": "Skin Essence clinic in Ahmedabad",
+    "alt": "Reception of the Skin Essence clinic in Ahmedabad",
     "width": 1200,
     "height": 800
   },
   "intro": [
     "Skin Essence also has a clinic in Ahmedabad, serving patients in Ahmedabad and East Ahmedabad with the same patient-first approach to skin, hair, laser and cosmetic care.",
-    "Call or WhatsApp +91 91577 31020 to confirm the address, consulting days and timings for Ahmedabad appointments."
+    "Call +91 98259 71010 to confirm the address, consulting days and timings for Ahmedabad appointments."
   ],
   "todo": [
     "Street address, locality and PIN code (not provided).",
-    "Phone number for Ahmedabad (not provided; site number is used).",
     "Consultation days and hours (not provided).",
     "Which doctor consults in Ahmedabad (not confirmed; the site does not assert either way).",
     "Google Maps URL and geo coordinates."
-  ]
+  ],
+  "phone": "+919825971010"
 }

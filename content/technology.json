@@ -1,12 +1,12 @@
 {
-  "_note": "TODO: three tiles still use placeholders until the lounge, treatment-room and laser photos are dropped in public/images/_incoming. Device names shown in the client's photos (Galaxy-1064, D'Laze, Mermaid) are not named in copy until the clinic confirms.",
+  "_note": "TODO: three tiles still use placeholders until the lounge, treatment-room and laser photos are dropped in public/images/_incoming. The clinic confirmed the reception / lounge / laser-room photo set is the Ahmedabad clinic. Device names in the photos (Galaxy-1064, D'Laze, Mermaid) are not named in copy until confirmed.",
   "items": [
     {
-      "name": "Reception",
-      "description": "Front desk at Brahma Business Park, Kalyani Nagar.",
+      "name": "Ahmedabad Clinic Reception",
+      "description": "Front desk at our Ahmedabad clinic.",
       "image": {
         "src": "/images/clinic/reception.webp",
-        "alt": "Reception of the Skin Essence clinic with the brand signage",
+        "alt": "Reception of the Skin Essence clinic in Ahmedabad",
         "width": 1200,
         "height": 900
       }

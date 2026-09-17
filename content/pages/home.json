@@ -7,7 +7,7 @@
     "secondaryCta": "Explore Treatments",
     "image": {
       "src": "/images/hero/home.webp",
-      "alt": "Dr. Daksha Patel standing at the Skin Essence clinic reception in Kalyani Nagar, Pune",
+      "alt": "Dr. Daksha Patel at the Skin Essence clinic reception",
       "width": 1200,
       "height": 1400
     }
@@ -67,7 +67,7 @@
     "title": "Why Choose Skin Essence",
     "image": {
       "src": "/images/clinic/reception.webp",
-      "alt": "Reception of the Skin Essence clinic with the brand signage, Kalyani Nagar, Pune",
+      "alt": "Reception of the Skin Essence clinic in Ahmedabad",
       "width": 1200,
       "height": 900
     }
@@ -79,7 +79,7 @@
   "technology": {
     "eyebrow": "Inside Skin Essence",
     "title": "Our Clinic & Equipment",
-    "description": "A purpose-built clinic in Kalyani Nagar with dedicated consultation, laser and treatment rooms. Every device is operated under Dr. Daksha Patel's supervision."
+    "description": "Purpose-built clinics in Kalyani Nagar, Pune and Ahmedabad, with dedicated consultation, laser and treatment rooms. Every device is operated under Dr. Daksha Patel's supervision."
   },
   "faq": {
     "eyebrow": "Helpful Answers",
