@@ -10,7 +10,9 @@
         "alt": "MiraPeel system with its MIRAjolie serums and MIRAroller and MIRAbrasor handpieces",
         "width": 1200,
         "height": 900
-      }
+      },
+      "location": "pune",
+      "machine": "mirapeel"
     },
     {
       "name": "Qyros Q-Switched Nd:YAG Laser",
@@ -21,7 +23,9 @@
         "alt": "Qyros Q-switched Nd:YAG laser with its articulated arm and touch screen",
         "width": 1200,
         "height": 900
-      }
+      },
+      "location": "pune",
+      "machine": "qyros-q-switched-nd-yag"
     },
     {
       "name": "Coolite BOLT Diode Laser",
@@ -32,7 +36,9 @@
         "alt": "Coolite BOLT high-power diode laser platform",
         "width": 1200,
         "height": 900
-      }
+      },
+      "location": "pune",
+      "machine": "coolite-bolt"
     },
     {
       "name": "Hydra Facial Machine (8+9)",
@@ -43,7 +49,9 @@
         "alt": "BVLASER 8+9 hydra facial machine with its touch screen, serum bottles and handpieces",
         "width": 1200,
         "height": 900
-      }
+      },
+      "location": "pune",
+      "machine": "hydra-facial-8-9"
     },
     {
       "name": "HIFU",

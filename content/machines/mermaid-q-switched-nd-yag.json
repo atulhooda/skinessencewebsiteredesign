@@ -1,0 +1,68 @@
+{
+  "slug": "mermaid-q-switched-nd-yag",
+  "name": "Mermaid Q-Switched Nd:YAG Laser",
+  "shortName": "Mermaid",
+  "manufacturer": "RUIKD",
+  "location": "ahmedabad",
+  "category": "laser",
+  "order": 4,
+  "published": false,
+  "kicker": "Q-switched Nd:YAG laser with articulated arm",
+  "heroTitle": "Mermaid Q-Switched Nd:YAG: Pigmentation And Toning Laser In Ahmedabad",
+  "metaTitle": "Mermaid Q-Switched Nd:YAG Laser in Ahmedabad | Skin Essence",
+  "metaDescription": "Mermaid Q-switched Nd:YAG laser at Skin Essence, Ahmedabad: 1064 and 532 nm with a fractional tip for pigmentation, toning and scars. Book a consultation.",
+  "shortDesc": "A Q-switched Nd:YAG laser with 1064 and 532 nm handpieces and a fractional tip, delivered through an articulated arm, at our Ahmedabad clinic.",
+  "intro": [
+    "The Mermaid is a Q-switched Nd:YAG laser at Skin Essence in Ahmedabad, made by RUIKD and delivered through an articulated arm that keeps the beam steady over long sessions. Q-switching packs the energy into nanosecond pulses that shatter pigment by a photoacoustic effect rather than heat, which is what lets it treat tan, sun spots and post-acne marks with little downtime.",
+    "The system's standard tips cover 1064 nm for deeper pigment and toning and 532 nm for superficial spots, plus a fractional tip that concentrates the energy into a grid of micro-zones to stimulate collagen for acne scars and texture. Settings are chosen for each patient by the dermatologist."
+  ],
+  "whatItTreats": [
+    "Tan, sun spots, freckles and age spots",
+    "Post-acne marks and uneven tone",
+    "Melasma, as low-energy toning within a maintenance plan",
+    "Acne scars and rough texture with the fractional tip"
+  ],
+  "howItWorks": [
+    {
+      "title": "Photoacoustic shattering",
+      "description": "Nanosecond pulses break pigment into particles small enough for the body to clear, with minimal heating of the surrounding skin."
+    },
+    {
+      "title": "Two wavelengths and a fractional tip",
+      "description": "1064 nm reaches deeper pigment, 532 nm clears superficial spots, and the fractional tip stimulates collagen for scars and texture."
+    },
+    {
+      "title": "Articulated arm delivery",
+      "description": "The arm carries the beam to the handpiece with a stable, even output, which helps precision over the face and larger areas."
+    }
+  ],
+  "specs": [],
+  "treatmentSlugs": [
+    "laser-toning",
+    "pigmentation-treatment",
+    "melasma-treatment"
+  ],
+  "faqs": [
+    {
+      "q": "Is it safe for Indian skin?",
+      "a": "Yes, at the right energy. The 1064 nm wavelength is absorbed less by the skin's own melanin, and sessions are planned conservatively by the dermatologist, with a test patch where needed."
+    },
+    {
+      "q": "How many toning sessions are needed?",
+      "a": "Usually 6 to 8 sessions spaced 2 to 4 weeks apart, with visible brightening after two or three. Melasma needs ongoing maintenance."
+    }
+  ],
+  "image": {
+    "src": "/images/tech/mermaid.webp",
+    "alt": "Mermaid Q-switched Nd:YAG laser at Skin Essence, Ahmedabad",
+    "width": 800,
+    "height": 600
+  },
+  "sources": [
+    "RUIKD Mermaid Q-switched Nd:YAG product listing, Laserworld India"
+  ],
+  "todo": [
+    "Clinic photo of the Mermaid (received on WhatsApp, not yet saved to public/images/_incoming).",
+    "Manufacturer brochure or specs from the clinic to replace the reseller listing as the source."
+  ]
+}

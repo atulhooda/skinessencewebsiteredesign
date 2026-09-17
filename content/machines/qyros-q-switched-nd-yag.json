@@ -1,0 +1,83 @@
+{
+  "slug": "qyros-q-switched-nd-yag",
+  "name": "Qyros Q-Switched Nd:YAG Laser",
+  "shortName": "Qyros",
+  "manufacturer": "Qyros",
+  "distributor": "Skinnovation Pvt. Ltd.",
+  "location": "pune",
+  "category": "laser",
+  "order": 2,
+  "kicker": "EO Q-switched Nd:YAG laser",
+  "heroTitle": "Qyros Q-Switched Nd:YAG: Precision Laser For Pigmentation And Toning",
+  "metaTitle": "Qyros Q-Switched Nd:YAG Laser in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "The Qyros Q-switched Nd:YAG laser behind laser toning, pigmentation and melasma care at Skin Essence, Kalyani Nagar, Pune. Book a consultation.",
+  "shortDesc": "An EO Q-switched Nd:YAG laser with a flat-top beam and pulses shorter than six nanoseconds, used for laser toning, pigmentation and melasma.",
+  "intro": [
+    "The Qyros is the Q-switched Nd:YAG laser behind laser toning and pigmentation treatment at Skin Essence in Kalyani Nagar. Q-switching packs the laser's energy into pulses shorter than six nanoseconds, so pigment is shattered by a photoacoustic effect rather than heated, and the surrounding skin is left largely untouched. That is what makes it suitable for tan, sun spots, post-acne marks and, in controlled low-energy sessions, melasma on Indian skin.",
+    "Its two main wavelengths do different jobs. 1064 nm passes through the surface and reaches deeper pigment, which is the wavelength used for laser toning and for dermal pigmentation such as nevus of Ota. 532 nm is absorbed near the surface and clears superficial spots, freckles and lentigines. Additional 585 and 650 nm handpieces and a fractional lens array extend the platform to vascular marks, textural work and acne scars.",
+    "The beam profile matters as much as the wavelength. The Qyros produces a flat-top beam, so energy is spread evenly across the spot with no hot centre, and its zoom handpiece adjusts from 2 to 10 mm. Dr. Daksha Patel sets fluence, spot size and frequency for each patient's skin type and concern, using the machine's professional mode rather than fixed presets."
+  ],
+  "whatItTreats": [
+    "Tan, sun spots, freckles and age spots",
+    "Post-acne marks and uneven skin tone",
+    "Melasma, as low-energy toning within a maintenance plan",
+    "Nevus of Ota and other deeper pigmented lesions",
+    "Acne scars, fine lines and open pores with the fractional handpiece",
+    "Vascular marks and café-au-lait patches"
+  ],
+  "howItWorks": [
+    {
+      "title": "Photoacoustic shattering",
+      "description": "Pulses shorter than six nanoseconds at very high peak power break pigment and ink into particles small enough for the body to clear, with minimal heating of the tissue around them."
+    },
+    {
+      "title": "Flat-top beam",
+      "description": "Energy is distributed evenly across the whole spot, so each pulse treats uniformly without a hotter centre that could over-treat one point of skin."
+    },
+    {
+      "title": "The right wavelength for the depth",
+      "description": "1064 nm for deeper pigment and toning, 532 nm for superficial spots, with 585 and 650 nm handpieces for specific colours and vascular marks."
+    },
+    {
+      "title": "Fractional handpiece for texture",
+      "description": "A fractional lens array concentrates the energy into a grid of micro-zones, stimulating collagen for acne scars, fine lines and pore refinement while the skin between the zones speeds healing."
+    }
+  ],
+  "specs": [
+    { "label": "Laser type", "value": "EO Q-switched Nd:YAG" },
+    { "label": "Wavelengths", "value": "1064, 532, 585 and 650 nm" },
+    { "label": "Modes", "value": "Q-switched and SPT long pulse (300 µs)" },
+    { "label": "Pulse width", "value": "Under 6 ns in Q-switched mode" },
+    { "label": "Beam profile", "value": "Flat-top" },
+    { "label": "Spot size", "value": "2–10 mm zoom handpiece" },
+    { "label": "Repetition rate", "value": "Up to 10 Hz" },
+    { "label": "Delivery", "value": "Articulated arm; Q-switched, fractional and array handpieces" }
+  ],
+  "treatmentSlugs": ["laser-toning", "pigmentation-treatment", "melasma-treatment", "tattoo-removal"],
+  "faqs": [
+    {
+      "q": "Is a Q-switched laser safe for Indian skin?",
+      "a": "Yes, when used at the right energy. The 1064 nm wavelength is absorbed less by the skin's own melanin, and the flat-top beam avoids hot spots. Over-treating can cause light or dark patches, which is why sessions are planned by the dermatologist with conservative settings and a test patch where needed."
+    },
+    {
+      "q": "What is the difference between laser toning and a chemical peel?",
+      "a": "A peel removes the damaged surface layer and causes a few days of flaking. Laser toning on the Qyros targets pigment below the surface with no peeling and no downtime. Many patients benefit from both, alternated across a course."
+    },
+    {
+      "q": "How many sessions does laser toning take?",
+      "a": "Usually 6 to 8 sessions spaced 2 to 4 weeks apart, with a visible brightening after two or three. Melasma needs ongoing maintenance sessions because it is a chronic condition."
+    },
+    {
+      "q": "Does it hurt?",
+      "a": "Most patients feel a light snap or warmth. Toning sessions need no numbing, and the skin looks normal within an hour."
+    }
+  ],
+  "image": {
+    "src": "/images/tech/qyros-nd-yag.webp",
+    "alt": "Qyros Q-switched Nd:YAG laser with its articulated arm and touch screen",
+    "width": 1200,
+    "height": 900
+  },
+  "sources": ["QYROS Q-switched Nd:YAG brochure, Skinnovation Pvt. Ltd."],
+  "todo": ["The Qyros brochure lists tattoo removal in all colours; confirm whether tattoo removal is offered before publishing that page."]
+}

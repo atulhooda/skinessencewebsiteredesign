@@ -1,0 +1,115 @@
+{
+  "slug": "mirapeel",
+  "name": "MiraPeel Skin Transdermal Delivery System",
+  "shortName": "MiraPeel",
+  "manufacturer": "MIRAmedtech",
+  "distributor": "Skinnovation Pvt. Ltd.",
+  "location": "pune",
+  "category": "skin",
+  "order": 3,
+  "kicker": "Micro-Infusion Rolling Abrasion system",
+  "heroTitle": "MiraPeel: The System Behind Our Signature Mira Peel",
+  "metaTitle": "MiraPeel System in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "MiraPeel Micro-Infusion Rolling Abrasion system at Skin Essence, Kalyani Nagar, Pune: the attachments behind our Signature Mira Peel. Book a consultation.",
+  "shortDesc": "A European-designed skin transdermal delivery system: hydradermabrasion, micro-channelling serum infusion, extraction, microcurrent, cupping and LED in one platform.",
+  "intro": [
+    "MiraPeel, short for Micro-Infusion Rolling Abrasion, is the system behind our Signature Mira Peel at Skin Essence in Kalyani Nagar. Designed in the European Union by MIRAmedtech, it is described by its makers as a skin transdermal delivery system: a non-invasive, bloodless way to resurface the skin and infuse concentrated serums into it in a single session.",
+    "The core of the system is Fractional Transbrasion, a micro-channelling technique. The MIRAroller tip, covered in tightly placed micro-protrusions, creates reversible micro-channels in the outer layer of the skin while vacuum draws serum through them. A 2022 transepidermal water loss study by Gordon Sasaki, MD, found that combining this micro-channelling with hydradermabrasion temporarily opens the skin barrier to serum ingredients, which is the mechanism the treatment relies on.",
+    "Around that core sit five more attachments: the MIRAbrasor for hydradermabrasion, the MIRAextractor for vacuum extraction, the MIRAcupping handpiece for lymphatic drainage, MIRAcurrent for microcurrent toning and the MIRALED lamps for red, green and blue light therapy. The MIRAjolie serums, formulated for the system, supply the actives. Dr. Daksha Patel chooses which attachments and serums each patient needs."
+  ],
+  "whatItTreats": [
+    "Dull, dry and dehydrated skin",
+    "Blackheads, congestion and oily skin",
+    "Hyperpigmentation and uneven tone",
+    "Fine lines and early sagging",
+    "Acne scars, other scars and stretch marks",
+    "Dark circles and puffiness"
+  ],
+  "howItWorks": [
+    {
+      "title": "MIRAbrasor hydradermabrasion",
+      "description": "A desquamating tip lifts dead cells and tan with a flow of cool serum instead of abrasive crystals, leaving the surface smooth and ready to absorb."
+    },
+    {
+      "title": "MIRAroller micro-channelling",
+      "description": "The roller's micro-protrusions open reversible micro-channels while vacuum draws the MIRAjolie serums into the skin, deeper than any topical application."
+    },
+    {
+      "title": "Extraction, cupping and microcurrent",
+      "description": "The MIRAextractor clears blackheads by suction, cupping drains and relaxes, and MIRAcurrent's gentle current tones the facial muscles for a subtle lift."
+    },
+    {
+      "title": "MIRALED light therapy",
+      "description": "Blue light for acne-prone skin, red to boost hydration and calm redness, green to soothe and brighten, finishing every session and supporting collagen."
+    }
+  ],
+  "specs": [
+    {
+      "label": "MIRAbrasor",
+      "value": "Fractional Transbrasion desquamating attachment (hydradermabrasion)"
+    },
+    {
+      "label": "MIRAroller",
+      "value": "Vacuum-assisted micro-channelling roller for serum infusion"
+    },
+    {
+      "label": "MIRAextractor",
+      "value": "Vacuum pore extractor for blackheads and whiteheads"
+    },
+    {
+      "label": "MIRAcupping",
+      "value": "Cupping handpiece for massage and lymphatic drainage"
+    },
+    {
+      "label": "MIRAcurrent",
+      "value": "Microcurrent facial toning and tightening"
+    },
+    {
+      "label": "MIRALED",
+      "value": "Red, green and blue LED light therapy, two lamps"
+    },
+    {
+      "label": "MIRAjolie serums",
+      "value": "Exfoliator (salicylic acid, aloe), moisturiser (hyaluronic acid, panthenol), detoxifier (vitamin C, algae), brightening complex (kojic acid, arbutin, vitamins A, C, E)"
+    },
+    {
+      "label": "Origin",
+      "value": "Engineered and designed in the European Union"
+    }
+  ],
+  "treatmentSlugs": [
+    "signature-mira-peel",
+    "skin-glow-treatment",
+    "bridal-skin-care"
+  ],
+  "faqs": [
+    {
+      "q": "Is MiraPeel a chemical peel or microneedling?",
+      "a": "Neither. It resurfaces with serum-based hydradermabrasion and infuses with a non-invasive micro-channelling roller, so there are no acids and no needles, and most patients find it comfortable."
+    },
+    {
+      "q": "How is it different from a HydraFacial?",
+      "a": "The MIRAbrasor step is comparable to a HydraFacial. MiraPeel adds micro-channelling serum infusion, microcurrent, cupping and LED light in the same session, so more can be addressed in one visit."
+    },
+    {
+      "q": "Is there any downtime?",
+      "a": "No. The skin may look slightly pink for an hour or two. Most patients return to work straight after the session, which is why it is our choice closest to weddings and events."
+    },
+    {
+      "q": "How often can I have it?",
+      "a": "A single session gives a glow that lasts a few weeks. For lasting improvement in hydration, texture and congestion, sessions every 4 to 6 weeks work best."
+    }
+  ],
+  "image": {
+    "src": "/images/tech/mirapeel.webp",
+    "alt": "MiraPeel system with its MIRAjolie serums and MIRAroller and MIRAbrasor handpieces",
+    "width": 1200,
+    "height": 900
+  },
+  "sources": [
+    "MIRApeel brochure, MIRAmedtech / Skinnovation Pvt. Ltd."
+  ],
+  "todo": [
+    "Confirm the clinic's standard Mira Peel protocol and pricing."
+  ]
+}

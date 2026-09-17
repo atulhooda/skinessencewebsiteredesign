@@ -1,0 +1,106 @@
+{
+  "slug": "hydra-facial-8-9",
+  "name": "Hydra Facial Machine (8+9)",
+  "shortName": "Hydra Facial 8+9",
+  "manufacturer": "BVLASER",
+  "location": "pune",
+  "category": "skin",
+  "order": 4,
+  "kicker": "17-in-1 hydrodermabrasion system",
+  "heroTitle": "Hydra Facial 8+9: Seventeen Handles For Deep Cleansing, Infusion And Glow",
+  "metaTitle": "Hydra Facial Machine in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "BVLASER 8+9 hydra facial machine at Skin Essence, Kalyani Nagar, Pune: cleansing, extraction, oxygen infusion, RF and LED. Book a consultation.",
+  "shortDesc": "The hydrodermabrasion and photon-light system behind our HydraFacial: eight standard and nine optional handles for cleansing, extraction, infusion, RF, microcurrent and LED.",
+  "intro": [
+    "The Hydra Facial 8+9 is the system we use for HydraFacial sessions at Skin Essence in Kalyani Nagar. Built by BVLASER, it combines hydro dermabrasion and photon light in one trolley with a 10.4-inch touch screen, four serum bottles and up to seventeen treatment handles, which is why one session can move from deep cleansing to firming without changing machines.",
+    "The eight standard handles cover the core of a hydra facial: bubble cleaning, which uses a vortex of water and serum under vacuum to loosen dead cells and dirt; a skin scrubber and high-pressure spray for exfoliation and hydration; ultrasonic and bipolar RF handles for firming; microcurrent for a V-face lift; a five-pole light micro-electronics handle; and a cold hammer to calm the skin and close pores at the end.",
+    "Nine optional handles extend it further, including an oxygen revitalising bubble, spot clears, plasma, diamond microdermabrasion, an electric microneedle, an ultrasonic tip, electrotherapy, a four-pole roller and a colour LED mask. Dr. Daksha Patel decides which handles a patient's skin needs, so an oily, congested face and a dry, dehydrated one get different sessions on the same platform."
+  ],
+  "whatItTreats": [
+    "Blackheads, whiteheads and congested pores",
+    "Enlarged pores and oily skin",
+    "Dull, dehydrated and tired-looking skin",
+    "Uneven tone and rough texture",
+    "Fine lines and early loss of firmness",
+    "Acne-prone skin that needs gentle, non-invasive care"
+  ],
+  "howItWorks": [
+    {
+      "title": "Bubble cleansing and exfoliation",
+      "description": "The bubble-cleaning handle draws a vortex of serum across the skin under vacuum, lifting dead cells and impurities, while the skin scrubber and high-pressure spray refine and hydrate."
+    },
+    {
+      "title": "Extraction and infusion",
+      "description": "Vacuum clears blackheads without squeezing, then oxygen and serum are infused into the freshly cleansed skin from the four-bottle system."
+    },
+    {
+      "title": "Firming energy",
+      "description": "Bipolar RF warms the deeper layers to stimulate collagen, ultrasound helps serums penetrate, and microcurrent tones the facial muscles."
+    },
+    {
+      "title": "Light and cooling",
+      "description": "Photon light therapy calms acne-prone skin and supports repair, and the cold hammer closes pores and soothes the skin to finish."
+    }
+  ],
+  "specs": [
+    {
+      "label": "Technology",
+      "value": "Hydro dermabrasion and photon light"
+    },
+    {
+      "label": "Treatment handles",
+      "value": "8 standard + 9 optional"
+    },
+    {
+      "label": "Vacuum",
+      "value": "Above 100 kPa"
+    },
+    {
+      "label": "Serum bottles",
+      "value": "4 (A, B, C, D)"
+    },
+    {
+      "label": "Screen",
+      "value": "10.4-inch touch LCD"
+    },
+    {
+      "label": "Max output",
+      "value": "250 VA"
+    }
+  ],
+  "treatmentSlugs": [
+    "skin-glow-treatment",
+    "bridal-skin-care",
+    "acne-treatment"
+  ],
+  "faqs": [
+    {
+      "q": "Is this the same as the HydraFacial brand?",
+      "a": "HydraFacial is a brand name owned by another company. Our machine is a BVLASER hydra facial system that performs the same hydrodermabrasion steps and adds RF, microcurrent, ultrasound and light therapy handles."
+    },
+    {
+      "q": "Does a hydra facial hurt?",
+      "a": "No. The treatment is non-invasive and bloodless; you feel cool suction and a gentle vibration, and most patients find it relaxing."
+    },
+    {
+      "q": "How long does a session take, and is there downtime?",
+      "a": "About 45 minutes for the standard sequence, with no downtime. Skin may look slightly pink for an hour and looks brighter the same day."
+    },
+    {
+      "q": "How often should I have one?",
+      "a": "Every 4 to 6 weeks keeps pores clear and skin hydrated. A single session works well 5 to 7 days before an event."
+    }
+  ],
+  "image": {
+    "src": "/images/tech/hydrafacial.webp",
+    "alt": "BVLASER 8+9 hydra facial machine with its touch screen, serum bottles and handpieces",
+    "width": 1200,
+    "height": 900
+  },
+  "sources": [
+    "17 in 1 Hydra Facial Machine brochure, BVLASER"
+  ],
+  "todo": [
+    "Confirm which of the nine optional handles the clinic has (plasma, electric microneedle, diamond microdermabrasion, LED mask, etc.)."
+  ]
+}

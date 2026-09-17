@@ -23,6 +23,7 @@ import {
   HomePageSchema,
   LeadOptionSchema,
   LocationSchema,
+  MachineSchema,
   PrincipleSchema,
   SiteSchema,
   TechnologyFileSchema,
@@ -39,6 +40,7 @@ import {
   type Image,
   type LeadOption,
   type Location,
+  type Machine,
   type Principle,
   type Site,
   type Technology,
@@ -307,6 +309,42 @@ export function getDoctorsForLocation(location: Location): Doctor[] {
   return location.doctorSlugs.map((slug) => getDoctor(slug)).filter((d): d is Doctor => Boolean(d));
 }
 
+/* ---------- Machines ---------- */
+
+const LOCATION_ORDER = { pune: 0, ahmedabad: 1 } as const;
+
+/** Published machines, Pune first, then by order. */
+export function getMachines(): Machine[] {
+  return memoised("machines:published", () =>
+    loadDir("machines", MachineSchema)
+      .filter((m) => m.published)
+      .sort((a, b) => LOCATION_ORDER[a.location] - LOCATION_ORDER[b.location] || a.order - b.order || a.name.localeCompare(b.name)),
+  );
+}
+
+export function getMachine(slug: string): Machine | undefined {
+  return getMachines().find((m) => m.slug === slug);
+}
+
+/** The clinic page for a machine's location. */
+export function getLocationForMachine(machine: Machine): Location {
+  const slug = machine.location === "pune" ? "dermatologist-in-kalyani-nagar" : "dermatologist-in-ahmedabad";
+  const location = getLocation(slug);
+  if (!location) throw new Error(`machines/${machine.slug}: location "${slug}" not found`);
+  return location;
+}
+
+/** Published treatments performed on a machine, in the machine's order. */
+export function getTreatmentsForMachine(machine: Machine): Treatment[] {
+  const treatments = getTreatments();
+  return machine.treatmentSlugs.map((slug) => treatments.find((t) => t.slug === slug)).filter((t): t is Treatment => Boolean(t));
+}
+
+/** Published machines that list a treatment. */
+export function getMachinesForTreatment(treatment: Treatment): Machine[] {
+  return getMachines().filter((m) => m.treatmentSlugs.includes(treatment.slug));
+}
+
 /* ---------- Blog ---------- */
 
 export function getBlogPosts(): BlogPost[] {
@@ -361,6 +399,18 @@ export function buildContentReport(): ContentReport {
   }
   const tech = loadFile("technology.json", TechnologyFileSchema);
   if (tech._note) warnings.push(`technology.json: ${tech._note}`);
+  const machineSlugs = new Set(getMachines().map((m) => m.slug));
+  for (const item of tech.items) {
+    if (item.machine && !machineSlugs.has(item.machine)) warnings.push(`technology.json: tile "${item.name}" links to unpublished or missing machine "${item.machine}"`);
+  }
+  for (const m of loadDir("machines", MachineSchema)) {
+    if (!m.published) warnings.push(`machines/${m.slug}: unpublished (page, links and sitemap entry hidden)`);
+    for (const todo of m.todo) warnings.push(`machines/${m.slug}: TODO ${todo}`);
+    for (const slug of m.treatmentSlugs) {
+      if (!treatmentSlugs.has(slug)) warnings.push(`machines/${m.slug}: treatment "${slug}" is not published`);
+    }
+    if (!imageExists(m.image.src)) warnings.push(`machines/${m.slug}: image ${m.image.src} is missing from /public`);
+  }
   const testimonials = loadFile("testimonials.json", TestimonialsFileSchema);
   if (testimonials._note) warnings.push(`testimonials.json: ${testimonials._note}`);
 
@@ -371,6 +421,7 @@ export function buildContentReport(): ContentReport {
       concerns: concerns.length,
       locations: getLocations().length,
       doctors: getDoctors().length,
+      machines: getMachines().length,
       blogPosts: getBlogPosts().length,
       faqGroups: getFaqGroups().length,
       testimonials: getTestimonials().length,

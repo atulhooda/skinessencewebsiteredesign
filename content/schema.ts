@@ -266,8 +266,48 @@ export const TechnologySchema = z.object({
   name: z.string(),
   description: z.string(),
   image: ImageSchema,
-  /** Machines the clinic has confirmed as new in Pune; rendered with a badge and ordered first. */
+  /** Confirmed machines are ordered first. */
   highlight: z.boolean().default(false),
+  /** Which clinic the photo shows; rendered as the tile badge. Omit for representative stock photos. */
+  location: z.enum(["pune", "ahmedabad"]).optional(),
+  /** Rooms rather than machines get a wide tile and no location-ordering priority. */
+  kind: z.enum(["machine", "room"]).default("machine"),
+  /** Slug in content/machines; makes the tile link to that machine's page. */
+  machine: SlugSchema.optional(),
+});
+
+/* ---------- Machines (one page per device at /technology/[slug]) ---------- */
+
+export const MachineSchema = z.object({
+  slug: SlugSchema,
+  name: z.string(),
+  /** Short label for cards and chips, e.g. "Coolite BOLT". */
+  shortName: z.string(),
+  manufacturer: z.string(),
+  distributor: z.string().optional(),
+  /** Clinic where the unit is installed. */
+  location: z.enum(["pune", "ahmedabad"]),
+  category: z.enum(["laser", "skin", "body"]),
+  /** One-line device class, e.g. "High-power triple-wavelength diode laser". */
+  kicker: z.string(),
+  heroTitle: z.string(),
+  metaTitle: MetaTitleSchema,
+  metaDescription: MetaDescriptionSchema,
+  shortDesc: z.string().max(220),
+  intro: z.array(z.string()).min(1),
+  whatItTreats: z.array(z.string()).min(2),
+  howItWorks: z.array(z.object({ title: z.string(), description: z.string() })).min(2),
+  /** Facts from the manufacturer's brochure. */
+  specs: z.array(z.object({ label: z.string(), value: z.string() })).default([]),
+  /** Treatment slugs performed on this machine. */
+  treatmentSlugs: z.array(SlugSchema).default([]),
+  faqs: z.array(FaqSchema).min(2),
+  image: ImageSchema,
+  /** Where the specs and photo came from; rendered as a small line under the specs. */
+  sources: z.array(z.string()).default([]),
+  published: z.boolean().default(true),
+  order: z.number().int().default(100),
+  todo: z.array(z.string()).default([]),
 });
 
 export const TechnologyFileSchema = z.object({
@@ -380,6 +420,7 @@ export type Testimonial = z.infer<typeof TestimonialSchema>;
 export type FaqGroup = z.infer<typeof FaqGroupSchema>;
 export type Principle = z.infer<typeof PrincipleSchema>;
 export type Technology = z.infer<typeof TechnologySchema>;
+export type Machine = z.infer<typeof MachineSchema>;
 export type HomePage = z.infer<typeof HomePageSchema>;
 export type TreatmentsPage = z.infer<typeof TreatmentsPageSchema>;
 export type AboutPage = z.infer<typeof AboutPageSchema>;

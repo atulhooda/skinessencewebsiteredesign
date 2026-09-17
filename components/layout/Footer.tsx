@@ -96,6 +96,7 @@ export function Footer() {
                 { label: "About Skin Essence", href: routes.about },
                 { label: doctor.name, href: routes.doctorProfile(doctor.slug) },
                 { label: "All Treatments", href: routes.treatments },
+                { label: "Our Technology", href: routes.technology },
                 { label: "Blog", href: routes.blog },
                 { label: "Contact", href: routes.contact },
                 ...locations.map((l) => ({ label: `Dermatologist in ${l.area}`, href: routes.location(l.slug) })),

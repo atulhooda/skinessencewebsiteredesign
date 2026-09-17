@@ -7,6 +7,7 @@ import { FaqSection } from "@/components/sections/FaqSection";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { LeadFormSection } from "@/components/sections/LeadFormSection";
 import { LocationsSection } from "@/components/sections/LocationsSection";
+import { MachinesGrid } from "@/components/sections/MachinesGrid";
 import { PageHero } from "@/components/sections/PageHero";
 import { RelatedConcerns } from "@/components/sections/RelatedConcerns";
 import { RelatedTreatments } from "@/components/sections/RelatedTreatments";
@@ -20,6 +21,7 @@ import {
   getHomePage,
   getLeadOptions,
   getLocations,
+  getMachinesForTreatment,
   getPrimaryDoctor,
   getPrimaryLocation,
   getRelatedConcerns,
@@ -110,6 +112,13 @@ export default async function TreatmentPage({ params }: { params: Promise<Params
       <TreatmentFacts treatment={treatment} />
       <TreatmentOverview treatment={treatment} whatsappHref={whatsappHref} />
       <HowItWorks eyebrow="What To Expect" title={`How ${treatment.name} Works At Skin Essence`} steps={treatment.howItWorks} />
+      <MachinesGrid
+        id="equipment"
+        eyebrow="The Equipment"
+        title={`What We Use For ${treatment.name}`}
+        machines={getMachinesForTreatment(treatment)}
+        tone="white"
+      />
       <DowntimeSection treatment={treatment} />
       <RelatedConcerns eyebrow="Helps With" title="Concerns This Treatment Addresses" concerns={concerns} tone="muted" />
       <RelatedTreatments eyebrow="You Might Also Consider" title="Related Treatments" treatments={related} categories={getCategories()} tone="white" />

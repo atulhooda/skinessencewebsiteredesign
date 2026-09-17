@@ -85,6 +85,10 @@ are invented in the data; the site renders "to be confirmed" states until they a
 - `content/testimonials.json` holds SAMPLE testimonials for layout; replace with consented Google reviews
 - Wire `app/api/lead/route.ts` to the follow-up backend (currently validates and logs)
 
+## Machine pages
+
+`/technology` lists every published machine by clinic and `/technology/[slug]` is one page per device, generated from `content/machines/*.json`. Specs come from the manufacturers' brochures the clinic forwarded (cited on the page). The four Ahmedabad machines (D'Laze, Alice Super Bubble, Galaxy-1064, Mermaid) are drafted with `published: false` until their clinic photos are saved to `public/images/_incoming/` and placed.
+
 ## Redirects from the old WordPress site
 
 Configured in `next.config.ts`: `/about/`, `/know-your-doctor/`, `/clinic/`, `/services/` → new routes.

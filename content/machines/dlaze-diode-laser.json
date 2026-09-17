@@ -1,0 +1,63 @@
+{
+  "slug": "dlaze-diode-laser",
+  "name": "D'Laze Diode Laser",
+  "shortName": "D'Laze",
+  "manufacturer": "D'Laze",
+  "location": "ahmedabad",
+  "category": "laser",
+  "order": 1,
+  "published": false,
+  "kicker": "Diode laser hair reduction platform",
+  "heroTitle": "D'Laze: Diode Laser Hair Reduction At Our Ahmedabad Clinic",
+  "metaTitle": "D'Laze Diode Laser in Ahmedabad | Skin Essence",
+  "metaDescription": "The D'Laze diode laser platform used for laser hair reduction at Skin Essence, Ahmedabad: how diode lasers work and who they suit. Book a consultation.",
+  "shortDesc": "The diode laser platform for hair reduction at our Ahmedabad clinic, with a contact-cooled handpiece for face and body sessions.",
+  "intro": [
+    "The D'Laze is the diode laser platform for laser hair reduction at Skin Essence in Ahmedabad. Diode lasers are the workhorse of hair reduction because their near-infrared light is absorbed by the pigment in the hair shaft and follicle, heating and disabling the follicle while a cooled handpiece protects the skin surface.",
+    "As with every laser at Skin Essence, the parameters are set by a dermatologist for the patient's skin tone, hair thickness and the area being treated, and tanned skin is treated only once the tan has faded."
+  ],
+  "whatItTreats": [
+    "Upper lip, chin and face",
+    "Underarms, arms and legs",
+    "Bikini line and full-body courses",
+    "Ingrown hairs and razor bumps"
+  ],
+  "howItWorks": [
+    {
+      "title": "Selective absorption",
+      "description": "The diode laser's light is absorbed by the melanin in the hair, heating the follicle to the point where it stops producing hair, while the surrounding skin absorbs far less energy."
+    },
+    {
+      "title": "Cooled handpiece",
+      "description": "The contact-cooled tip keeps the skin surface cold during each pulse, so the session is comfortable and the surface is protected."
+    },
+    {
+      "title": "A course of sessions",
+      "description": "Hair grows in cycles, so 6 to 8 sessions spaced 4 to 8 weeks apart are needed to catch each follicle in its growth phase."
+    }
+  ],
+  "specs": [],
+  "treatmentSlugs": ["laser-hair-removal"],
+  "faqs": [
+    {
+      "q": "Is diode laser hair reduction safe for Indian skin?",
+      "a": "Yes, with settings chosen for the skin type by a dermatologist and with the skin untanned at the time of treatment. Burns and pigment changes come from wrong settings or untrained operators, not from the technology itself."
+    },
+    {
+      "q": "How many sessions will I need?",
+      "a": "Typically 6 to 8 sessions. Coarse dark hair responds fastest; fine or hormonal hair may need more sessions and occasional maintenance."
+    }
+  ],
+  "image": {
+    "src": "/images/tech/dlaze.webp",
+    "alt": "D'Laze diode laser platform at Skin Essence, Ahmedabad",
+    "width": 800,
+    "height": 600
+  },
+  "sources": [],
+  "todo": [
+    "Clinic photo of the D'Laze (received on WhatsApp, not yet saved to public/images/_incoming).",
+    "Manufacturer brochure or a line of specs (wavelength, power, spot size, cooling) so the page can state them.",
+    "Confirm the machine is in Ahmedabad, not Pune."
+  ]
+}

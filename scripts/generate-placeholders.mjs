@@ -39,7 +39,7 @@ const concerns = [
   "dull-skin", "wrinkles-and-fine-lines", "open-pores", "stretch-marks", "child-skin-problems",
 ];
 const categories = ["laser-hair-reduction", "skin-glow", "skin-tightening", "acne-and-scars", "pigmentation", "fat-reduction", "hair-regrowth", "anti-ageing", "mole-and-wart-removal", "medical-dermatology"];
-const tech = ["mirapeel", "qyros-nd-yag", "coolite-bolt", "hydrafacial", "fractional-co2-laser", "hifu", "mnrf", "coolsculpting"];
+const tech = ["mirapeel", "qyros-nd-yag", "coolite-bolt", "hydrafacial", "dlaze", "alice-super-bubble", "galaxy-1064", "mermaid", "fractional-co2-laser", "hifu", "mnrf", "coolsculpting"];
 
 const cycle = (list) => (i) => list[i % list.length];
 const warm = cycle(["mist", "sand", "teal-light", "blush", "slate", "teal"]);

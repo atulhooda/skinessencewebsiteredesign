@@ -1,0 +1,113 @@
+{
+  "slug": "coolite-bolt",
+  "name": "Coolite BOLT Diode Laser",
+  "shortName": "Coolite BOLT",
+  "manufacturer": "GSD (Global Skin Dermatologist)",
+  "distributor": "Skinnovation Pvt. Ltd.",
+  "location": "pune",
+  "category": "laser",
+  "order": 1,
+  "kicker": "High-power triple-wavelength diode laser",
+  "heroTitle": "Coolite BOLT: Triple-Wavelength Diode Laser For Hair Reduction On Indian Skin",
+  "metaTitle": "Coolite BOLT Diode Laser in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Coolite BOLT 1800 W triple-wavelength diode laser for hair reduction at Skin Essence, Kalyani Nagar, Pune: how it works and who it suits. Book now.",
+  "shortDesc": "The 1800 W diode laser platform behind our laser hair reduction, firing 755, 810 and 1064 nm together under a sapphire-cooled tip.",
+  "intro": [
+    "The Coolite BOLT is the diode laser platform we use for laser hair reduction at Skin Essence in Kalyani Nagar. It is built by GSD, a manufacturer that has specialised in diode lasers for over a decade, and it carries CE, FDA and ANVISA certification. Dr. Daksha Patel chose it for one reason above all: it treats darker Indian skin quickly and comfortably.",
+    "Most hair-removal lasers use a single 810 nm wavelength. The BOLT's Trio handle fires three wavelengths in every pulse: 755 nm, which is absorbed strongly by fine and lighter hair; 810 nm, the standard for most skin and hair types; and 1064 nm, which passes deeper and is absorbed less by the skin's own melanin, making it the safest choice for skin types V and VI. Combined, they reach follicles at different depths in one pass rather than three.",
+    "Power matters too. At 1800 W the BOLT delivers its energy in ultra-short pulses that heat the follicle before the surrounding skin warms, and its sapphire contact tip is chilled below minus five degrees so the surface stays cold. Together with a large spot size, that means a full-legs session in around 40 minutes and underarms in ten, with a warm-snap sensation rather than pain."
+  ],
+  "whatItTreats": [
+    "Upper lip, chin, glabella and hairline",
+    "Underarms, arms and abdomen",
+    "Bikini line and legs",
+    "Full-body hair reduction courses for women and men",
+    "Beard shaping and neck hair in men",
+    "Ingrown hairs and razor bumps from repeated shaving"
+  ],
+  "howItWorks": [
+    {
+      "title": "Three wavelengths, one pulse",
+      "description": "The Trio handle emits 755, 810 and 1064 nm together, so fine, medium and deep follicles are all targeted in a single pass while the 1064 nm share keeps darker skin safe."
+    },
+    {
+      "title": "Sapphire contact cooling",
+      "description": "The tip is chilled below minus five degrees by dual cooling engines, protecting the skin surface while the heat stays in the follicle. This is what makes the session comfortable."
+    },
+    {
+      "title": "Presets for every skin type",
+      "description": "Fast Mode holds clinically set parameters for each body area and skin type from I to VI; Free Mode lets the dermatologist fine-tune fluence, pulse width and frequency for an individual patient."
+    },
+    {
+      "title": "Large spot, short sessions",
+      "description": "A 10 by 20 mm spot covers large areas quickly, and a 5 mm facial tip handles the upper lip and other small areas precisely. Sessions repeat every 4 to 8 weeks."
+    }
+  ],
+  "specs": [
+    {
+      "label": "Laser type",
+      "value": "Diode: 755 + 810 + 1064 nm combined (Trio), or 810 nm"
+    },
+    {
+      "label": "Power",
+      "value": "1800 W"
+    },
+    {
+      "label": "Spot sizes",
+      "value": "10 × 10 mm and 10 × 20 mm; 5 mm facial tip"
+    },
+    {
+      "label": "Energy density",
+      "value": "5–50 J/cm²"
+    },
+    {
+      "label": "Pulse width",
+      "value": "5–400 ms"
+    },
+    {
+      "label": "Repetition rate",
+      "value": "1–10 Hz"
+    },
+    {
+      "label": "Cooling",
+      "value": "Sapphire contact tip below −5 °C, dual cooling engines"
+    },
+    {
+      "label": "Certifications",
+      "value": "CE 0482, FDA, ANVISA"
+    }
+  ],
+  "treatmentSlugs": [
+    "laser-hair-removal"
+  ],
+  "faqs": [
+    {
+      "q": "Is the Coolite BOLT safe for dark skin?",
+      "a": "Yes. Its 1064 nm wavelength is absorbed far less by skin melanin than by the hair follicle, which is why it is the standard choice for skin types V and VI, and the sapphire tip keeps the surface cold. Settings are still chosen individually by the dermatologist, and tanned skin is treated only after the tan fades."
+    },
+    {
+      "q": "Why does it use three wavelengths?",
+      "a": "Hair follicles sit at different depths and vary in thickness. 755 nm suits fine hair, 810 nm most hair, and 1064 nm deep, coarse hair on darker skin. Firing all three at once treats the whole range in one pass instead of needing separate sessions."
+    },
+    {
+      "q": "Does it hurt?",
+      "a": "Most patients describe a warm snap under a cold tip. The ultra-short pulses heat the follicle before the skin around it warms, and the cooling keeps the surface comfortable. Sensitive areas such as the upper lip and bikini line can be numbed if needed."
+    },
+    {
+      "q": "How many sessions will I need on it?",
+      "a": "Typically 6 to 8 sessions, spaced 4 to 6 weeks apart on the face and 6 to 8 weeks on the body. Coarse dark hair responds fastest; fine or hormonal hair may need more sessions and occasional maintenance."
+    }
+  ],
+  "image": {
+    "src": "/images/tech/coolite-bolt.webp",
+    "alt": "Coolite BOLT high-power diode laser platform",
+    "width": 1200,
+    "height": 900
+  },
+  "sources": [
+    "Coolite BOLT catalogue, GSD / Skinnovation Pvt. Ltd."
+  ],
+  "todo": [
+    "Confirm whether BOLT Tightening (the platform's skin-tightening protocol) is offered before mentioning it."
+  ]
+}

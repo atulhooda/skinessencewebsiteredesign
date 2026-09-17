@@ -1,0 +1,65 @@
+{
+  "slug": "alice-super-bubble",
+  "name": "Alice Super Bubble Hydra Facial Machine",
+  "shortName": "Alice Super Bubble",
+  "manufacturer": "Alice Super Bubble",
+  "location": "ahmedabad",
+  "category": "skin",
+  "order": 2,
+  "published": false,
+  "kicker": "Hydro-dermabrasion facial system",
+  "heroTitle": "Alice Super Bubble: Hydra Facial Cleansing, Oxygen And Firming In Ahmedabad",
+  "metaTitle": "Alice Super Bubble Hydra Facial in Ahmedabad | Skin Essence",
+  "metaDescription": "Alice Super Bubble hydro-dermabrasion system at Skin Essence, Ahmedabad: bubble cleansing, oxygen infusion, RF and ultrasound. Book a consultation.",
+  "shortDesc": "A multi-handle hydro-dermabrasion system for water-bubble cleansing, oxygen infusion, RF firming, ultrasound and cold therapy at our Ahmedabad clinic.",
+  "intro": [
+    "The Alice Super Bubble is the hydra facial system at Skin Essence in Ahmedabad. It pairs water-bubble hydro-dermabrasion, which loosens dead cells and impurities with a vortex of serum under vacuum, with oxygen infusion, radiofrequency firming, ultrasound and hot-and-cold therapy, so one session can cleanse, hydrate and firm the skin without downtime.",
+    "Its four labelled serum bottles feed the handpieces, and the dermatologist selects the steps for each patient's skin, from a clarifying sequence for oily, congested skin to a hydrating one for dry, dull skin."
+  ],
+  "whatItTreats": [
+    "Blackheads, congestion and enlarged pores",
+    "Dull, dehydrated skin",
+    "Oily and acne-prone skin",
+    "Early loss of firmness"
+  ],
+  "howItWorks": [
+    {
+      "title": "Water-bubble cleansing",
+      "description": "A vortex of serum and water under vacuum lifts dead cells and impurities from the surface and pores."
+    },
+    {
+      "title": "Oxygen and serum infusion",
+      "description": "Oxygen and hydrating serums are infused into the freshly cleansed skin to brighten and plump it."
+    },
+    {
+      "title": "RF, ultrasound and cooling",
+      "description": "Radiofrequency warms the deeper layers to support collagen, ultrasound aids penetration, and cold therapy calms the skin and closes pores to finish."
+    }
+  ],
+  "specs": [],
+  "treatmentSlugs": [
+    "skin-glow-treatment",
+    "bridal-skin-care"
+  ],
+  "faqs": [
+    {
+      "q": "Does a hydra facial on this system hurt?",
+      "a": "No. You feel cool suction and gentle vibration, and most patients find the session relaxing. There is no downtime."
+    },
+    {
+      "q": "How often should I have it?",
+      "a": "Every 4 to 6 weeks keeps pores clear and the skin hydrated; a single session works well a week before an event."
+    }
+  ],
+  "image": {
+    "src": "/images/tech/alice-super-bubble.webp",
+    "alt": "Alice Super Bubble hydra facial machine at Skin Essence, Ahmedabad",
+    "width": 800,
+    "height": 600
+  },
+  "sources": [],
+  "todo": [
+    "Clinic photo of the Alice Super Bubble (received on WhatsApp, not yet saved to public/images/_incoming).",
+    "Confirm the handle set on the clinic's unit (7-in-1 or 8-in-1) and whether it is in Ahmedabad."
+  ]
+}

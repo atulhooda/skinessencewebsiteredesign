@@ -6,7 +6,7 @@
  * Optional client data (hours, geo, address) is omitted when absent rather
  * than filled with guesses.
  */
-import type { Concern, Doctor, Faq, Location, Site, Treatment } from "@/content/schema";
+import type { Concern, Doctor, Faq, Location, Machine, Site, Treatment } from "@/content/schema";
 import { absoluteUrl, SITE_URL } from "./seo";
 import { locationMapLink, routes } from "./links";
 
@@ -149,6 +149,30 @@ export function medicalProcedureJsonLd(treatment: Treatment, site: Site, locatio
       telephone: location.phone ?? site.phone,
     }),
     performer: doctor ? physicianSummary(doctor) : undefined,
+  });
+}
+
+export function machineJsonLd(machine: Machine, treatments: Treatment[], location: Location): JsonLdObject {
+  const url = absoluteUrl(routes.machine(machine.slug));
+  return compact({
+    "@context": CONTEXT,
+    "@type": "MedicalDevice",
+    "@id": `${url}#device`,
+    name: machine.name,
+    alternateName: machine.shortName,
+    description: machine.metaDescription,
+    url,
+    image: absoluteUrl(machine.image.src),
+    manufacturer: { "@type": "Organization", name: machine.manufacturer },
+    relevantSpecialty: "Dermatology",
+    isRelatedTo: treatments.length
+      ? treatments.map((t) => ({ "@type": "MedicalProcedure", name: t.name, url: absoluteUrl(routes.treatment(t.slug)) }))
+      : undefined,
+    subjectOf: {
+      "@type": "MedicalClinic",
+      "@id": `${absoluteUrl(routes.location(location.slug))}#clinic`,
+      name: location.name,
+    },
   });
 }
 

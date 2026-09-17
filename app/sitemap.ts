@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getTreatments } from "@/lib/content";
+import { getMachines, getTreatments } from "@/lib/content";
 import { routes } from "@/lib/links";
 import { absoluteUrl } from "@/lib/seo";
 
@@ -17,6 +17,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: "monthly" as const,
       priority: 0.8,
+    })),
+    { url: absoluteUrl(routes.technology), lastModified, changeFrequency: "monthly" as const, priority: 0.7 },
+    ...getMachines().map((m) => ({
+      url: absoluteUrl(routes.machine(m.slug)),
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
     })),
   ];
 }

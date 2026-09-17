@@ -24,6 +24,7 @@ every unresolved reference and client TODO.
 | `concerns/*.json` | One file per patient concern → `/concerns/[slug]` (phase 2 route) |
 | `locations/*.json` | One file per clinic → `/[slug]` landing page (phase 2 route) |
 | `lead-options.json` | The client's canonical treatment/concern list for the booking form |
+| `machines/*.json` | One file per machine → `/technology/[slug]`; `location` (pune/ahmedabad), brochure `specs`, `treatmentSlugs`; `published: false` hides a draft |
 | `pages/*.json` | Page-level copy: home, treatments index, about |
 | `faqs.json`, `principles.json`, `technology.json`, `testimonials.json` | Homepage blocks |
 

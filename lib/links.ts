@@ -7,6 +7,8 @@ export const routes = {
   treatment: (slug: string) => `/treatments/${slug}`,
   category: (slug: string) => `/treatments#${slug}`,
   concern: (slug: string) => `/concerns/${slug}`,
+  technology: "/technology",
+  machine: (slug: string) => `/technology/${slug}`,
   location: (slug: string) => `/${slug}`,
   about: "/about",
   doctor: "/dr-daksha-patel",

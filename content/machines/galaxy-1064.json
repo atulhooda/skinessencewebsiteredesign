@@ -1,0 +1,57 @@
+{
+  "slug": "galaxy-1064",
+  "name": "Galaxy-1064 Nd:YAG Laser",
+  "shortName": "Galaxy-1064",
+  "manufacturer": "Galaxy",
+  "location": "ahmedabad",
+  "category": "laser",
+  "order": 3,
+  "published": false,
+  "kicker": "1064 nm Nd:YAG laser",
+  "heroTitle": "Galaxy-1064: Nd:YAG Laser At Our Ahmedabad Clinic",
+  "metaTitle": "Galaxy-1064 Nd:YAG Laser in Ahmedabad | Skin Essence",
+  "metaDescription": "The Galaxy-1064 Nd:YAG laser at Skin Essence, Ahmedabad: what a 1064 nm laser does for pigmentation and toning on Indian skin. Book a consultation.",
+  "shortDesc": "A 1064 nm Nd:YAG laser platform at our Ahmedabad clinic, the wavelength that reaches deeper pigment safely on darker skin.",
+  "intro": [
+    "The Galaxy-1064 is an Nd:YAG laser at Skin Essence in Ahmedabad. Its name refers to its 1064 nm wavelength, the near-infrared line that passes through the skin surface, is absorbed less by the skin's own melanin than shorter wavelengths, and reaches deeper targets. That combination is why 1064 nm is the standard choice for laser work on darker Indian skin.",
+    "Every session is planned by a dermatologist, who sets the energy, spot size and pulse settings for the patient's skin type and concern."
+  ],
+  "whatItTreats": [
+    "Tan, sun spots and uneven tone",
+    "Post-acne marks",
+    "Deeper pigmentation on darker skin"
+  ],
+  "howItWorks": [
+    {
+      "title": "Deep-reaching wavelength",
+      "description": "1064 nm light passes the surface with little absorption by skin melanin and is taken up by deeper pigment, which is why it suits skin types IV to VI."
+    },
+    {
+      "title": "Dermatologist-set parameters",
+      "description": "Energy, spot size and frequency are chosen for each patient rather than from a fixed chart, with a test patch where the skin is sensitive."
+    }
+  ],
+  "specs": [],
+  "treatmentSlugs": ["laser-toning", "pigmentation-treatment"],
+  "faqs": [
+    {
+      "q": "Why is 1064 nm used on Indian skin?",
+      "a": "Because it is absorbed less by the melanin in the skin than shorter wavelengths, so the surface is spared while the target below is treated. It is the safest laser wavelength for skin types V and VI."
+    },
+    {
+      "q": "Is there downtime?",
+      "a": "Low-energy toning sessions have none; the skin may look slightly pink for an hour."
+    }
+  ],
+  "image": {
+    "src": "/images/tech/galaxy-1064.webp",
+    "alt": "Galaxy-1064 Nd:YAG laser at Skin Essence, Ahmedabad",
+    "width": 800,
+    "height": 600
+  },
+  "sources": [],
+  "todo": [
+    "Clinic photo of the Galaxy-1064 (received on WhatsApp, not yet saved to public/images/_incoming).",
+    "Confirm what the clinic uses it for (Q-switched toning/pigmentation vs long-pulse hair or vascular work) and its specs; the page currently states only what a 1064 nm Nd:YAG laser is."
+  ]
+}
