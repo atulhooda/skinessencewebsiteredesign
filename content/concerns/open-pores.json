@@ -1,0 +1,39 @@
+{
+  "slug": "open-pores",
+  "name": "Open Pores",
+  "metaTitle": "Open Pores Treatment in Pune by MD Dermatologist | Skin Essence",
+  "metaDescription": "Enlarged pores on the nose and cheeks: causes and how a dermatologist in Kalyani Nagar, Pune reduces their appearance. Book a consultation at Skin Essence.",
+  "intro": [
+    "Open or enlarged pores are most visible on the nose, cheeks and forehead, especially in oily and acne-prone skin. Pores cannot be closed, but their appearance can be reduced significantly by controlling oil, clearing blockages and rebuilding collagen around them.",
+    "Scrubbing and pore strips make things worse. Treatment combines the right home routine with in-clinic procedures such as peels, laser toning and microneedling radiofrequency."
+  ],
+  "causes": [
+    "Oily skin and large sebaceous glands, often genetic",
+    "Blocked pores from dead skin, oil and make-up",
+    "Acne and the scarring it leaves behind",
+    "Loss of collagen with age and sun damage, which lets pores stretch",
+    "Harsh scrubs, pore strips and over-cleansing"
+  ],
+  "treatmentSlugs": [
+    "chemical-peel",
+    "laser-toning",
+    "acne-treatment",
+    "facial-rejuvenation"
+  ],
+  "faqs": [
+    {
+      "q": "Can open pores be closed for good?",
+      "a": "Pores cannot be closed, and we are wary of any clinic that promises it. They can be made much less visible by reducing oil, keeping them clear and tightening the surrounding skin, with maintenance to hold the results."
+    },
+    {
+      "q": "Which treatment works best for open pores?",
+      "a": "Salicylic acid peels and retinoids help oily, blocked pores. Laser toning and microneedling RF improve pores linked to acne scars and ageing. A dermatologist decides which combination suits your skin."
+    }
+  ],
+  "heroImage": {
+    "src": "/images/concerns/open-pores.webp",
+    "alt": "Close-up of enlarged pores on the side of a nose and cheek",
+    "width": 1200,
+    "height": 900
+  }
+}

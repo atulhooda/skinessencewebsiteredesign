@@ -1,0 +1,40 @@
+{
+  "slug": "acne",
+  "name": "Acne",
+  "metaTitle": "Acne Treatment in Pune by MD Dermatologist | Skin Essence",
+  "metaDescription": "Why acne keeps returning and how an MD dermatologist in Kalyani Nagar, Pune treats teen and adult acne without scarring. Book a consultation.",
+  "intro": [
+    "Acne happens when oil, dead skin and bacteria block the pores, causing blackheads, whiteheads, red pimples and, in more severe cases, painful cysts. It is common between 13 and 30 but adult acne, especially along the jawline in women, is increasingly frequent in Pune.",
+    "Most acne responds well to medical treatment when the type and cause are identified early. Treating it properly also prevents the dark marks and pitted scars that are harder to reverse later."
+  ],
+  "causes": [
+    "Hormonal changes in the teenage years, before periods, with PCOS or after stopping hormonal pills",
+    "Excess oil production and blocked pores, worsened by heavy creams, hair oils and make-up",
+    "Steroid-containing 'fairness' creams and chemist anti-acne kits that damage the skin barrier",
+    "Whey protein supplements, high-glycaemic diets and certain medicines",
+    "Pune's humidity, commuting dust, helmets and frequent face touching",
+    "Family history of acne"
+  ],
+  "treatmentSlugs": [
+    "acne-treatment",
+    "chemical-peel",
+    "acne-scar-treatment",
+    "laser-toning"
+  ],
+  "faqs": [
+    {
+      "q": "When should I see a dermatologist for acne?",
+      "a": "See a dermatologist if acne has not settled with a basic routine in 6 to 8 weeks, if it is painful or cystic, if it is leaving marks or scars, or if it is affecting your confidence. Early treatment prevents scarring."
+    },
+    {
+      "q": "Can acne be treated in adults?",
+      "a": "Yes. Adult acne is common, particularly hormonal acne along the jawline and chin in women. Treatment considers hormonal triggers, skin sensitivity and the products you already use."
+    }
+  ],
+  "heroImage": {
+    "src": "/images/concerns/acne.webp",
+    "alt": "Young woman looking at acne on her cheek in a mirror",
+    "width": 1200,
+    "height": 900
+  }
+}

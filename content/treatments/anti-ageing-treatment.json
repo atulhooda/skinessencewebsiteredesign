@@ -1,0 +1,95 @@
+{
+  "slug": "anti-ageing-treatment",
+  "name": "Anti-Ageing Treatment",
+  "category": "skin",
+  "shortDesc": "A stepwise approach to lines, sagging and volume loss, from medical skincare and peels to Botox and dermal fillers.",
+  "heroTitle": "Anti-Ageing Treatment Without The Frozen Look",
+  "metaTitle": "Anti-Ageing Treatment in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Anti-ageing treatment in Kalyani Nagar, Pune by an MD dermatologist: skincare, peels, Botox and fillers planned for natural results. Book a consultation.",
+  "intro": [
+    "Skin ages in layers. The surface loses glow and gains pigmentation, expression lines set in around the eyes and forehead, and later the face loses volume and begins to sag. Indian skin tends to show pigmentation and dullness earlier than wrinkles, and sagging later than fair skin, so an anti-ageing plan for a patient in Pune looks different from one copied from a Western clinic.",
+    "Dr. Daksha Patel, an MD dermatologist with a special interest in anti-ageing and skin rejuvenation, builds the plan in steps. Prevention comes first with sunscreen and retinoids. Surface quality is treated with peels and laser toning. Dynamic lines are softened with Botox, volume is restored with dermal fillers, and collagen is rebuilt with microneedling where firmness is the concern.",
+    "Each step is added only when it will make a visible difference, and every procedure is dosed for a natural result. Patients at our Kalyani Nagar clinic are told how long each treatment lasts and what maintenance looks like before anything is done."
+  ],
+  "whoIsItFor": [
+    "Early fine lines and dullness in the thirties",
+    "Frown lines, forehead lines and crow's feet that show at rest",
+    "Volume loss in the cheeks, under the eyes or around the mouth in the forties and fifties",
+    "Pigmentation and uneven tone that make the face look older than it is",
+    "Men and women who want a plan with realistic timelines, not a single miracle procedure"
+  ],
+  "howItWorks": [
+    {
+      "title": "Consultation and photographs",
+      "description": "We assess skin quality, expression lines, volume and firmness, take standardised photographs and agree on what bothers you most."
+    },
+    {
+      "title": "Foundation routine",
+      "description": "Daily sunscreen, a retinoid and antioxidants are started. This step alone visibly improves skin over 3 months and protects the results of everything that follows."
+    },
+    {
+      "title": "Resurfacing and collagen",
+      "description": "Peels and laser toning even out tone and texture, while microneedling stimulates collagen for firmness, in courses spaced 3 to 4 weeks apart."
+    },
+    {
+      "title": "Injectables where needed",
+      "description": "Botox softens dynamic lines and dermal fillers restore lost volume. Both are dosed conservatively, reviewed at 2 weeks and repeated only as they wear off."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "Plan-based; procedures every 3–6 months",
+    "sessionTime": "20–60 minutes",
+    "downtime": "None to 3 days depending on the procedure",
+    "results": "Skincare in 8–12 weeks; injectables within 2 weeks"
+  },
+  "aftercare": [
+    "Sunscreen every morning is non-negotiable; it prevents new pigmentation and protects collagen.",
+    "Introduce retinoids slowly, two or three nights a week, to avoid irritation.",
+    "After injectables, avoid pressure, heat and exercise for 24 hours and attend the 2-week review.",
+    "Keep photographs from each stage so progress is judged objectively, not by memory."
+  ],
+  "faqs": [
+    {
+      "q": "At what age should I start anti-ageing treatment?",
+      "a": "Sunscreen and a retinoid can start in the mid-twenties. Procedures are added when lines are visible at rest or volume loss shows, usually from the thirties onwards, and only when they will make a real difference."
+    },
+    {
+      "q": "Botox or fillers, which do I need?",
+      "a": "Botox softens lines caused by muscle movement, such as frown and forehead lines. Fillers replace lost volume in the cheeks, under the eyes or around the mouth. Many patients need a little of one, some need both, and some need neither yet."
+    },
+    {
+      "q": "Will people be able to tell?",
+      "a": "They should notice that you look fresher, not that you have had a treatment. Conservative dosing and staged planning are how we keep results natural."
+    },
+    {
+      "q": "How long do the results last?",
+      "a": "Skincare and peel results last as long as you maintain them. Botox lasts about 3 to 5 months and fillers 9 to 18 months depending on the area. We schedule maintenance accordingly."
+    },
+    {
+      "q": "Are these treatments suitable for Indian skin?",
+      "a": "Yes. The main precaution on Indian skin is avoiding inflammation that triggers pigmentation, so peel strengths, laser settings and microneedling depths are chosen with that in mind."
+    }
+  ],
+  "relatedConcerns": [
+    "wrinkles-and-fine-lines",
+    "dull-skin"
+  ],
+  "relatedTreatments": [
+    "botox",
+    "dermal-fillers",
+    "facial-rejuvenation"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/anti-ageing-treatment.webp",
+    "alt": "Dermatologist assessing fine lines on a patient's face before an anti-ageing plan",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "Medical Skincare",
+    "Peels & Laser Toning",
+    "Microneedling",
+    "Botox",
+    "Dermal Fillers"
+  ]
+}

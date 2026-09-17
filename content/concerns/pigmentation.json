@@ -1,0 +1,40 @@
+{
+  "slug": "pigmentation",
+  "name": "Pigmentation",
+  "metaTitle": "Pigmentation Treatment in Pune by MD Dermatologist | Skin Essence",
+  "metaDescription": "Dark patches, tanning and melasma explained, with pigmentation treatment options from an MD dermatologist in Kalyani Nagar, Pune. Book a consultation.",
+  "intro": [
+    "Pigmentation means patches or spots of skin that are darker than the surrounding area. Indian skin produces melanin readily, so sun exposure, acne, friction, hormonal changes and even harsh products leave marks that linger for months.",
+    "The right treatment depends on the type of pigmentation: melasma, post-acne marks, sun tan, freckles and dark underarms all behave differently and need different plans."
+  ],
+  "causes": [
+    "Daily sun exposure without adequate sunscreen, especially while commuting",
+    "Melasma triggered by hormones, pregnancy, oral contraceptives or heat",
+    "Marks left behind after acne, insect bites, injuries or rashes",
+    "Friction and repeated waxing or shaving in areas such as underarms and inner thighs",
+    "Steroid creams, perfumed products and over-exfoliation",
+    "Nutritional deficiencies and certain medicines"
+  ],
+  "treatmentSlugs": [
+    "pigmentation-treatment",
+    "melasma-treatment",
+    "chemical-peel",
+    "laser-toning"
+  ],
+  "faqs": [
+    {
+      "q": "Can pigmentation be removed completely?",
+      "a": "Most pigmentation can be lightened substantially with the right combination of sunscreen, prescription creams, peels and laser toning. Melasma in particular is a chronic condition that is controlled rather than cured, so maintenance matters."
+    },
+    {
+      "q": "Why is my pigmentation getting worse with treatment?",
+      "a": "Over-treatment, strong peels done at salons, skipping sunscreen or using unsupervised lightening creams can all darken pigmentation. A dermatologist chooses a gentler, individualised approach that suits Indian skin."
+    }
+  ],
+  "heroImage": {
+    "src": "/images/concerns/pigmentation.webp",
+    "alt": "Close-up of uneven skin tone and dark patches on a woman's cheek",
+    "width": 1200,
+    "height": 900
+  }
+}

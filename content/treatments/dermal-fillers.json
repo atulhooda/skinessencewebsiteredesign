@@ -1,0 +1,95 @@
+{
+  "slug": "dermal-fillers",
+  "name": "Dermal Fillers",
+  "category": "injectables",
+  "shortDesc": "Hyaluronic acid fillers that restore lost volume, soften folds and define lips, cheeks, chin and jawline naturally.",
+  "heroTitle": "Dermal Fillers For Volume And Balance, Not Exaggeration",
+  "metaTitle": "Dermal Fillers in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Dermal fillers in Kalyani Nagar, Pune by an MD dermatologist for under-eye hollows, cheeks, lips, chin and jawline, kept natural. Book a consultation.",
+  "intro": [
+    "Dermal fillers are smooth gels of hyaluronic acid, a substance the skin makes naturally, placed beneath the skin to restore volume that has been lost with age or was never there. Where Botox relaxes the muscles that cause lines, fillers replace structure: hollow under-eyes that read as dark circles, flattened cheeks, deep folds beside the nose, thin or uneven lips, and a weak chin or jawline.",
+    "Good filler work is invisible. Overfilled lips and pillow cheeks come from too much product, not from fillers themselves. Dr. Daksha Patel, an MD dermatologist, plans placement around your facial proportions, which matter as much for Indian faces as for any other, and uses conservative amounts, adding more at a review only if it improves balance.",
+    "Hyaluronic acid fillers have two safety advantages: the body absorbs them gradually over 9 to 18 months, and they can be dissolved with an enzyme if needed. Every patient at our Kalyani Nagar clinic is told the risks, the expected duration and the aftercare before the first syringe is opened."
+  ],
+  "whoIsItFor": [
+    "Hollows under the eyes that make dark circles look worse and the face look tired",
+    "Flattened or sunken cheeks with age or weight loss",
+    "Deep folds beside the nose and mouth",
+    "Thin, uneven or asymmetric lips, where the aim is definition rather than size",
+    "A receding chin or soft jawline that unbalances the profile"
+  ],
+  "howItWorks": [
+    {
+      "title": "Consultation and plan",
+      "description": "Your face is assessed at rest and in expression, photographed, and a plan is agreed that lists areas, amounts and what will change. Medical history and medicines are checked."
+    },
+    {
+      "title": "Numbing",
+      "description": "Numbing cream is applied for 20 minutes. Most fillers also contain a local anaesthetic, so discomfort is minimal."
+    },
+    {
+      "title": "Injection",
+      "description": "The filler is placed with a fine needle or a blunt cannula, depending on the area, and gently shaped. The procedure takes 30 to 45 minutes."
+    },
+    {
+      "title": "Review at two weeks",
+      "description": "Swelling has settled and the result is assessed. Small additions are made only if they improve symmetry or balance."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "One session; top-up every 9–18 months",
+    "sessionTime": "30–45 minutes",
+    "downtime": "1–3 days of mild swelling or bruising",
+    "results": "Immediate; settles fully in 2 weeks"
+  },
+  "aftercare": [
+    "Avoid pressure, massage and make-up on the treated area for 12 to 24 hours.",
+    "No heat, alcohol or strenuous exercise for 24 to 48 hours to limit swelling and bruising.",
+    "Sleep on your back with the head slightly raised the first night.",
+    "Call us immediately for unusual pain, pale or dusky skin over the area, or vision changes; these are rare but need same-day review."
+  ],
+  "faqs": [
+    {
+      "q": "Are dermal fillers safe?",
+      "a": "Hyaluronic acid fillers have a good safety record when injected by a doctor who understands facial anatomy. Bruising and swelling are common and short-lived. Rare complications exist and are explained at consultation, and the filler can be dissolved if ever required."
+    },
+    {
+      "q": "Will it look overdone?",
+      "a": "Not with conservative amounts placed for balance. We would rather add a little at the review than remove excess. The goal is that people notice you look well, not that you have had filler."
+    },
+    {
+      "q": "How long do fillers last?",
+      "a": "About 9 to 12 months in mobile areas such as the lips and 12 to 18 months in the cheeks, chin and jawline. Results fade gradually rather than suddenly."
+    },
+    {
+      "q": "Do fillers hurt?",
+      "a": "Numbing cream and the anaesthetic within the filler keep discomfort to mild pressure. Under-eye and lip areas are the most sensitive and are treated slowly."
+    },
+    {
+      "q": "Can fillers fix dark circles?",
+      "a": "When dark circles are caused by hollowing under the eyes, filler placed carefully in the tear trough improves them noticeably. If the darkness is pigmentation, peels and laser toning are the better option. We examine which applies to you."
+    }
+  ],
+  "relatedConcerns": [
+    "dark-circles",
+    "wrinkles-and-fine-lines"
+  ],
+  "relatedTreatments": [
+    "botox",
+    "anti-ageing-treatment",
+    "facial-rejuvenation"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/dermal-fillers.webp",
+    "alt": "Dr. Daksha Patel performing an injectable treatment at Skin Essence, Kalyani Nagar, Pune",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "Under-Eye Hollows",
+    "Cheeks",
+    "Lips",
+    "Chin & Jawline",
+    "Nasolabial Folds"
+  ]
+}

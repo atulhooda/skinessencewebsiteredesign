@@ -1,0 +1,39 @@
+{
+  "slug": "hair-fall",
+  "name": "Hair Fall",
+  "metaTitle": "Hair Fall Treatment in Pune by MD Dermatologist | Skin Essence",
+  "metaDescription": "Losing more than 100 hairs a day? Causes of hair fall and how an MD dermatologist in Kalyani Nagar, Pune diagnoses and treats it. Book a consultation.",
+  "intro": [
+    "Everyone sheds 50 to 100 hairs a day. Hair fall becomes a concern when the shedding increases, the parting widens, the hairline recedes or the scalp becomes visible. Finding the cause is the first step, because pattern hair loss, stress-related shedding, nutritional deficiency and scalp disease all need different treatment.",
+    "At Skin Essence, hair fall is assessed with a detailed history, trichoscopy of the scalp and blood tests where needed, before any medicines or procedures are suggested."
+  ],
+  "causes": [
+    "Androgenetic (pattern) hair loss in men and women, driven by genetics and hormones",
+    "Telogen effluvium: sudden shedding after illness, fever, childbirth, surgery or severe stress",
+    "Iron, vitamin D, vitamin B12 or protein deficiency",
+    "Thyroid disorders and PCOS",
+    "Dandruff, seborrhoeic dermatitis and other scalp conditions",
+    "Tight hairstyles, heat styling, chemical treatments and Pune's hard water"
+  ],
+  "treatmentSlugs": [
+    "hair-loss-treatment",
+    "prp-hair-treatment",
+    "hair-transplant"
+  ],
+  "faqs": [
+    {
+      "q": "Can hair fall be stopped?",
+      "a": "Shedding from stress, illness or deficiency usually stops once the trigger is corrected, and hair regrows over months. Pattern hair loss can be slowed and partly reversed with medicines and PRP, but needs ongoing treatment to hold the results."
+    },
+    {
+      "q": "Do I need a hair transplant?",
+      "a": "Most patients do not. Transplant is considered only for established pattern baldness once medical treatment has stabilised the loss. A trichoscopy assessment tells us whether your follicles are still active and treatable."
+    }
+  ],
+  "heroImage": {
+    "src": "/images/concerns/hair-fall.webp",
+    "alt": "Man looking at hair strands on his hand after brushing",
+    "width": 1200,
+    "height": 900
+  }
+}

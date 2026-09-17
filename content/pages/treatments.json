@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "eyebrow": "MD Dermatologist in Kalyani Nagar, Pune",
+    "title": "Skin, Hair, Laser & Cosmetic Treatments",
+    "description": "At Skin Essence, we provide comprehensive skin, hair, laser and cosmetic treatments designed around your individual concerns and goals. Our approach begins with understanding your concern and recommending treatment options suited to you.",
+    "image": {
+      "src": "/images/hero/treatments.webp",
+      "alt": "Dr. Daksha Patel performing an injectable treatment at Skin Essence, Kalyani Nagar, Pune",
+      "width": 1200,
+      "height": 1000
+    }
+  },
+  "listing": {
+    "eyebrow": "Advanced Care & Treatments",
+    "title": "What Skin Essence Can Offer You"
+  },
+  "faq": {
+    "eyebrow": "Helpful Answers",
+    "title": "Questions Patients Ask Before Booking"
+  }
+}

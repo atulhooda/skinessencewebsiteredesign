@@ -1,0 +1,95 @@
+{
+  "slug": "botox",
+  "name": "Botox (Anti-Wrinkle Injections)",
+  "category": "injectables",
+  "shortDesc": "Anti-wrinkle injections that soften frown lines, forehead lines and crow's feet while keeping your natural expression.",
+  "heroTitle": "Botox That Softens Lines, Not Expressions",
+  "metaTitle": "Botox (Anti-Wrinkle Injections) in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Botox anti-wrinkle injections in Kalyani Nagar, Pune by an MD dermatologist for frown lines, forehead lines and crow's feet. Book a consultation.",
+  "intro": [
+    "Botox is the familiar name for botulinum toxin, a purified protein that relaxes the small muscles whose repeated movement folds the skin into lines. Used in tiny, precisely placed doses, it softens frown lines between the brows, horizontal forehead lines and crow's feet, and can slim a widened jaw from clenching or reduce excessive underarm sweating.",
+    "The result depends almost entirely on who injects it. A frozen forehead or dropped brow comes from too much product in the wrong place. Dr. Daksha Patel, an MD dermatologist, maps your muscles while you frown, raise your brows and smile, then doses each point conservatively, so lines soften while your face keeps moving.",
+    "Effects begin in 3 to 7 days, peak at two weeks and last 3 to 5 months. Patients at our Kalyani Nagar clinic are reviewed at two weeks, when a small touch-up is done if needed. It is one of the quickest procedures we offer, with no downtime, and one of the most satisfying when done with restraint."
+  ],
+  "whoIsItFor": [
+    "Frown lines, forehead lines or crow's feet visible at rest, usually from the thirties onwards",
+    "Strong expression lines that make you look tired or annoyed",
+    "A square jaw from clenching or teeth grinding, where masseter Botox slims and relieves tension",
+    "Excessive underarm sweating that does not respond to antiperspirants",
+    "Prevention in the late twenties and thirties for very expressive faces"
+  ],
+  "howItWorks": [
+    {
+      "title": "Consultation and mapping",
+      "description": "Your expressions are photographed and the muscles responsible for each line are mapped. We agree on which areas to treat and how much softening you want."
+    },
+    {
+      "title": "Preparation",
+      "description": "The skin is cleansed and, if you prefer, numbed briefly with ice or cream. Avoid blood thinners and alcohol the day before as advised."
+    },
+    {
+      "title": "Injections",
+      "description": "A very fine needle places small doses at the mapped points. The whole procedure takes 10 to 15 minutes with minimal discomfort."
+    },
+    {
+      "title": "Review at two weeks",
+      "description": "The result is assessed once fully developed, and a small touch-up is done if any area needs balancing."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "One session; repeat every 3–5 months",
+    "sessionTime": "15–20 minutes",
+    "downtime": "None; small bumps for 20 minutes, occasionally a minor bruise",
+    "results": "Starts in 3–7 days; full effect at 2 weeks; lasts 3–5 months"
+  },
+  "aftercare": [
+    "Stay upright and avoid lying down or bending forward for 4 hours after the injections.",
+    "No massage, facials or pressure on the treated area for 24 hours.",
+    "Skip the gym, alcohol and heat exposure such as saunas for 24 hours.",
+    "Attend the two-week review so the result can be assessed and balanced if needed."
+  ],
+  "faqs": [
+    {
+      "q": "Will I look frozen?",
+      "a": "Not when doses and points are chosen carefully. The aim is to soften lines while keeping natural expression. If you prefer a very subtle result, we dose lower and top up at the review."
+    },
+    {
+      "q": "Is Botox safe?",
+      "a": "Botulinum toxin has been used medically for decades and cosmetically for over twenty years, with a well-understood safety profile when administered by a trained doctor. Side effects such as bruising or a temporary heavy brow are uncommon and wear off."
+    },
+    {
+      "q": "How long does it last?",
+      "a": "Typically 3 to 5 months. With regular treatment the muscles weaken slightly and results may last longer. Masseter treatment for jaw slimming lasts around 4 to 6 months."
+    },
+    {
+      "q": "Does it hurt?",
+      "a": "The needle is very fine and each injection feels like a quick pinch. Ice or numbing cream is available for sensitive patients."
+    },
+    {
+      "q": "Who should avoid Botox?",
+      "a": "Pregnant or breastfeeding women, people with certain neuromuscular conditions, and anyone with an infection at the injection site. This is checked at consultation."
+    }
+  ],
+  "relatedConcerns": [
+    "wrinkles-and-fine-lines",
+    "dull-skin"
+  ],
+  "relatedTreatments": [
+    "dermal-fillers",
+    "anti-ageing-treatment",
+    "facial-rejuvenation"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/botox.webp",
+    "alt": "Dr. Daksha Patel performing an anti-wrinkle injection at Skin Essence, Kalyani Nagar, Pune",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "Frown Lines",
+    "Forehead Lines",
+    "Crow's Feet",
+    "Jaw Slimming (Masseter)",
+    "Underarm Sweating"
+  ]
+}

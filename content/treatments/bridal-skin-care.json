@@ -1,0 +1,95 @@
+{
+  "slug": "bridal-skin-care",
+  "name": "Bridal Skin Care",
+  "category": "skin",
+  "shortDesc": "A pre-wedding skin and hair plan built around your concerns and your date, for brides, grooms and their families.",
+  "heroTitle": "Bridal Skin Care Planned Around Your Wedding Date",
+  "metaTitle": "Bridal Skin Care in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Bridal skin care in Kalyani Nagar, Pune: a pre-wedding plan for glow, acne, tan and hair removal by an MD dermatologist. Book a consultation.",
+  "intro": [
+    "Wedding skin is about timing. The concerns brides and grooms bring to Skin Essence are predictable: an acne flare from stress and late nights, tan from shopping trips and outdoor functions, dullness, dark circles, unwanted facial and body hair, and hair fall. Each has a treatment, and each treatment has a timeline that has to finish before the mehndi, not the morning of it.",
+    "Dr. Daksha Patel, an MD dermatologist, builds the plan backwards from your date. With six months in hand there is time for laser hair reduction, acne control and pigmentation correction. With three months the focus shifts to peels, laser toning and a solid home routine. In the final month nothing new is introduced, only maintenance.",
+    "Unlike a salon package, every session at our Kalyani Nagar clinic is chosen for your skin type and reviewed by a dermatologist, so a reaction two weeks before the wedding is something we plan to avoid rather than hope to avoid. Grooms, mothers and bridesmaids are welcome on the same plan."
+  ],
+  "whoIsItFor": [
+    "Brides and grooms with 3 to 6 months before the wedding",
+    "Acne-prone skin that flares under stress and needs to be settled well in advance",
+    "Tan, pigmentation and dullness from outdoor shopping and functions",
+    "Unwanted facial or body hair, where laser hair reduction needs several months of sessions",
+    "Hair fall or dandruff that should be under control before hairstyling"
+  ],
+  "howItWorks": [
+    {
+      "title": "Timeline consultation",
+      "description": "We note your wedding and pre-wedding function dates, examine your skin and hair, and map treatments onto the calendar so every course finishes in time."
+    },
+    {
+      "title": "Correction phase (2–6 months out)",
+      "description": "Acne treatment, pigmentation correction, laser hair reduction and hair-fall treatment run in this window, when there is time for full courses."
+    },
+    {
+      "title": "Glow phase (4–8 weeks out)",
+      "description": "Peels and laser toning refine tone and texture. Each session is one you have tolerated before, so there are no surprises."
+    },
+    {
+      "title": "Final month",
+      "description": "Maintenance only. A last glow session 7 to 10 days before the event, and nothing new in the final two weeks."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "A 3–6 month plan; sessions every 2–4 weeks",
+    "sessionTime": "30–60 minutes",
+    "downtime": "0–3 days per session; nothing new in the last 2 weeks",
+    "results": "Progressive; final glow session 7–10 days before the event"
+  },
+  "aftercare": [
+    "No new products, salon bleach or facials in the final month; introduce anything new early in the plan instead.",
+    "Sunscreen every day, including during outdoor shopping and functions.",
+    "Sleep, hydration and a simple routine matter more in the last two weeks than any procedure.",
+    "Schedule sessions around mehndi and haldi so treated skin is not exposed to dyes or turmeric while healing."
+  ],
+  "faqs": [
+    {
+      "q": "When should I start bridal skin care?",
+      "a": "Six months before the wedding is ideal, especially if laser hair reduction or acne treatment is needed. Three months still allows a good glow plan. Even one month can be improved with a safe, conservative routine."
+    },
+    {
+      "q": "Can you do anything with two weeks left?",
+      "a": "Yes, but carefully. We would correct the home routine, treat any active acne medically, and avoid new procedures that could react. A gentle session you have had before may be possible 7 to 10 days out."
+    },
+    {
+      "q": "Do you treat grooms too?",
+      "a": "Yes. Grooms commonly come for acne, tan, beard-area ingrown hairs, dandruff and hair fall. The plan follows the same timeline logic."
+    },
+    {
+      "q": "Can I finish laser hair removal before the wedding?",
+      "a": "A full course takes 6 to 8 sessions spaced 4 to 8 weeks apart, so it needs 6 to 8 months. Starting later still gives useful reduction, and shaving remains fine between sessions."
+    },
+    {
+      "q": "What if my skin reacts before the wedding?",
+      "a": "This is exactly why nothing new is done in the final two weeks and every glow session is one your skin has tolerated before. If a flare happens, it is treated medically the same day."
+    }
+  ],
+  "relatedConcerns": [
+    "dull-skin",
+    "unwanted-hair"
+  ],
+  "relatedTreatments": [
+    "chemical-peel",
+    "laser-hair-removal",
+    "laser-toning"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/bridal-skin-care.webp",
+    "alt": "Bride-to-be at a pre-wedding skin consultation at Skin Essence, Kalyani Nagar, Pune",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "6-Month Plan",
+    "3-Month Plan",
+    "Groom Skin Care",
+    "Pre-Wedding Glow",
+    "Hair & Scalp Prep"
+  ]
+}

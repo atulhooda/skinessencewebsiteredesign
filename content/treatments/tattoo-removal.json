@@ -1,0 +1,82 @@
+{
+  "slug": "tattoo-removal",
+  "name": "Tattoo Removal",
+  "category": "laser",
+  "shortDesc": "Laser tattoo removal that breaks ink into fragments the body clears, over a planned course of sessions.",
+  "heroTitle": "Laser Tattoo Removal, Planned Honestly Session By Session",
+  "metaTitle": "Tattoo Removal in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Laser tattoo removal in Kalyani Nagar, Pune by an MD dermatologist: sessions needed, downtime and realistic outcomes on Indian skin. Book a consultation.",
+  "intro": [
+    "People remove tattoos for many reasons: a name that no longer fits, a design done in a hurry, a job that requires a clear medical, or a wedding where family will see it for the first time. In Pune we regularly see candidates for the armed forces, police and airlines who need visible tattoos removed before a physical examination.",
+    "Laser tattoo removal works by delivering extremely short pulses of light that shatter ink particles into fragments small enough for the body's immune system to clear. Black ink responds best; green, blue and yellow inks are harder and may not clear fully. Professional tattoos with dense ink need more sessions than amateur ones.",
+    "On Indian skin, Fitzpatrick type IV to V, settings must be lower and sessions more frequent to protect the surrounding pigment, which means a longer course. Dr. Daksha Patel, an MD dermatologist, assesses the tattoo, does a test patch, and gives you a realistic estimate of sessions and outcome at our Kalyani Nagar clinic before the first full session."
+  ],
+  "whoIsItFor": [
+    "Small to medium black or dark-blue tattoos on the arms, hands, neck or back",
+    "Candidates who need a tattoo cleared or faded for an employment or armed-forces medical",
+    "Fading an old tattoo before a cover-up",
+    "Name tattoos and designs that no longer fit",
+    "Raised or itchy tattoos, which need evaluation for allergy before laser"
+  ],
+  "howItWorks": [
+    {
+      "title": "Assessment and test patch",
+      "description": "Ink colours, depth, age and your skin tone are assessed. A small test area is treated first to confirm how your skin and the ink respond."
+    },
+    {
+      "title": "The session",
+      "description": "Numbing cream is applied, goggles are worn, and the laser is passed over the tattoo. The area turns white briefly (frosting) and the session takes 10 to 30 minutes depending on size."
+    },
+    {
+      "title": "Healing",
+      "description": "Expect redness, swelling and sometimes small blisters for a week. The skin heals over 1 to 2 weeks while the body clears the shattered ink."
+    },
+    {
+      "title": "Repeat sessions",
+      "description": "Sessions are spaced 6 to 8 weeks apart to allow clearance and healing. Fading becomes visible after 2 to 3 sessions."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "6–12 sessions, 6–8 weeks apart",
+    "sessionTime": "10–30 minutes",
+    "downtime": "5–10 days of redness, swelling or small blisters",
+    "results": "Fading visible after 2–3 sessions; a full course takes 12–18 months"
+  },
+  "aftercare": [
+    "Keep the area clean and dry for 48 hours, then apply the ointment advised until healed.",
+    "Do not pick blisters or scabs; let them heal to avoid scarring and pigment change.",
+    "Keep the area covered from the sun or use sunscreen once healed, between every session.",
+    "Avoid swimming pools, gyms and tight clothing over the area for a week."
+  ],
+  "faqs": [
+    {
+      "q": "Will the tattoo be removed completely?",
+      "a": "Most black tattoos fade substantially, often to the point where they are not noticeable. Some inks, especially green and yellow, resist treatment, and a faint shadow can remain. We give you an honest estimate after the test patch."
+    },
+    {
+      "q": "Does laser tattoo removal hurt?",
+      "a": "It feels like hot rubber-band snaps. Numbing cream makes it tolerable, and sessions are short."
+    },
+    {
+      "q": "Will it leave a scar?",
+      "a": "Scarring is uncommon with correct settings and aftercare. On Indian skin the more likely issue is temporary lightening or darkening of the treated area, which usually settles over months."
+    },
+    {
+      "q": "How many sessions does a small black tattoo need?",
+      "a": "Typically 6 to 10 sessions spaced 6 to 8 weeks apart. Amateur tattoos with less ink may clear sooner; dense professional work takes longer."
+    },
+    {
+      "q": "Can coloured tattoos be removed?",
+      "a": "Black and dark blue respond best. Red responds moderately. Green, yellow and light blue are difficult and may only fade. This is assessed at consultation."
+    }
+  ],
+  "relatedConcerns": ["pigmentation"],
+  "relatedTreatments": ["laser-toning", "laser-hair-removal", "acne-scar-treatment"],
+  "heroImage": {
+    "src": "/images/treatments/tattoo-removal.webp",
+    "alt": "Laser tattoo removal session on a patient's forearm at Skin Essence, Pune",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": ["Black Ink Tattoos", "Coloured Tattoos", "Name Tattoos", "Pre-Medical Removal", "Fading For Cover-Up"]
+}

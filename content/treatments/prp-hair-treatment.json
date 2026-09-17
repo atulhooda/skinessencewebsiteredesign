@@ -1,0 +1,93 @@
+{
+  "slug": "prp-hair-treatment",
+  "name": "PRP Hair Treatment",
+  "category": "hair",
+  "shortDesc": "Platelet-rich plasma from your own blood, injected into the scalp to support thicker, healthier hair growth.",
+  "heroTitle": "PRP Hair Treatment To Strengthen Thinning Hair",
+  "metaTitle": "PRP Hair Treatment in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "PRP hair treatment in Kalyani Nagar, Pune by an MD dermatologist: how it works, sessions needed and who benefits from PRP. Book a consultation.",
+  "intro": [
+    "Platelet-rich plasma, or PRP, is prepared from a small sample of your own blood. The sample is spun in a centrifuge to concentrate the platelets, which carry growth factors, and the concentrate is injected into the thinning areas of the scalp. The growth factors stimulate resting follicles, improve blood supply and prolong the growth phase of hair.",
+    "PRP works best for early to moderate pattern hair loss and diffuse thinning, and as support alongside medical treatment or after a hair transplant. It does not regrow hair on areas that have been bald for years, because the follicles there have gone. Dr. Daksha Patel, an MD dermatologist with a special interest in hair and scalp problems, confirms the diagnosis with trichoscopy before recommending PRP, so patients are not sold sessions that cannot work for them.",
+    "Because the material is your own blood, allergic reactions are not a concern, and the procedure is done under sterile conditions at our Kalyani Nagar clinic in under an hour. Most patients in Pune combine PRP with a prescribed home plan of minoxidil, nutritional correction and scalp care, and see reduced shedding within two months."
+  ],
+  "whoIsItFor": [
+    "Early thinning or a widening parting in men and women",
+    "Patients on minoxidil or other medical treatment who want to improve their results",
+    "Support for transplanted and native hair after a hair transplant",
+    "Diffuse thinning once the underlying cause, such as iron deficiency or thyroid problems, is being corrected",
+    "People who cannot tolerate or prefer to avoid oral hair-loss medicines"
+  ],
+  "howItWorks": [
+    {
+      "title": "Assessment",
+      "description": "Trichoscopy grades the thinning and confirms that the follicles are still active. Blood tests for iron, vitamin D, thyroid and other causes are checked first."
+    },
+    {
+      "title": "Blood draw and preparation",
+      "description": "About 10 to 20 ml of blood is drawn and spun to separate the platelet-rich plasma, which takes around 15 minutes."
+    },
+    {
+      "title": "Scalp injections",
+      "description": "After numbing, the plasma is injected in small amounts across the thinning areas. The injections take 20 to 30 minutes."
+    },
+    {
+      "title": "Course and maintenance",
+      "description": "Three to four monthly sessions, then maintenance every 3 to 6 months, alongside the prescribed home plan."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "3–4 monthly sessions, then maintenance every 3–6 months",
+    "sessionTime": "45–60 minutes",
+    "downtime": "None; scalp tenderness for a day",
+    "results": "Reduced shedding in 6–8 weeks; density improves over 3–6 months"
+  },
+  "aftercare": [
+    "Do not wash your hair for 24 hours and avoid oiling for 48 hours after a session.",
+    "Skip helmets, tight caps and heavy exercise on the day of treatment.",
+    "Avoid anti-inflammatory painkillers such as ibuprofen for 3 days; paracetamol is fine if needed.",
+    "Continue prescribed medicines and supplements; PRP supports them, it does not replace them."
+  ],
+  "faqs": [
+    {
+      "q": "Does PRP really work for hair loss?",
+      "a": "Studies and our experience support PRP for early to moderate pattern hair loss, especially combined with medical treatment. Results vary between patients, which is why we assess follicle activity first and set expectations honestly."
+    },
+    {
+      "q": "Is PRP painful?",
+      "a": "Numbing cream or a local anaesthetic makes the injections tolerable. Most patients describe pressure and mild stinging, with tenderness for a day."
+    },
+    {
+      "q": "Is PRP safe?",
+      "a": "Since it uses your own blood prepared under sterile conditions, the risk of allergy is not a concern and side effects are limited to temporary soreness or minor bruising. Patients with platelet disorders, active scalp infection or on blood thinners are assessed case by case."
+    },
+    {
+      "q": "How many sessions will I need?",
+      "a": "Usually three to four sessions a month apart, followed by maintenance every 3 to 6 months. The exact plan depends on your degree of thinning and how you respond."
+    },
+    {
+      "q": "PRP or hair transplant?",
+      "a": "PRP strengthens existing thinning hair; a transplant adds hair to areas where follicles are gone. Many patients start with medical treatment and PRP, and consider transplant later if needed."
+    }
+  ],
+  "relatedConcerns": [
+    "hair-fall"
+  ],
+  "relatedTreatments": [
+    "hair-loss-treatment",
+    "hair-transplant",
+    "facial-rejuvenation"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/prp-hair-treatment.webp",
+    "alt": "PRP hair treatment being prepared at Skin Essence, Kalyani Nagar, Pune",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "PRP For Men",
+    "PRP For Women",
+    "Post-Transplant PRP",
+    "Maintenance Sessions"
+  ]
+}

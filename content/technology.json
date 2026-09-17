@@ -1,0 +1,55 @@
+{
+  "_note": "TODO: three tiles still use placeholders until the lounge, treatment-room and laser photos are dropped in public/images/_incoming. Device names shown in the client's photos (Galaxy-1064, D'Laze, Mermaid) are not named in copy until the clinic confirms.",
+  "items": [
+    {
+      "name": "Reception",
+      "description": "Front desk at Brahma Business Park, Kalyani Nagar.",
+      "image": {
+        "src": "/images/clinic/reception.webp",
+        "alt": "Reception of the Skin Essence clinic with the brand signage",
+        "width": 1200,
+        "height": 900
+      }
+    },
+    {
+      "name": "Consultation Room",
+      "description": "Where every plan starts: a detailed skin or scalp examination.",
+      "image": {
+        "src": "/images/doctor/consultation.webp",
+        "alt": "Dr. Daksha Patel in the consultation room at Skin Essence",
+        "width": 1200,
+        "height": 900
+      }
+    },
+    {
+      "name": "Laser Treatment Room",
+      "description": "Dedicated room for laser hair reduction, toning and tattoo removal.",
+      "image": {
+        "src": "/images/tech/laser-room.webp",
+        "alt": "Laser treatment room at Skin Essence with treatment chair and laser platforms",
+        "width": 800,
+        "height": 800
+      }
+    },
+    {
+      "name": "Laser Toning Platform",
+      "description": "Used for pigmentation, tanning and tattoo removal sessions.",
+      "image": {
+        "src": "/images/tech/laser-toning.webp",
+        "alt": "Laser toning platform at Skin Essence",
+        "width": 800,
+        "height": 800
+      }
+    },
+    {
+      "name": "Hair Reduction Laser",
+      "description": "Settings chosen for Indian skin tones, supervised by a dermatologist.",
+      "image": {
+        "src": "/images/tech/hair-reduction-laser.webp",
+        "alt": "Laser hair reduction machine at Skin Essence",
+        "width": 800,
+        "height": 800
+      }
+    }
+  ]
+}

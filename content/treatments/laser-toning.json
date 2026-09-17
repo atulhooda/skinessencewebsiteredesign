@@ -1,0 +1,82 @@
+{
+  "slug": "laser-toning",
+  "name": "Laser Toning",
+  "category": "laser",
+  "shortDesc": "Gentle laser sessions that lighten pigmentation, tan and uneven tone with no downtime, using settings chosen for Indian skin.",
+  "heroTitle": "Laser Toning For Even Skin Tone Without Downtime",
+  "metaTitle": "Laser Toning in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Laser toning in Kalyani Nagar, Pune for pigmentation, tan and dull skin, with settings chosen for Indian skin by an MD dermatologist. Book a consultation.",
+  "intro": [
+    "Laser toning uses very short, low-energy laser pulses that are absorbed by pigment in the skin, breaking it into fine particles the body clears over the following weeks. Because the energy is low and spread over several sessions, the skin is not wounded, which is why patients walk out and go straight back to work.",
+    "The treatment suits Indian skin, mostly Fitzpatrick type IV to V, when the wavelength and settings are chosen correctly. The long-wavelength laser used for toning passes through the surface layer and targets pigment underneath, which lowers the risk of burns and dark patches that stronger lasers carry on darker skin. At Skin Essence the settings are chosen by Dr. Daksha Patel, an MD dermatologist, for your skin tone and concern.",
+    "Laser toning lightens tan, post-acne marks and uneven tone, and helps keep melasma under control as part of a wider plan. It is not a one-visit glow treatment: results build over a course of sessions, and over-treating in the hope of faster results can cause light patches, which is why we keep sessions gentle and spaced out at our Kalyani Nagar clinic."
+  ],
+  "whoIsItFor": [
+    "Sun tan and uneven tone on the face, neck, arms and hands",
+    "Dark marks left after acne once breakouts are under control",
+    "Melasma maintenance, alongside sunscreen and prescription creams",
+    "Dull skin and mild open pores before an event",
+    "Men and women who want brighter skin without peeling or downtime"
+  ],
+  "howItWorks": [
+    {
+      "title": "Assessment",
+      "description": "The type of pigmentation is checked under magnification and your skin tone is graded, which decides the wavelength, energy and number of sessions."
+    },
+    {
+      "title": "Preparation",
+      "description": "Avoid tanning for 2 weeks, stop retinoids and scrubs 3 days before, and do not wax or thread the area in the week before a session."
+    },
+    {
+      "title": "The session",
+      "description": "The skin is cleansed, protective goggles are worn, and the handpiece passes over the area for 15 to 20 minutes. You feel mild warmth or a light snap."
+    },
+    {
+      "title": "After the session",
+      "description": "A soothing cream and sunscreen are applied and you can return to work immediately. Sessions repeat every 2 to 4 weeks."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "6–8 sessions, 2–4 weeks apart",
+    "sessionTime": "20–30 minutes",
+    "downtime": "None; mild redness for about an hour",
+    "results": "Brighter tone after 2–3 sessions; pigmentation lightens over the course"
+  },
+  "aftercare": [
+    "Apply sunscreen every morning and reapply outdoors; laser-treated skin darkens easily without it.",
+    "No scrubs, retinoids or salon facials for 3 days after each session.",
+    "Report any darkening or light patches the same day so settings can be adjusted.",
+    "Melasma patients continue a monthly maintenance session after the course."
+  ],
+  "faqs": [
+    {
+      "q": "Is laser toning safe for dark Indian skin?",
+      "a": "Yes, when the correct wavelength and low-energy settings are used and the skin is not tanned at the time of treatment. Burns and pigment changes come from wrong settings or untrained operators, which is why sessions here are dermatologist-planned."
+    },
+    {
+      "q": "Does laser toning hurt?",
+      "a": "Most patients describe mild warmth or a light rubber-band snap. No numbing is needed, and the skin looks normal within an hour."
+    },
+    {
+      "q": "Can laser toning cure melasma?",
+      "a": "No. It helps control melasma as part of a plan with sunscreen and prescription creams, but melasma is a chronic condition that needs maintenance. Laser toning used alone or aggressively can make it worse."
+    },
+    {
+      "q": "How is laser toning different from a chemical peel?",
+      "a": "A peel removes the damaged surface layer and causes a few days of flaking. Laser toning targets pigment below the surface with no peeling. Many patients benefit from both, alternated across the course."
+    },
+    {
+      "q": "Why can't I have it done in one strong session?",
+      "a": "High energy on Indian skin risks burns, dark patches or light patches that are harder to treat than the original problem. Several gentle sessions give better results with far less risk."
+    }
+  ],
+  "relatedConcerns": ["pigmentation", "dull-skin"],
+  "relatedTreatments": ["pigmentation-treatment", "chemical-peel", "melasma-treatment"],
+  "heroImage": {
+    "src": "/images/treatments/laser-toning.webp",
+    "alt": "Laser toning session on a patient's face at Skin Essence, Kalyani Nagar, Pune",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": ["Face", "Neck", "Underarms", "Hands & Arms", "Pre-Event Glow"]
+}

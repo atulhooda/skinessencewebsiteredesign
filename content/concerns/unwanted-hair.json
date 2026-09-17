@@ -1,0 +1,37 @@
+{
+  "slug": "unwanted-hair",
+  "name": "Unwanted Hair",
+  "metaTitle": "Unwanted Hair Treatment in Pune by MD Dermatologist | Skin Essence",
+  "metaDescription": "Facial and body hair that keeps returning, ingrown hairs and PCOS-related growth: laser hair reduction in Kalyani Nagar, Pune. Book a consultation.",
+  "intro": [
+    "Unwanted facial and body hair is a routine concern for women and increasingly for men, and the usual answers of waxing, threading and shaving bring ingrown hairs, razor bumps, darkened skin and a lifetime of appointments.",
+    "When hair growth is excessive, sudden or on the face in women, it can signal a hormonal condition such as PCOS, which should be checked before treatment. For most patients, laser hair reduction offers a long-term solution."
+  ],
+  "causes": [
+    "Normal genetic hair growth patterns, which vary widely between families",
+    "PCOS and other hormonal imbalances causing coarse facial hair in women",
+    "Certain medicines, including some steroids and hormonal treatments",
+    "Thyroid and adrenal conditions in a small number of cases",
+    "Repeated waxing and shaving, which do not increase hair but cause ingrown hairs and darkening"
+  ],
+  "treatmentSlugs": [
+    "laser-hair-removal",
+    "bridal-skin-care"
+  ],
+  "faqs": [
+    {
+      "q": "Does laser hair removal work on Indian skin?",
+      "a": "Yes. Diode and Nd:YAG lasers are designed for darker skin tones. Settings are chosen by the dermatologist for your skin type to reduce the risk of burns or pigmentation."
+    },
+    {
+      "q": "Will the hair come back after laser?",
+      "a": "Laser gives long-term hair reduction. After a full course, regrowth is sparse and fine, and hormonal areas may need occasional maintenance sessions to stay smooth."
+    }
+  ],
+  "heroImage": {
+    "src": "/images/concerns/unwanted-hair.webp",
+    "alt": "Woman examining fine hair on her upper lip in a hand mirror",
+    "width": 1200,
+    "height": 900
+  }
+}

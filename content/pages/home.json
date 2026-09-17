@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "eyebrow": "Advanced Skin, Hair, Laser & Cosmetic Clinic",
+    "title": "MD Dermatologist in Kalyani Nagar, Pune",
+    "subtitle": "From acne and acne scars to pigmentation, hair loss, unwanted hair and facial rejuvenation, Dr. Daksha Patel, MBBS, MD (Skin & VD), begins by understanding your concern and recommends only the treatment suited to you.",
+    "primaryCta": "Book Consultation",
+    "secondaryCta": "Explore Treatments",
+    "image": {
+      "src": "/images/hero/home.webp",
+      "alt": "Dr. Daksha Patel standing at the Skin Essence clinic reception in Kalyani Nagar, Pune",
+      "width": 1200,
+      "height": 1400
+    }
+  },
+  "treatments": {
+    "eyebrow": "Advanced Care & Treatments",
+    "title": "Our Treatments",
+    "featured": [
+      {
+        "slug": "acne-treatment",
+        "name": "Acne & Acne Scars"
+      },
+      {
+        "slug": "chemical-peel",
+        "name": "Chemical Peels"
+      },
+      {
+        "slug": "laser-hair-removal",
+        "name": "Laser Treatments",
+        "href": "/treatments#laser"
+      },
+      {
+        "slug": "facial-rejuvenation",
+        "name": "Facial Rejuvenation"
+      },
+      {
+        "slug": "hair-transplant",
+        "name": "Hair Transplant"
+      },
+      {
+        "slug": "hair-loss-treatment",
+        "name": "Hair Regrowth"
+      },
+      {
+        "slug": "botox",
+        "name": "Botox & Dermal Fillers",
+        "href": "/treatments#injectables",
+        "image": {
+          "src": "/images/tiles/injectables.webp",
+          "alt": "Botox and dermal fillers at Skin Essence",
+          "width": 1200,
+          "height": 600
+        }
+      },
+      {
+        "slug": "bridal-skin-care",
+        "name": "Bridal Skin Care"
+      }
+    ]
+  },
+  "doctorIntro": {
+    "eyebrow": "Meet Your Dermatologist",
+    "title": "Expertise. Experience. Personalised Care."
+  },
+  "whyChoose": {
+    "eyebrow": "Our Advantages",
+    "title": "Why Choose Skin Essence",
+    "image": {
+      "src": "/images/clinic/reception.webp",
+      "alt": "Reception of the Skin Essence clinic with the brand signage, Kalyani Nagar, Pune",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Patient Stories",
+    "title": "Hear From Patients Who Shared Your Concerns"
+  },
+  "technology": {
+    "eyebrow": "Inside Skin Essence",
+    "title": "Our Clinic & Equipment",
+    "description": "A purpose-built clinic in Kalyani Nagar with dedicated consultation, laser and treatment rooms. Every device is operated under Dr. Daksha Patel's supervision."
+  },
+  "faq": {
+    "eyebrow": "Helpful Answers",
+    "title": "Honest Answers To Common Skin Concerns"
+  },
+  "locations": {
+    "eyebrow": "Visit Skin Essence",
+    "title": "Our Clinics In Pune And Ahmedabad"
+  },
+  "leadForm": {
+    "eyebrow": "Book A Consultation",
+    "title": "Ready To Take The First Step?",
+    "description": "Book a consultation at Skin Essence and discuss your skin, hair, laser or cosmetic concerns with our team. Tell us what you're looking for, and we'll help you understand the suitable treatment options for your individual needs."
+  }
+}

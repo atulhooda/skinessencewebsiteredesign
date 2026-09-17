@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "skin",
+    "name": "Skin Treatments",
+    "shortDesc": "Acne, acne scars, pigmentation, chemical peels & skin rejuvenation.",
+    "order": 1,
+    "image": {
+      "src": "/images/categories/skin.webp",
+      "alt": "Dermatologist examining a patient's facial skin at Skin Essence, Kalyani Nagar",
+      "width": 800,
+      "height": 600
+    }
+  },
+  {
+    "slug": "laser",
+    "name": "Laser Treatments",
+    "shortDesc": "Laser toning, laser hair removal & advanced laser solutions.",
+    "order": 2,
+    "image": {
+      "src": "/images/categories/laser.webp",
+      "alt": "Laser treatment being performed in the Skin Essence laser room",
+      "width": 800,
+      "height": 600
+    }
+  },
+  {
+    "slug": "injectables",
+    "name": "Injectables",
+    "shortDesc": "Botox and dermal fillers for selected facial concerns, with balanced, natural-looking results.",
+    "order": 3,
+    "image": {
+      "src": "/images/categories/injectables.webp",
+      "alt": "Dermatologist marking injection points before an anti-wrinkle treatment",
+      "width": 800,
+      "height": 600
+    }
+  },
+  {
+    "slug": "hair",
+    "name": "Hair Treatments",
+    "shortDesc": "Hair transplant, hair regrowth & personalised hair-loss care.",
+    "order": 4,
+    "image": {
+      "src": "/images/categories/hair.webp",
+      "alt": "Scalp examination during a hair loss consultation",
+      "width": 800,
+      "height": 600
+    }
+  },
+  {
+    "slug": "body",
+    "name": "Body Treatments",
+    "shortDesc": "Cosmetic and body contouring treatments.",
+    "order": 5,
+    "image": {
+      "src": "/images/categories/body.webp",
+      "alt": "Body contouring treatment room at Skin Essence",
+      "width": 800,
+      "height": 600
+    }
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "slug": "child-skin-problems",
+  "name": "Child Skin Problems",
+  "metaTitle": "Child Skin Problems Treatment in Pune by MD Dermatologist | Skin Essence",
+  "metaDescription": "Eczema, rashes, birthmarks, warts and infant skin problems treated by a paediatric dermatology specialist in Kalyani Nagar, Pune. Book a consultation.",
+  "intro": [
+    "Children's skin is thinner and more reactive than adult skin, so rashes, infections and allergies show up quickly and worry parents. Most childhood skin problems are common and treatable, but treatments and doses need to be chosen for the child's age and weight.",
+    "Paediatric dermatology is one of Dr. Daksha Patel's special interests. Infants, toddlers and school-age children are seen for eczema, nappy rash, fungal and bacterial infections, warts, molluscum, birthmarks, hair and nail problems and childhood acne."
+  ],
+  "causes": [
+    "Atopic eczema, often with a family history of asthma or allergies",
+    "Heat rash, nappy rash and friction in infants",
+    "Viral, fungal and bacterial infections picked up at school or play",
+    "Insect bites and allergic reactions",
+    "Birthmarks and pigmentation present from birth or early childhood",
+    "Harsh soaps, fragranced products and over-bathing"
+  ],
+  "treatmentSlugs": [
+    "paediatric-dermatology"
+  ],
+  "faqs": [
+    {
+      "q": "Is it safe to use steroid creams on my child?",
+      "a": "Mild steroid creams, used for short periods under a dermatologist's direction, are safe and often necessary to calm eczema flares. Problems come from strong steroids used for long periods without supervision. We also plan steroid-free maintenance."
+    },
+    {
+      "q": "When should a child see a dermatologist?",
+      "a": "Bring your child in for any rash lasting more than a week, itching that disturbs sleep, spreading or oozing patches, sudden hair loss, or a birthmark that is growing or changing."
+    }
+  ],
+  "heroImage": {
+    "src": "/images/concerns/child-skin-problems.webp",
+    "alt": "Paediatric dermatologist examining a rash on a young child's arm",
+    "width": 1200,
+    "height": 900
+  }
+}

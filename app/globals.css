@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans:
+    var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  /* Neutral surfaces (off-white with a hint of teal, like the reference). */
+  --color-canvas: #e7f1f1;
+  --color-surface: #ffffff;
+  --color-surface-2: #e3efef;
+  --color-surface-3: #d5e7e7;
+  --color-line: #c9dfe0;
+  --color-ink: #0e1a1b;
+  --color-ink-2: #33474a;
+  --color-muted: #5a6d70;
+
+  /* Brand teal scale. 600 is the primary button, 800 the dark band. */
+  --color-brand-50: #eaf6f6;
+  --color-brand-100: #d3ecee;
+  --color-brand-200: #a8d9dd;
+  --color-brand-300: #6fc0c8;
+  --color-brand-400: #3aa6b0;
+  --color-brand-500: #1d909a;
+  --color-brand-600: #157f89;
+  --color-brand-700: #106d76;
+  --color-brand-800: #0c5860;
+  --color-brand-900: #08444a;
+  --color-brand-950: #052d31;
+
+  /* Deep green from the clinic signage; the ground the gold logo was designed for. */
+  --color-signage: #0d2b28;
+
+  --color-urgent: #cf3f39;
+  --color-star: #f2b705;
+
+  --shadow-soft: 0 1px 2px rgb(8 68 74 / 0.05), 0 12px 32px -16px rgb(8 68 74 / 0.18);
+  --shadow-pill: 0 8px 20px -10px rgb(8 68 74 / 0.45);
+  --shadow-float: 0 20px 60px -24px rgb(8 68 74 / 0.35);
+
+  --radius-5xl: 2.5rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  body {
+    @apply bg-canvas font-sans text-ink antialiased;
+  }
+  ::selection {
+    background: var(--color-brand-200);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-brand-500);
+    outline-offset: 2px;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+    letter-spacing: -0.022em;
+  }
+  p,
+  li {
+    text-wrap: pretty;
+  }
+  /* Anchored sections (e.g. /treatments#laser-treatments) clear the top edge. */
+  [id] {
+    scroll-margin-top: 1.5rem;
+  }
+}
+
+@utility skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -100%;
+  z-index: 100;
+  border-radius: 9999px;
+  background: var(--color-ink);
+  color: #fff;
+  padding: 0.6rem 1.1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  &:focus {
+    top: 1rem;
+  }
+}
+
+/* Thin, quiet scrollbars inside the mobile menu. */
+@utility scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255 255 255 / 0.25) transparent;
+}

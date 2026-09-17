@@ -1,0 +1,53 @@
+{
+  "_note": "SAMPLE testimonials for layout only. Replace with real, written-consent patient reviews before launch and review against NMC advertising guidelines.",
+  "items": [
+    {
+      "quote": "I avoided seeing anyone about my acne for years because I was embarrassed. Dr. Patel looked at my skin properly, explained what was actually happening and stopped two creams I had been using. Within three months the breakouts were under control.",
+      "patient": "Sneha K.",
+      "treatment": "Acne Treatment",
+      "rating": 5,
+      "image": {
+        "src": "/images/testimonials/patient-1.webp",
+        "alt": "Portrait of a smiling young woman with clear skin",
+        "width": 800,
+        "height": 800
+      }
+    },
+    {
+      "quote": "Six sessions of laser on my underarms and legs. No burns, no dark patches, and I have not needed to wax in over a year. The team told me honestly that my chin would need maintenance, and it did.",
+      "patient": "Priya M.",
+      "treatment": "Laser Hair Removal",
+      "rating": 5,
+      "image": {
+        "src": "/images/testimonials/patient-2.webp",
+        "alt": "Portrait of a woman in her thirties",
+        "width": 800,
+        "height": 800
+      }
+    },
+    {
+      "quote": "I came in for hair fall expecting to be sold a transplant. Instead I got a scalp examination, blood tests and a medical plan first. My hair fall reduced in about four months and we are now doing PRP for density.",
+      "patient": "Rohit D.",
+      "treatment": "Hair Loss Treatment & PRP",
+      "rating": 5,
+      "image": {
+        "src": "/images/testimonials/patient-3.webp",
+        "alt": "Portrait of a man in his late twenties",
+        "width": 800,
+        "height": 800
+      }
+    },
+    {
+      "quote": "Our daughter's eczema was flaring every few weeks. Dr. Patel explained the triggers, gave us a simple routine and steroid-free options for maintenance. Her skin has been calm for months now.",
+      "patient": "Anjali R.",
+      "treatment": "Paediatric Dermatology",
+      "rating": 5,
+      "image": {
+        "src": "/images/testimonials/patient-4.webp",
+        "alt": "Portrait of a mother holding her young daughter",
+        "width": 800,
+        "height": 800
+      }
+    }
+  ]
+}

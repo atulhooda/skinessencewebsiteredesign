@@ -1,0 +1,82 @@
+{
+  "slug": "melasma-treatment",
+  "name": "Melasma Treatment",
+  "category": "skin",
+  "shortDesc": "A long-term plan for the stubborn brown patches of melasma, combining prescription care, gentle peels and laser toning.",
+  "heroTitle": "Melasma Treatment Built For The Long Run",
+  "metaTitle": "Melasma Treatment in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Melasma treatment in Kalyani Nagar, Pune by an MD dermatologist: prescription care, gentle peels and laser toning for brown patches. Book a consultation.",
+  "intro": [
+    "Melasma shows up as symmetrical brown patches on the cheeks, forehead, nose and upper lip. It is common in Indian women between 25 and 45, often appearing or worsening with pregnancy, hormonal pills, thyroid problems, heat and sun. Men get it too, particularly with outdoor jobs and long commutes across Pune.",
+    "Melasma is a chronic, relapsing condition. It is controlled rather than cured, and aggressive treatment makes it worse. Strong peels, high-energy lasers and steroid-based fairness creams are the commonest reasons patients arrive at Skin Essence with darker patches than they started with.",
+    "Dr. Daksha Patel, an MD dermatologist, uses dermatoscopy to judge how deep the pigment sits, identifies your triggers, and builds a plan around strict sun and heat protection, prescription creams, oral medication where suitable, and gentle in-clinic sessions at our Kalyani Nagar clinic. Expectations are set honestly at the first visit."
+  ],
+  "whoIsItFor": [
+    "Symmetrical brown patches on the cheeks, forehead or upper lip",
+    "Pigmentation that appeared or worsened during pregnancy or after starting hormonal pills",
+    "Patches that darkened after a strong peel, laser or fairness cream",
+    "Anyone who has tried several creams without lasting improvement",
+    "Patients who want a realistic maintenance plan rather than a quick fix"
+  ],
+  "howItWorks": [
+    {
+      "title": "Assessment and triggers",
+      "description": "Dermatoscopy shows whether the pigment is superficial, deep or mixed, which decides what will and will not work. Hormonal and thyroid triggers are checked with blood tests where relevant."
+    },
+    {
+      "title": "Sun and heat protection",
+      "description": "A tinted broad-spectrum sunscreen reapplied through the day, hats, and avoiding heat from stoves, steam and sun are the foundation. Without this step nothing else holds."
+    },
+    {
+      "title": "Medical treatment",
+      "description": "Short, supervised courses of prescription lightening creams, and oral tranexamic acid for suitable patients after screening, reduce pigment production over 8 to 12 weeks."
+    },
+    {
+      "title": "Gentle in-clinic sessions",
+      "description": "Mild peels and low-energy laser toning every 3 to 4 weeks lift pigment without inflaming the skin, followed by a maintenance schedule."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "6–10 sessions over 3–6 months, then maintenance",
+    "sessionTime": "About 30 minutes",
+    "downtime": "None to 2 days of mild dryness",
+    "results": "Lightening in 8–12 weeks; melasma is controlled, not cured"
+  },
+  "aftercare": [
+    "Reapply sunscreen every 2 to 3 hours outdoors and avoid direct heat from cooking, steam rooms and midday sun.",
+    "Never use over-the-counter steroid or fairness creams; they cause rebound darkening.",
+    "Discuss hormonal pills or supplements with us and your gynaecologist if melasma is linked to them.",
+    "Stay on the maintenance routine even when the patches have faded."
+  ],
+  "faqs": [
+    {
+      "q": "Is melasma curable?",
+      "a": "No. Melasma is controlled, not cured. With the right plan most patients get significant lightening and then keep it under control with sunscreen and maintenance. Anyone promising a cure is over-promising."
+    },
+    {
+      "q": "Why did my melasma get worse with treatment?",
+      "a": "Heat, inflammation and strong products all stimulate pigment cells. Aggressive peels, high-energy lasers and steroid creams commonly darken melasma. Treatment has to be gentle and consistent."
+    },
+    {
+      "q": "Is laser good for melasma?",
+      "a": "Only low-energy laser toning, and only as part of a plan that includes sunscreen and creams. Used alone or at high settings, lasers can worsen melasma or cause light patches."
+    },
+    {
+      "q": "Can melasma be treated during pregnancy?",
+      "a": "Treatment is limited to sunscreen and pregnancy-safe creams such as azelaic acid. Peels, laser toning and oral medication wait until after delivery and breastfeeding."
+    },
+    {
+      "q": "How long does treatment take?",
+      "a": "Expect 3 to 6 months for visible lightening, followed by a maintenance routine. Patients who protect against sun and heat consistently keep their results longest."
+    }
+  ],
+  "relatedConcerns": ["pigmentation", "dull-skin"],
+  "relatedTreatments": ["pigmentation-treatment", "laser-toning", "chemical-peel"],
+  "heroImage": {
+    "src": "/images/treatments/melasma-treatment.webp",
+    "alt": "Dermatoscopy of melasma patches on a patient's cheek at Skin Essence, Pune",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": ["Facial Melasma", "Post-Pregnancy Melasma", "Oral Tranexamic Acid Plans", "Maintenance Plans"]
+}

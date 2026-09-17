@@ -1,0 +1,48 @@
+{
+  "name": "Skin Essence",
+  "legalName": "Skin Essence",
+  "tagline": "Your Skin. Our Expertise.",
+  "category": "Advanced Skin, Hair, Laser & Cosmetic Clinic",
+  "positioning": "MD Dermatologist in Kalyani Nagar, Pune",
+  "serves": "Women and men",
+  "description": "Skin Essence is an advanced skin, hair, laser and cosmetic clinic in Kalyani Nagar, Pune, led by Dr. Daksha Patel, MBBS, MD (Skin & VD). Comprehensive treatments for women and men, designed around your individual concerns and goals.",
+  "domain": "skinessence2017.com",
+  "phone": "+919157731020",
+  "whatsapp": "919157731020",
+  "whatsappPrefill": "Hi, I want to book a consultation at Skin Essence Kalyani Nagar.",
+  "email": "info@skinessence2017.com",
+  "logo": {
+    "src": "/images/brand/logo.png",
+    "alt": "Skin Essence logo",
+    "width": 643,
+    "height": 724
+  },
+  "social": [],
+  "stats": [
+    {
+      "value": "17+ Years",
+      "label": "Of experience in Dermatology & Cosmetology",
+      "icon": "calendar",
+      "short": "of experience"
+    },
+    {
+      "value": "3,00,000+",
+      "label": "Patients treated",
+      "icon": "users",
+      "short": "patients treated"
+    },
+    {
+      "value": "10,000+",
+      "label": "Cosmetic treatments performed",
+      "icon": "sparkle",
+      "short": "cosmetic treatments"
+    }
+  ],
+  "primaryDoctor": "dr-daksha-patel",
+  "logoMono": {
+    "src": "/images/brand/logo-white.png",
+    "alt": "Skin Essence logo",
+    "width": 643,
+    "height": 724
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "dark-circles",
+  "name": "Dark Circles",
+  "metaTitle": "Dark Circles Treatment in Pune by MD Dermatologist | Skin Essence",
+  "metaDescription": "Dark circles are often more than tiredness. Causes and dermatologist-led treatment options in Kalyani Nagar, Pune. Book a consultation at Skin Essence.",
+  "intro": [
+    "Dark circles are one of the most common cosmetic concerns we see, and one of the most misunderstood. They are rarely caused by lack of sleep alone. Pigmentation, thin under-eye skin showing blood vessels, hollowing under the eyes and allergies each produce a different kind of dark circle.",
+    "Because the causes differ, treatment is chosen after examining the under-eye area under magnification and in different lighting rather than by prescribing one standard cream."
+  ],
+  "causes": [
+    "Genetic pigmentation around the eyes, common in Indian skin",
+    "Thin skin that shows the blood vessels underneath, giving a bluish tint",
+    "Loss of volume under the eyes with age, creating a hollow that casts a shadow",
+    "Allergies, eczema and constant eye rubbing",
+    "Sun exposure, dehydration, screen strain and poor sleep",
+    "Anaemia and thyroid problems in some patients"
+  ],
+  "treatmentSlugs": [
+    "chemical-peel",
+    "dermal-fillers",
+    "laser-toning",
+    "facial-rejuvenation"
+  ],
+  "faqs": [
+    {
+      "q": "Do under-eye creams work for dark circles?",
+      "a": "Creams with ingredients such as vitamin C, kojic acid or retinol help pigmented dark circles when used consistently for several months, along with sunscreen. They do little for hollowing or vascular dark circles, which need different treatment."
+    },
+    {
+      "q": "Which treatment is best for dark circles?",
+      "a": "It depends on the cause. Pigmented circles respond to peels and laser toning, hollowing responds to fillers, and allergic dark circles improve once the allergy is controlled. Many patients need a combination."
+    }
+  ],
+  "heroImage": {
+    "src": "/images/concerns/dark-circles.webp",
+    "alt": "Close-up of a woman's eyes showing dark circles under the lower eyelids",
+    "width": 1200,
+    "height": 900
+  }
+}

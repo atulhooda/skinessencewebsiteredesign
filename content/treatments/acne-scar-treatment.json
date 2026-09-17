@@ -1,0 +1,95 @@
+{
+  "slug": "acne-scar-treatment",
+  "name": "Acne Scar Treatment",
+  "category": "skin",
+  "shortDesc": "Microneedling, subcision, peels and laser sessions to soften pitted acne scars and fade the marks acne leaves behind.",
+  "heroTitle": "Acne Scar Treatment Matched To Each Scar Type",
+  "metaTitle": "Acne Scar Treatment in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Acne scar treatment in Kalyani Nagar, Pune: microneedling, subcision, peels and lasers planned by an MD dermatologist. Book a consultation.",
+  "intro": [
+    "Acne scars are what stay behind after the breakouts have gone: dark or red marks, and the pitted ice-pick, boxcar and rolling scars that catch the light and show through make-up or a beard. Many patients in Pune reach Skin Essence years after their acne settled, still avoiding close-up photographs.",
+    "There is no single scar treatment because there is no single scar type. Dr. Daksha Patel, an MD dermatologist with 17+ years of experience, maps the scars on your face first. Shallow pigmented marks respond to peels and laser toning, rolling scars improve with subcision and microneedling, and deep ice-pick scars need more focused work such as TCA cross. Most people have a mix, so most plans combine two or three approaches.",
+    "Active acne is brought under control before scar work begins, otherwise new scars keep forming while old ones are treated. Sessions at our Kalyani Nagar clinic are spaced weeks apart, and improvement builds gradually as new collagen forms over three to six months. We tell you honestly what degree of improvement to expect for your scar types before you commit."
+  ],
+  "whoIsItFor": [
+    "Pitted ice-pick, boxcar or rolling scars on the cheeks, temples or jawline left after acne",
+    "Dark or red marks that have not faded months after the breakouts cleared",
+    "Uneven, bumpy skin texture from years of acne",
+    "Adults whose acne is now under control and who want to treat what it left behind",
+    "Patients preparing for a wedding or event with at least 4 to 6 months in hand"
+  ],
+  "howItWorks": [
+    {
+      "title": "Scar mapping",
+      "description": "Under magnification we classify each scar type, check for active acne and pigmentation, and photograph the area so progress can be measured session by session."
+    },
+    {
+      "title": "Priming the skin",
+      "description": "A short course of prescription creams and daily sunscreen prepares the skin, lowering the risk of darkening after procedures on Indian skin types."
+    },
+    {
+      "title": "Procedures",
+      "description": "Depending on the map: microneedling to stimulate collagen, subcision to release tethered rolling scars, TCA peels or TCA cross for ice-pick scars, and laser sessions for marks and texture."
+    },
+    {
+      "title": "Review and maintenance",
+      "description": "Sessions are spaced 4 to 6 weeks apart. Results are reviewed with photographs at each visit and the plan is adjusted as the scars respond."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "4–6 sessions, 4–6 weeks apart",
+    "sessionTime": "45–60 minutes",
+    "downtime": "2–5 days of redness, pinpoint scabs or mild swelling",
+    "results": "Gradual improvement over 3–6 months as collagen rebuilds"
+  },
+  "aftercare": [
+    "Expect redness and a sunburn-like feel for 24 to 48 hours. Tiny scabs after microneedling fall off within a week.",
+    "No make-up for 24 hours, no scrubs or active ingredients for a week, and sunscreen every morning without fail.",
+    "Do not pick at scabs or peeling skin; this can leave new marks.",
+    "Avoid the gym, swimming and steam for 48 hours after each session."
+  ],
+  "faqs": [
+    {
+      "q": "Can acne scars be removed completely?",
+      "a": "Pitted scars can be improved substantially, often by half or more across a course, but not erased. Flat dark marks respond better and can fade almost fully. We show you realistic outcomes for your scar types before starting."
+    },
+    {
+      "q": "Which treatment is right for my scars?",
+      "a": "It depends on the type. Rolling scars respond to subcision and microneedling, boxcar scars to microneedling and peels, ice-pick scars to TCA cross, and dark marks to peels and laser toning. Most patients need a combination, planned after scar mapping."
+    },
+    {
+      "q": "Is microneedling suitable for Indian skin?",
+      "a": "Yes, with proper priming and aftercare. Indian skin can darken after procedures, so we prepare the skin beforehand, choose needle depths carefully and insist on daily sunscreen."
+    },
+    {
+      "q": "How soon after acne can I start scar treatment?",
+      "a": "Marks can be treated as soon as active acne is under control. Procedures for pitted scars usually begin once the skin has been clear for a few months and any isotretinoin course has been completed."
+    },
+    {
+      "q": "Does acne scar treatment hurt?",
+      "a": "Numbing cream is applied before microneedling, subcision and TCA cross, so you feel pressure and warmth rather than pain. Peels tingle for a few minutes and then settle."
+    }
+  ],
+  "relatedConcerns": [
+    "acne-scars",
+    "open-pores"
+  ],
+  "relatedTreatments": [
+    "acne-treatment",
+    "chemical-peel",
+    "laser-toning"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/acne-scar-treatment.webp",
+    "alt": "Microneedling session for acne scars at Skin Essence, Kalyani Nagar, Pune",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "Microneedling",
+    "Subcision",
+    "TCA Cross",
+    "Scar Peels",
+    "Laser Toning For Marks"
+  ]
+}

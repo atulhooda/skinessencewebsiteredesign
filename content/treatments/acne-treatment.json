@@ -1,0 +1,95 @@
+{
+  "slug": "acne-treatment",
+  "name": "Acne Treatment",
+  "category": "skin",
+  "shortDesc": "Medical treatment for active acne in teens and adults, with a plan for the marks it leaves behind.",
+  "heroTitle": "Acne Treatment That Targets The Cause, Not Just The Pimple",
+  "metaTitle": "Acne Treatment in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Acne treatment in Kalyani Nagar, Pune by an MD dermatologist: medical care, peels and procedures for teen and adult acne. Book a consultation.",
+  "intro": [
+    "Acne is the most common reason patients walk into Skin Essence, and also the most commonly mishandled. By the time most people reach a dermatologist in Pune they have already tried face washes, chemist 'anti-pimple' creams, home remedies and a salon facial. Some do nothing; steroid-containing fairness creams make acne worse and thin the skin.",
+    "Dr. Daksha Patel, an MD dermatologist with 17+ years of experience, begins with a proper assessment. Acne is not one condition: blackheads and whiteheads, red inflamed pimples, deep painful nodules and hormonal jawline acne in women each need a different approach. We examine your skin under magnification, ask about your cycle, diet, medicines, stress and sleep, and check for signs of PCOS or other hormonal drivers where relevant.",
+    "Treatment usually combines prescription creams, oral medicines when needed, and in-clinic procedures that speed up clearing and lower the chance of scarring. Pune's humidity, commuting dust and hard water all play a part, so the routine you leave our Kalyani Nagar clinic with fits your actual day."
+  ],
+  "whoIsItFor": [
+    "Teenagers with persistent blackheads, whiteheads or pimples that are not settling with over-the-counter products",
+    "Adults in their 20s to 40s with breakouts on the jawline, chin, chest or back, often linked to hormones",
+    "Anyone whose acne is leaving dark marks or pits, where early treatment prevents deeper scars",
+    "Patients whose acne flares before periods, with PCOS, or after stopping hormonal pills",
+    "People who have used steroid or 'fairness' creams and now have thin, sensitive, acne-prone skin"
+  ],
+  "howItWorks": [
+    {
+      "title": "Assessment and grading",
+      "description": "We grade your acne as mild, moderate or severe, identify the type of lesions and look for hormonal or lifestyle triggers. Every product you currently use is reviewed so we can stop anything that is harming your skin."
+    },
+    {
+      "title": "Medical plan",
+      "description": "Prescription topicals such as retinoids, benzoyl peroxide or antibiotics are chosen for your skin type. For moderate to severe acne, oral medicines like antibiotics, hormonal therapy or isotretinoin may be advised, with blood-test monitoring where required."
+    },
+    {
+      "title": "In-clinic procedures",
+      "description": "Depending on your acne, we may add comedone extraction, salicylic or mandelic acid peels, intralesional injections for painful cysts, or light-based sessions to reduce redness and speed up clearing."
+    },
+    {
+      "title": "Review and maintenance",
+      "description": "Follow-ups every 3 to 6 weeks let us adjust the plan as your skin responds. Once clear, a simple maintenance routine keeps acne away and we move on to treating marks or scars if needed."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "Ongoing plan, reviewed every 3–6 weeks",
+    "sessionTime": "20–40 minutes",
+    "downtime": "None for medical care; 1–3 days of mild peeling after a peel",
+    "results": "Visible improvement in 6–12 weeks"
+  },
+  "aftercare": [
+    "Use only the cleanser, moisturiser and sunscreen prescribed. Scrubs and 'anti-acne' kits from the chemist are best avoided.",
+    "Do not squeeze or pick lesions. This is the main cause of dark marks and pitted scars.",
+    "Apply sunscreen every morning, even indoors. Sun exposure darkens post-acne marks.",
+    "Tell us before starting any supplement, protein powder or hormonal medicine; some worsen acne."
+  ],
+  "faqs": [
+    {
+      "q": "How long does acne treatment take to show results?",
+      "a": "Most patients see a clear difference in 6 to 12 weeks. Creams take time to act on lesions forming under the skin, so the first few weeks can look unchanged. In-clinic peels speed this up, but consistency with the home routine matters most."
+    },
+    {
+      "q": "Will I need isotretinoin?",
+      "a": "Not necessarily. Isotretinoin is reserved for severe, scarring or stubborn acne that has not responded to other treatment. If advised, Dr. Patel explains the dose, blood tests and precautions, including strict avoidance of pregnancy during and after the course."
+    },
+    {
+      "q": "Can I continue facials and my current skincare products?",
+      "a": "Salon facials, scrubs and steam usually aggravate acne and are best paused during treatment. Bring your current products to the first visit and we will tell you what to continue and what to stop."
+    },
+    {
+      "q": "Is my diet causing the acne?",
+      "a": "High-glycaemic foods, whey protein supplements and, for some people, excess dairy can worsen acne. Diet alone rarely causes it, so we treat the skin medically and suggest specific changes rather than blanket restrictions."
+    },
+    {
+      "q": "Does acne treatment hurt?",
+      "a": "Prescription creams can cause mild dryness or stinging for the first two weeks. Peels feel like a warm tingle, and cyst injections are a quick pinprick that brings relief within a day or two."
+    }
+  ],
+  "relatedConcerns": [
+    "acne",
+    "acne-scars"
+  ],
+  "relatedTreatments": [
+    "acne-scar-treatment",
+    "chemical-peel",
+    "pigmentation-treatment"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/acne-treatment.webp",
+    "alt": "Dermatologist examining a patient's cheek with a dermatoscope during an acne consultation in Kalyani Nagar, Pune",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "Teenage Acne",
+    "Adult & Hormonal Acne",
+    "Cystic Acne",
+    "Back & Chest Acne",
+    "Post-Acne Marks"
+  ]
+}

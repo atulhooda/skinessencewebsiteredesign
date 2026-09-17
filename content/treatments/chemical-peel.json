@@ -1,0 +1,82 @@
+{
+  "slug": "chemical-peel",
+  "name": "Chemical Peels",
+  "category": "skin",
+  "shortDesc": "Controlled exfoliation with medical-grade acids to treat acne, tan, pigmentation and dullness over a short course of sessions.",
+  "heroTitle": "Chemical Peels Matched To Your Skin, Not A Menu",
+  "metaTitle": "Chemical Peels in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Medical-grade chemical peels in Kalyani Nagar, Pune for acne, tan, pigmentation and dull skin, chosen by an MD dermatologist. Book a consultation.",
+  "intro": [
+    "A chemical peel applies a measured concentration of an acid, such as glycolic, salicylic, mandelic, lactic or trichloroacetic acid (TCA), to the skin for a few minutes. It loosens the dead, damaged surface layer and signals the skin underneath to renew faster. Done correctly on Indian skin, the result is smoother texture, lighter marks and a brighter, more even tone.",
+    "The word 'peel' worries many patients, who picture red, raw skin. In practice, the peels we use most at Skin Essence are superficial, and most people return to work the same day. Deeper peels exist, but they are used sparingly and only when the skin can tolerate them, because Indian skin is more prone to post-inflammatory pigmentation when over-treated.",
+    "This is exactly why a peel should be chosen and performed under a dermatologist rather than at a salon. Dr. Daksha Patel, an MD dermatologist, selects the acid, strength and contact time for your skin type, your current concern and how your skin has reacted before. The peel is one part of a plan that includes the right home routine and, where useful, other procedures such as laser toning at our Kalyani Nagar clinic."
+  ],
+  "whoIsItFor": [
+    "Active acne and oily, congested skin with blackheads (salicylic or mandelic peels)",
+    "Sun tan, dullness and uneven tone from commuting and outdoor work (glycolic or lactic peels)",
+    "Dark spots left after acne, and mild to moderate pigmentation or melasma, as part of a wider plan",
+    "Fine lines and rough texture in early ageing skin",
+    "Pre-wedding skin preparation, started at least 2 to 3 months in advance"
+  ],
+  "howItWorks": [
+    {
+      "title": "Consultation and patch test",
+      "description": "Your skin is examined, current products are reviewed and a peel is chosen. Sensitive or melasma-prone skin may be primed with a cream for 1 to 2 weeks and patch-tested before the first full session."
+    },
+    {
+      "title": "Preparation",
+      "description": "Skin is cleansed and degreased. Sensitive areas such as the corners of the nose, lips and eyes are protected with a barrier cream."
+    },
+    {
+      "title": "The peel",
+      "description": "The solution is applied in layers for 2 to 8 minutes depending on the acid. You feel warmth or tingling, which fades quickly. Some peels are neutralised; others self-neutralise."
+    },
+    {
+      "title": "Soothing and sun protection",
+      "description": "A calming mask or moisturiser and a broad-spectrum sunscreen are applied. You leave with written aftercare and a date for the next session."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "4–6 sessions, 2–4 weeks apart",
+    "sessionTime": "About 30 minutes",
+    "downtime": "0–3 days of mild redness, dryness or fine flaking",
+    "results": "Brighter skin after one session; marks improve over the course"
+  },
+  "aftercare": [
+    "Expect mild dryness and light flaking for 2 to 5 days. Do not pull at peeling skin.",
+    "Use only the gentle cleanser and moisturiser advised. Pause retinoids, scrubs and other actives for about a week.",
+    "Sunscreen is essential for at least two weeks. Skipping it is the commonest cause of darkening after a peel.",
+    "Avoid waxing, threading, swimming pools and steam for a week."
+  ],
+  "faqs": [
+    {
+      "q": "Are chemical peels suitable for Indian skin?",
+      "a": "Superficial peels chosen for your skin type and performed under a dermatologist have a good track record on Indian skin. The main risk is temporary darkening if the peel is too strong or sunscreen is skipped, which is why strength, priming and aftercare are individualised."
+    },
+    {
+      "q": "How many peels will I need?",
+      "a": "Most concerns need a course of 4 to 6 sessions spaced 2 to 4 weeks apart, followed by maintenance every 2 to 3 months if needed. You will notice a glow after the first session; texture and pigmentation improve gradually across the course."
+    },
+    {
+      "q": "Will my skin visibly peel?",
+      "a": "With superficial peels, most people get only fine flaking, similar to mild dryness, for a few days. Medium-depth peels cause more obvious peeling and are planned around your schedule."
+    },
+    {
+      "q": "Can I have a peel a week before a wedding or event?",
+      "a": "Have your first peel at least 3 to 4 weeks before an event so we know how your skin responds. A maintenance peel 7 to 10 days before the event is usually fine if you have had that peel before."
+    },
+    {
+      "q": "What does a chemical peel cost in Pune?",
+      "a": "Pricing depends on the type of peel and the area treated. Per-session and package pricing for a full course is confirmed at your consultation at our Kalyani Nagar clinic, before you commit to anything."
+    }
+  ],
+  "relatedConcerns": ["dull-skin", "pigmentation"],
+  "relatedTreatments": ["laser-toning", "pigmentation-treatment", "acne-treatment"],
+  "heroImage": {
+    "src": "/images/treatments/chemical-peel.webp",
+    "alt": "Dermatologist applying a chemical peel solution to a patient's cheek with a brush",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": ["Salicylic Peel", "Glycolic Peel", "Mandelic Peel", "Lactic Peel", "TCA Peel"]
+}

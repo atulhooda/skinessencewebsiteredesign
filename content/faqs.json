@@ -1,0 +1,65 @@
+[
+  {
+    "category": "Treatment & Safety",
+    "items": [
+      {
+        "q": "Will the treatment hurt?",
+        "a": "Most procedures at Skin Essence involve mild warmth, tingling or a quick pinprick rather than real pain. Numbing cream is used for injectables and sensitive areas, and you can ask us to pause at any point. We tell you exactly what each step feels like before it starts."
+      },
+      {
+        "q": "Are lasers and peels suitable for Indian skin?",
+        "a": "Yes, when the settings and peel strengths are chosen for your skin type by a dermatologist. Indian skin tones are more prone to pigmentation if over-treated, which is why every treatment at our Kalyani Nagar clinic is planned by Dr. Daksha Patel, MBBS, MD (Skin & VD)."
+      },
+      {
+        "q": "What if my skin reacts after a procedure?",
+        "a": "Mild redness, dryness or flaking for a few days is expected after many treatments and settles on its own. Anything beyond what we described, such as blistering, unusual swelling or increasing pain, should be reported the same day on our WhatsApp number so it can be reviewed in person."
+      },
+      {
+        "q": "Do you follow hygiene and safety protocols?",
+        "a": "Your safety comes first. We follow appropriate clinical hygiene and safety protocols and use quality equipment for our treatments. Consultations are private, and your comfort is checked throughout every procedure."
+      }
+    ]
+  },
+  {
+    "category": "Cost & Sessions",
+    "items": [
+      {
+        "q": "How much does a consultation cost?",
+        "a": "The consultation fee is confirmed when you book. It covers a full examination, a written plan and a prescription. If a procedure is recommended, the number of sessions and the pricing for the full course are explained before anything starts."
+      },
+      {
+        "q": "How many sessions will I need?",
+        "a": "It depends on the concern. Medical acne care is an ongoing plan reviewed every few weeks, peels usually need a course of 4 to 6 sessions, and laser hair reduction typically needs 6 to 8. We state the realistic number at your consultation rather than promising results in one visit."
+      },
+      {
+        "q": "Do you offer packages for peels or laser sessions?",
+        "a": "Yes. Treatments that need a course of sessions, such as laser hair removal, chemical peels or PRP, are priced per session and as a package. Packages are discussed after your consultation, once we know how many sessions your skin actually needs."
+      },
+      {
+        "q": "Will you push me into treatments I don't need?",
+        "a": "No. Many patients leave their first visit with a prescription and a routine, not a package. Procedures are recommended only when they will make a real difference, and we set realistic expectations for results before you decide."
+      }
+    ]
+  },
+  {
+    "category": "Booking & Location",
+    "items": [
+      {
+        "q": "How do I book an appointment?",
+        "a": "Call or WhatsApp +91 91577 31020, or use the booking form on this site. You will receive a confirmation call or message during clinic hours. A booked slot avoids waiting, though walk-ins are accommodated when possible."
+      },
+      {
+        "q": "Where exactly is the clinic in Kalyani Nagar?",
+        "a": "Skin Essence is at Brahma Business Park, Tower T9, 21st Floor, Office No. 2107, 2108, 2109, near F Residence in New Kalyani Nagar, Pune 411014. It is a short drive from Koregaon Park, Viman Nagar, Kharadi, Yerwada, Wadgaon Sheri, Camp and Mundhwa."
+      },
+      {
+        "q": "Do you treat children?",
+        "a": "Yes. Paediatric dermatology is one of Dr. Daksha Patel's special interests. Infants and children are seen for eczema, rashes, birthmarks, infections, warts and other skin problems, with treatments chosen for their age."
+      },
+      {
+        "q": "Is there a clinic in Ahmedabad?",
+        "a": "Yes. Skin Essence also has an Ahmedabad location. Call or WhatsApp us to confirm the address, consulting days and timings for Ahmedabad appointments."
+      }
+    ]
+  }
+]

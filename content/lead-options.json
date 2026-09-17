@@ -1,0 +1,16 @@
+[
+  { "value": "acne-and-acne-scars", "label": "Acne & Acne Scars" },
+  { "value": "chemical-peels", "label": "Chemical Peels" },
+  { "value": "laser-toning", "label": "Laser Toning" },
+  { "value": "laser-hair-removal", "label": "Laser Hair Removal" },
+  { "value": "facial-rejuvenation", "label": "Facial Rejuvenation" },
+  { "value": "botox-and-dermal-fillers", "label": "Botox & Dermal Fillers" },
+  { "value": "hair-transplant", "label": "Hair Transplant" },
+  { "value": "hair-regrowth", "label": "Hair Regrowth" },
+  { "value": "tattoo-removal", "label": "Tattoo Removal" },
+  { "value": "breast-reshaping", "label": "Breast Reshaping" },
+  { "value": "womens-treatments", "label": "Women's Treatments" },
+  { "value": "mens-treatments", "label": "Men's Treatments" },
+  { "value": "general-consultation", "label": "General Consultation" },
+  { "value": "other", "label": "Other" }
+]

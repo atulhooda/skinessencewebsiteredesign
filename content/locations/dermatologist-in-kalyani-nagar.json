@@ -1,0 +1,46 @@
+{
+  "slug": "dermatologist-in-kalyani-nagar",
+  "name": "Skin Essence, Kalyani Nagar",
+  "city": "Pune",
+  "area": "Kalyani Nagar",
+  "isPrimary": true,
+  "addressLines": [
+    "Brahma Business Park, Tower T9, 21st Floor, Office No. 2107, 2108, 2109",
+    "Near F Residence, New Kalyani Nagar",
+    "Pune 411014, Maharashtra"
+  ],
+  "postalCode": "411014",
+  "region": "Maharashtra",
+  "country": "IN",
+  "phone": "+919157731020",
+  "whatsapp": "919157731020",
+  "email": "info@skinessence2017.com",
+  "nearbyAreas": [
+    "Koregaon Park",
+    "Viman Nagar",
+    "Kharadi",
+    "Yerwada",
+    "Wadgaon Sheri",
+    "Camp",
+    "Mundhwa"
+  ],
+  "doctorSlugs": [
+    "dr-daksha-patel"
+  ],
+  "heroImage": {
+    "src": "/images/locations/pune.webp",
+    "alt": "Reception of the Skin Essence clinic in Kalyani Nagar, Pune",
+    "width": 1200,
+    "height": 800
+  },
+  "intro": [
+    "Skin Essence's Pune clinic is on the 21st floor of Tower T9, Brahma Business Park, near F Residence in New Kalyani Nagar. It is a short drive from Koregaon Park, Viman Nagar, Kharadi, Yerwada, Wadgaon Sheri, Camp and Mundhwa.",
+    "Dr. Daksha Patel, MBBS, MD (Skin & VD), consults here for medical dermatology, cosmetic procedures, laser treatments, hair and scalp care and paediatric skin problems, for women and men."
+  ],
+  "todo": [
+    "Opening hours (not provided).",
+    "Google Maps place URL / Place ID (not provided).",
+    "Geo coordinates for the MedicalClinic schema.",
+    "Google Business Profile URL for site.json → social."
+  ]
+}

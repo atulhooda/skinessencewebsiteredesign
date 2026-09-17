@@ -1,0 +1,97 @@
+{
+  "slug": "hair-transplant",
+  "name": "Hair Transplant",
+  "category": "hair",
+  "shortDesc": "Hair restoration for established pattern baldness, planned only after the hair loss has been diagnosed and stabilised.",
+  "heroTitle": "Hair Transplant, Only When It Is The Right Answer",
+  "metaTitle": "Hair Transplant in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Hair transplant in Kalyani Nagar, Pune, planned by an MD dermatologist: candidacy, FUE method, downtime and honest results. Book a consultation.",
+  "intro": [
+    "A hair transplant moves your own hair follicles from the back and sides of the scalp, where hair is genetically resistant to balding, to the thinning hairline or crown. Done well, on the right patient, it gives natural, growing hair. Done on the wrong patient, or without treating the underlying hair loss, it disappoints.",
+    "That is why at Skin Essence the decision begins with a diagnosis, not a graft count. Dr. Daksha Patel, an MD dermatologist with a special interest in hair and scalp problems, uses trichoscopy and blood tests to confirm the type of hair loss. Transplant helps established pattern baldness; it does nothing for temporary shedding or patchy autoimmune loss, and medical treatment is usually started first to stabilise the loss and protect the native hair around the grafts.",
+    "The follicular unit extraction (FUE) method is used, under local anaesthesia, as a day procedure at our Kalyani Nagar clinic. We discuss donor supply, realistic density and the hairline design that will still look natural at fifty, and we do not promise a number of grafts before examining you."
+  ],
+  "whoIsItFor": [
+    "Men with a receding hairline or thinning crown that has been stable for at least a year",
+    "Women with pattern thinning and a good donor area at the back of the scalp",
+    "Patients already on medical treatment who want more density than medicines can give",
+    "Adults, usually 25 and older, with realistic expectations about density and coverage",
+    "Not suitable for active diffuse shedding, patchy alopecia areata or scalp conditions that are not yet controlled"
+  ],
+  "howItWorks": [
+    {
+      "title": "Evaluation",
+      "description": "Trichoscopy, blood tests where needed, donor-area assessment and hairline design. We confirm you are a candidate and estimate grafts honestly."
+    },
+    {
+      "title": "Stabilise first",
+      "description": "Where hair loss is still active, medicines such as minoxidil or finasteride are started for 3 to 6 months so the native hair is protected and the result lasts."
+    },
+    {
+      "title": "Procedure day",
+      "description": "Under local anaesthesia, follicular units are extracted one by one from the donor area and implanted along the designed hairline and thinning zones. Expect 5 to 8 hours with breaks."
+    },
+    {
+      "title": "Recovery and growth",
+      "description": "Scabs clear in about a week. Transplanted hairs shed at 2 to 4 weeks, regrowth begins at 3 to 4 months and the result matures at 9 to 12 months."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "One session; large areas may need two",
+    "sessionTime": "5–8 hours",
+    "downtime": "5–7 days of scabbing and mild swelling; desk work in 3–5 days",
+    "results": "Growth from 3–4 months; final result at 9–12 months"
+  },
+  "aftercare": [
+    "Sleep with the head raised for the first three nights and avoid touching the grafts.",
+    "Wash the scalp gently as taught from day two; do not scratch or pick scabs.",
+    "No gym, swimming, helmets or direct sun for two weeks.",
+    "Continue the prescribed medical treatment to protect existing hair, and attend follow-ups at 1 week, 1 month and 6 months."
+  ],
+  "faqs": [
+    {
+      "q": "Am I a candidate for a hair transplant?",
+      "a": "You may be if your pattern hair loss is stable, your donor area is healthy and your expectations are realistic. Trichoscopy and blood tests at the consultation confirm this. Some patients do better with medical treatment or PRP first."
+    },
+    {
+      "q": "Will the result look natural?",
+      "a": "With single-follicle placement, a hairline designed for your age and face, and grafts angled in the natural direction, transplanted hair looks and grows like your own. Density is limited by donor supply, which we explain before you decide."
+    },
+    {
+      "q": "Is a hair transplant painful?",
+      "a": "The scalp is numbed with local anaesthesia, so the procedure itself is comfortable. Mild soreness and tightness for a few days afterwards are managed with simple painkillers."
+    },
+    {
+      "q": "Will the transplanted hair fall out?",
+      "a": "The transplanted hairs shed within the first month, which is normal. The follicles stay in place and regrow from the third or fourth month onwards."
+    },
+    {
+      "q": "Do I need medicines after the transplant?",
+      "a": "Usually yes, to protect the native hair around the grafts from continuing to thin. Without it, the transplanted area can look isolated as surrounding hair recedes."
+    },
+    {
+      "q": "How many grafts will I need and what does it cost?",
+      "a": "Graft numbers depend on the area to be covered and your donor supply, and are estimated only after examination. Pricing is confirmed at your consultation once the plan is clear."
+    }
+  ],
+  "relatedConcerns": [
+    "hair-fall"
+  ],
+  "relatedTreatments": [
+    "hair-loss-treatment",
+    "prp-hair-treatment",
+    "facial-rejuvenation"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/hair-transplant.webp",
+    "alt": "Hair transplant consultation with hairline planning at Skin Essence, Kalyani Nagar, Pune",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "FUE Method",
+    "Hairline Design",
+    "Crown Coverage",
+    "Female Hair Transplant"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "dull-skin",
+  "name": "Dull Skin",
+  "metaTitle": "Dull Skin Treatment in Pune by MD Dermatologist | Skin Essence",
+  "metaDescription": "Why skin loses its glow in Pune and the dermatologist-led treatments that restore it, from peels to laser toning in Kalyani Nagar. Book a consultation.",
+  "intro": [
+    "Dull skin looks tired, uneven and lacklustre even when you are well rested. In Pune, sun, pollution, long commutes, dehydration and a build-up of dead skin cells are the usual reasons, and they are all very treatable.",
+    "Rather than facials that give a day of glow, dermatologist-led treatment restores the skin barrier, removes the damaged surface layer and treats the tan and pigmentation underneath."
+  ],
+  "causes": [
+    "Build-up of dead skin cells from slow cell turnover",
+    "Sun tan and uneven pigmentation from daily UV exposure",
+    "Dehydration and a damaged skin barrier from harsh cleansers and over-exfoliation",
+    "Pollution, dust and smoke during commuting",
+    "Lack of sleep, smoking and nutritional deficiencies",
+    "Early ageing and loss of collagen"
+  ],
+  "treatmentSlugs": [
+    "chemical-peel",
+    "laser-toning",
+    "facial-rejuvenation",
+    "bridal-skin-care"
+  ],
+  "faqs": [
+    {
+      "q": "How quickly can I get a glow before an event?",
+      "a": "A gentle peel or laser toning session 7 to 10 days before an event gives a visible glow. For lasting improvement, a course over 2 to 3 months is better, which is why bridal preparation starts early."
+    },
+    {
+      "q": "Are salon facials bad for the skin?",
+      "a": "Occasional gentle facials are fine for most people, but steam, scrubs and bleach often irritate sensitive or acne-prone skin. Treatments chosen by a dermatologist work on the cause of dullness rather than the surface alone."
+    }
+  ],
+  "heroImage": {
+    "src": "/images/concerns/dull-skin.webp",
+    "alt": "Woman touching her cheek while examining tired, uneven skin in a mirror",
+    "width": 1200,
+    "height": 900
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "wrinkles-and-fine-lines",
+  "name": "Wrinkles & Fine Lines",
+  "metaTitle": "Wrinkles & Fine Lines Treatment in Pune by MD Dermatologist | Skin Essence",
+  "metaDescription": "Forehead lines, crow's feet and sagging explained, with honest anti-ageing options from an MD dermatologist in Kalyani Nagar, Pune. Book a consultation.",
+  "intro": [
+    "Fine lines around the eyes and forehead usually appear in the late twenties or thirties, earlier with sun exposure and smoking. Over time, repeated expressions, collagen loss and volume changes turn fine lines into deeper wrinkles and folds.",
+    "The goal of treatment at Skin Essence in Kalyani Nagar is a rested, natural look rather than a frozen one. Options range from medical skincare and peels to Botox, fillers and skin rejuvenation, chosen by an MD dermatologist for your age, skin and expectations."
+  ],
+  "causes": [
+    "Repeated facial expressions such as frowning and squinting",
+    "Cumulative sun exposure without sunscreen",
+    "Natural loss of collagen and elastin with age",
+    "Loss of fat and bone volume in the face, causing sagging and folds",
+    "Smoking, pollution and poor sleep",
+    "Genetics and rapid weight loss"
+  ],
+  "treatmentSlugs": [
+    "botox",
+    "dermal-fillers",
+    "anti-ageing-treatment",
+    "facial-rejuvenation"
+  ],
+  "faqs": [
+    {
+      "q": "At what age should I start anti-ageing treatment?",
+      "a": "Daily sunscreen and a retinoid can start in the mid-twenties. Botox and fillers are considered when lines are visible at rest or volume loss is noticeable, usually from the thirties onwards, and only when they will make a real difference."
+    },
+    {
+      "q": "Will Botox make my face look frozen?",
+      "a": "Not when the dose and injection points are chosen carefully by a dermatologist. The aim is to soften lines while keeping natural expression. Results last around 3 to 5 months."
+    }
+  ],
+  "heroImage": {
+    "src": "/images/concerns/wrinkles-and-fine-lines.webp",
+    "alt": "Close-up of fine lines at the corner of a woman's eye",
+    "width": 1200,
+    "height": 900
+  }
+}

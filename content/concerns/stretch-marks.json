@@ -1,0 +1,37 @@
+{
+  "slug": "stretch-marks",
+  "name": "Stretch Marks",
+  "metaTitle": "Stretch Marks Treatment in Pune by MD Dermatologist | Skin Essence",
+  "metaDescription": "Stretch marks after pregnancy, weight change or growth spurts can be softened. Dermatologist-led options in Kalyani Nagar, Pune. Book a consultation.",
+  "intro": [
+    "Stretch marks are lines that form when skin stretches faster than it can adapt, tearing the collagen and elastin beneath the surface. They appear on the abdomen, thighs, hips, breasts and arms, red or purple at first and fading to white or silver over time.",
+    "Newer marks respond best to treatment. Older marks can still be improved in texture and colour, though no treatment removes them entirely."
+  ],
+  "causes": [
+    "Pregnancy and rapid weight gain or loss",
+    "Growth spurts during adolescence",
+    "Muscle building and bodybuilding",
+    "Long-term use of oral or topical steroids",
+    "Genetics and conditions that weaken the skin's collagen"
+  ],
+  "treatmentSlugs": [
+    "laser-toning",
+    "chemical-peel"
+  ],
+  "faqs": [
+    {
+      "q": "Can stretch marks be removed completely?",
+      "a": "No. Stretch marks are scars, so treatments such as microneedling, lasers and peels improve their colour and texture substantially but do not erase them. We show you realistic outcomes before starting."
+    },
+    {
+      "q": "When is the best time to treat stretch marks?",
+      "a": "As early as possible, while they are still red or purple. Treatment after pregnancy can begin once breastfeeding considerations and your doctor's advice allow."
+    }
+  ],
+  "heroImage": {
+    "src": "/images/concerns/stretch-marks.webp",
+    "alt": "Close-up of faded stretch marks on the side of a woman's abdomen",
+    "width": 1200,
+    "height": 900
+  }
+}

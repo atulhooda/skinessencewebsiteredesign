@@ -1,0 +1,39 @@
+{
+  "slug": "acne-scars",
+  "name": "Acne Scars",
+  "metaTitle": "Acne Scar Treatment in Pune by MD Dermatologist | Skin Essence",
+  "metaDescription": "Pitted, rolling and dark acne scars explained, with dermatologist-led scar treatment options in Kalyani Nagar, Pune. Book a consultation at Skin Essence.",
+  "intro": [
+    "Acne scars are what remain after inflamed pimples heal. Dark or red marks fade with time and treatment, but pitted scars (ice-pick, boxcar and rolling scars) are changes in the skin's collagen and need procedures to improve. Many patients in Pune reach us years after their acne has settled, still hiding their cheeks under make-up or a beard.",
+    "The first step is to control any active acne, otherwise new scars keep forming. Dr. Daksha Patel, MBBS, MD (Skin & VD), then maps the scar types on your face, because each type responds to a different treatment and most people have a mix."
+  ],
+  "causes": [
+    "Deep, inflamed or cystic acne that damages collagen as it heals",
+    "Squeezing, picking or popping pimples",
+    "Delayed or inadequate acne treatment, allowing repeated breakouts in the same area",
+    "Genetics and skin types that scar or pigment easily",
+    "Sun exposure, which darkens marks left after acne"
+  ],
+  "treatmentSlugs": [
+    "acne-scar-treatment",
+    "chemical-peel",
+    "laser-toning",
+    "facial-rejuvenation"
+  ],
+  "faqs": [
+    {
+      "q": "Can acne scars be removed completely?",
+      "a": "Pitted scars can be improved substantially, often by 50 to 70 percent over a course of treatment, but not erased. Flat dark marks respond well and can fade almost completely. We show you realistic outcomes for your scar types before starting."
+    },
+    {
+      "q": "How long after acne can scars be treated?",
+      "a": "Dark marks can be treated as soon as active acne is under control. Procedures for pitted scars, such as microneedling or subcision, usually begin once the skin has been clear for a few months and any isotretinoin course has been completed."
+    }
+  ],
+  "heroImage": {
+    "src": "/images/concerns/acne-scars.webp",
+    "alt": "Close-up of pitted acne scars on a young man's cheek",
+    "width": 1200,
+    "height": 900
+  }
+}

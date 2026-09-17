@@ -1,0 +1,82 @@
+{
+  "slug": "pigmentation-treatment",
+  "name": "Pigmentation Treatment",
+  "category": "skin",
+  "shortDesc": "Prescription care, peels and laser toning to lighten dark patches, tanning and post-acne marks on Indian skin.",
+  "heroTitle": "Pigmentation Treatment For Even, Brighter Skin",
+  "metaTitle": "Pigmentation Treatment in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Pigmentation treatment in Kalyani Nagar, Pune by an MD dermatologist: peels, laser toning and medical care for dark patches and tan. Book a consultation.",
+  "intro": [
+    "Pigmentation is the umbrella term for skin that has become darker in patches or spots: sun tan on the face and arms, dark marks after acne, melasma on the cheeks and forehead, freckles, and darkening around the mouth, underarms, neck or knees. Indian skin, mostly Fitzpatrick type IV to V, produces melanin readily, which is why marks appear quickly and fade slowly.",
+    "Effective treatment starts with a diagnosis, because the causes differ. Dr. Daksha Patel, an MD dermatologist, examines the pigmentation under magnification to judge whether it sits in the surface layer, deeper in the dermis, or both, and checks for triggers such as sun, hormones, friction and the steroid-based 'fairness' creams that are still sold over the counter across Pune.",
+    "The plan combines a prescription lightening routine and strict sun protection with in-clinic sessions such as chemical peels and laser toning at our Kalyani Nagar clinic. Pigmentation responds well but slowly, and it returns if sunscreen is dropped, so maintenance is part of the plan from the start."
+  ],
+  "whoIsItFor": [
+    "Sun tan and uneven tone on the face, neck, arms and hands from commuting and outdoor work",
+    "Dark marks left after acne, insect bites or rashes",
+    "Dark patches on the cheeks and forehead (see our melasma page for hormone-linked patches)",
+    "Darkening of the underarms, neck, knuckles or inner thighs, which sometimes signals an underlying condition that needs checking",
+    "Brightening before a wedding or event, started at least 3 months ahead"
+  ],
+  "howItWorks": [
+    {
+      "title": "Diagnosis and triggers",
+      "description": "The type and depth of pigmentation are assessed under magnification. Products you use are reviewed, and blood tests are advised if a hormonal or metabolic cause is suspected."
+    },
+    {
+      "title": "Home routine",
+      "description": "A broad-spectrum sunscreen and prescription lightening agents such as azelaic acid, kojic acid, arbutin or retinoids are chosen for your skin type and started before procedures."
+    },
+    {
+      "title": "In-clinic sessions",
+      "description": "Chemical peels every 2 to 4 weeks and laser toning every 3 to 4 weeks lift surface pigment and calm the cells that overproduce melanin."
+    },
+    {
+      "title": "Maintenance",
+      "description": "Once lightened, a simpler routine and occasional sessions keep the tone even, especially through Pune's summer and monsoon sun."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "6–8 sessions over 3–4 months",
+    "sessionTime": "30–45 minutes",
+    "downtime": "0–3 days of mild dryness or flaking after peels; none after laser toning",
+    "results": "Lightening visible in 6–8 weeks; best results at 3–4 months"
+  },
+  "aftercare": [
+    "Reapply sunscreen every 3 hours when outdoors, and wear it indoors near windows and screens.",
+    "Stop bleach, scrubs and home remedies such as lemon or baking soda; they irritate the skin and deepen pigmentation.",
+    "Report any darkening after a session the same day so the plan can be adjusted.",
+    "Continue the maintenance routine even after the marks fade."
+  ],
+  "faqs": [
+    {
+      "q": "Will the pigmentation come back?",
+      "a": "It can, if sun protection and the maintenance routine are dropped. Marks from acne or tan usually stay away once treated, while hormone-linked pigmentation such as melasma needs ongoing control."
+    },
+    {
+      "q": "Do fairness creams work?",
+      "a": "Many over-the-counter fairness creams contain steroids that thin the skin and cause rebound pigmentation, acne and visible blood vessels. Prescription lightening agents chosen by a dermatologist are safer and more effective."
+    },
+    {
+      "q": "Is laser toning safe for dark Indian skin?",
+      "a": "Yes, when low-energy settings are used and the skin is primed beforehand. Over-treatment can cause light or dark patches, which is why sessions here are planned by a dermatologist."
+    },
+    {
+      "q": "Can a dark neck or dark underarms be treated?",
+      "a": "Yes. We first check whether the darkening is linked to friction, deodorants, shaving or a condition such as insulin resistance, then treat with prescription creams, peels and laser toning."
+    },
+    {
+      "q": "How long before I see a difference?",
+      "a": "Most patients notice lighter, brighter skin in 6 to 8 weeks. Deeper pigmentation takes 3 to 4 months of consistent treatment."
+    }
+  ],
+  "relatedConcerns": ["pigmentation", "dull-skin"],
+  "relatedTreatments": ["melasma-treatment", "laser-toning", "chemical-peel"],
+  "heroImage": {
+    "src": "/images/treatments/pigmentation-treatment.webp",
+    "alt": "Dermatologist examining pigmentation on a patient's cheek under magnification",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": ["Sun Tan", "Post-Acne Marks", "Dark Patches", "Dark Underarms & Neck", "Freckles"]
+}

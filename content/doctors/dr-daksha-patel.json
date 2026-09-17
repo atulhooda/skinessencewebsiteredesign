@@ -1,0 +1,33 @@
+{
+  "slug": "dr-daksha-patel",
+  "name": "Dr. Daksha Patel",
+  "qualifications": [
+    "MBBS",
+    "MD (Skin & VD)"
+  ],
+  "title": "Dermatologist & Cosmetologist",
+  "yearsExperience": 17,
+  "subheading": "Expertise. Experience. Personalised Care.",
+  "shortBio": "With 17+ years of experience in Dermatology and Cosmetology, Dr. Daksha Patel is dedicated to providing personalised, evidence-based care for healthy, confident skin and hair.",
+  "bio": [
+    "With 17+ years of experience in Dermatology and Cosmetology, Dr. Daksha Patel is dedicated to providing personalised, evidence-based care for healthy, confident skin and hair. Her special areas of interest include acne and pigmentation, hair problems, anti-ageing treatments, and paediatric dermatology.",
+    "With extensive clinical experience and a patient-first approach, she focuses on understanding each individual's concerns and creating treatment plans tailored to their unique needs.",
+    "Dr. Patel holds an MD (Skin & VD), a postgraduate degree in dermatology. She has treated over 3,00,000 patients and performed more than 10,000 cosmetic treatments, and consults at Skin Essence in Kalyani Nagar, Pune."
+  ],
+  "specialInterests": [
+    "Acne & Pigmentation",
+    "Hair & Scalp Problems",
+    "Anti-Ageing & Skin Rejuvenation",
+    "Paediatric Dermatology"
+  ],
+  "photo": {
+    "src": "/images/doctor/dr-daksha-patel.webp",
+    "alt": "Dr. Daksha Patel, MBBS, MD (Skin & VD), at her desk at Skin Essence, Kalyani Nagar, Pune",
+    "width": 960,
+    "height": 1200
+  },
+  "locationSlugs": [
+    "dermatologist-in-kalyani-nagar"
+  ],
+  "sameAs": []
+}
