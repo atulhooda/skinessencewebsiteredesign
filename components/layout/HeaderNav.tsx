@@ -67,7 +67,7 @@ export function HeaderNav({ nav }: { nav: NavData }) {
           <PlusIcon className={cn("size-5 transition-transform duration-300", open && "rotate-45")} />
         </button>
 
-        <div className="hidden items-center justify-self-end gap-6 md:flex">
+        <div className="hidden items-center justify-self-end gap-6 pl-8 md:flex">
           <nav aria-label="Primary" className="hidden xl:block">
             <ul className="flex items-center gap-5 text-sm text-white/85 xl:gap-6">
               {nav.primary.map((link) => (
