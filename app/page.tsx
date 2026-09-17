@@ -64,7 +64,6 @@ export default function HomePage() {
         eyebrow={home.intake.eyebrow}
         lead={home.intake.lead}
         rest={home.intake.rest}
-        site={site}
         options={getLeadOptions()}
         locations={leadLocations}
         defaultLocation={location.slug}

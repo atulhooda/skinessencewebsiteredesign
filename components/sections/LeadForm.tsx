@@ -14,8 +14,8 @@ type Props = {
   defaultOption?: string;
   defaultLocation?: string;
   whatsappHref: string;
-  /** "wide" lays the fields out in three columns for full-width placements. */
-  layout?: "default" | "wide";
+  /** "wide": three columns; "compact": name, phone, concern, clinic and the button in one row, nothing else. */
+  layout?: "default" | "wide" | "compact";
 };
 
 const field =
@@ -28,15 +28,17 @@ function todayIso(): string {
 }
 
 /**
- * Patient details form: name, phone, email (optional), treatment/concern,
- * clinic, preferred date (optional), message (≤180). Posts JSON to /api/lead.
+ * Patient details form. Full: name, phone, email (optional), treatment/concern,
+ * clinic, preferred date (optional), message (≤180). Compact: the first four
+ * fields and the button only. Posts JSON to /api/lead.
  */
 export function LeadForm({ options, locations, defaultOption, defaultLocation, whatsappHref, layout = "default" }: Props) {
   const [status, setStatus] = useState<Status>({ state: "idle" });
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [messageLength, setMessageLength] = useState(0);
   const wide = layout === "wide";
-  const full = wide ? "sm:col-span-2 lg:col-span-3" : "sm:col-span-2";
+  const compact = layout === "compact";
+  const full = compact ? "sm:col-span-2 lg:col-span-5" : wide ? "sm:col-span-2 lg:col-span-3" : "sm:col-span-2";
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -83,7 +85,7 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
   }
 
   return (
-    <form onSubmit={onSubmit} noValidate className={cn("grid gap-5 sm:grid-cols-2", wide && "lg:grid-cols-3")}>
+    <form onSubmit={onSubmit} noValidate className={cn("grid gap-4 sm:grid-cols-2", wide && "gap-5 lg:grid-cols-3", compact && "lg:grid-cols-[1fr_1fr_1fr_1fr_auto] lg:items-start")}>
       <div>
         <label htmlFor="lead-name" className={label}>
           Full Name
@@ -106,6 +108,7 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
           </p>
         )}
       </div>
+      {!compact && (
       <div>
         <label htmlFor="lead-email" className={label}>
           Email <span className="font-normal text-muted">(optional)</span>
@@ -113,6 +116,7 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
         <input id="lead-email" name="email" type="email" inputMode="email" autoComplete="email" maxLength={120} placeholder="you@example.com" aria-invalid={Boolean(errors.email)} className={field} />
         {errors.email && <p className="mt-1 text-xs text-urgent">{errors.email}</p>}
       </div>
+      )}
       <div>
         <label htmlFor="lead-concern" className={label}>
           Treatment / Concern
@@ -142,6 +146,7 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
         </select>
         {errors.location && <p className="mt-1 text-xs text-urgent">{errors.location}</p>}
       </div>
+      {!compact && (
       <div>
         <label htmlFor="lead-date" className={label}>
           Preferred Date <span className="font-normal text-muted">(optional)</span>
@@ -149,6 +154,8 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
         <input id="lead-date" name="preferredDate" type="date" min={todayIso()} aria-invalid={Boolean(errors.preferredDate)} className={field} />
         {errors.preferredDate && <p className="mt-1 text-xs text-urgent">{errors.preferredDate}</p>}
       </div>
+      )}
+      {!compact && (
       <div className={full}>
         <label htmlFor="lead-message" className={label}>
           Message <span className="font-normal text-muted">(optional)</span>
@@ -159,14 +166,14 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
         </p>
         {errors.message && <p className="mt-1 text-xs text-urgent">{errors.message}</p>}
       </div>
+      )}
       {/* Honeypot: hidden from people, filled by bots. */}
       <div className="hidden" aria-hidden="true">
         <label htmlFor="lead-website">Website</label>
         <input id="lead-website" name="website" type="text" tabIndex={-1} autoComplete="off" />
       </div>
-      <div className={cn("flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between", full)}>
-        <p className="max-w-sm text-xs leading-relaxed text-muted">You will receive a friendly confirmation call or WhatsApp message during clinic hours. No spam, ever.</p>
-        <Button type="submit" variant="primary" icon="arrow-right" disabled={status.state === "submitting"}>
+      <div className={cn("flex", compact ? "sm:col-span-2 lg:col-span-1 lg:pt-[1.625rem]" : cn("justify-end", full))}>
+        <Button type="submit" variant="primary" icon="arrow-right" size="lg" disabled={status.state === "submitting"} className={cn(compact && "w-full justify-between lg:w-auto")}>
           {status.state === "submitting" ? "Sending…" : "Book Consultation"}
         </Button>
       </div>

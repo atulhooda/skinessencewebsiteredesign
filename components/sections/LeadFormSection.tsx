@@ -8,7 +8,6 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { MapPinIcon } from "@/components/ui/icons";
 import { SectionCard } from "@/components/ui/SectionCard";
 import { LeadForm } from "./LeadForm";
-import { NextSteps } from "./NextSteps";
 
 type Props = {
   eyebrow: string;
@@ -92,9 +91,8 @@ export function LeadFormSection({ eyebrow, title, description, location, site, o
             </div>
           </div>
 
-          <div className="flex flex-col rounded-3xl bg-white p-6 shadow-soft md:p-8">
+          <div className="flex flex-col justify-center rounded-3xl bg-white p-6 shadow-soft md:p-8">
             <LeadForm options={options} locations={locations} defaultOption={defaultOption} defaultLocation={location.slug} whatsappHref={whatsappHref} />
-            <NextSteps className="mt-6" />
           </div>
         </div>
       </Container>
