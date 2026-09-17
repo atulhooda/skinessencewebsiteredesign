@@ -266,6 +266,8 @@ export const TechnologySchema = z.object({
   name: z.string(),
   description: z.string(),
   image: ImageSchema,
+  /** Machines the clinic has confirmed as new in Pune; rendered with a badge and ordered first. */
+  highlight: z.boolean().default(false),
 });
 
 export const TechnologyFileSchema = z.object({

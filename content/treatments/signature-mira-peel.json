@@ -3,95 +3,84 @@
   "name": "Signature Mira Peel",
   "category": "skin-glow",
   "order": 2,
-  "shortDesc": "Skin Essence's own glow peel, built up in gentle layers chosen for your skin type, for brighter skin with minimal downtime.",
-  "heroTitle": "Signature Mira Peel: Our Own Glow Peel, Matched To Your Skin",
-  "metaTitle": "Signature Mira Peel in Kalyani Nagar, Pune | Skin Essence",
-  "metaDescription": "Signature Mira Peel in Kalyani Nagar, Pune: Skin Essence's own glow peel, layered for your skin type by an MD dermatologist. Book a consultation.",
+  "shortDesc": "Our signature MiraPeel facial: hydradermabrasion, wet microneedling, extraction, serum infusion and LED in one no-downtime session.",
+  "heroTitle": "Signature Mira Peel: Hydradermabrasion, Infusion And Glow In One Session",
+  "metaTitle": "Signature Mira Peel (MiraPeel) in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Signature Mira Peel in Kalyani Nagar, Pune: MiraPeel hydradermabrasion, serum infusion and LED in one session at Skin Essence. Book a consultation.",
   "intro": [
-    "The Signature Mira Peel is Skin Essence's own glow peel, for skin that looks dull, tanned or uneven when you want a visible difference without days of peeling. Rather than a single acid at a single strength, it is built up in gentle layers chosen for your skin type, tone and concern, which makes it suitable for Indian skin that pigments easily when over-treated.",
-    "Like every peel, it loosens the dull surface layer and signals the skin beneath to renew faster. Designed as a superficial peel, it brightens tone, softens rough texture and lifts light tan and post-acne marks, with skin that looks fresher within days. It is the first step of most glow plans at our Kalyani Nagar clinic and a favourite before weddings, festivals and photographs.",
-    "Every Mira Peel is planned and supervised by Dr. Daksha Patel, an MD dermatologist with 17+ years of experience. Your skin is examined first and the number of layers is adjusted to what it can comfortably take on the day. Most patients return to work the same day and repeat the peel every three to four weeks for results that build over a course."
+    "The Signature Mira Peel is Skin Essence's flagship glow treatment, performed on the MiraPeel system at our Kalyani Nagar clinic. Despite the name, it is not a chemical peel. MiraPeel is a German-developed serum delivery platform that combines hydradermabrasion, wet microneedling, vacuum extraction, lymphatic cupping, microcurrent and LED light therapy in a single session, so the skin is cleansed, resurfaced, infused and toned in one visit.",
+    "Hydradermabrasion uses a fine exfoliation tip with a vortex of water and serum to lift dead cells and tan without the scratching of crystal microdermabrasion. Gentle vacuum clears blackheads and congestion, then wet microneedling channels hydrating and brightening serums into the skin. Microcurrent tones the facial muscles and LED light calms acne and supports collagen. The result is an immediate glow, with skin that feels plumper and smoother for weeks.",
+    "Dr. Daksha Patel, an MD dermatologist with 17+ years of experience, chooses the steps and serums for each patient: a calming, hydrating protocol for sensitive or dry skin, a clarifying one for oily and acne-prone skin, and a brightening one for tan and dullness. There is no downtime, which is why the Mira Peel is the first step of most glow plans and the treatment we recommend closest to a wedding or event."
   ],
   "whoIsItFor": [
-    "Dull, tired skin that needs a visible glow within a week",
-    "Light tan and uneven tone from sun, dust and daily commuting",
-    "Rough texture, congestion and post-acne marks once breakouts are under control",
-    "A first peel for patients who are nervous about visible peeling and downtime",
-    "Pre-wedding and pre-event skin, timed 5 to 10 days before the day"
+    "Dull, tired or dehydrated skin that needs a visible glow with no downtime",
+    "Blackheads, congestion and open pores that need gentle, painless extraction",
+    "Light tan, uneven tone and rough texture from sun, dust and commuting",
+    "Sensitive skin that cannot tolerate strong chemical peels",
+    "Pre-wedding and pre-event skin, even in the final week"
   ],
   "howItWorks": [
     {
-      "title": "Skin assessment",
-      "description": "Skin type, tone and concern are assessed under magnification and current products reviewed. Sensitive or melasma-prone skin is patch-tested first."
+      "title": "Skin analysis",
+      "description": "Skin type, hydration, congestion and tone are assessed under magnification, and the MiraPeel protocol and serums are chosen for your skin."
     },
     {
-      "title": "Preparation",
-      "description": "The skin is cleansed and degreased, and the corners of the nose, lips and eyes are protected with a barrier cream."
+      "title": "Cleanse, exfoliate and extract",
+      "description": "The hydradermabrasion tip lifts dead cells and tan with water and serum, then vacuum extraction clears blackheads and congestion painlessly."
     },
     {
-      "title": "The peel, layer by layer",
-      "description": "The peel is applied in stages over 15 to 20 minutes, with the number of layers set by how your skin responds. You feel warmth or tingling that fades within a minute or two."
+      "title": "Infuse and tone",
+      "description": "Wet microneedling channels hydrating or brightening serums into the skin, and microcurrent tones the facial muscles for a subtle lift."
     },
     {
-      "title": "Soothe and protect",
-      "description": "A calming mask and broad-spectrum sunscreen finish the session. You leave with written aftercare and a date for the next peel if a course is planned."
+      "title": "LED and protect",
+      "description": "A few minutes of LED light therapy calm redness and support collagen, and sunscreen finishes the session. Most patients return to work immediately."
     }
   ],
   "sessionsAndDowntime": {
-    "sessions": "1 session for an event glow; 3–4 sessions, 3–4 weeks apart, for lasting results",
-    "sessionTime": "About 30 minutes",
-    "downtime": "Minimal; mild dryness or light flaking for 1–3 days",
-    "results": "Brighter skin within days; tone and texture improve over the course"
+    "sessions": "1 session for an event glow; every 4–6 weeks for lasting results",
+    "sessionTime": "45–60 minutes",
+    "downtime": "None; mild pinkness for an hour or two",
+    "results": "Immediate glow; hydration and texture improve with regular sessions"
   },
   "aftercare": [
-    "Sunscreen every morning, reapplied outdoors, for at least two weeks; skipping it is the commonest cause of darkening.",
-    "Use only the gentle cleanser and moisturiser advised, and pause retinoids, scrubs and other actives for about a week.",
-    "Do not pull at any flaking skin; let it shed on its own.",
-    "Avoid waxing, threading, steam and swimming pools for a week."
+    "Sunscreen every morning; freshly exfoliated skin tans quickly without it.",
+    "Skip scrubs, retinoids and other actives for 3 days after the session.",
+    "No make-up for a few hours and no steam or sauna for 24 hours.",
+    "Keep water intake up; the infused serums work best in well-hydrated skin."
   ],
   "faqs": [
     {
-      "q": "How is the Signature Mira Peel different from a regular chemical peel?",
-      "a": "A standard peel applies one acid at one strength for a set time. The Mira Peel is built up in gentle layers matched to your skin and adjusted as it responds. We choose it when the goal is glow with minimal downtime, and a targeted peel when scars or stubborn pigmentation need a deeper result."
+      "q": "Is the Signature Mira Peel a chemical peel?",
+      "a": "No. The name is the clinic's, but the treatment is performed on the MiraPeel system, which uses water-based hydradermabrasion, extraction, serum infusion, microcurrent and LED rather than acids. It suits skin that cannot tolerate chemical peels."
     },
     {
-      "q": "Will my skin peel visibly?",
-      "a": "The Mira Peel is designed as a superficial peel, so most patients get light flaking at most, similar to mild dryness, for a day or two."
+      "q": "Does it hurt, and is there downtime?",
+      "a": "No. Most patients describe a cool, tingling suction and find the session relaxing. There is no peeling, and the skin may look slightly pink for an hour or two."
     },
     {
-      "q": "How many sessions will I need?",
-      "a": "One session gives a visible glow for an event. For lasting improvement, a course of three to four peels spaced three to four weeks apart works best, then a maintenance peel every two to three months."
+      "q": "How is it different from a HydraFacial?",
+      "a": "MiraPeel includes hydradermabrasion much like a HydraFacial, and adds wet microneedling, microcurrent, lymphatic cupping and LED in the same session, so more can be addressed in one visit."
     },
     {
-      "q": "Is it suitable for sensitive or Indian skin?",
-      "a": "Yes. The layered approach lets the dermatologist stop at the right point for your skin, and sensitive or melasma-prone skin is patch-tested first. That is why we prefer it to stronger peels on Indian skin."
+      "q": "How often should I have it?",
+      "a": "One session gives an event glow that lasts a few weeks. For ongoing improvement in hydration, texture and congestion, most patients repeat it every 4 to 6 weeks."
     },
     {
-      "q": "How soon before my wedding should I have it?",
-      "a": "If you have had the Mira Peel before, 5 to 10 days before the event is ideal. For a first peel, book 3 to 4 weeks ahead so we know how your skin responds, then a final session close to the day."
+      "q": "Can I have it a few days before my wedding?",
+      "a": "Yes. Because there is no downtime, the Mira Peel can be done 2 to 5 days before an event. For the best result, start monthly sessions 2 to 3 months ahead."
     }
   ],
-  "relatedConcerns": [
-    "dull-skin",
-    "pigmentation"
-  ],
-  "relatedTreatments": [
-    "skin-glow-treatment",
-    "chemical-peel",
-    "bridal-skin-care"
-  ],
+  "relatedConcerns": ["dull-skin", "open-pores"],
+  "relatedTreatments": ["skin-glow-treatment", "chemical-peel", "bridal-skin-care"],
   "heroImage": {
     "src": "/images/treatments/signature-mira-peel.webp",
-    "alt": "Peel solution being brushed onto a patient's cheek during a glow peel session",
+    "alt": "Handheld facial device being used on a patient's face in a clinic",
     "width": 1200,
     "height": 900
   },
-  "subTreatments": [
-    "Single Glow Session",
-    "3–4 Session Course",
-    "Pre-Event Timing"
-  ],
+  "subTreatments": ["Hydradermabrasion", "Wet Microneedling", "Vacuum Extraction", "Microcurrent", "LED Light Therapy"],
   "todo": [
-    "Confirm with the clinic what the Signature Mira Peel contains, the standard number of layers and sessions, expected downtime and pricing. The page currently describes it as a superficial, layered glow peel."
+    "Confirm the clinic's standard Mira Peel protocol (which MiraPeel steps are included, session length and pricing)."
   ]
 }

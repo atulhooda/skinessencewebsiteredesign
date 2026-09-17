@@ -1,25 +1,27 @@
 {
-  "_note": "Machine photos are REPRESENTATIVE stock images of each device type (Pexels), not the clinic's own machines; `disclaimer` renders under the grid. Replace with the Pune clinic's photos and brand/model names when the client sends them, then remove the disclaimer. Confirm which platforms are in Pune vs Ahmedabad before naming brands.",
+  "_note": "Pune machines confirmed by the clinic (WhatsApp 17 Sep 2026, 2:11 PM): MIRAPEEL and Q-SWITCHED ND YAG (Qyros machine); Dr. Patel will send more. `highlight: true` renders the \"New in Pune\" badge. All photos are still representative stock until the clinic sends its own; `disclaimer` renders under the grid.",
   "items": [
     {
-      "name": "Fractional CO2 Laser",
-      "description": "Resurfacing for acne scars, texture and skin rejuvenation.",
+      "name": "MiraPeel",
+      "description": "Hydradermabrasion, serum infusion, microcurrent and LED in one session. Behind our Signature Mira Peel.",
+      "highlight": true,
       "image": {
-        "src": "/images/tech/fractional-co2-laser.webp",
-        "alt": "Aesthetic laser platform with a screen and handpieces beside a treatment couch",
+        "src": "/images/tech/mirapeel.webp",
+        "alt": "Handpiece with blue light being used on a patient's face during a facial device session",
         "width": 1200,
         "height": 900
       }
     },
     {
-      "name": "Q-Switched Nd:YAG Laser",
+      "name": "Q-Switched Nd:YAG Laser (Qyros)",
       "description": "Laser toning for pigmentation, tan and melasma control.",
       "image": {
         "src": "/images/tech/q-switched-nd-yag-laser.webp",
         "alt": "Laser handpiece being used on a patient's face, both wearing protective goggles",
         "width": 1200,
         "height": 900
-      }
+      },
+      "highlight": true
     },
     {
       "name": "Laser Hair Reduction",
@@ -57,6 +59,16 @@
       "image": {
         "src": "/images/tech/coolsculpting.webp",
         "alt": "Therapist holding a body-contouring applicator on a patient's abdomen",
+        "width": 1200,
+        "height": 900
+      }
+    },
+    {
+      "name": "Fractional CO2 Laser",
+      "description": "Resurfacing for acne scars, texture and skin rejuvenation.",
+      "image": {
+        "src": "/images/tech/fractional-co2-laser.webp",
+        "alt": "Aesthetic laser platform with a screen and handpieces beside a treatment couch",
         "width": 1200,
         "height": 900
       }

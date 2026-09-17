@@ -1,23 +1,57 @@
 import Image from "next/image";
 import type { Technology } from "@/content/schema";
+import { cn } from "@/lib/cn";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { SectionCard } from "@/components/ui/SectionCard";
 
 type Props = { id?: string; eyebrow: string; title: string; description: string; items: Technology[]; disclaimer?: string };
 
-function Tile({ item }: { item: Technology }) {
+type Span = { sm: 1 | 2; lg: 1 | 2 | 4 };
+
+/**
+ * Column spans so the last row is never left with a lone tile. The grid is
+ * 2 columns (text card spans both) below lg and 4 columns on lg (text card
+ * spans two). Wide tiles get a wider crop and a larger `sizes` hint.
+ */
+function spans(count: number): Span[] {
+  const cellsLg = 2 + count, cellsSm = 2 + count;
+  const remLg = cellsLg % 4, remSm = cellsSm % 2;
+  return Array.from({ length: count }, (_, i) => {
+    const fromEnd = count - 1 - i;
+    const sm: Span["sm"] = remSm === 1 && fromEnd === 0 ? 2 : 1;
+    let lg: Span["lg"] = 1;
+    if (remLg === 1 && fromEnd === 0) lg = 4;
+    else if (remLg === 2 && fromEnd <= 1) lg = 2;
+    else if (remLg === 3 && fromEnd === 0) lg = 2;
+    return { sm, lg };
+  });
+}
+
+function Tile({ item, span }: { item: Technology; span: Span }) {
+  const sizes = span.lg === 4 ? "(min-width: 1024px) 80vw, 100vw" : span.lg === 2 ? "(min-width: 1024px) 40vw, 100vw" : "(min-width: 1024px) 25vw, 50vw";
   return (
-    <figure className="group relative aspect-[4/3] overflow-hidden rounded-2xl bg-surface-3 lg:aspect-auto lg:h-full">
+    <figure
+      className={cn(
+        "group relative overflow-hidden rounded-2xl bg-surface-3 lg:aspect-auto lg:h-full",
+        span.sm === 2 ? "col-span-2 aspect-[2/1]" : "aspect-[4/3]",
+        span.lg === 4 ? "lg:col-span-4" : span.lg === 2 ? "lg:col-span-2" : "lg:col-span-1",
+      )}
+    >
       <Image
         src={item.image.src}
         alt={item.image.alt}
         width={item.image.width}
         height={item.image.height}
         loading="lazy"
-        sizes="(min-width: 1024px) 25vw, 50vw"
+        sizes={sizes}
         className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
       />
+      {item.highlight && (
+        <span className="absolute left-3 top-3 rounded-full bg-brand-600 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-white shadow-pill">
+          New in Pune
+        </span>
+      )}
       <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/65 to-transparent p-4 text-white">
         <span className="block text-sm font-semibold">{item.name}</span>
         <span className="mt-0.5 hidden text-xs text-white/90 md:block">{item.description}</span>
@@ -27,11 +61,12 @@ function Tile({ item }: { item: Technology }) {
 }
 
 /**
- * Technology grid: a teal text card two columns wide, then one tile per
- * machine. Four columns on desktop (text card + 2 tiles, then 4 tiles), two
- * columns below that. Tiles come from content/technology.json.
+ * Machines grid: a teal text card two columns wide, then one tile per
+ * machine (highlighted ones first). Tiles come from content/technology.json.
  */
 export function TechMosaic({ id = "technology", eyebrow, title, description, items, disclaimer }: Props) {
+  const ordered = [...items].sort((a, b) => Number(b.highlight) - Number(a.highlight));
+  const layout = spans(ordered.length);
   return (
     <SectionCard id={id} headingId={`${id}-heading`} tone="muted">
       <Container>
@@ -43,8 +78,8 @@ export function TechMosaic({ id = "technology", eyebrow, title, description, ite
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-white/90 lg:line-clamp-3">{description}</p>
           </div>
-          {items.map((item) => (
-            <Tile key={item.name} item={item} />
+          {ordered.map((item, i) => (
+            <Tile key={item.name} item={item} span={layout[i]!} />
           ))}
         </div>
         {disclaimer && <p className="mt-4 text-xs text-muted">{disclaimer}</p>}

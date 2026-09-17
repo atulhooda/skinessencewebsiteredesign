@@ -71,7 +71,8 @@ are invented in the data; the site renders "to be confirmed" states until they a
 - Google Maps place URL / Place ID (Pune) → `mapLink`, `mapEmbedUrl`, and `NEXT_PUBLIC_GOOGLE_PLACE_ID` for the reviews slot
 - Ahmedabad address, hours and who consults there → `content/locations/dermatologist-in-ahmedabad.json` (phone confirmed: +91 98259 71010; the reception / lounge / laser-room photos are the Ahmedabad clinic)
 - Machine brand/model names and photos for the Pune clinic → `content/technology.json` (grid lists the technology types from the client's services graphic with representative Pexels photos and a "photos are representative" line; swap in the clinic's own photos and remove `disclaimer` in technology.json)
-- Signature Mira Peel: confirm what it contains, sessions, downtime and pricing → `content/treatments/signature-mira-peel.json` → `todo`
+- Signature Mira Peel (MiraPeel system, confirmed): confirm the clinic's standard protocol and pricing → `content/treatments/signature-mira-peel.json` → `todo`
+- Pune machines confirmed so far: MiraPeel, Qyros Q-switched Nd:YAG (more to come from Dr. Patel); photos still representative
 - Clinic interior photos → replace labelled placeholders in `public/images/` (the doctor photo and logo are real)
 - Before/after images with written consent → results section (not built yet)
 - Instagram and other social handles → `content/site.json` → `social`, `doctors/*.json` → `sameAs`
