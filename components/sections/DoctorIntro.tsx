@@ -1,6 +1,7 @@
 import Image from "next/image";
+import type { ReactNode } from "react";
 import type { Doctor, Image as ImageData, Stat } from "@/content/schema";
-import { routes } from "@/lib/links";
+import { doctorHref } from "@/lib/links";
 import { Button } from "@/components/ui/Button";
 import { Chip } from "@/components/ui/Chip";
 import { Container } from "@/components/ui/Container";
@@ -16,11 +17,15 @@ type Props = {
   image: ImageData;
   /** Stat cards (17+ Years, 3,00,000+, 10,000+). Omit for the compact variant. */
   stats?: Stat[];
+  /** Show every bio paragraph instead of the first one (the About page, where this block is the full profile). */
+  fullBio?: boolean;
+  /** Replaces the default "Know Your Doctor" link, e.g. booking buttons on the About page itself. */
+  action?: ReactNode;
   tone?: "white" | "muted";
 };
 
 /** "Our Story" block from the reference: photo left, statement + credentials + stats right. */
-export function DoctorIntro({ id = "doctor", eyebrow, title, doctor, image, stats, tone = "muted" }: Props) {
+export function DoctorIntro({ id = "doctor", eyebrow, title, doctor, image, stats, fullBio = false, action, tone = "muted" }: Props) {
   return (
     <SectionCard id={id} headingId={`${id}-heading`} tone={tone}>
       <Container>
@@ -47,7 +52,11 @@ export function DoctorIntro({ id = "doctor", eyebrow, title, doctor, image, stat
             <h2 id={`${id}-heading`} className="mt-4 text-2xl font-medium leading-[1.15] sm:text-3xl md:text-4xl">
               {title}
             </h2>
-            <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted">{doctor.bio[0]}</p>
+            <div className="mt-5 max-w-2xl space-y-4 text-base leading-relaxed text-muted">
+              {(fullBio ? doctor.bio : doctor.bio.slice(0, 1)).map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </div>
             <ul className="mt-5 flex flex-wrap gap-2" aria-label="Special interests">
               {doctor.specialInterests.map((interest) => (
                 <li key={interest}>
@@ -56,9 +65,11 @@ export function DoctorIntro({ id = "doctor", eyebrow, title, doctor, image, stat
               ))}
             </ul>
             {stats && <StatsRow stats={stats} className="mt-8" />}
-            <Button href={routes.doctorProfile(doctor.slug)} variant="light" icon="arrow-up-right" className="mt-8">
-              Know Your Doctor
-            </Button>
+            {action ?? (
+              <Button href={doctorHref(doctor)} variant="light" icon="arrow-up-right" className="mt-8">
+                Know Your Doctor
+              </Button>
+            )}
           </div>
         </div>
       </Container>

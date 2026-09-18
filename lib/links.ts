@@ -1,4 +1,4 @@
-import type { Location } from "@/content/schema";
+import type { Doctor, Location } from "@/content/schema";
 
 /** Route builders and contact links. Keep every internal href here so a URL change is one edit. */
 export const routes = {
@@ -12,7 +12,9 @@ export const routes = {
   machine: (slug: string) => `/technology/${slug}`,
   location: (slug: string) => `/${slug}`,
   about: "/about",
-  doctor: "/dr-daksha-patel",
+  /** Dr. Patel's profile is the #doctor section of the About page (the two pages were merged). */
+  aboutDoctor: "/about#doctor",
+  /** Standalone profile page; only for doctors without `profileOnAbout`. Link with doctorHref() instead. */
   doctorProfile: (slug: string) => `/${slug}`,
   contact: "/contact",
   blog: "/blog",
@@ -22,6 +24,18 @@ export const routes = {
   /** In-page anchor of the lead form. Every page template renders it. */
   book: "#book",
 } as const;
+
+type DoctorRef = Pick<Doctor, "slug" | "profileOnAbout">;
+
+/** Link to a doctor's profile: the About page section, or their own page. */
+export function doctorHref(doctor: DoctorRef): string {
+  return doctor.profileOnAbout ? routes.aboutDoctor : routes.doctorProfile(doctor.slug);
+}
+
+/** The page a doctor's profile lives on, without the hash (canonical, JSON-LD, sitemap). */
+export function doctorPagePath(doctor: DoctorRef): string {
+  return doctor.profileOnAbout ? routes.about : routes.doctorProfile(doctor.slug);
+}
 
 export function telUrl(phone: string): string {
   return `tel:${phone.replace(/\s+/g, "")}`;

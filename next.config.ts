@@ -1,5 +1,20 @@
+import fs from "node:fs";
+import path from "node:path";
 import createMDX from "@next/mdx";
 import type { NextConfig } from "next";
+
+/**
+ * Doctors whose profile is part of the About page (`profileOnAbout` in content/doctors/*.json)
+ * have no page of their own, so /<slug> forwards to /about. Temporary (307) while the client
+ * reviews the merged page on staging; switch to permanent at launch.
+ */
+const doctorsDir = path.join(process.cwd(), "content/doctors");
+const mergedDoctorRedirects = fs
+  .readdirSync(doctorsDir)
+  .filter((file) => file.endsWith(".json"))
+  .map((file) => JSON.parse(fs.readFileSync(path.join(doctorsDir, file), "utf8")) as { slug: string; profileOnAbout?: boolean })
+  .filter((doctor) => doctor.profileOnAbout)
+  .map((doctor) => ({ source: `/${doctor.slug}`, destination: "/about", permanent: false }));
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
@@ -19,8 +34,9 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       { source: "/about/", destination: "/about", permanent: true },
-      { source: "/know-your-doctor", destination: "/dr-daksha-patel", permanent: true },
-      { source: "/know-your-doctor/", destination: "/dr-daksha-patel", permanent: true },
+      { source: "/know-your-doctor", destination: "/about", permanent: true },
+      { source: "/know-your-doctor/", destination: "/about", permanent: true },
+      ...mergedDoctorRedirects,
       { source: "/clinic", destination: "/dermatologist-in-kalyani-nagar", permanent: true },
       { source: "/clinic/", destination: "/dermatologist-in-kalyani-nagar", permanent: true },
       { source: "/services", destination: "/treatments", permanent: true },

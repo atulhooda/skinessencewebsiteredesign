@@ -6,7 +6,7 @@ export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
 
 export function generateStaticParams() {
-  return [...getLocations().map((l) => ({ slug: l.slug })), ...getDoctors().map((d) => ({ slug: d.slug }))];
+  return [...getLocations().map((l) => ({ slug: l.slug })), ...getDoctors().filter((d) => !d.profileOnAbout).map((d) => ({ slug: d.slug }))];
 }
 
 export default async function Image({ params }: { params: Promise<{ slug: string }> }) {

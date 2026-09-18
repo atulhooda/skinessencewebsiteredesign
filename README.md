@@ -23,8 +23,9 @@ app/                      Routes. Each page composes section components and read
   treatments/             Index grouped by category + [slug] template
   concerns/               Index + [slug] template (causes, how we treat it, self-care, FAQs)
   technology/             Machines index + [slug] template
-  [slug]/                 Data-driven landing pages: one per clinic location and one per doctor
-  about/, contact/        About and contact pages
+  [slug]/                 Data-driven landing pages: one per clinic location (and any doctor with a standalone profile)
+  about/                  About the clinic AND Dr. Patel's profile (#doctor); /dr-daksha-patel redirects here
+  contact/                Contact page
   blog/                   Index + [slug]; post bodies are MDX files in /content/blog
   privacy-policy/, terms/ Legal pages from content/pages/*.json
   */opengraph-image.tsx   1200×630 OG images generated with next/og, per route
@@ -43,7 +44,8 @@ content/
   treatments/*.json       One file per treatment → /treatments/[slug]
   concerns/*.json         One file per patient concern → /concerns/[slug]
   locations/*.json        One file per clinic → /[slug] landing page
-  doctors/*.json          One file per doctor → /[slug] profile page
+  doctors/*.json          One file per doctor. `profileOnAbout: true` (Dr. Patel) = profile is the #doctor
+                          section of /about; otherwise a standalone /[slug] page
   machines/*.json         One file per machine → /technology/[slug]
   blog/<slug>.json + .mdx One pair per article → /blog/[slug] (metadata + MDX body)
   pages/*.json            Page-level copy (home, treatments, about, contact, concerns, blog, privacy-policy, terms)
@@ -100,6 +102,7 @@ are invented in the data; the site renders "to be confirmed" states until they a
 - GTM container ID → `NEXT_PUBLIC_GTM_ID` (slot in `components/layout/Gtm.tsx`)
 - `content/testimonials.json` holds SAMPLE testimonials for layout; replace with consented Google reviews
 - Wire `app/api/lead/route.ts` to the follow-up backend (currently validates and logs)
+- `/dr-daksha-patel` → `/about` is a temporary (307) redirect while the client reviews the merged page; set `permanent: true` in `next.config.ts` at launch
 
 ## Blog
 
@@ -111,5 +114,6 @@ A post is two files in `content/blog/`: `<slug>.json` (title, meta, date, excerp
 
 ## Redirects from the old WordPress site
 
-Configured in `next.config.ts`: `/about/`, `/know-your-doctor/`, `/clinic/`, `/services/` → new routes.
+Configured in `next.config.ts`: `/about/`, `/know-your-doctor/` (→ `/about`), `/clinic/`, `/services/` → new routes.
+The About and doctor pages were merged (Sep 2026): `/dr-daksha-patel` forwards to `/about`, generated from `profileOnAbout` in `content/doctors/*.json`. Link to a doctor with `doctorHref()` from `lib/links.ts`, never a hard-coded path.
 `/#Services` is a hash link and cannot be redirected server-side (the homepage `#treatments` anchor covers it).

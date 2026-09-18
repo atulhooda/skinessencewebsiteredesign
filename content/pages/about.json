@@ -1,4 +1,13 @@
 {
+  "heroTitle": "About Skin Essence And Dr. Daksha Patel",
+  "heroImage": {
+    "src": "/images/doctor/consultation.webp",
+    "alt": "Dr. Daksha Patel in consultation at Skin Essence",
+    "width": 1200,
+    "height": 900
+  },
+  "metaTitle": "About Skin Essence & Dr. Daksha Patel, MD | Dermatologist in Pune",
+  "metaDescription": "Meet Dr. Daksha Patel, MBBS, MD (Skin & VD), and Skin Essence, her skin, hair and laser clinic in Kalyani Nagar, Pune. 17+ years' experience. Book a visit.",
   "approach": {
     "title": "Our Approach",
     "intro": "At Skin Essence, we follow a patient-first philosophy. We do not believe in one-size-fits-all solutions. Instead, every treatment plan is designed after a thorough consultation and tailored specifically to your skin type, condition, and goals.",
@@ -27,7 +36,13 @@
       "Our clinic offers a comprehensive range of skin, hair, laser, and cosmetic treatments for both women and men, delivered with a focus on safety, precision, and long-term results.",
       "Whether you are struggling with acne, acne scars, pigmentation, unwanted hair, hair thinning or hair loss, or visible signs of ageing, our team takes the time to understand your concerns and guide you through suitable, evidence-based treatment options.",
       "We are committed to creating a comfortable and professional environment where every patient feels heard, respected, and confident in their care journey."
-    ]
+    ],
+    "image": {
+      "src": "/images/doctor/procedure.webp",
+      "alt": "Dr. Daksha Patel performing an injectable treatment on a patient",
+      "width": 1200,
+      "height": 960
+    }
   },
   "services": [
     "Acne and acne scar management",

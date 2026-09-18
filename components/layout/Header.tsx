@@ -1,5 +1,5 @@
 import { getConcerns, getLocations, getPrimaryDoctor, getSite, getTreatmentsByCategory } from "@/lib/content";
-import { formatPhone, routes, telUrl, whatsappUrl } from "@/lib/links";
+import { doctorHref, formatPhone, routes, telUrl, whatsappUrl } from "@/lib/links";
 import { HeaderNav } from "./HeaderNav";
 import type { NavData } from "./nav-data";
 
@@ -15,7 +15,8 @@ export function Header() {
       { label: "Treatments", href: routes.treatments },
       { label: "Technology", href: routes.technology },
       { label: "About", href: routes.about },
-      { label: doctor.name, short: doctor.name.replace(/^(Dr\.?\s+)\S+\s+/, "$1"), href: routes.doctorProfile(doctor.slug) },
+      // A doctor whose profile is part of the About page needs no nav item of their own.
+      ...(doctor.profileOnAbout ? [] : [{ label: doctor.name, short: doctor.name.replace(/^(Dr\.?\s+)\S+\s+/, "$1"), href: doctorHref(doctor) }]),
       { label: "Blog", href: routes.blog },
       { label: "Contact", href: routes.contact },
     ],

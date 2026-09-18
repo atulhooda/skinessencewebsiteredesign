@@ -191,8 +191,13 @@ export const LocationSchema = z.object({
 /* ---------- Doctors ---------- */
 
 export const DoctorSchema = z.object({
-  /** Doubles as the route: /dr-daksha-patel */
+  /** Doubles as the route (/<slug>) for doctors with a standalone profile page. */
   slug: SlugSchema,
+  /**
+   * true = this doctor's profile is the #doctor section of /about and there is no standalone page
+   * (/<slug> redirects to /about). Used for Dr. Patel since the About and doctor pages were merged.
+   */
+  profileOnAbout: z.boolean().default(false),
   name: z.string(),
   /** e.g. ["MBBS", "MD (Skin & VD)"] */
   qualifications: z.array(z.string()).min(1),
@@ -205,7 +210,7 @@ export const DoctorSchema = z.object({
   specialInterests: z.array(z.string()).min(1),
   photo: ImageSchema,
   metaDescription: MetaDescriptionSchema,
-  /** H1 of the doctor page. */
+  /** H1 of the standalone doctor page (unused while `profileOnAbout` is true). */
   heroTitle: z.string(),
   /** Location slugs where this doctor is confirmed to consult. */
   locationSlugs: z.array(SlugSchema).default([]),
@@ -397,10 +402,16 @@ export const TreatmentsPageSchema = z.object({
 
 /** Copy for /about, lifted from the existing site (brief section 3.8). */
 export const AboutPageSchema = z.object({
+  /** H1. The page covers the clinic and the primary doctor. */
+  heroTitle: z.string(),
+  heroImage: ImageSchema,
+  metaTitle: MetaTitleSchema,
+  metaDescription: MetaDescriptionSchema,
   approach: z.object({ title: z.string(), intro: z.string(), focus: z.array(z.string()).min(1) }),
   vision: z.object({ title: z.string(), text: z.string() }),
   whyChoose: z.object({ title: z.string(), text: z.string() }),
-  understanding: z.object({ title: z.string(), paragraphs: z.array(z.string()).min(1) }),
+  /** Clinic story. `image` sits under the vision card beside the text. */
+  understanding: z.object({ title: z.string(), paragraphs: z.array(z.string()).min(1), image: ImageSchema.optional() }),
   services: z.array(z.string()).min(1),
 });
 

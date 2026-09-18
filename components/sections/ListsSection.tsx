@@ -17,7 +17,7 @@ export function ListsSection({ id, eyebrow, title, lists, tone = "muted" }: Prop
         <SectionHeading id={`${id}-heading`} eyebrow={eyebrow} title={title} align="left" size="md" />
         <div className={`mt-10 grid gap-4 ${blocks.length >= 3 ? "lg:grid-cols-3" : "md:grid-cols-2"}`}>
           {blocks.map((block) => (
-            <div key={block.heading} className="rounded-3xl border border-brand-100 bg-white p-6 md:p-8">
+            <div key={block.heading} className={`rounded-3xl border border-brand-100 p-6 md:p-8 ${tone === "white" ? "bg-surface-2" : "bg-white"}`}>
               <h3 className="text-lg font-semibold">{block.heading}</h3>
               <ul className="mt-4 space-y-3 text-sm leading-relaxed text-ink-2">
                 {block.items.map((item) => (

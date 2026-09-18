@@ -8,7 +8,7 @@
  */
 import type { BlogPost, Concern, Doctor, Faq, Location, Machine, Site, Treatment } from "@/content/schema";
 import { absoluteUrl, SITE_URL } from "./seo";
-import { locationMapLink, routes } from "./links";
+import { doctorPagePath, locationMapLink, routes } from "./links";
 
 export type JsonLdObject = Record<string, unknown>;
 
@@ -29,9 +29,9 @@ function postalAddress(location: Location): JsonLdObject | undefined {
 function physicianSummary(doctor: Doctor): JsonLdObject {
   return {
     "@type": "Physician",
-    "@id": `${absoluteUrl(routes.doctorProfile(doctor.slug))}#physician`,
+    "@id": `${absoluteUrl(doctorPagePath(doctor))}#physician`,
     name: doctor.name,
-    url: absoluteUrl(routes.doctorProfile(doctor.slug)),
+    url: absoluteUrl(doctorPagePath(doctor)),
     medicalSpecialty: "Dermatology",
   };
 }
@@ -103,14 +103,14 @@ export function physicianJsonLd(doctor: Doctor, site: Site, location: Location):
   return compact({
     "@context": CONTEXT,
     "@type": "Physician",
-    "@id": `${absoluteUrl(routes.doctorProfile(doctor.slug))}#physician`,
+    "@id": `${absoluteUrl(doctorPagePath(doctor))}#physician`,
     name: doctor.name,
     honorificPrefix: "Dr.",
     honorificSuffix: doctor.qualifications.join(", "),
     jobTitle: doctor.title,
     description: doctor.shortBio,
     image: absoluteUrl(doctor.photo.src),
-    url: absoluteUrl(routes.doctorProfile(doctor.slug)),
+    url: absoluteUrl(doctorPagePath(doctor)),
     telephone: location.phone ?? site.phone,
     email: location.email ?? site.email,
     medicalSpecialty: "Dermatology",
@@ -208,7 +208,7 @@ export function blogPostingJsonLd(post: BlogPost, site: Site, doctor: Doctor): J
     dateModified: post.date,
     inLanguage: "en-IN",
     author: /^Dr\.?\s/.test(post.author)
-      ? { "@type": "Person", name: post.author, url: absoluteUrl(routes.doctorProfile(doctor.slug)) }
+      ? { "@type": "Person", name: post.author, url: absoluteUrl(doctorPagePath(doctor)) }
       : { "@type": "Organization", name: post.author, url: absoluteUrl(routes.about) },
     publisher: { "@type": "Organization", name: site.name, logo: { "@type": "ImageObject", url: absoluteUrl(site.logo.src) } },
   };

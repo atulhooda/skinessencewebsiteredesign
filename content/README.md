@@ -18,7 +18,7 @@ every unresolved reference and client TODO.
 | File | What it holds |
 | --- | --- |
 | `site.json` | Brand, tagline, category, positioning, contact, WhatsApp prefill, logo, stats, primary doctor |
-| `doctors/*.json` | One file per doctor (`/dr-daksha-patel`) |
+| `doctors/*.json` | One file per doctor. With `"profileOnAbout": true` (Dr. Patel) the profile is the `#doctor` section of `/about` and `/<slug>` redirects there; without it the doctor gets a standalone `/<slug>` page |
 | `categories.json` | The client's nine services (plus Medical Dermatology) that group treatments, the menu and the index |
 | `treatments/*.json` | One file per treatment → `/treatments/[slug]` |
 | `concerns/*.json` | One file per patient concern → `/concerns/[slug]` |
@@ -26,7 +26,7 @@ every unresolved reference and client TODO.
 | `blog/<slug>.json` + `blog/<slug>.mdx` | One pair per article → `/blog/[slug]`: metadata in JSON, body in MDX |
 | `lead-options.json` | The client's canonical treatment/concern list for the booking form |
 | `machines/*.json` | One file per machine → `/technology/[slug]`; `location` (pune/ahmedabad), brochure `specs`, `treatmentSlugs`; `published: false` hides a draft |
-| `pages/*.json` | Page-level copy: home, treatments index, about, contact, concerns index, blog index, privacy-policy, terms |
+| `pages/*.json` | Page-level copy: home, treatments index, about (clinic story + hero, meta and photo for the merged About/doctor page), contact, concerns index, blog index, privacy-policy, terms |
 | `image-credits.md` | Source, photographer and licence of every stock photo; add a row whenever a photo is added |
 | `faqs.json`, `principles.json`, `technology.json`, `testimonials.json` | Homepage blocks |
 

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getConcerns, getLocations, getPrimaryDoctor, getPrimaryLocation, getSite, getTreatments } from "@/lib/content";
 import { closedDays, groupHours } from "@/lib/format";
-import { formatPhone, mailtoUrl, routes, telUrl, whatsappUrl } from "@/lib/links";
+import { doctorHref, formatPhone, mailtoUrl, routes, telUrl, whatsappUrl } from "@/lib/links";
 import { Button } from "@/components/ui/Button";
 import { MailIcon, PhoneIcon, WhatsAppIcon } from "@/components/ui/icons";
 
@@ -94,7 +94,7 @@ export function Footer() {
               title="Clinic"
               links={[
                 { label: "About Skin Essence", href: routes.about },
-                { label: doctor.name, href: routes.doctorProfile(doctor.slug) },
+                { label: doctor.name, href: doctorHref(doctor) },
                 { label: "All Treatments", href: routes.treatments },
                 { label: "Our Technology", href: routes.technology },
                 { label: "Blog", href: routes.blog },
