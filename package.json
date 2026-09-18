@@ -14,6 +14,9 @@
     "content:check": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/validate-content.ts"
   },
   "dependencies": {
+    "@mdx-js/loader": "^3.1.1",
+    "@mdx-js/react": "^3.1.1",
+    "@next/mdx": "^15.5.25",
     "@next/third-parties": "^15.5.25",
     "next": "15.5.25",
     "react": "19.1.1",
@@ -23,6 +26,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.0",
+    "@types/mdx": "^2.0.14",
     "@types/node": "^24.0.0",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",

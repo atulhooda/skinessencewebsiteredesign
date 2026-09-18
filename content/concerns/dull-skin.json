@@ -3,9 +3,11 @@
   "name": "Dull Skin",
   "metaTitle": "Dull Skin Treatment in Pune by MD Dermatologist | Skin Essence",
   "metaDescription": "Why skin loses its glow in Pune and the dermatologist-led treatments that restore it, from peels to laser toning in Kalyani Nagar. Book a consultation.",
+  "heroTitle": "Dull Skin: Why The Glow Goes, And How To Get It Back",
+  "shortDesc": "Tired, uneven, lacklustre skin has real causes. What they are, and the treatments that restore radiance for longer than a facial.",
   "intro": [
-    "Dull skin looks tired, uneven and lacklustre even when you are well rested. In Pune, sun, pollution, long commutes, dehydration and a build-up of dead skin cells are the usual reasons, and they are all very treatable.",
-    "Rather than facials that give a day of glow, dermatologist-led treatment restores the skin barrier, removes the damaged surface layer and treats the tan and pigmentation underneath."
+    "Dull skin looks tired, uneven and lacklustre even when you are well rested. Healthy skin reflects light evenly; dull skin scatters it, because of a build-up of dead cells on the surface, a layer of tan and pigmentation beneath, and dehydration that leaves the texture rough. In Pune, sun, pollution and long commutes are the usual culprits, and all of them are treatable.",
+    "A salon facial adds a day of shine by cleaning and moisturising the surface. Dermatologist-led treatment at Skin Essence in Kalyani Nagar works on the causes: restoring the skin barrier, removing the damaged surface layer and treating the tan underneath. Dr. Daksha Patel examines your skin first and chooses the combination that suits it, which is also how we plan pre-wedding and pre-event skin."
   ],
   "causes": [
     "Build-up of dead skin cells from slow cell turnover",
@@ -15,25 +17,63 @@
     "Lack of sleep, smoking and nutritional deficiencies",
     "Early ageing and loss of collagen"
   ],
+  "howWeTreat": [
+    {
+      "title": "Skin analysis",
+      "description": "Tone, texture, hydration and congestion are assessed under magnification, and the products you use are reviewed."
+    },
+    {
+      "title": "Resurface and hydrate",
+      "description": "The Signature Mira Peel or a HydraFacial lifts dead cells and congestion and infuses hydrating serums, with no downtime."
+    },
+    {
+      "title": "Correct tone",
+      "description": "VVS or Troi from our Korean peel range, a chemical peel, or laser toning treats the tan and pigmentation that make skin look flat."
+    },
+    {
+      "title": "Keep it",
+      "description": "A simple home routine with sunscreen and the right actives holds the result, with a maintenance session every month or two."
+    }
+  ],
+  "selfCare": [
+    "Sunscreen every morning is the single most effective glow product.",
+    "Use a gentle cleanser and a moisturiser suited to your skin; avoid daily scrubbing.",
+    "Drink enough water and sleep at regular hours.",
+    "Introduce vitamin C or a retinoid slowly, on a dermatologist's advice."
+  ],
+  "whenToSeeDoctor": [
+    "Your skin looks dull despite a consistent routine.",
+    "Tan and uneven tone are not fading.",
+    "You have an event in 4 to 8 weeks and want a plan rather than a last-minute facial.",
+    "Dullness came on with tiredness, hair fall or weight change, which may need tests."
+  ],
   "treatmentSlugs": [
-    "chemical-peel",
-    "laser-toning",
     "skin-glow-treatment",
-    "bridal-skin-care"
+    "signature-mira-peel",
+    "korean-peel",
+    "chemical-peel"
   ],
   "faqs": [
     {
       "q": "How quickly can I get a glow before an event?",
-      "a": "A gentle peel or laser toning session 7 to 10 days before an event gives a visible glow. For lasting improvement, a course over 2 to 3 months is better, which is why bridal preparation starts early."
+      "a": "A Signature Mira Peel or VVS Peel a few days before an event gives a visible glow if you have had it before. For lasting improvement a course over 2 to 3 months is better, which is why bridal preparation starts early."
     },
     {
       "q": "Are salon facials bad for the skin?",
       "a": "Occasional gentle facials are fine for most people, but steam, scrubs and bleach often irritate sensitive or acne-prone skin. Treatments chosen by a dermatologist work on the cause of dullness rather than the surface alone."
+    },
+    {
+      "q": "Which glow treatment is right for me?",
+      "a": "Tan and dead-skin build-up respond to the Mira Peel and Korean peels, congestion to HydraFacial, and dehydration with fine lines to skin boosters. The plan is set after examining your skin."
+    },
+    {
+      "q": "How long do the results last?",
+      "a": "A single session lasts two to four weeks. With sunscreen and a good routine, a course of sessions followed by monthly maintenance keeps the skin consistently brighter."
     }
   ],
   "heroImage": {
     "src": "/images/concerns/dull-skin.webp",
-    "alt": "Woman touching her cheek while examining tired, uneven skin in a mirror",
+    "alt": "Woman examining her skin in a mirror",
     "width": 1200,
     "height": 900
   }

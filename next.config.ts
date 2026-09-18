@@ -1,7 +1,10 @@
+import createMDX from "@next/mdx";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  // Blog post bodies are .mdx files in /content/blog, imported by app/blog/[slug].
+  pageExtensions: ["ts", "tsx", "mdx"],
   // Every page is statically generated (generateStaticParams + no dynamic APIs),
   // so the site is `output: "export"` compatible. Leave `output` unset on Vercel
   // because /api/lead (POST) needs a serverless function and `redirects()` below
@@ -32,4 +35,6 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+const withMDX = createMDX({});
+
+export default withMDX(nextConfig);

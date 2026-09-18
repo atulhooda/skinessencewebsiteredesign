@@ -3,17 +3,49 @@
   "name": "Dark Circles",
   "metaTitle": "Dark Circles Treatment in Pune by MD Dermatologist | Skin Essence",
   "metaDescription": "Dark circles are often more than tiredness. Causes and dermatologist-led treatment options in Kalyani Nagar, Pune. Book a consultation at Skin Essence.",
+  "heroTitle": "Dark Circles: Find The Cause Before Choosing A Treatment",
+  "shortDesc": "Pigment, thin skin, hollowing or allergy: the four kinds of dark circle and why each one needs a different treatment.",
   "intro": [
-    "Dark circles are one of the most common cosmetic concerns we see, and one of the most misunderstood. They are rarely caused by lack of sleep alone. Pigmentation, thin under-eye skin showing blood vessels, hollowing under the eyes and allergies each produce a different kind of dark circle.",
-    "Because the causes differ, treatment is chosen after examining the under-eye area under magnification and in different lighting rather than by prescribing one standard cream."
+    "Dark circles are among the most common cosmetic concerns we see, and among the most misunderstood. They are rarely caused by lack of sleep alone. There are four main kinds: true pigmentation of the under-eye skin, thin skin that lets the blood vessels show through as a bluish tint, hollowing under the eye that casts a shadow, and darkening from allergy and constant rubbing.",
+    "Many people have a combination, which is why one cream rarely fixes them. At Skin Essence in Kalyani Nagar, Dr. Daksha Patel examines the under-eye area under magnification and in different lighting, stretches the skin gently to tell pigment from shadow, and only then recommends a treatment. Getting the diagnosis right avoids months of creams for a problem that needs volume, or fillers for a problem that needs pigment control."
   ],
   "causes": [
     "Genetic pigmentation around the eyes, common in Indian skin",
-    "Thin skin that shows the blood vessels underneath, giving a bluish tint",
+    "Thin under-eye skin that shows the blood vessels beneath",
     "Loss of volume under the eyes with age, creating a hollow that casts a shadow",
     "Allergies, eczema and constant eye rubbing",
     "Sun exposure, dehydration, screen strain and poor sleep",
     "Anaemia and thyroid problems in some patients"
+  ],
+  "howWeTreat": [
+    {
+      "title": "Work out which kind you have",
+      "description": "The under-eye area is examined in different light and with the skin gently stretched, which separates pigment, vessels and hollowing."
+    },
+    {
+      "title": "Treat pigment",
+      "description": "Prescription under-eye creams, gentle peels and low-energy laser toning lighten true pigmentation over a few months."
+    },
+    {
+      "title": "Restore volume where it is hollow",
+      "description": "A small amount of hyaluronic acid filler in the tear trough lifts the hollow and the shadow with it. It is dosed conservatively and reviewed at two weeks."
+    },
+    {
+      "title": "Address the triggers",
+      "description": "Allergies, eye rubbing, anaemia or thyroid problems are treated or referred, and sun protection is built into your routine."
+    }
+  ],
+  "selfCare": [
+    "Wear sunscreen and sunglasses; the under-eye skin tans easily.",
+    "Stop rubbing your eyes and treat any allergy or dryness.",
+    "Sleep with the head slightly raised if you wake with puffiness.",
+    "Give any under-eye cream at least three months before judging it."
+  ],
+  "whenToSeeDoctor": [
+    "Dark circles are getting worse despite sleep and creams.",
+    "There is itching, flaking or swelling around the eyes.",
+    "A hollow or groove has appeared under the eyes.",
+    "You feel unusually tired or pale, which may need a blood test."
   ],
   "treatmentSlugs": [
     "chemical-peel",
@@ -24,16 +56,24 @@
   "faqs": [
     {
       "q": "Do under-eye creams work for dark circles?",
-      "a": "Creams with ingredients such as vitamin C, kojic acid or retinol help pigmented dark circles when used consistently for several months, along with sunscreen. They do little for hollowing or vascular dark circles, which need different treatment."
+      "a": "Creams with vitamin C, kojic acid or retinol help pigmented dark circles when used consistently for several months with sunscreen. They do little for hollowing or vascular dark circles, which need different treatment."
     },
     {
       "q": "Which treatment is best for dark circles?",
       "a": "It depends on the cause. Pigmented circles respond to peels and laser toning, hollowing responds to fillers, and allergic dark circles improve once the allergy is controlled. Many patients need a combination."
+    },
+    {
+      "q": "Are under-eye fillers safe?",
+      "a": "The tear trough is a delicate area, so filler is placed in small amounts by a doctor who knows the anatomy. Swelling or bruising for a few days is common, and the filler can be dissolved if ever needed."
+    },
+    {
+      "q": "Can dark circles be cured?",
+      "a": "Genetic pigmentation can be lightened but not erased, and hollowing returns as filler is absorbed over 9 to 12 months. We set these expectations clearly before treatment."
     }
   ],
   "heroImage": {
     "src": "/images/concerns/dark-circles.webp",
-    "alt": "Close-up of a woman's eyes showing dark circles under the lower eyelids",
+    "alt": "Close-up of a woman's eyes showing the under-eye area",
     "width": 1200,
     "height": 900
   }

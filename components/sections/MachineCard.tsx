@@ -18,7 +18,7 @@ export function MachineCard({ machine, showClinic = true }: { machine: Machine; 
           height={machine.image.height}
           loading="lazy"
           sizes="(min-width: 1024px) 30vw, (min-width: 640px) 50vw, 100vw"
-          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+          className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
         />
         {showClinic && (
           <span className="absolute left-3 top-3 rounded-full bg-brand-600 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-white shadow-pill">

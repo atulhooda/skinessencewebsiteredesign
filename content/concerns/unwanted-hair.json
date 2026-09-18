@@ -3,9 +3,11 @@
   "name": "Unwanted Hair",
   "metaTitle": "Unwanted Hair Treatment in Pune by MD Dermatologist | Skin Essence",
   "metaDescription": "Facial and body hair that keeps returning, ingrown hairs and PCOS-related growth: laser hair reduction in Kalyani Nagar, Pune. Book a consultation.",
+  "heroTitle": "Unwanted Hair: When Waxing And Shaving Stop Being Enough",
+  "shortDesc": "Facial and body hair in women and men, the hormonal causes worth checking, and how laser hair reduction offers a long-term answer.",
   "intro": [
-    "Unwanted facial and body hair is a routine concern for women and increasingly for men, and the usual answers of waxing, threading and shaving bring ingrown hairs, razor bumps, darkened skin and a lifetime of appointments.",
-    "When hair growth is excessive, sudden or on the face in women, it can signal a hormonal condition such as PCOS, which should be checked before treatment. For most patients, laser hair reduction offers a long-term solution."
+    "Unwanted facial and body hair is a routine concern for women and increasingly for men. The usual answers, waxing, threading and shaving, bring ingrown hairs, razor bumps, darkened skin and a lifetime of appointments. For most people, laser hair reduction is the long-term solution.",
+    "When hair growth is excessive, sudden, or on the face, chest or abdomen in women, it can signal a hormonal condition such as PCOS, which should be checked before treatment because laser works best alongside hormonal control. At Skin Essence in Kalyani Nagar, Dr. Daksha Patel assesses your skin type, hair colour and thickness, and the pattern of growth, then plans laser hair reduction on the Coolite BOLT, a triple-wavelength diode laser suited to Indian skin."
   ],
   "causes": [
     "Normal genetic hair growth patterns, which vary widely between families",
@@ -14,23 +16,61 @@
     "Thyroid and adrenal conditions in a small number of cases",
     "Repeated waxing and shaving, which do not increase hair but cause ingrown hairs and darkening"
   ],
+  "howWeTreat": [
+    {
+      "title": "Assess skin, hair and hormones",
+      "description": "Skin type, hair colour and thickness decide the laser settings. Signs of PCOS or another hormonal cause are checked and treated alongside."
+    },
+    {
+      "title": "Test patch and preparation",
+      "description": "Sensitive or tanned skin gets a test patch. You shave the area the day before and avoid waxing, threading and tanning beforehand."
+    },
+    {
+      "title": "Laser sessions on the Coolite BOLT",
+      "description": "Three wavelengths fired together reach follicles at different depths under a sapphire-cooled tip. Areas for women include full body, face, underarms, arms, legs and bikini; for men, beard and eyebrow shaping, ears, chest and shoulders."
+    },
+    {
+      "title": "A full course, then maintenance",
+      "description": "Six to eight sessions spaced 4 to 8 weeks apart give a substantial reduction. Hormonal areas may need an occasional touch-up."
+    }
+  ],
+  "selfCare": [
+    "Shave rather than wax or thread between laser sessions; the laser needs the root in place.",
+    "Exfoliate gently to reduce ingrown hairs.",
+    "Avoid tanning before and after sessions.",
+    "See a doctor about irregular periods or sudden new hair growth."
+  ],
+  "whenToSeeDoctor": [
+    "Coarse hair is appearing on the chin, chest or abdomen in a woman.",
+    "Hair growth has increased suddenly.",
+    "You get recurrent ingrown hairs, boils or dark patches from waxing or shaving.",
+    "You want a lasting reduction before a wedding that is 6 to 8 months away."
+  ],
   "treatmentSlugs": [
     "laser-hair-removal",
     "bridal-skin-care"
   ],
   "faqs": [
     {
-      "q": "Does laser hair removal work on Indian skin?",
-      "a": "Yes. Diode and Nd:YAG lasers are designed for darker skin tones. Settings are chosen by the dermatologist for your skin type to reduce the risk of burns or pigmentation."
+      "q": "Does laser hair reduction work on Indian skin?",
+      "a": "Yes. Diode lasers with a 1064 nm component and good skin cooling are designed for darker skin tones. Settings are chosen by the dermatologist for your skin type to reduce the risk of burns or pigmentation."
     },
     {
       "q": "Will the hair come back after laser?",
       "a": "Laser gives long-term hair reduction. After a full course, regrowth is sparse and fine, and hormonal areas may need occasional maintenance sessions to stay smooth."
+    },
+    {
+      "q": "Is it available for men?",
+      "a": "Yes. Beard shaping, eyebrow shaping, ears, chest and shoulders are the areas men ask for most. Male hair is coarser and may need a session or two more."
+    },
+    {
+      "q": "Does it hurt?",
+      "a": "Most patients describe a warm snap under a cold tip. Sensitive areas such as the upper lip and bikini line sting more, and numbing cream can be used if needed."
     }
   ],
   "heroImage": {
     "src": "/images/concerns/unwanted-hair.webp",
-    "alt": "Woman examining fine hair on her upper lip in a hand mirror",
+    "alt": "Woman shaving her leg with a razor",
     "width": 1200,
     "height": 900
   }

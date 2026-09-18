@@ -22,9 +22,11 @@ import {
   FaqGroupSchema,
   HomePageSchema,
   LeadOptionSchema,
+  LegalPageSchema,
   LocationSchema,
   MachineSchema,
   PrincipleSchema,
+  SimplePageSchema,
   SiteSchema,
   TechnologyFileSchema,
   TestimonialsFileSchema,
@@ -39,9 +41,11 @@ import {
   type HomePage,
   type Image,
   type LeadOption,
+  type LegalPage,
   type Location,
   type Machine,
   type Principle,
+  type SimplePage,
   type Site,
   type Technology,
   type Testimonial,
@@ -129,6 +133,15 @@ export function getTreatmentsPage(): TreatmentsPage {
 
 export function getAboutPage(): AboutPage {
   return loadFile("pages/about.json", AboutPageSchema);
+}
+
+/** Hero copy for simple index pages: "contact", "concerns", "blog". */
+export function getSimplePage(name: "contact" | "concerns" | "blog"): SimplePage {
+  return loadFile(`pages/${name}.json`, SimplePageSchema);
+}
+
+export function getLegalPage(name: "privacy-policy" | "terms"): LegalPage {
+  return loadFile(`pages/${name}.json`, LegalPageSchema);
 }
 
 export function getFaqGroups(): FaqGroup[] {

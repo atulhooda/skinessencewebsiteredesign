@@ -27,5 +27,21 @@
     "Which doctor consults in Ahmedabad (not confirmed; the site does not assert either way).",
     "Google Maps URL and geo coordinates."
   ],
-  "phone": "+919825971010"
+  "phone": "+919825971010",
+  "heroTitle": "Dermatologist In Ahmedabad",
+  "metaDescription": "Skin Essence dermatology and laser clinic in Ahmedabad: skin, hair, laser and cosmetic treatments. Call +91 98259 71010 to book a consultation.",
+  "faqs": [
+    {
+      "q": "How do I book at the Ahmedabad clinic?",
+      "a": "Call +91 98259 71010 or use the booking form and choose Ahmedabad. The team will confirm the clinic address, consulting days and the next available slot."
+    },
+    {
+      "q": "Which areas does the Ahmedabad clinic serve?",
+      "a": "Patients visit from across Ahmedabad, including East Ahmedabad. Ask the team for directions from your area when you book."
+    },
+    {
+      "q": "Which treatments are offered in Ahmedabad?",
+      "a": "Skin, hair, laser and cosmetic treatments. Please confirm availability of a specific treatment or machine when you call, as the two clinics do not carry identical equipment."
+    }
+  ]
 }

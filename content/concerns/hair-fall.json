@@ -3,9 +3,11 @@
   "name": "Hair Fall",
   "metaTitle": "Hair Fall Treatment in Pune by MD Dermatologist | Skin Essence",
   "metaDescription": "Losing more than 100 hairs a day? Causes of hair fall and how an MD dermatologist in Kalyani Nagar, Pune diagnoses and treats it. Book a consultation.",
+  "heroTitle": "Hair Fall: Shedding, Thinning And What Can Be Done",
+  "shortDesc": "How to tell normal shedding from real hair loss, what causes it, and the treatments that slow it down and rebuild density.",
   "intro": [
-    "Everyone sheds 50 to 100 hairs a day. Hair fall becomes a concern when the shedding increases, the parting widens, the hairline recedes or the scalp becomes visible. Finding the cause is the first step, because pattern hair loss, stress-related shedding, nutritional deficiency and scalp disease all need different treatment.",
-    "At Skin Essence, hair fall is assessed with a detailed history, trichoscopy of the scalp and blood tests where needed, before any medicines or procedures are suggested."
+    "Everyone sheds 50 to 100 hairs a day. Hair fall becomes a concern when the shedding increases, the parting widens, the hairline recedes or the scalp starts to show. Finding the cause is the first step, because pattern hair loss, stress-related shedding, nutritional deficiency and scalp disease all look similar in the shower drain but need different treatment.",
+    "At Skin Essence in Kalyani Nagar, hair and scalp problems are one of Dr. Daksha Patel's special interests. Every hair consultation includes trichoscopy, a magnified examination of the scalp and hair roots that distinguishes thinning from shedding, and blood tests when the history points to a deficiency or a hormonal cause. Only then are medicines or procedures suggested."
   ],
   "causes": [
     "Androgenetic (pattern) hair loss in men and women, driven by genetics and hormones",
@@ -13,7 +15,37 @@
     "Iron, vitamin D, vitamin B12 or protein deficiency",
     "Thyroid disorders and PCOS",
     "Dandruff, seborrhoeic dermatitis and other scalp conditions",
-    "Tight hairstyles, heat styling, chemical treatments and Pune's hard water"
+    "Tight hairstyles, heat styling, chemical treatments and hard water"
+  ],
+  "howWeTreat": [
+    {
+      "title": "Diagnose with trichoscopy",
+      "description": "The scalp and roots are examined under magnification to see whether follicles are miniaturising, shedding or inflamed, and the pattern is photographed."
+    },
+    {
+      "title": "Test and correct",
+      "description": "Blood tests for iron stores, vitamin D, B12, thyroid and, in women, hormones identify causes that can be corrected."
+    },
+    {
+      "title": "Medical treatment",
+      "description": "Topical or low-dose oral minoxidil, anti-androgens where appropriate, and treatment of dandruff or scalp inflammation form the base of the plan."
+    },
+    {
+      "title": "Regrowth boosters",
+      "description": "GFC, PRP, exosomes, hair fillers or hair threads are added where extra density is wanted, with progress reviewed by photographs every three months."
+    }
+  ],
+  "selfCare": [
+    "Eat enough protein and iron; crash diets are a common trigger for shedding.",
+    "Wash the scalp two to three times a week; a clean scalp grows better hair than an oiled one.",
+    "Avoid tight ponytails, heat styling and chemical straightening while hair recovers.",
+    "Do not self-prescribe supplements; correct only what a test shows is low."
+  ],
+  "whenToSeeDoctor": [
+    "You are losing clearly more hair than usual for over six weeks.",
+    "The parting is widening or the hairline is receding.",
+    "There are bald patches, or itching, scaling or pain on the scalp.",
+    "Hair fall follows childbirth, illness or a new medicine and is not settling."
   ],
   "treatmentSlugs": [
     "hair-loss-treatment",
@@ -22,16 +54,24 @@
   "faqs": [
     {
       "q": "Can hair fall be stopped?",
-      "a": "Shedding from stress, illness or deficiency usually stops once the trigger is corrected, and hair regrows over months. Pattern hair loss can be slowed and partly reversed with medicines and PRP, but needs ongoing treatment to hold the results."
+      "a": "Shedding from stress, illness or deficiency usually stops once the trigger is corrected, and hair regrows over months. Pattern hair loss can be slowed and partly reversed with medicines and growth-factor treatments, but needs ongoing treatment to hold the result."
     },
     {
-      "q": "Do I need a hair transplant?",
-      "a": "Most patients do not. Transplant is considered only for established pattern baldness once medical treatment has stabilised the loss. A trichoscopy assessment tells us whether your follicles are still active and treatable."
+      "q": "How much hair fall is normal?",
+      "a": "Up to about 100 hairs a day is normal, more on wash days. What matters is a change: more hair on the pillow and in the drain than you are used to, or visible thinning."
+    },
+    {
+      "q": "Do hair oils and special shampoos help?",
+      "a": "Oils condition the hair shaft but do not treat the cause of hair fall, and heavy oiling can worsen dandruff. Medicated shampoos help scalp conditions. Regrowth needs treatment of the actual cause."
+    },
+    {
+      "q": "How long before I see results?",
+      "a": "Shedding usually reduces within 6 to 12 weeks of starting treatment, and new growth shows at 4 to 6 months, which is why we review with photographs rather than day-to-day impressions."
     }
   ],
   "heroImage": {
     "src": "/images/concerns/hair-fall.webp",
-    "alt": "Man looking at hair strands on his hand after brushing",
+    "alt": "Woman checking her hairbrush for fallen hair",
     "width": 1200,
     "height": 900
   }

@@ -3,9 +3,11 @@
   "name": "Stretch Marks",
   "metaTitle": "Stretch Marks Treatment in Pune by MD Dermatologist | Skin Essence",
   "metaDescription": "Stretch marks after pregnancy, weight change or growth spurts can be softened. Dermatologist-led options in Kalyani Nagar, Pune. Book a consultation.",
+  "heroTitle": "Stretch Marks: What Can Realistically Be Improved",
+  "shortDesc": "Why stretch marks form, why newer marks respond best, and the collagen-building treatments that soften their colour and texture.",
   "intro": [
-    "Stretch marks are lines that form when skin stretches faster than it can adapt, tearing the collagen and elastin beneath the surface. They appear on the abdomen, thighs, hips, breasts and arms, red or purple at first and fading to white or silver over time.",
-    "Newer marks respond best to treatment. Older marks can still be improved in texture and colour, though no treatment removes them entirely."
+    "Stretch marks are lines that form when skin stretches faster than it can adapt, tearing the collagen and elastin beneath the surface. They appear on the abdomen, thighs, hips, breasts and arms, red or purple at first and fading to white or silver over a year or two. They are extremely common after pregnancy, growth spurts, weight change and muscle building, and they are harmless.",
+    "They are also scars, which is why no cream removes them. Treatment aims to rebuild collagen so the marks become narrower, smoother and closer to the surrounding skin colour. Newer, red marks respond best; older white marks can still be improved in texture. At Skin Essence in Kalyani Nagar, Dr. Daksha Patel shows you realistic outcomes before you start, because honest expectations matter more here than with almost any other concern."
   ],
   "causes": [
     "Pregnancy and rapid weight gain or loss",
@@ -14,24 +16,62 @@
     "Long-term use of oral or topical steroids",
     "Genetics and conditions that weaken the skin's collagen"
   ],
+  "howWeTreat": [
+    {
+      "title": "Assess the marks",
+      "description": "Colour, width, age and skin type are recorded and photographed. Red marks and white marks are treated differently."
+    },
+    {
+      "title": "Stimulate collagen",
+      "description": "Microneedling and fractional CO2 laser, the same collagen-building procedures we use for acne scars, are the mainstay, in sessions 4 to 6 weeks apart."
+    },
+    {
+      "title": "Improve surface and tone",
+      "description": "MiraPeel micro-channelling infuses serums into the area, and peels help even out colour where marks have darkened."
+    },
+    {
+      "title": "Firm the skin",
+      "description": "Where the skin is lax, as on the abdomen after pregnancy, skin tightening can be added to the plan."
+    }
+  ],
+  "selfCare": [
+    "Moisturise daily during pregnancy and weight change; it eases itching even if it cannot prevent marks.",
+    "Keep weight change gradual where you can.",
+    "Avoid unsupervised steroid creams on the body.",
+    "Protect treated areas from the sun while they heal."
+  ],
+  "whenToSeeDoctor": [
+    "Marks are still red or purple, which is the best time to treat.",
+    "Stretch marks appeared without weight change or pregnancy, or are unusually wide.",
+    "You have used steroid creams for a long time.",
+    "You want to know what is realistic before spending on creams."
+  ],
   "treatmentSlugs": [
-    "laser-toning",
-    "chemical-peel",
-    "fat-reduction"
+    "acne-scar-treatment",
+    "signature-mira-peel",
+    "skin-tightening-treatment"
   ],
   "faqs": [
     {
       "q": "Can stretch marks be removed completely?",
-      "a": "No. Stretch marks are scars, so treatments such as microneedling, lasers and peels improve their colour and texture substantially but do not erase them. We show you realistic outcomes before starting."
+      "a": "No. Stretch marks are scars, so treatments improve their colour and texture substantially but do not erase them. We show you realistic outcomes before starting."
     },
     {
       "q": "When is the best time to treat stretch marks?",
-      "a": "As early as possible, while they are still red or purple. Treatment after pregnancy can begin once breastfeeding considerations and your doctor's advice allow."
+      "a": "As early as possible, while they are still red or purple. After pregnancy, treatment can begin once breastfeeding considerations and your doctor's advice allow."
+    },
+    {
+      "q": "Do stretch mark creams work?",
+      "a": "Moisturisers relieve itching and tretinoin may help very new marks a little, but creams cannot rebuild torn collagen. Procedures that stimulate collagen make the visible difference."
+    },
+    {
+      "q": "How many sessions are needed?",
+      "a": "Usually 4 to 6 sessions spaced 4 to 6 weeks apart, with improvement continuing for months afterwards as collagen forms."
     }
   ],
   "heroImage": {
     "src": "/images/concerns/stretch-marks.webp",
-    "alt": "Close-up of faded stretch marks on the side of a woman's abdomen",
+    "alt": "Hands holding the skin of an abdomen with stretch marks",
     "width": 1200,
     "height": 900
   }

@@ -3,36 +3,76 @@
   "name": "Acne Scars",
   "metaTitle": "Acne Scar Treatment in Pune by MD Dermatologist | Skin Essence",
   "metaDescription": "Pitted, rolling and dark acne scars explained, with dermatologist-led scar treatment options in Kalyani Nagar, Pune. Book a consultation at Skin Essence.",
+  "heroTitle": "Acne Scars: Different Scars Need Different Treatments",
+  "shortDesc": "Ice-pick, boxcar and rolling scars and the dark marks acne leaves behind, and how each type is treated by a dermatologist.",
   "intro": [
-    "Acne scars are what remain after inflamed pimples heal. Dark or red marks fade with time and treatment, but pitted scars (ice-pick, boxcar and rolling scars) are changes in the skin's collagen and need procedures to improve. Many patients in Pune reach us years after their acne has settled, still hiding their cheeks under make-up or a beard.",
-    "The first step is to control any active acne, otherwise new scars keep forming. Dr. Daksha Patel, MBBS, MD (Skin & VD), then maps the scar types on your face, because each type responds to a different treatment and most people have a mix."
+    "Acne scars are what remain after inflamed pimples heal. Flat red or brown marks fade with time and treatment, but pitted scars are changes in the skin's collagen and need procedures to improve. Many patients in Pune reach us years after their acne has settled, still hiding their cheeks under make-up or a beard.",
+    "There are three main types of pitted scar. Ice-pick scars are narrow and deep, boxcar scars are wider with sharp edges, and rolling scars give the skin a wavy look because fibrous bands pull the surface down. Most people have a mixture, which is why a single treatment rarely works and why Dr. Daksha Patel maps the scars on your face before recommending anything."
   ],
   "causes": [
     "Deep, inflamed or cystic acne that damages collagen as it heals",
     "Squeezing, picking or popping pimples",
     "Delayed or inadequate acne treatment, allowing repeated breakouts in the same area",
-    "Genetics and skin types that scar or pigment easily",
-    "Sun exposure, which darkens marks left after acne"
+    "Skin types that scar or pigment easily, which can run in families",
+    "Sun exposure, which darkens the marks left after acne"
+  ],
+  "howWeTreat": [
+    {
+      "title": "Control active acne first",
+      "description": "New breakouts create new scars, so any active acne is treated medically before scar procedures begin."
+    },
+    {
+      "title": "Map the scars",
+      "description": "Each scar type is identified under magnification and photographed, because the procedure is chosen scar by scar."
+    },
+    {
+      "title": "Match the procedure to the scar",
+      "description": "Fractional CO2 laser for boxcar scars and texture, TCA cross for ice-pick scars, subcision to release rolling scars, and microneedling to rebuild collagen across the area."
+    },
+    {
+      "title": "Build results over a course",
+      "description": "Sessions are spaced 4 to 6 weeks apart. Collagen forms slowly, so improvement builds over three to six months and is tracked with photographs."
+    }
+  ],
+  "selfCare": [
+    "Treat active acne early; prevention is far easier than scar revision.",
+    "Never pick or squeeze pimples or scabs.",
+    "Wear sunscreen every day; sun darkens post-acne marks.",
+    "Be patient with home products: creams fade marks but cannot lift pitted scars."
+  ],
+  "whenToSeeDoctor": [
+    "Pits or dents remain months after the acne has cleared.",
+    "Dark marks are not fading after three months of sun protection.",
+    "You are still getting breakouts that leave marks.",
+    "You have a wedding or event 4 to 6 months away and want time for a full course."
   ],
   "treatmentSlugs": [
     "acne-scar-treatment",
     "chemical-peel",
     "laser-toning",
-    "skin-glow-treatment"
+    "signature-mira-peel"
   ],
   "faqs": [
     {
       "q": "Can acne scars be removed completely?",
-      "a": "Pitted scars can be improved substantially, often by 50 to 70 percent over a course of treatment, but not erased. Flat dark marks respond well and can fade almost completely. We show you realistic outcomes for your scar types before starting."
+      "a": "Pitted scars can be improved substantially, often by half or more over a course, but not erased. Flat dark marks respond better and can fade almost fully. We show you realistic outcomes for your scar types before starting."
     },
     {
       "q": "How long after acne can scars be treated?",
-      "a": "Dark marks can be treated as soon as active acne is under control. Procedures for pitted scars, such as microneedling or subcision, usually begin once the skin has been clear for a few months and any isotretinoin course has been completed."
+      "a": "Dark marks can be treated as soon as active acne is under control. Procedures for pitted scars usually begin once the skin has been clear for a few months and any isotretinoin course has been completed."
+    },
+    {
+      "q": "Is scar treatment painful?",
+      "a": "Numbing cream is applied before laser, microneedling, subcision and TCA cross, so you feel warmth and pressure rather than pain. Redness and pinpoint scabs settle within a week."
+    },
+    {
+      "q": "How many sessions will I need?",
+      "a": "Most patients need 4 to 6 sessions spaced 4 to 6 weeks apart, often combining two procedures. Deep or long-standing scars may need more."
     }
   ],
   "heroImage": {
     "src": "/images/concerns/acne-scars.webp",
-    "alt": "Close-up of pitted acne scars on a young man's cheek",
+    "alt": "Close-up of a young man's cheek showing marks left by acne",
     "width": 1200,
     "height": 900
   }

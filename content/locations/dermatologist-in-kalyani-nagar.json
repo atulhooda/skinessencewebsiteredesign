@@ -29,7 +29,7 @@
   ],
   "heroImage": {
     "src": "/images/locations/pune.webp",
-    "alt": "Skin Essence clinic in Kalyani Nagar, Pune",
+    "alt": "Dr. Daksha Patel, MD dermatologist, at her desk at Skin Essence",
     "width": 1200,
     "height": 800
   },
@@ -39,8 +39,33 @@
   ],
   "todo": [
     "Opening hours (not provided).",
-    "Google Maps place URL / Place ID (not provided).",
+    "Google Maps place URL / Place ID (not provided). Until then the map and Directions pin the building, Bramhacorp Business Park, not the clinic's own listing.",
     "Geo coordinates for the MedicalClinic schema.",
     "Google Business Profile URL for site.json → social."
-  ]
+  ],
+  "heroTitle": "Dermatologist In Kalyani Nagar, Pune",
+  "metaDescription": "MD dermatologist in Kalyani Nagar, Pune: Dr. Daksha Patel at Brahma Business Park, near Koregaon Park, Viman Nagar and Kharadi. Book a consultation.",
+  "faqs": [
+    {
+      "q": "Where exactly is Skin Essence in Kalyani Nagar?",
+      "a": "The clinic is at Brahma Business Park, Tower T9, 21st Floor, Office No. 2107, 2108 and 2109, near F Residence in New Kalyani Nagar, Pune 411014. Use the Directions button above to open the location in Google Maps."
+    },
+    {
+      "q": "Which areas of Pune do you serve?",
+      "a": "Most of our patients come from Kalyani Nagar, Koregaon Park, Viman Nagar, Kharadi, Yerwada, Wadgaon Sheri, Camp and Mundhwa, all a short drive from the clinic, and we see patients from across Pune."
+    },
+    {
+      "q": "Who will I consult?",
+      "a": "Dr. Daksha Patel, MBBS, MD (Skin & VD), a dermatologist and cosmetologist with over 17 years of experience. She assesses your concern and plans and supervises your treatment."
+    },
+    {
+      "q": "What are the clinic timings?",
+      "a": "Timings are confirmed when you book. Call or WhatsApp +91 91577 31020, or use the booking form, and the team will offer you the next available slot."
+    },
+    {
+      "q": "Which treatments are available at the Pune clinic?",
+      "a": "Medical dermatology for skin, hair and nails, laser hair reduction, laser toning, chemical and Korean peels, the Signature Mira Peel, HydraFacial, Botox and fillers, skin tightening, hair regrowth treatments and paediatric dermatology."
+    }
+  ],
+  "mapQuery": "Bramhacorp Business Park, New Kalyani Nagar, Pune 411014"
 }

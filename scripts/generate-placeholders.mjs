@@ -53,7 +53,6 @@ const manifest = [
   ...treatments.map((slug, i) => ({ file: `treatments/${slug}.webp`, w: 1200, h: 900, label: `Treatment · ${slug}`, palette: warm(i + 1) })),
   ...concerns.map((slug, i) => ({ file: `concerns/${slug}.webp`, w: 1200, h: 900, label: `Concern · ${slug}`, palette: warm(i + 2) })),
   ...tech.map((slug, i) => ({ file: `tech/${slug}.webp`, w: 800, h: 600, label: `Machine · ${slug}`, palette: warm(i + 3) })),
-  ...[1, 2, 3, 4].map((n, i) => ({ file: `testimonials/patient-${n}.webp`, w: 800, h: 800, label: `Patient photo ${n}`, palette: i % 2 ? "blush" : "sand" })),
   { file: "tiles/injectables.webp", w: 1200, h: 600, label: "Tile · Botox & Dermal Fillers", palette: "mist" },
   { file: "locations/pune.webp", w: 1200, h: 800, label: "Kalyani Nagar clinic", palette: "teal" },
   { file: "locations/ahmedabad.webp", w: 1200, h: 800, label: "Ahmedabad clinic", palette: "slate" },
@@ -102,6 +101,7 @@ const REAL = new Set([
   "treatments/hair-transplant.webp", "treatments/hair-loss-treatment.webp", "treatments/bridal-skin-care.webp", "tiles/injectables.webp",
   "treatments/skin-tightening-treatment.webp", "treatments/fat-reduction.webp", "treatments/mole-and-wart-removal.webp", "treatments/pigmentation-treatment.webp",
   "treatments/signature-mira-peel.webp", "treatments/korean-peel.webp",
+  "concerns/acne.webp", "concerns/acne-scars.webp", "concerns/pigmentation.webp", "concerns/dark-circles.webp", "concerns/hair-fall.webp", "concerns/unwanted-hair.webp", "concerns/dull-skin.webp", "concerns/wrinkles-and-fine-lines.webp", "concerns/open-pores.webp", "concerns/stretch-marks.webp", "concerns/child-skin-problems.webp", "treatments/acne-scar-treatment.webp", "treatments/melasma-treatment.webp", "treatments/anti-ageing-treatment.webp", "treatments/paediatric-dermatology.webp", "treatments/prp-hair-treatment.webp", "treatments/laser-toning.webp", "blog/acne-scars.webp", "locations/pune.webp",
   "tech/mirapeel.webp", "tech/qyros-nd-yag.webp", "tech/coolite-bolt.webp", "tech/hydrafacial.webp", "tech/fractional-co2-laser.webp", "tech/hifu.webp", "tech/mnrf.webp", "tech/coolsculpting.webp",
 ]);
 

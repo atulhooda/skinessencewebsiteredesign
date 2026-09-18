@@ -6,6 +6,7 @@ export const routes = {
   treatments: "/treatments",
   treatment: (slug: string) => `/treatments/${slug}`,
   category: (slug: string) => `/treatments#${slug}`,
+  concerns: "/concerns",
   concern: (slug: string) => `/concerns/${slug}`,
   technology: "/technology",
   machine: (slug: string) => `/technology/${slug}`,
@@ -55,9 +56,18 @@ export function mapsSearchUrl(query: string): string {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 }
 
+/** Keyless Google Maps embed: the client's embed URL when supplied, otherwise a search for the verified address. Undefined when there is no address. */
+export function locationMapEmbed(location: Location, siteName: string): string | undefined {
+  if (location.mapEmbedUrl) return location.mapEmbedUrl;
+  if (!location.addressLines.length) return undefined;
+  const query = location.mapQuery ?? [siteName, ...location.addressLines].join(", ");
+  return `https://www.google.com/maps?q=${encodeURIComponent(query)}&z=16&output=embed`;
+}
+
 /** The client's map link when supplied, otherwise a Maps search for the clinic name + address. */
 export function locationMapLink(location: Location, siteName: string): string {
   if (location.mapLink) return location.mapLink;
+  if (location.mapQuery) return mapsSearchUrl(location.mapQuery);
   const parts = [siteName, ...location.addressLines];
   if (!location.addressLines.length) parts.push(location.area, location.city);
   return mapsSearchUrl(parts.join(", "));

@@ -133,6 +133,14 @@ export const ConcernSchema = z.object({
   causes: z.array(z.string()).min(2),
   /** Treatment slugs that address this concern, in priority order. */
   treatmentSlugs: z.array(SlugSchema).min(1),
+  /** How the clinic approaches this concern, step by step. */
+  howWeTreat: z.array(z.object({ title: z.string(), description: z.string() })).min(2),
+  /** Practical things the patient can do at home. */
+  selfCare: z.array(z.string()).default([]),
+  /** Signs that mean it is time to see a dermatologist. */
+  whenToSeeDoctor: z.array(z.string()).default([]),
+  heroTitle: z.string(),
+  shortDesc: z.string().max(200),
   faqs: z.array(FaqSchema).min(1),
   heroImage: ImageSchema,
 });
@@ -161,6 +169,8 @@ export const LocationSchema = z.object({
   mapEmbedUrl: z.string().url().optional(),
   /** Google Maps place URL. When absent the UI links to a Maps search for the address. */
   mapLink: z.string().url().optional(),
+  /** Search text Google resolves to ONE pin (the building in the verified address). Used for the keyless embed and the Directions link until the clinic supplies its own place link. */
+  mapQuery: z.string().optional(),
   /** TODO from client. Absent = "Opening hours to be confirmed". */
   hours: z.array(OpeningHoursSchema).optional(),
   nearbyAreas: z.array(z.string()).default([]),
@@ -169,7 +179,11 @@ export const LocationSchema = z.object({
   /** Doctors confirmed to consult here. Empty = not confirmed; the UI asserts nothing. */
   doctorSlugs: z.array(SlugSchema).default([]),
   heroImage: ImageSchema,
+  /** H1 of the location landing page. */
+  heroTitle: z.string(),
+  metaDescription: MetaDescriptionSchema,
   intro: z.array(z.string()).min(1),
+  faqs: z.array(FaqSchema).default([]),
   /** Anything still to be confirmed with the clinic before launch. */
   todo: z.array(z.string()).default([]),
 });
@@ -190,6 +204,9 @@ export const DoctorSchema = z.object({
   bio: z.array(z.string()).min(1),
   specialInterests: z.array(z.string()).min(1),
   photo: ImageSchema,
+  metaDescription: MetaDescriptionSchema,
+  /** H1 of the doctor page. */
+  heroTitle: z.string(),
   /** Location slugs where this doctor is confirmed to consult. */
   locationSlugs: z.array(SlugSchema).default([]),
   sameAs: z.array(z.string().url()).default([]),
@@ -246,7 +263,8 @@ export const TestimonialSchema = z.object({
   treatment: z.string(),
   /** 1–5 */
   rating: z.number().int().min(1).max(5),
-  image: ImageSchema,
+  /** Optional; the slider shows initials when absent (sample quotes never carry stock faces). */
+  image: ImageSchema.optional(),
 });
 
 export const TestimonialsFileSchema = z.object({
@@ -386,6 +404,26 @@ export const AboutPageSchema = z.object({
   services: z.array(z.string()).min(1),
 });
 
+/** Hero copy for simple index pages (contact, concerns, blog). */
+export const SimplePageSchema = z.object({
+  eyebrow: z.string(),
+  title: z.string(),
+  description: z.string(),
+  metaTitle: MetaTitleSchema,
+  metaDescription: MetaDescriptionSchema,
+});
+
+/** Privacy policy and terms. */
+export const LegalPageSchema = z.object({
+  title: z.string(),
+  metaTitle: MetaTitleSchema,
+  metaDescription: MetaDescriptionSchema,
+  /** ISO date of the last revision. */
+  updated: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  intro: z.string(),
+  sections: z.array(z.object({ heading: z.string(), paragraphs: z.array(z.string()).min(1) })).min(1),
+});
+
 /* ---------- Blog (MDX body lives alongside the frontmatter file) ---------- */
 
 export const BlogPostSchema = z.object({
@@ -398,6 +436,9 @@ export const BlogPostSchema = z.object({
   date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   excerpt: z.string(),
   author: z.string(),
+  /** Shown as "Medically reviewed by …". */
+  reviewedBy: z.string().optional(),
+  readingMinutes: z.number().int().positive().optional(),
   heroImage: ImageSchema,
   /** Treatment / concern slugs to link from the post footer. */
   relatedTreatments: z.array(SlugSchema).default([]),
@@ -427,3 +468,5 @@ export type HomePage = z.infer<typeof HomePageSchema>;
 export type TreatmentsPage = z.infer<typeof TreatmentsPageSchema>;
 export type AboutPage = z.infer<typeof AboutPageSchema>;
 export type BlogPost = z.infer<typeof BlogPostSchema>;
+export type SimplePage = z.infer<typeof SimplePageSchema>;
+export type LegalPage = z.infer<typeof LegalPageSchema>;

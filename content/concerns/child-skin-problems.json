@@ -1,11 +1,13 @@
 {
   "slug": "child-skin-problems",
   "name": "Child Skin Problems",
-  "metaTitle": "Child Skin Problems Treatment in Pune by MD Dermatologist | Skin Essence",
+  "metaTitle": "Child Skin Problems: Paediatric Dermatologist in Kalyani Nagar, Pune",
   "metaDescription": "Eczema, rashes, birthmarks, warts and infant skin problems treated by a paediatric dermatology specialist in Kalyani Nagar, Pune. Book a consultation.",
+  "heroTitle": "Child Skin Problems: Gentle Care For Rashes, Eczema And More",
+  "shortDesc": "Eczema, rashes, infections, warts and birthmarks in babies and children, and how a dermatologist treats young skin safely.",
   "intro": [
-    "Children's skin is thinner and more reactive than adult skin, so rashes, infections and allergies show up quickly and worry parents. Most childhood skin problems are common and treatable, but treatments and doses need to be chosen for the child's age and weight.",
-    "Paediatric dermatology is one of Dr. Daksha Patel's special interests. Infants, toddlers and school-age children are seen for eczema, nappy rash, fungal and bacterial infections, warts, molluscum, birthmarks, hair and nail problems and childhood acne."
+    "Children's skin is thinner and more reactive than adult skin, so rashes, infections and allergies show up quickly and worry parents. Most childhood skin problems are common and treatable, but medicines and doses have to be chosen for the child's age and weight, and strong creams meant for adults can do real harm.",
+    "Paediatric dermatology is one of Dr. Daksha Patel's special interests. At Skin Essence in Kalyani Nagar she sees infants, toddlers, school-age children and teenagers for eczema, nappy rash, heat rash, fungal and bacterial infections, warts and molluscum, scabies, birthmarks, hair and nail problems and early acne. Consultations are unhurried, because most of the treatment happens at home and parents need to leave knowing exactly what to do."
   ],
   "causes": [
     "Atopic eczema, often with a family history of asthma or allergies",
@@ -15,22 +17,62 @@
     "Birthmarks and pigmentation present from birth or early childhood",
     "Harsh soaps, fragranced products and over-bathing"
   ],
+  "howWeTreat": [
+    {
+      "title": "A gentle examination",
+      "description": "The skin is examined, with a dermatoscope where needed and without unnecessary tests, while parents describe the history and what has been tried."
+    },
+    {
+      "title": "Explain and plan",
+      "description": "You leave with a written routine: how to bathe and moisturise, which products to stop, what to expect and when to come back."
+    },
+    {
+      "title": "Age-appropriate treatment",
+      "description": "Short, supervised courses of mild steroid creams when needed, steroid-free maintenance for eczema, treatment for infections, and wart or molluscum removal chosen for the child's age."
+    },
+    {
+      "title": "Follow-up through the seasons",
+      "description": "Pune's dry winters and humid monsoons bring different flare-ups, so the routine is adjusted at review."
+    }
+  ],
+  "selfCare": [
+    "Moisturise twice a day with a fragrance-free product; it is the core of eczema care.",
+    "Give short, lukewarm baths with a gentle cleanser, not antiseptic soaps.",
+    "Dress children in cotton and keep nails short to limit scratching.",
+    "Never use an adult's steroid cream on a child without advice."
+  ],
+  "whenToSeeDoctor": [
+    "A rash lasts more than a week or keeps returning.",
+    "Itching disturbs the child's sleep.",
+    "Patches are spreading, oozing or crusting.",
+    "There is sudden hair loss, or a birthmark that is growing or changing."
+  ],
   "treatmentSlugs": [
-    "paediatric-dermatology"
+    "paediatric-dermatology",
+    "mole-and-wart-removal",
+    "acne-treatment"
   ],
   "faqs": [
     {
       "q": "Is it safe to use steroid creams on my child?",
-      "a": "Mild steroid creams, used for short periods under a dermatologist's direction, are safe and often necessary to calm eczema flares. Problems come from strong steroids used for long periods without supervision. We also plan steroid-free maintenance."
+      "a": "Mild steroid creams used for short periods under a dermatologist's direction are safe and often necessary to calm eczema flares. Problems come from strong steroids used for long periods without supervision. We also plan steroid-free maintenance."
     },
     {
       "q": "When should a child see a dermatologist?",
-      "a": "Bring your child in for any rash lasting more than a week, itching that disturbs sleep, spreading or oozing patches, sudden hair loss, or a birthmark that is growing or changing."
+      "a": "For any rash lasting more than a week, itching that disturbs sleep, spreading or oozing patches, sudden hair loss, or a birthmark that is growing or changing."
+    },
+    {
+      "q": "Can eczema be cured?",
+      "a": "Eczema is managed rather than cured, and many children outgrow it. With a good moisturising routine and prompt treatment of flares, most children have long calm periods and sleep well."
+    },
+    {
+      "q": "Do you treat warts and molluscum in children?",
+      "a": "Yes. Options include creams, cryotherapy and minor procedures, chosen for the child's age and the site. Some molluscum clears on its own, and we explain when waiting is the better choice."
     }
   ],
   "heroImage": {
     "src": "/images/concerns/child-skin-problems.webp",
-    "alt": "Paediatric dermatologist examining a rash on a young child's arm",
+    "alt": "Doctor examining a young girl's forehead with a handheld device",
     "width": 1200,
     "height": 900
   }

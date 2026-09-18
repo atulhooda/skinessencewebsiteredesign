@@ -21,11 +21,13 @@ every unresolved reference and client TODO.
 | `doctors/*.json` | One file per doctor (`/dr-daksha-patel`) |
 | `categories.json` | The client's nine services (plus Medical Dermatology) that group treatments, the menu and the index |
 | `treatments/*.json` | One file per treatment → `/treatments/[slug]` |
-| `concerns/*.json` | One file per patient concern → `/concerns/[slug]` (phase 2 route) |
-| `locations/*.json` | One file per clinic → `/[slug]` landing page (phase 2 route) |
+| `concerns/*.json` | One file per patient concern → `/concerns/[slug]` |
+| `locations/*.json` | One file per clinic → `/[slug]` landing page |
+| `blog/<slug>.json` + `blog/<slug>.mdx` | One pair per article → `/blog/[slug]`: metadata in JSON, body in MDX |
 | `lead-options.json` | The client's canonical treatment/concern list for the booking form |
 | `machines/*.json` | One file per machine → `/technology/[slug]`; `location` (pune/ahmedabad), brochure `specs`, `treatmentSlugs`; `published: false` hides a draft |
-| `pages/*.json` | Page-level copy: home, treatments index, about |
+| `pages/*.json` | Page-level copy: home, treatments index, about, contact, concerns index, blog index, privacy-policy, terms |
+| `image-credits.md` | Source, photographer and licence of every stock photo; add a row whenever a photo is added |
 | `faqs.json`, `principles.json`, `technology.json`, `testimonials.json` | Homepage blocks |
 
 ## Add a treatment
@@ -53,11 +55,25 @@ reported as warnings), so files can reference content that ships later.
 
 Same pattern in `concerns/`. Title pattern:
 `"{Concern} Treatment in Pune by MD Dermatologist | Skin Essence"`. `treatmentSlugs` lists
-treatments in priority order.
+treatments in priority order. A concern page is 400–700 words across `heroTitle`, `shortDesc`
+(≤ 200 chars, used on cards and in the hero), `intro`, `causes`, `howWeTreat` (≥ 2 titled steps),
+`selfCare`, `whenToSeeDoctor` and `faqs`. Hero image: `public/images/concerns/<slug>.webp` (1200×900).
+
+## Add a blog post
+
+1. `blog/<slug>.json`: `title`, `metaTitle` (`"{Post title} | Skin Essence Pune"`), `metaDescription`,
+   `date` (ISO), `excerpt`, `author`, optional `reviewedBy` and `readingMinutes`, `heroImage`,
+   `relatedTreatments`, `relatedConcerns`.
+2. `blog/<slug>.mdx`: the body in Markdown. Start at `##` headings (the page supplies the H1) and
+   link to treatment and concern pages inline.
+3. Only name Dr. Patel as `author` or `reviewedBy` once she has actually written or reviewed the post.
 
 ## Locations and doctors
 
 Exactly one location must have `"isPrimary": true` (Pune). `hours`, `geo`, `mapEmbedUrl`,
 `mapLink`, `phone` and `addressLines` are optional: leave them out until the client supplies
-them. `doctorSlugs` lists doctors **confirmed** to consult there; Ahmedabad stays empty until
+them. `mapQuery` is search text that Google resolves to a single pin (the building in the
+verified address); it drives the keyless map embed and the Directions link until the clinic's
+own place link arrives. `heroTitle`, `metaDescription` and `faqs` feed the landing page; doctors
+also need `heroTitle` and `metaDescription`. `doctorSlugs` lists doctors **confirmed** to consult there; Ahmedabad stays empty until
 the client confirms who consults, so the site asserts nothing either way.

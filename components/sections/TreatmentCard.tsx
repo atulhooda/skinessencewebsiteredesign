@@ -16,7 +16,7 @@ export function TreatmentCard({ treatment, categoryName }: { treatment: Treatmen
           height={treatment.heroImage.height}
           loading="lazy"
           sizes="(min-width: 768px) 30vw, 100vw"
-          className="h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover"
         />
         <ArrowBadge className="absolute bottom-3 right-3" />
       </div>

@@ -21,6 +21,24 @@ Stock photos below are from Pexels under the Pexels License (free for commercial
 | public/images/tech/mnrf.webp | https://www.pexels.com/photo/woman-having-a-beauty-treatment-done-5042636/ | Lespa số 1 về điều trị   mụn, nám, sẹo rỗ |
 | public/images/tech/coolsculpting.webp | https://www.pexels.com/photo/man-getting-a-procedure-done-on-his-belly-in-a-beauty-salon-5042619/ | Lespa số 1 về điều trị   mụn, nám, sẹo rỗ |
 | public/images/treatments/korean-peel.webp | https://www.pexels.com/photo/woman-getting-a-facial-treatment-3985329/ | Gustavo Fring |
+| public/images/concerns/acne.webp | https://www.pexels.com/photo/a-woman-in-beige-turtleneck-shirt-6338373/ | ShotPot |
+| public/images/concerns/acne-scars.webp | https://www.pexels.com/photo/young-man-s-face-in-close-up-photography-4611686/ | Anna Shvets |
+| public/images/concerns/pigmentation.webp | https://www.pexels.com/photo/young-woman-with-freckles-on-face-3763155/ | Andrea Piacquadio |
+| public/images/concerns/dark-circles.webp | https://www.pexels.com/photo/eyes-of-brunette-woman-7588368/ | https://kaboompics.com/ |
+| public/images/concerns/hair-fall.webp | https://www.pexels.com/photo/close-up-photo-of-woman-brushing-her-hair-7320789/ | https://kaboompics.com/ |
+| public/images/concerns/unwanted-hair.webp | https://www.pexels.com/photo/person-using-shaver-on-legs-5240766/ | https://kaboompics.com/ |
+| public/images/concerns/dull-skin.webp | https://www.pexels.com/photo/reflection-photo-of-woman-touching-her-cheek-3785806/ | Andrea Piacquadio |
+| public/images/concerns/wrinkles-and-fine-lines.webp | https://www.pexels.com/photo/old-lady-touching-temples-in-studio-7544645/ | SHVETS production |
+| public/images/concerns/open-pores.webp | https://www.pexels.com/photo/person-s-eye-in-close-up-photo-4078303/ | Griffin Wooldridge |
+| public/images/concerns/stretch-marks.webp | https://www.pexels.com/photo/a-person-holding-her-leg-8093129/ | https://kaboompics.com/ |
+| public/images/concerns/child-skin-problems.webp | https://www.pexels.com/photo/optometrist-performing-eye-exam-on-child-33029347/ | Tahir Xəlfəquliyev |
+| public/images/treatments/acne-scar-treatment.webp | https://www.pexels.com/photo/woman-having-cosmetic-treatment-in-a-salon-5042629/ | Lespa số 1 về điều trị   mụn, nám, sẹo rỗ |
+| public/images/treatments/melasma-treatment.webp | https://www.pexels.com/photo/woman-applying-facial-cream-7690307/ | Jep Gambardella |
+| public/images/treatments/anti-ageing-treatment.webp | https://www.pexels.com/photo/a-woman-having-a-face-massage-7582555/ | cottonbro studio |
+| public/images/treatments/paediatric-dermatology.webp | https://www.pexels.com/photo/a-doctor-checking-a-child-7653108/ | Pavel Danilyuk |
+| public/images/treatments/prp-hair-treatment.webp | https://www.pexels.com/photo/applying-hair-serum-with-precision-dropper-28994390/ | Beyzanur K. |
+| public/images/treatments/laser-toning.webp | https://www.pexels.com/photo/a-woman-doing-facial-care-to-her-patient-4586728/ | Anna Shvets |
+| public/images/blog/acne-scars.webp | https://www.pexels.com/photo/dermatologist-performing-skin-treatment-in-clinic-32260065/ | Dr. Haror's  Wellness |
 
 ## Manufacturer brochures (supplied by the clinic, 17 Sep 2026)
 

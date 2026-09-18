@@ -2,38 +2,78 @@
   "slug": "acne",
   "name": "Acne",
   "metaTitle": "Acne Treatment in Pune by MD Dermatologist | Skin Essence",
-  "metaDescription": "Why acne keeps returning and how an MD dermatologist in Kalyani Nagar, Pune treats teen and adult acne without scarring. Book a consultation.",
+  "metaDescription": "Why acne keeps returning and how an MD dermatologist in Kalyani Nagar, Pune treats teen and adult acne and limits scarring. Book a consultation.",
+  "heroTitle": "Acne: Why It Keeps Coming Back, And What Actually Clears It",
+  "shortDesc": "Blackheads, pimples and painful cysts in teenagers and adults: what drives them and how a dermatologist brings them under control.",
   "intro": [
-    "Acne happens when oil, dead skin and bacteria block the pores, causing blackheads, whiteheads, red pimples and, in more severe cases, painful cysts. It is common between 13 and 30 but adult acne, especially along the jawline in women, is increasingly frequent in Pune.",
-    "Most acne responds well to medical treatment when the type and cause are identified early. Treating it properly also prevents the dark marks and pitted scars that are harder to reverse later."
+    "Acne happens when oil, dead skin cells and bacteria block the pores. The result ranges from blackheads and whiteheads to red, inflamed pimples and, in more severe cases, deep painful nodules and cysts. It is most common between 13 and 30, but adult acne, especially along the jawline and chin in women, is now one of the commonest reasons patients visit Skin Essence in Kalyani Nagar.",
+    "Most acne responds well once its type and drivers are identified. The trouble is that many people spend years cycling through face washes, chemist creams and salon facials first, and some of those, particularly steroid-based fairness creams, make things worse. Treating acne properly and early also matters for another reason: it is far easier to prevent dark marks and pitted scars than to reverse them later."
   ],
   "causes": [
     "Hormonal changes in the teenage years, before periods, with PCOS or after stopping hormonal pills",
     "Excess oil production and blocked pores, worsened by heavy creams, hair oils and make-up",
-    "Steroid-containing 'fairness' creams and chemist anti-acne kits that damage the skin barrier",
+    "Steroid-containing fairness creams and chemist anti-acne kits that damage the skin barrier",
     "Whey protein supplements, high-glycaemic diets and certain medicines",
     "Pune's humidity, commuting dust, helmets and frequent face touching",
-    "Family history of acne"
+    "A family history of acne"
+  ],
+  "howWeTreat": [
+    {
+      "title": "Identify the type",
+      "description": "Dr. Daksha Patel grades the acne, looks for hormonal or lifestyle triggers, and reviews every product you use so anything harmful can be stopped."
+    },
+    {
+      "title": "Medical treatment",
+      "description": "Prescription creams suited to your skin, with oral antibiotics, hormonal therapy or isotretinoin for moderate to severe acne, monitored with blood tests where needed."
+    },
+    {
+      "title": "Peels that speed up clearing",
+      "description": "A course of Black Peel, Jessner, Azelac M or Salipeel, or Vono Prime from our Korean peel range, chosen for your skin type and the kind of acne you have."
+    },
+    {
+      "title": "Protect against marks and scars",
+      "description": "Once the skin is clear, a simple maintenance routine keeps it that way, and any marks or scars left behind are treated in a second phase."
+    }
+  ],
+  "selfCare": [
+    "Wash twice a day with a gentle cleanser; scrubbing and over-washing make acne worse.",
+    "Use a light, non-comedogenic moisturiser and sunscreen, even on oily skin.",
+    "Do not squeeze or pick; this is the main cause of dark marks and pitted scars.",
+    "Keep hair oil, helmets and phone screens off the face as far as possible."
+  ],
+  "whenToSeeDoctor": [
+    "Acne has not settled after 6 to 8 weeks of a basic routine.",
+    "Pimples are painful, deep or cystic.",
+    "Marks or pits are being left behind.",
+    "Breakouts flare with your cycle, or you have irregular periods or excess facial hair."
   ],
   "treatmentSlugs": [
     "acne-treatment",
+    "korean-peel",
     "chemical-peel",
-    "acne-scar-treatment",
-    "laser-toning"
+    "acne-scar-treatment"
   ],
   "faqs": [
     {
       "q": "When should I see a dermatologist for acne?",
-      "a": "See a dermatologist if acne has not settled with a basic routine in 6 to 8 weeks, if it is painful or cystic, if it is leaving marks or scars, or if it is affecting your confidence. Early treatment prevents scarring."
+      "a": "If acne has not settled with a basic routine in 6 to 8 weeks, if it is painful or cystic, if it is leaving marks or scars, or if it is affecting your confidence. Early treatment prevents scarring."
     },
     {
-      "q": "Can acne be treated in adults?",
-      "a": "Yes. Adult acne is common, particularly hormonal acne along the jawline and chin in women. Treatment considers hormonal triggers, skin sensitivity and the products you already use."
+      "q": "Can adult acne be treated?",
+      "a": "Yes. Adult acne is common, particularly hormonal acne along the jawline and chin in women. Treatment considers hormonal triggers, skin sensitivity and the products you already use, and usually combines medical care with peels."
+    },
+    {
+      "q": "Will my acne come back after treatment?",
+      "a": "Acne can recur, especially hormonal acne, which is why we plan a maintenance routine once the skin is clear. Most patients stay clear with a simple routine and occasional review."
+    },
+    {
+      "q": "Does diet cause acne?",
+      "a": "High-glycaemic foods, whey protein and, for some people, excess dairy can worsen acne. Diet alone rarely causes it, so we treat the skin medically and suggest specific changes rather than blanket restrictions."
     }
   ],
   "heroImage": {
     "src": "/images/concerns/acne.webp",
-    "alt": "Young woman looking at acne on her cheek in a mirror",
+    "alt": "Young woman with acne on her cheeks looking at the camera",
     "width": 1200,
     "height": 900
   }

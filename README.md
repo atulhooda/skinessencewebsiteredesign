@@ -21,6 +21,12 @@ app/                      Routes. Each page composes section components and read
   layout.tsx              Header, footer, sticky mobile bar, next/font Inter, metadataBase
   page.tsx                Homepage
   treatments/             Index grouped by category + [slug] template
+  concerns/               Index + [slug] template (causes, how we treat it, self-care, FAQs)
+  technology/             Machines index + [slug] template
+  [slug]/                 Data-driven landing pages: one per clinic location and one per doctor
+  about/, contact/        About and contact pages
+  blog/                   Index + [slug]; post bodies are MDX files in /content/blog
+  privacy-policy/, terms/ Legal pages from content/pages/*.json
   */opengraph-image.tsx   1200×630 OG images generated with next/og, per route
   sitemap.ts, robots.ts   Auto sitemap.xml and robots.txt
   api/lead/route.ts       POST /api/lead — validates and logs (stub for your backend)
@@ -35,9 +41,13 @@ content/
   site.json               Brand, contact, doctor, stats
   categories.json         Treatment categories (order, image, blurb)
   treatments/*.json       One file per treatment → /treatments/[slug]
-  concerns/*.json         One file per patient concern → /concerns/[slug] (phase 2 route)
-  locations/*.json        One file per clinic → /[slug] landing page (phase 2 route)
-  pages/*.json            Page-level copy (home, treatments index)
+  concerns/*.json         One file per patient concern → /concerns/[slug]
+  locations/*.json        One file per clinic → /[slug] landing page
+  doctors/*.json          One file per doctor → /[slug] profile page
+  machines/*.json         One file per machine → /technology/[slug]
+  blog/<slug>.json + .mdx One pair per article → /blog/[slug] (metadata + MDX body)
+  pages/*.json            Page-level copy (home, treatments, about, contact, concerns, blog, privacy-policy, terms)
+  image-credits.md        Source and licence of every stock photo
   faqs.json, testimonials.json, principles.json, technology.json
 lib/
   content-core.ts         fs + zod loaders, cross-reference checks, related-item helpers
@@ -49,7 +59,9 @@ lib/
 scripts/
   validate-content.ts     Backs `npm run content:check`
   generate-placeholders.mjs
-public/images/            Placeholder WebPs (labelled). Replace with real photos, same paths.
+mdx-components.tsx        Tailwind styles for MDX blog bodies
+public/images/            Real photos (clinic, doctor, brochures, Pexels; see content/image-credits.md).
+                          Labelled placeholders remain only for unpublished pages.
 ```
 
 ## Static export vs. the lead endpoint
@@ -75,7 +87,11 @@ are invented in the data; the site renders "to be confirmed" states until they a
 - Pune machines confirmed with brochures: MiraPeel, Qyros Q-switched Nd:YAG, Coolite BOLT diode laser, BVLASER 8+9 hydra facial machine (brochure photos in use). HIFU, MNRF, CoolSculpting and Fractional CO2 still unconfirmed (representative photos)
 - Tattoo removal: the Qyros supports it but it is not on the client's service list; page stays unpublished until confirmed
 - BOLT Tightening (Coolite BOLT skin-tightening protocol): not confirmed as offered; not on the site
-- Clinic interior photos → replace labelled placeholders in `public/images/` (the doctor photo and logo are real)
+- Photos: every published page now has a real photo (doctor and Ahmedabad clinic photos from the client, brochure crops, and Pexels stock logged in `content/image-credits.md`). There are no Pune clinic interior photos yet, so the Kalyani Nagar cards use Dr. Patel's portrait. Labelled placeholders remain only for unpublished pages (tattoo removal, the four Ahmedabad machines)
+- Map: until the clinic sends its own Google Maps place link, the embed and Directions button pin the building (`mapQuery` = "Bramhacorp Business Park, New Kalyani Nagar, Pune 411014"), not the clinic's listing
+- Blog: the two seed articles were written by the agency and carry the byline "Skin Essence Editorial Team". Have Dr. Patel review them, then set `reviewedBy` (and `author` if she wishes) in `content/blog/*.json`; the site does not claim her authorship or review until then
+- Privacy policy and terms (`content/pages/privacy-policy.json`, `terms.json`) are general drafts; have the clinic or its legal adviser review them before launch
+- About page: the "What we offer" list is verbatim from the brief and still mentions hair transplant and tattoo removal, which the client's later service list omits; confirm and edit `content/pages/about.json`
 - Before/after images with written consent → results section (not built yet)
 - Instagram and other social handles → `content/site.json` → `social`, `doctors/*.json` → `sameAs`
 - Whether to publish starting prices → `priceFrom` on treatments (currently omitted)
@@ -84,6 +100,10 @@ are invented in the data; the site renders "to be confirmed" states until they a
 - GTM container ID → `NEXT_PUBLIC_GTM_ID` (slot in `components/layout/Gtm.tsx`)
 - `content/testimonials.json` holds SAMPLE testimonials for layout; replace with consented Google reviews
 - Wire `app/api/lead/route.ts` to the follow-up backend (currently validates and logs)
+
+## Blog
+
+A post is two files in `content/blog/`: `<slug>.json` (title, meta, date, excerpt, author, hero image, related treatment and concern slugs) and `<slug>.mdx` (the body, plain Markdown; internal links like `[text](/treatments/laser-hair-removal)` become client-side links). The index, sitemap entry, OG image and `BlogPosting` JSON-LD are generated. Title pattern: `"{Post title} | Skin Essence Pune"`.
 
 ## Machine pages
 

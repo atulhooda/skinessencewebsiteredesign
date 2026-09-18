@@ -50,7 +50,7 @@ export function PageHero({ crumbs, eyebrow, title, description, image, actions, 
                 height={image.height}
                 priority
                 fetchPriority="high"
-                sizes="(min-width: 1024px) 40vw, 100vw"
+                sizes="(min-width: 1024px) 40vw, calc(100vw - 4rem)"
                 className="h-full w-full object-cover"
               />
             </div>

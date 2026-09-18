@@ -3,37 +3,77 @@
   "name": "Pigmentation",
   "metaTitle": "Pigmentation Treatment in Pune by MD Dermatologist | Skin Essence",
   "metaDescription": "Dark patches, tanning and melasma explained, with pigmentation treatment options from an MD dermatologist in Kalyani Nagar, Pune. Book a consultation.",
+  "heroTitle": "Pigmentation: Dark Patches, Tan And Uneven Skin Tone",
+  "shortDesc": "Why Indian skin marks so easily, how to tell tan from melasma, and the treatments that lighten pigmentation without making it worse.",
   "intro": [
-    "Pigmentation means patches or spots of skin that are darker than the surrounding area. Indian skin produces melanin readily, so sun exposure, acne, friction, hormonal changes and even harsh products leave marks that linger for months.",
-    "The right treatment depends on the type of pigmentation: melasma, post-acne marks, sun tan, freckles and dark underarms all behave differently and need different plans."
+    "Pigmentation means patches or spots of skin that are darker than the area around them. Indian skin produces melanin readily, so sun exposure, acne, friction, hormonal changes and even harsh products leave marks that linger for months. It is one of the most frequent concerns we see at Skin Essence in Kalyani Nagar.",
+    "The right treatment depends on the type. Sun tan, the dark marks left after acne, melasma on the cheeks and forehead, freckles, and darkening of the underarms, neck or knuckles all behave differently. Some sit in the surface layer and lift quickly; others lie deeper and need patience. Treating the wrong type aggressively, which is common with salon peels and over-the-counter fairness creams, is the main reason pigmentation gets worse instead of better."
   ],
   "causes": [
     "Daily sun exposure without adequate sunscreen, especially while commuting",
     "Melasma triggered by hormones, pregnancy, oral contraceptives or heat",
     "Marks left behind after acne, insect bites, injuries or rashes",
-    "Friction and repeated waxing or shaving in areas such as underarms and inner thighs",
+    "Friction and repeated waxing or shaving of the underarms and inner thighs",
     "Steroid creams, perfumed products and over-exfoliation",
-    "Nutritional deficiencies and certain medicines"
+    "Insulin resistance, thyroid problems, nutritional deficiencies and certain medicines"
+  ],
+  "howWeTreat": [
+    {
+      "title": "Diagnose the type and depth",
+      "description": "Dr. Daksha Patel examines the pigmentation under magnification to see whether it is superficial, deep or mixed, and checks for hormonal or metabolic triggers."
+    },
+    {
+      "title": "Sun protection and a prescription routine",
+      "description": "A broad-spectrum sunscreen and lightening agents chosen for your skin are started first, because no procedure holds without them."
+    },
+    {
+      "title": "Peels and laser toning",
+      "description": "Chemical peels lift surface pigment, and Q-switched Nd:YAG laser toning on the Qyros platform targets deeper pigment, in sessions a few weeks apart."
+    },
+    {
+      "title": "Maintenance",
+      "description": "Once the tone is even, a simpler routine and occasional sessions keep it that way, particularly through the summer and monsoon sun."
+    }
+  ],
+  "selfCare": [
+    "Apply sunscreen every morning and reapply every three hours outdoors.",
+    "Stop bleach, scrubs and home remedies such as lemon or baking soda.",
+    "Avoid over-the-counter fairness creams; many contain steroids.",
+    "Treat acne and rashes early so they leave fewer marks."
+  ],
+  "whenToSeeDoctor": [
+    "Patches are spreading or getting darker despite sunscreen.",
+    "Pigmentation appeared during pregnancy or after starting hormonal pills.",
+    "The neck, underarms or knuckles are darkening, which can signal insulin resistance.",
+    "A cream or salon treatment has made the patches worse."
   ],
   "treatmentSlugs": [
     "pigmentation-treatment",
     "melasma-treatment",
-    "chemical-peel",
-    "laser-toning"
+    "laser-toning",
+    "chemical-peel"
   ],
   "faqs": [
     {
       "q": "Can pigmentation be removed completely?",
-      "a": "Most pigmentation can be lightened substantially with the right combination of sunscreen, prescription creams, peels and laser toning. Melasma in particular is a chronic condition that is controlled rather than cured, so maintenance matters."
+      "a": "Most pigmentation can be lightened substantially with sunscreen, prescription creams, peels and laser toning. Melasma is a chronic condition that is controlled rather than cured, so maintenance matters."
     },
     {
       "q": "Why is my pigmentation getting worse with treatment?",
-      "a": "Over-treatment, strong peels done at salons, skipping sunscreen or using unsupervised lightening creams can all darken pigmentation. A dermatologist chooses a gentler, individualised approach that suits Indian skin."
+      "a": "Over-treatment, strong salon peels, skipped sunscreen and unsupervised lightening creams can all darken pigmentation. A dermatologist chooses a gentler, individualised approach that suits Indian skin."
+    },
+    {
+      "q": "How long does treatment take?",
+      "a": "Expect visible lightening in 6 to 8 weeks and the best results at 3 to 4 months. Deeper pigmentation takes longer than surface tan."
+    },
+    {
+      "q": "Is laser toning safe for darker skin?",
+      "a": "Yes, when low-energy settings are used and the skin is prepared beforehand. Sessions here are planned by a dermatologist rather than run from a fixed chart."
     }
   ],
   "heroImage": {
     "src": "/images/concerns/pigmentation.webp",
-    "alt": "Close-up of uneven skin tone and dark patches on a woman's cheek",
+    "alt": "Smiling woman with freckles and uneven pigmentation across her cheeks",
     "width": 1200,
     "height": 900
   }

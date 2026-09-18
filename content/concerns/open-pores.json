@@ -3,22 +3,54 @@
   "name": "Open Pores",
   "metaTitle": "Open Pores Treatment in Pune by MD Dermatologist | Skin Essence",
   "metaDescription": "Enlarged pores on the nose and cheeks: causes and how a dermatologist in Kalyani Nagar, Pune reduces their appearance. Book a consultation at Skin Essence.",
+  "heroTitle": "Open Pores: They Cannot Be Closed, But They Can Look Smaller",
+  "shortDesc": "Why pores enlarge on oily, acne-prone and ageing skin, and the treatments that refine them by controlling oil and rebuilding collagen.",
   "intro": [
-    "Open or enlarged pores are most visible on the nose, cheeks and forehead, especially in oily and acne-prone skin. Pores cannot be closed, but their appearance can be reduced significantly by controlling oil, clearing blockages and rebuilding collagen around them.",
-    "Scrubbing and pore strips make things worse. Treatment combines the right home routine with in-clinic procedures such as peels, laser toning and microneedling radiofrequency."
+    "Open or enlarged pores are most visible on the nose, cheeks and forehead, especially in oily and acne-prone skin. A pore is the opening of an oil gland and hair follicle, so it cannot be closed or removed. What can change is how large it looks: pores stretch when they are full of oil and debris, and when the collagen that supports their walls thins with age and sun damage.",
+    "That gives two ways to improve them, and at Skin Essence in Kalyani Nagar Dr. Daksha Patel usually uses both. The first is to keep pores clear and reduce oil, with the right home routine, peels and hydradermabrasion. The second is to rebuild the collagen around them with laser toning or collagen-stimulating procedures. Scrubbing, steaming and pore strips do the opposite, irritating the skin and stretching pores further."
   ],
   "causes": [
-    "Oily skin and large sebaceous glands, often genetic",
-    "Blocked pores from dead skin, oil and make-up",
+    "Oily skin and large oil glands, which are often inherited",
+    "Pores blocked by dead skin, oil and make-up",
     "Acne and the scarring it leaves behind",
     "Loss of collagen with age and sun damage, which lets pores stretch",
     "Harsh scrubs, pore strips and over-cleansing"
   ],
+  "howWeTreat": [
+    {
+      "title": "Skin assessment",
+      "description": "Oiliness, congestion, acne and early scarring are assessed, because pores linked to oil and pores linked to collagen loss need different plans."
+    },
+    {
+      "title": "Clear and control oil",
+      "description": "Salicylic acid peels and a Signature Mira Peel or HydraFacial clear blocked pores, with a retinoid-based routine to keep them clear."
+    },
+    {
+      "title": "Rebuild support",
+      "description": "Laser toning tightens the surface, and microneedling or fractional CO2 laser stimulates collagen where pores sit among acne scars."
+    },
+    {
+      "title": "Maintain",
+      "description": "Sunscreen, a light non-comedogenic routine and a session every month or two hold the improvement."
+    }
+  ],
+  "selfCare": [
+    "Cleanse twice a day with a gentle, non-drying face wash.",
+    "Use a retinoid or salicylic acid product only as advised; more is not better.",
+    "Skip pore strips, harsh scrubs and frequent steaming.",
+    "Choose non-comedogenic sunscreen and make-up, and remove make-up at night."
+  ],
+  "whenToSeeDoctor": [
+    "Pores look larger despite a careful routine.",
+    "Blackheads keep returning on the nose and chin.",
+    "Pores are accompanied by acne or acne scars.",
+    "Your skin is both oily and sensitive, and products keep irritating it."
+  ],
   "treatmentSlugs": [
     "chemical-peel",
+    "signature-mira-peel",
     "laser-toning",
-    "acne-treatment",
-    "skin-glow-treatment"
+    "acne-scar-treatment"
   ],
   "faqs": [
     {
@@ -27,12 +59,20 @@
     },
     {
       "q": "Which treatment works best for open pores?",
-      "a": "Salicylic acid peels and retinoids help oily, blocked pores. Laser toning and microneedling RF improve pores linked to acne scars and ageing. A dermatologist decides which combination suits your skin."
+      "a": "Salicylic acid peels and retinoids help oily, blocked pores. Laser toning and collagen-stimulating procedures improve pores linked to acne scars and ageing. A dermatologist decides which combination suits your skin."
+    },
+    {
+      "q": "Do pore strips and scrubs help?",
+      "a": "They remove surface debris for a day but irritate the skin and can stretch pores further. Regular gentle treatment works better than occasional aggressive cleaning."
+    },
+    {
+      "q": "How soon will I see a difference?",
+      "a": "Skin looks smoother after the first session. A visible reduction in pore size usually takes 2 to 3 months of combined clinic and home treatment."
     }
   ],
   "heroImage": {
     "src": "/images/concerns/open-pores.webp",
-    "alt": "Close-up of enlarged pores on the side of a nose and cheek",
+    "alt": "Close-up of facial skin texture around the eye and cheek",
     "width": 1200,
     "height": 900
   }

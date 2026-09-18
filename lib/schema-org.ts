@@ -6,7 +6,7 @@
  * Optional client data (hours, geo, address) is omitted when absent rather
  * than filled with guesses.
  */
-import type { Concern, Doctor, Faq, Location, Machine, Site, Treatment } from "@/content/schema";
+import type { BlogPost, Concern, Doctor, Faq, Location, Machine, Site, Treatment } from "@/content/schema";
 import { absoluteUrl, SITE_URL } from "./seo";
 import { locationMapLink, routes } from "./links";
 
@@ -176,7 +176,7 @@ export function machineJsonLd(machine: Machine, treatments: Treatment[], locatio
   });
 }
 
-export function medicalConditionJsonLd(concern: Concern): JsonLdObject {
+export function medicalConditionJsonLd(concern: Concern, treatments: Treatment[]): JsonLdObject {
   const url = absoluteUrl(routes.concern(concern.slug));
   return {
     "@context": CONTEXT,
@@ -185,10 +185,32 @@ export function medicalConditionJsonLd(concern: Concern): JsonLdObject {
     name: concern.name,
     description: concern.metaDescription,
     url,
-    possibleTreatment: concern.treatmentSlugs.map((slug) => ({
+    possibleTreatment: treatments.map((t) => ({
       "@type": "MedicalProcedure",
-      url: absoluteUrl(routes.treatment(slug)),
+      name: t.name,
+      url: absoluteUrl(routes.treatment(t.slug)),
     })),
+  };
+}
+
+export function blogPostingJsonLd(post: BlogPost, site: Site, doctor: Doctor): JsonLdObject {
+  const url = absoluteUrl(routes.blogPost(post.slug));
+  return {
+    "@context": CONTEXT,
+    "@type": "BlogPosting",
+    "@id": `${url}#post`,
+    headline: post.title,
+    description: post.metaDescription,
+    url,
+    mainEntityOfPage: url,
+    image: absoluteUrl(post.heroImage.src),
+    datePublished: post.date,
+    dateModified: post.date,
+    inLanguage: "en-IN",
+    author: /^Dr\.?\s/.test(post.author)
+      ? { "@type": "Person", name: post.author, url: absoluteUrl(routes.doctorProfile(doctor.slug)) }
+      : { "@type": "Organization", name: post.author, url: absoluteUrl(routes.about) },
+    publisher: { "@type": "Organization", name: site.name, logo: { "@type": "ImageObject", url: absoluteUrl(site.logo.src) } },
   };
 }
 
