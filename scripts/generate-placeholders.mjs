@@ -32,7 +32,7 @@ const treatments = [
   "chemical-peel", "skin-glow-treatment", "skin-tightening-treatment", "anti-ageing-treatment", "bridal-skin-care",
   "paediatric-dermatology", "laser-toning", "laser-hair-removal", "tattoo-removal",
   "botox", "dermal-fillers", "hair-transplant", "prp-hair-treatment", "hair-loss-treatment",
-  "fat-reduction", "mole-and-wart-removal", "signature-mira-peel",
+  "fat-reduction", "mole-and-wart-removal", "signature-mira-peel", "korean-peel",
 ];
 const concerns = [
   "acne", "acne-scars", "pigmentation", "dark-circles", "hair-fall", "unwanted-hair",
@@ -101,7 +101,7 @@ const REAL = new Set([
   "treatments/acne-treatment.webp", "treatments/chemical-peel.webp", "treatments/laser-hair-removal.webp", "treatments/skin-glow-treatment.webp",
   "treatments/hair-transplant.webp", "treatments/hair-loss-treatment.webp", "treatments/bridal-skin-care.webp", "tiles/injectables.webp",
   "treatments/skin-tightening-treatment.webp", "treatments/fat-reduction.webp", "treatments/mole-and-wart-removal.webp", "treatments/pigmentation-treatment.webp",
-  "treatments/signature-mira-peel.webp",
+  "treatments/signature-mira-peel.webp", "treatments/korean-peel.webp",
   "tech/mirapeel.webp", "tech/qyros-nd-yag.webp", "tech/coolite-bolt.webp", "tech/hydrafacial.webp", "tech/fractional-co2-laser.webp", "tech/hifu.webp", "tech/mnrf.webp", "tech/coolsculpting.webp",
 ]);
 

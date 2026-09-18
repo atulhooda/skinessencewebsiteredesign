@@ -1,0 +1,107 @@
+{
+  "slug": "korean-peel",
+  "name": "Original Korean Peel",
+  "category": "skin-glow",
+  "order": 3,
+  "shortDesc": "Original Korean peels chosen by concern: VVS Peel for instant glow before a party, Vono Prime for stubborn acne and Troi Peel for complexion correction.",
+  "heroTitle": "Original Korean Peels: Glow, Clearer Skin And Even Tone With Little Downtime",
+  "metaTitle": "Korean Peel in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Original Korean peels in Kalyani Nagar, Pune: VVS Peel for instant glow, Vono Prime for stubborn acne and Troi Peel for complexion. Book a consultation.",
+  "intro": [
+    "Korean peels have changed what patients expect from a peel. Where a traditional chemical peel works by controlled injury and a few days of flaking, the Korean approach is gentler: formulations built to renew and brighten the skin while supporting its barrier, so most people walk out glowing rather than red. That is why patients in Pune ask for them before weddings, shoots and parties.",
+    "At Skin Essence in Kalyani Nagar we use original Korean peels, and Dr. Daksha Patel, an MD dermatologist with 17+ years of experience, matches the peel to the concern rather than offering one peel for everyone. VVS Peel is our choice for an instant glow before a party or event. Vono Prime is used for stubborn acne that keeps returning. Troi Peel is chosen for complexion correction, when the skin looks dull, tanned or uneven.",
+    "Every peel starts with an examination of your skin type and sensitivity, because even gentle peels need the right preparation on Indian skin, which pigments easily when irritated. A single session suits an event; acne and complexion concerns are treated as a short course, with your home routine adjusted to hold the result."
+  ],
+  "whoIsItFor": [
+    "Anyone who wants a visible glow before a party, wedding or shoot, with little or no downtime (VVS Peel)",
+    "Stubborn, recurring acne and congested, oily skin (Vono Prime)",
+    "Dull, tanned or uneven complexion that needs correction over a few sessions (Troi Peel)",
+    "Patients who found traditional chemical peels too harsh or could not afford days of peeling",
+    "Brides and grooms building a pre-wedding skin plan"
+  ],
+  "howItWorks": [
+    {
+      "title": "Choosing the peel",
+      "description": "Your skin is examined under magnification and the peel is chosen for your concern: VVS for glow, Vono Prime for acne, Troi for complexion. Sensitive skin is patch-tested first."
+    },
+    {
+      "title": "Preparation",
+      "description": "The skin is cleansed and degreased, and the corners of the eyes, nose and lips are protected. Retinoids and scrubs are paused for a few days beforehand."
+    },
+    {
+      "title": "The peel",
+      "description": "The peel is applied for the time your skin needs. Expect a mild tingle or warmth that settles within minutes."
+    },
+    {
+      "title": "Soothe, protect and plan",
+      "description": "A calming mask and sunscreen finish the session. You leave with written aftercare and, for acne or complexion, the date of your next peel."
+    }
+  ],
+  "sessionsAndDowntime": {
+    "sessions": "1 session for an event glow; 3–6 sessions, 2–4 weeks apart, for acne or complexion",
+    "sessionTime": "30–45 minutes",
+    "downtime": "Minimal; mild tightness, dryness or light flaking for a few days, depending on the peel",
+    "results": "Glow from the first session; acne and tone improve over the course"
+  },
+  "aftercare": [
+    "Sunscreen every morning, reapplied outdoors; skipping it is the commonest cause of darkening after any peel.",
+    "Use only the gentle cleanser and moisturiser advised, and pause retinoids, scrubs and other actives for 3 to 5 days.",
+    "Avoid waxing, threading, steam and swimming pools for a week.",
+    "Do not pull at any flaking skin; let it shed on its own."
+  ],
+  "faqs": [
+    {
+      "q": "Which Korean peel is right for me?",
+      "a": "VVS Peel is for an instant glow before a party or event. Vono Prime is for stubborn acne and congested, oily skin. Troi Peel is for complexion correction when the skin looks dull, tanned or uneven. Dr. Patel decides after examining your skin."
+    },
+    {
+      "q": "How is a Korean peel different from a regular chemical peel?",
+      "a": "Korean peels are formulated to renew and brighten while supporting the skin barrier, so downtime is usually minimal. Traditional salicylic, glycolic or TCA peels are stronger tools for scars or stubborn pigmentation. We choose based on your skin and goal."
+    },
+    {
+      "q": "How close to a party can I have the VVS Peel?",
+      "a": "If you have had it before, 2 to 5 days before the event works well. For a first session, book 2 to 3 weeks ahead so we know how your skin responds, then repeat it close to the day."
+    },
+    {
+      "q": "Are Korean peels suitable for sensitive or Indian skin?",
+      "a": "Yes, with preparation. Indian skin pigments easily when irritated, so we patch-test sensitive skin, prime it where needed and insist on daily sunscreen afterwards."
+    },
+    {
+      "q": "How many Vono Prime sessions will my acne need?",
+      "a": "Usually 3 to 6 sessions spaced 2 to 4 weeks apart, alongside medical acne treatment. Peels speed up clearing; the home routine and prescribed medicines do the long-term work."
+    }
+  ],
+  "relatedConcerns": [
+    "dull-skin",
+    "acne"
+  ],
+  "relatedTreatments": [
+    "signature-mira-peel",
+    "chemical-peel",
+    "acne-treatment"
+  ],
+  "heroImage": {
+    "src": "/images/treatments/korean-peel.webp",
+    "alt": "Woman relaxing during a gentle facial peel treatment at a skin clinic",
+    "width": 1200,
+    "height": 900
+  },
+  "subTreatments": [
+    "VVS Peel",
+    "Vono Prime",
+    "Troi Peel"
+  ],
+  "subTreatmentGroups": [
+    {
+      "label": "Choose by concern",
+      "items": [
+        "VVS Peel · Instant glow & party",
+        "Vono Prime · Stubborn acne",
+        "Troi Peel · Complexion correction"
+      ]
+    }
+  ],
+  "todo": [
+    "Ask the clinic for the product leaflets of VVS Peel, Vono Prime and Troi Peel (ingredients, protocol, downtime, number of sessions, pricing). The page currently uses Dr. Patel's positioning of each peel and general facts about Korean-style peels; no ingredient claims are made."
+  ]
+}

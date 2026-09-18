@@ -24,11 +24,12 @@
       {
         "slug": "laser-hair-removal",
         "name": "Laser Hair Reduction",
-        "subline": "Full Body · Bikini · Full Face · Underarms · Arms & Legs"
+        "subline": "Women: full body, face, underarms, arms, legs, bikini · Men: beard and eyebrow shaping, ears, chest, shoulders"
       },
       {
         "slug": "skin-glow-treatment",
-        "name": "Skin Glow Treatment"
+        "name": "Skin Glow Treatment",
+        "subline": "Signature Mira Peel · Korean Peels · HydraFacial · Skin Boosters"
       },
       {
         "slug": "skin-tightening-treatment",
@@ -37,7 +38,7 @@
       {
         "slug": "acne-treatment",
         "name": "Acne & Scar Treatment",
-        "subline": "Fractional CO2 Laser · Microneedling · Subcision · TCA Cross · MNRF"
+        "subline": "Acne peels · Fractional CO2 Laser · TCA Cross · Subcision · Microneedling"
       },
       {
         "slug": "pigmentation-treatment",

@@ -17,10 +17,9 @@
     "As with every laser at Skin Essence, the parameters are set by a dermatologist for the patient's skin tone, hair thickness and the area being treated, and tanned skin is treated only once the tan has faded."
   ],
   "whatItTreats": [
-    "Upper lip, chin and face",
-    "Underarms, arms and legs",
-    "Bikini line and full-body courses",
-    "Ingrown hairs and razor bumps"
+    "For women: full body, face, underarms, arms, legs and bikini",
+    "For men: beard shaping, eyebrow shaping, ears, chest and shoulders",
+    "Ingrown hairs and razor bumps from repeated shaving or waxing"
   ],
   "howItWorks": [
     {
@@ -37,7 +36,9 @@
     }
   ],
   "specs": [],
-  "treatmentSlugs": ["laser-hair-removal"],
+  "treatmentSlugs": [
+    "laser-hair-removal"
+  ],
   "faqs": [
     {
       "q": "Is diode laser hair reduction safe for Indian skin?",

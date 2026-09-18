@@ -2,7 +2,7 @@
   {
     "slug": "laser-hair-reduction",
     "name": "Laser Hair Reduction",
-    "shortDesc": "Long-term hair reduction on the Coolite BOLT triple-wavelength diode laser, for the full body, bikini, face, underarms, arms and legs.",
+    "shortDesc": "Coolite BOLT diode laser hair reduction for women (full body, face, underarms, arms, legs, bikini) and men (beard, eyebrows, ears, chest, shoulders).",
     "order": 1,
     "image": {
       "src": "/images/treatments/laser-hair-removal.webp",
@@ -14,7 +14,7 @@
   {
     "slug": "skin-glow",
     "name": "Skin Glow Treatment",
-    "shortDesc": "Signature Mira Peel, HydraFacial and skin boosters for dull, tired or dehydrated skin.",
+    "shortDesc": "Signature Mira Peel, original Korean peels, HydraFacial and skin boosters for dull, tired or dehydrated skin.",
     "order": 2,
     "image": {
       "src": "/images/treatments/skin-glow-treatment.webp",
@@ -38,7 +38,7 @@
   {
     "slug": "acne-and-scars",
     "name": "Acne & Scar Treatment",
-    "shortDesc": "Medical acne care, then fractional CO2 laser, microneedling, subcision, TCA cross and MNRF for scars.",
+    "shortDesc": "Medical acne care with Black, Jessner, Azelac M and Salipeel peels, then fractional CO2 laser, TCA cross, subcision and microneedling for scars.",
     "order": 4,
     "image": {
       "src": "/images/treatments/acne-treatment.webp",

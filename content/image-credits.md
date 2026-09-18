@@ -20,6 +20,7 @@ Stock photos below are from Pexels under the Pexels License (free for commercial
 | public/images/tech/hifu.webp | https://www.pexels.com/photo/a-selective-shot-of-an-ultrasound-machine-9973861/ | Bella Gitnik |
 | public/images/tech/mnrf.webp | https://www.pexels.com/photo/woman-having-a-beauty-treatment-done-5042636/ | Lespa số 1 về điều trị   mụn, nám, sẹo rỗ |
 | public/images/tech/coolsculpting.webp | https://www.pexels.com/photo/man-getting-a-procedure-done-on-his-belly-in-a-beauty-salon-5042619/ | Lespa số 1 về điều trị   mụn, nám, sẹo rỗ |
+| public/images/treatments/korean-peel.webp | https://www.pexels.com/photo/woman-getting-a-facial-treatment-3985329/ | Gustavo Fring |
 
 ## Manufacturer brochures (supplied by the clinic, 17 Sep 2026)
 

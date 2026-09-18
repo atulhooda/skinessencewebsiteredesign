@@ -110,6 +110,8 @@ export const TreatmentSchema = z.object({
   heroImage: ImageSchema,
   /** Pill chips, e.g. ["Full Face", "Underarms", "Full Body"]. */
   subTreatments: z.array(z.string()).default([]),
+  /** Labelled chip groups, rendered instead of `subTreatments` when present, e.g. "For women" / "For men". */
+  subTreatmentGroups: z.array(z.object({ label: z.string(), items: z.array(z.string()).min(1) })).default([]),
   /** false hides the page, links, sitemap entry and menu item without deleting the file. */
   published: z.boolean().default(true),
   /** Position within its category on the index and menu; lower first. The service's main page is 1. */

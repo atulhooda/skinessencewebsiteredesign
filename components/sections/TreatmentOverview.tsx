@@ -23,7 +23,23 @@ export function TreatmentOverview({ treatment, whatsappHref }: { treatment: Trea
                 <p key={paragraph.slice(0, 40)}>{paragraph}</p>
               ))}
             </div>
-            {treatment.subTreatments.length > 0 && (
+            {treatment.subTreatmentGroups.length > 0 && (
+              <div className="mt-8 grid gap-6 sm:grid-cols-2">
+                {treatment.subTreatmentGroups.map((group) => (
+                  <div key={group.label}>
+                    <p className="text-xs font-medium text-ink-2">{group.label}</p>
+                    <ul className="mt-3 flex flex-wrap gap-2">
+                      {group.items.map((item) => (
+                        <li key={item}>
+                          <Chip>{item}</Chip>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            )}
+            {treatment.subTreatmentGroups.length === 0 && treatment.subTreatments.length > 0 && (
               <div className="mt-8">
                 <p className="text-xs font-medium text-ink-2">Options &amp; areas</p>
                 <ul className="mt-3 flex flex-wrap gap-2">

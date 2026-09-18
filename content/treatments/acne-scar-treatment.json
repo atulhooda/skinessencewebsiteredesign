@@ -2,13 +2,13 @@
   "slug": "acne-scar-treatment",
   "name": "Acne Scar Treatment",
   "category": "acne-and-scars",
-  "shortDesc": "Microneedling, subcision, peels and laser sessions to soften pitted acne scars and fade the marks acne leaves behind.",
+  "shortDesc": "Fractional CO2 laser, TCA cross, subcision and microneedling to soften pitted acne scars and fade the marks acne leaves behind.",
   "heroTitle": "Acne Scar Treatment Matched To Each Scar Type",
   "metaTitle": "Acne Scar Treatment in Kalyani Nagar, Pune | Skin Essence",
-  "metaDescription": "Acne scar treatment in Kalyani Nagar, Pune: microneedling, subcision, peels and lasers planned by an MD dermatologist. Book a consultation.",
+  "metaDescription": "Acne scar treatment in Kalyani Nagar, Pune: fractional CO2 laser, TCA cross, subcision and microneedling by an MD dermatologist. Book a consultation.",
   "intro": [
     "Acne scars are what stay behind after the breakouts have gone: dark or red marks, and the pitted ice-pick, boxcar and rolling scars that catch the light and show through make-up or a beard. Many patients in Pune reach Skin Essence years after their acne settled, still avoiding close-up photographs.",
-    "There is no single scar treatment because there is no single scar type. Dr. Daksha Patel, an MD dermatologist with 17+ years of experience, maps the scars on your face first. Shallow pigmented marks respond to peels and laser toning, rolling scars improve with subcision and microneedling, and deep ice-pick scars need more focused work such as TCA cross. Most people have a mix, so most plans combine two or three approaches.",
+    "There is no single scar treatment because there is no single scar type. Dr. Daksha Patel, an MD dermatologist with 17+ years of experience, maps the scars on your face first. Boxcar scars and rough texture respond to fractional CO2 laser resurfacing, deep ice-pick scars to TCA cross, tethered rolling scars to subcision, and shallow scars and open pores to microneedling. Most people have a mix, so most plans combine two or three of these.",
     "Active acne is brought under control before scar work begins, otherwise new scars keep forming while old ones are treated. Sessions at our Kalyani Nagar clinic are spaced weeks apart, and improvement builds gradually as new collagen forms over three to six months. We tell you honestly what degree of improvement to expect for your scar types before you commit."
   ],
   "whoIsItFor": [
@@ -29,7 +29,7 @@
     },
     {
       "title": "Procedures",
-      "description": "Depending on the map: fractional CO2 laser resurfacing, microneedling or MNRF (microneedling radiofrequency) to stimulate collagen, subcision to release tethered rolling scars, and TCA cross for ice-pick scars."
+      "description": "Depending on the map: fractional CO2 laser to resurface boxcar scars and texture, TCA cross for ice-pick scars, subcision to release tethered rolling scars, and microneedling to stimulate collagen across the area."
     },
     {
       "title": "Review and maintenance",
@@ -39,7 +39,7 @@
   "sessionsAndDowntime": {
     "sessions": "4–6 sessions, 4–6 weeks apart",
     "sessionTime": "45–60 minutes",
-    "downtime": "2–5 days of redness, pinpoint scabs or mild swelling",
+    "downtime": "2–5 days of redness or pinpoint scabs; up to a week after fractional CO2 laser",
     "results": "Gradual improvement over 3–6 months as collagen rebuilds"
   },
   "aftercare": [
@@ -55,11 +55,11 @@
     },
     {
       "q": "Which treatment is right for my scars?",
-      "a": "It depends on the type. Rolling scars respond to subcision and microneedling, boxcar scars to fractional CO2 laser and MNRF, ice-pick scars to TCA cross, and dark marks to peels and laser toning. Most patients need a combination, planned after scar mapping."
+      "a": "It depends on the type. Boxcar scars respond to fractional CO2 laser, ice-pick scars to TCA cross, rolling scars to subcision, and shallow scars and open pores to microneedling. Dark marks fade with peels and laser toning. Most patients need a combination, planned after scar mapping."
     },
     {
-      "q": "Is microneedling suitable for Indian skin?",
-      "a": "Yes, with proper priming and aftercare. Indian skin can darken after procedures, so we prepare the skin beforehand, choose needle depths carefully and insist on daily sunscreen."
+      "q": "Are fractional CO2 laser and microneedling suitable for Indian skin?",
+      "a": "Yes, with proper priming and aftercare. Indian skin can darken after procedures, so we prepare the skin beforehand, choose laser settings and needle depths carefully, and insist on daily sunscreen."
     },
     {
       "q": "How soon after acne can I start scar treatment?",
@@ -87,10 +87,10 @@
   },
   "subTreatments": [
     "Fractional CO2 Laser",
-    "Microneedling",
-    "Subcision",
     "TCA Cross",
-    "MNRF"
+    "Subcision",
+    "Microneedling"
   ],
-  "order": 2
+  "order": 2,
+  "subTreatmentGroups": []
 }

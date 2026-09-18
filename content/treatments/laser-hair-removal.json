@@ -2,18 +2,18 @@
   "slug": "laser-hair-removal",
   "name": "Laser Hair Reduction",
   "category": "laser-hair-reduction",
-  "shortDesc": "Long-term hair reduction on face and body, with laser settings chosen for Indian skin tones.",
+  "shortDesc": "Long-term hair reduction for women and men, from full body and bikini to beard and eyebrow shaping, with settings chosen for Indian skin.",
   "heroTitle": "Laser Hair Reduction Designed For Indian Skin Tones",
   "metaTitle": "Laser Hair Reduction (Removal) in Kalyani Nagar, Pune | Skin Essence",
-  "metaDescription": "Laser hair removal in Kalyani Nagar, Pune with settings chosen for Indian skin tones, supervised by an MD dermatologist. Book a consultation.",
+  "metaDescription": "Laser hair removal for women and men in Kalyani Nagar, Pune, with settings chosen for Indian skin by an MD dermatologist. Book a consultation.",
   "intro": [
-    "Waxing every three weeks, ingrown hairs, razor bumps and dark, bumpy underarms are the reasons most patients ask about laser hair removal. The laser delivers a pulse of light that is absorbed by the pigment in the hair, heating and disabling the follicle while the skin surface is protected.",
+    "Waxing every three weeks, ingrown hairs, razor bumps and dark, bumpy underarms are why most patients ask about laser hair removal. A pulse of laser light is absorbed by the pigment in the hair, heating and disabling the follicle while the skin surface is protected.",
     "For Indian skin, which is mostly Fitzpatrick type IV to V, the choice of laser matters. At Skin Essence in Kalyani Nagar, hair reduction is performed on the Coolite BOLT, an 1800 W diode laser platform that fires three wavelengths, 755, 810 and 1064 nm, in a single pulse. The 1064 nm wavelength reaches deep follicles and is the safest choice for darker skin, while a sapphire-cooled tip keeps the skin surface cold as the follicle is heated. Dr. Daksha Patel, an MD dermatologist, sets the parameters for your skin tone, hair thickness and the area treated.",
-    "It is more accurate to call this hair reduction than hair removal. A full course reduces growth substantially, and the hair that regrows is finer and lighter. Hormonal areas, such as the chin in women with PCOS, usually need maintenance sessions. We tell you honestly what to expect before you commit to a package."
+    "It is more accurate to call this hair reduction than removal: a full course reduces growth substantially and regrowth is finer and lighter. Hormonal areas, such as the chin in PCOS, usually need maintenance sessions."
   ],
   "whoIsItFor": [
-    "Women tired of waxing, threading or shaving the face, underarms, arms, legs or bikini area, including full-body packages",
-    "Men who want to reduce beard, neck, back or chest hair, or stop ingrown hairs",
+    "Women who want full-body, face, underarm, arm, leg or bikini hair reduction instead of waxing, threading or shaving",
+    "Men who want beard or eyebrow shaping, or less hair on the ears, chest and shoulders",
     "Patients with PCOS-related facial hair, alongside hormonal treatment",
     "Recurrent folliculitis, razor bumps or darkening from repeated waxing",
     "Brides and grooms starting 6 to 8 months ahead of the wedding"
@@ -25,7 +25,7 @@
     },
     {
       "title": "Preparation",
-      "description": "Shave the area 24 hours before. Avoid waxing, threading or plucking for 4 weeks and tanning for 2 weeks, since the laser needs the hair root in place and the skin at its natural tone."
+      "description": "Shave the area 24 hours before. Avoid waxing, threading or plucking for 4 weeks and tanning for 2 weeks; the laser needs the hair root in place and untanned skin."
     },
     {
       "title": "The session",
@@ -44,14 +44,18 @@
   },
   "aftercare": [
     "Mild redness or small bumps for a few hours are normal; a cold compress settles them.",
-    "Apply sunscreen daily on exposed areas and avoid direct sun, saunas and hot yoga for 48 hours.",
+    "Apply sunscreen daily and avoid direct sun, saunas and hot yoga for 48 hours.",
     "Do not wax, thread or pluck between sessions; shaving is fine.",
     "Skip scrubs, retinoids and perfumed products on the treated area for 3 days."
   ],
   "faqs": [
     {
       "q": "Is laser hair removal safe for dark or Indian skin?",
-      "a": "Yes, when the right laser and settings are used. The Coolite BOLT combines 755, 810 and 1064 nm wavelengths with sapphire skin cooling, and its 1064 nm output is intended for skin types V and VI. Burns or pigmentation usually come from wrong settings or tanned skin, which is why sessions here are dermatologist-supervised."
+      "a": "Yes, with the right laser and settings. The Coolite BOLT combines 755, 810 and 1064 nm with sapphire skin cooling, and its 1064 nm output is intended for skin types V and VI. Burns or pigmentation come from wrong settings or tanned skin, which is why sessions are dermatologist-supervised."
+    },
+    {
+      "q": "Do you offer laser hair reduction for men?",
+      "a": "Yes. Beard shaping for a clean cheek and neck line, eyebrow shaping between and above the brows with protective eye shields, ears, chest and shoulders are the areas men ask for most. Male hair is coarser and may need a session or two more."
     },
     {
       "q": "How many sessions will I need?",
@@ -59,7 +63,7 @@
     },
     {
       "q": "How long do the results last?",
-      "a": "Laser gives long-term hair reduction. After a full course most patients have far less hair and the regrowth is finer. Some fine regrowth over time is normal, and hormonal areas may need an occasional touch-up."
+      "a": "After a full course most patients have far less hair and finer regrowth. Some regrowth over time is normal, and hormonal areas may need an occasional touch-up."
     },
     {
       "q": "Does it hurt?",
@@ -67,7 +71,7 @@
     },
     {
       "q": "What does laser hair removal cost in Pune?",
-      "a": "Pricing depends on the area and the number of sessions; a package for the full course lowers the per-session cost. Exact pricing is confirmed at your consultation."
+      "a": "Pricing depends on the area and number of sessions; a package lowers the per-session cost. Exact pricing is confirmed at your consultation."
     }
   ],
   "relatedConcerns": [
@@ -87,10 +91,38 @@
   },
   "subTreatments": [
     "Full Body",
-    "Bikini",
-    "Full Face",
-    "Upper Lip & Chin",
+    "Face",
     "Underarms",
-    "Arms & Legs"
+    "Arms",
+    "Legs",
+    "Bikini",
+    "Beard Shaping",
+    "Eyebrow Shaping",
+    "Ears",
+    "Chest",
+    "Shoulders"
+  ],
+  "subTreatmentGroups": [
+    {
+      "label": "For women",
+      "items": [
+        "Full Body",
+        "Face",
+        "Underarms",
+        "Arms",
+        "Legs",
+        "Bikini"
+      ]
+    },
+    {
+      "label": "For men",
+      "items": [
+        "Beard Shaping",
+        "Eyebrow Shaping",
+        "Ears",
+        "Chest",
+        "Shoulders"
+      ]
+    }
   ]
 }
