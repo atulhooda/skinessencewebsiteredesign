@@ -36,11 +36,6 @@ export function HomeHero({ hero, site }: { hero: HomePage["hero"]; site: Site })
           aria-hidden="true"
           className="absolute inset-0 bg-gradient-to-t from-brand-900 via-brand-900/60 to-brand-900/10 md:bg-gradient-to-r md:from-brand-800 md:via-brand-800/25 md:to-transparent"
         />
-        {/* Desktop: the intro copy sits over the lower photo, so darken only that band and keep the face clear. */}
-        <div
-          aria-hidden="true"
-          className="absolute inset-x-0 bottom-0 hidden h-3/5 bg-gradient-to-t from-brand-900/85 via-brand-900/50 to-transparent md:block"
-        />
       </div>
       <div
         aria-hidden="true"
