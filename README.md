@@ -106,6 +106,7 @@ are invented in the data; the site renders "to be confirmed" states until they a
 - GTM container ID → `NEXT_PUBLIC_GTM_ID` (slot in `components/layout/Gtm.tsx`)
 - `content/testimonials.json` holds SAMPLE testimonials for layout; replace with consented Google reviews
 - Wire `app/api/lead/route.ts` to the follow-up backend (currently validates and logs)
+- Doctor photo set sent 19 Sep 2026: the two consultation-desk shots are on the contact and concerns page heroes. The two taken in front of the lettered services wall are **not used**: that wall advertises Skin Whitening, Hair Transplant, Tattoo Removal, Breast Shaping and Cryolipo, which the client's service list omits and the site never offers. Confirm with the client before using them, and confirm which clinic this interior is (captions stay location-neutral until then)
 - Re-run `npm run qr` against the live domain before any QR code is printed, and confirm the arrival steps in `content/pages/location.json` with the clinic (security desk, lift bank, parking)
 - `/dr-daksha-patel` → `/about` is a temporary (307) redirect while the client reviews the merged page; set `permanent: true` in `next.config.ts` at launch
 

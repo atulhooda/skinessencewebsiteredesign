@@ -52,4 +52,4 @@ Product photos of the clinic's own equipment, cropped from the brochures the cli
 | public/images/treatments/laser-hair-removal.webp | Coolite BOLT catalogue, GSD / Skinnovation Pvt. Ltd. |
 | public/images/tech/hydrafacial.webp | 17 in 1 Hydra Facial Machine brochure, BVLASER |
 
-Clinic photos (doctor portraits, procedure photo, Ahmedabad reception, Kalyani Nagar reception) belong to Skin Essence and come from the existing site and the clinic's own media. The Kalyani Nagar reception photo (`public/images/locations/pune.webp`) was supplied by the client on 19 Sep 2026; the original is 718x536 and is upscaled to 1200x800 for the site, so ask the clinic for the full-resolution file.
+Clinic photos (doctor portraits, procedure photo, the two consultation-desk photos on the contact and concerns pages, Ahmedabad reception, Kalyani Nagar reception) belong to Skin Essence and come from the existing site and the clinic's own media. The Kalyani Nagar reception photo (`public/images/locations/pune.webp`) was supplied by the client on 19 Sep 2026; the original is 718x536 and is upscaled to 1200x800 for the site, so ask the clinic for the full-resolution file.

@@ -38,6 +38,7 @@ export default function BlogIndexPage() {
         eyebrow={page.eyebrow}
         title={page.title}
         description={page.description}
+        image={page.heroImage}
         actions={
           <Button href={routes.treatments} variant="light" icon="arrow-right">
             Explore Treatments

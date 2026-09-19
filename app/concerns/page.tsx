@@ -38,6 +38,7 @@ export default function ConcernsIndexPage() {
         eyebrow={page.eyebrow}
         title={page.title}
         description={page.description}
+        image={page.heroImage}
         actions={
           <>
             <Button href={routes.book} variant="light" icon="arrow-right">

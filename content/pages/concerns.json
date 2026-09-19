@@ -2,6 +2,12 @@
   "eyebrow": "Skin & Hair Concerns · MD Dermatologist in Kalyani Nagar, Pune",
   "title": "Start With What Bothers You",
   "description": "Not sure which treatment you need? Start with the concern. Each page explains the causes, what helps at home, when to see a dermatologist and how we treat it.",
+  "heroImage": {
+    "src": "/images/doctor/examination.webp",
+    "alt": "Dr. Daksha Patel during a consultation, with a skin anatomy chart on the wall behind her",
+    "width": 1200,
+    "height": 900
+  },
   "metaTitle": "Skin & Hair Concerns Treated in Kalyani Nagar, Pune | Skin Essence",
   "metaDescription": "Acne, pigmentation, hair fall, unwanted hair, dark circles and more, explained by an MD dermatologist in Kalyani Nagar, Pune. Book a consultation."
 }

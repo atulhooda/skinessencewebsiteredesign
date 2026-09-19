@@ -420,6 +420,8 @@ export const SimplePageSchema = z.object({
   eyebrow: z.string(),
   title: z.string(),
   description: z.string(),
+  /** Optional photo beside the hero text. */
+  heroImage: ImageSchema.optional(),
   metaTitle: MetaTitleSchema,
   metaDescription: MetaDescriptionSchema,
 });
