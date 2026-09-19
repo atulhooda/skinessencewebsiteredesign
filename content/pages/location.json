@@ -1,0 +1,44 @@
+{
+  "eyebrow": "Find Us · Kalyani Nagar, Pune",
+  "metaTitle": "Find Skin Essence | 21st Floor, Kalyani Nagar, Pune",
+  "metaDescription": "Skin Essence is on the 21st floor of Brahma Business Park, Tower T9, New Kalyani Nagar, Pune. Directions, floor guide and contact details.",
+  "locationSlug": "dermatologist-in-kalyani-nagar",
+  "buildingName": "Brahma Business Park",
+  "buildingAka": "Bramhacorp Business Park",
+  "tower": "Tower T9",
+  "unit": "Office No. 2107, 2108 & 2109",
+  "landmark": "Near F Residence, New Kalyani Nagar",
+  "floor": "21st Floor",
+  "floorNumber": "21",
+  "mapsNote": "Google Maps brings you to the building. From there, the clinic is on the 21st floor of Tower T9.",
+  "steps": [
+    {
+      "title": "Reach the building",
+      "description": "Come to Brahma Business Park, Tower T9, near F Residence in New Kalyani Nagar.",
+      "highlight": false
+    },
+    {
+      "title": "Walk to the lifts",
+      "description": "Enter the lobby of Tower T9 and head to the lift area.",
+      "highlight": false
+    },
+    {
+      "title": "Take the lift to the 21st floor",
+      "description": "Press 21. This is the part Google Maps cannot tell you.",
+      "highlight": true
+    },
+    {
+      "title": "Find the clinic",
+      "description": "Step out and follow the Skin Essence signage to Office No. 2107, 2108 and 2109.",
+      "highlight": false
+    }
+  ],
+  "help": {
+    "title": "Can't find us?",
+    "description": "Call or WhatsApp the clinic and the team will guide you in. You can also book your consultation on the same number."
+  },
+  "whatsappMessage": "Hi, I'm on my way to Skin Essence at Brahma Business Park. Could you help me find the clinic?",
+  "todo": [
+    "Confirm the arrival steps with the clinic: whether visitors sign in at the Tower T9 security desk, which lift bank serves the 21st floor, and where patients should park."
+  ]
+}

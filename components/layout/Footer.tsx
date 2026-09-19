@@ -99,6 +99,7 @@ export function Footer() {
                 { label: "Our Technology", href: routes.technology },
                 { label: "Blog", href: routes.blog },
                 { label: "Contact", href: routes.contact },
+                { label: "Find Us & Directions", href: routes.findUs },
                 ...locations.map((l) => ({ label: `Dermatologist in ${l.area}`, href: routes.location(l.slug) })),
               ]}
             />

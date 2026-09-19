@@ -27,6 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...getMachines().map((m) => entry(routes.machine(m.slug), 0.6)),
     entry(routes.about, 0.8),
     entry(routes.contact, 0.6),
+    entry(routes.findUs, 0.5),
     entry(routes.blog, 0.6, "weekly"),
     ...getBlogPosts().map((p) => ({ ...entry(routes.blogPost(p.slug), 0.5), lastModified: new Date(p.date) })),
     entry(routes.privacy, 0.2, "yearly"),

@@ -17,6 +17,8 @@ export const routes = {
   /** Standalone profile page; only for doctors without `profileOnAbout`. Link with doctorHref() instead. */
   doctorProfile: (slug: string) => `/${slug}`,
   contact: "/contact",
+  /** QR wayfinding page. Printed QR codes encode this, never a Google Maps URL. */
+  findUs: "/location",
   blog: "/blog",
   blogPost: (slug: string) => `/blog/${slug}`,
   privacy: "/privacy-policy",

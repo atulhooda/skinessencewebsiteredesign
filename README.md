@@ -11,6 +11,7 @@ Every page is generated from typed content in [`/content`](content/) — there i
 | `npm run build` | Production build (validates content, fails on schema or SEO errors) |
 | `npm run start` | Serve the production build |
 | `npm run content:check` | Validate every file in `/content` and list unresolved references / TODOs |
+| `npm run qr` | Regenerate the printable QR code for `/location` (see **QR code** below) |
 | `npm run images:placeholders` | Regenerate gradient placeholder images for every image slot |
 | `npm run check` | content check + typecheck + lint + build |
 
@@ -26,6 +27,7 @@ app/                      Routes. Each page composes section components and read
   [slug]/                 Data-driven landing pages: one per clinic location (and any doctor with a standalone profile)
   about/                  About the clinic AND Dr. Patel's profile (#doctor); /dr-daksha-patel redirects here
   contact/                Contact page
+  location/               QR wayfinding page: building, 21st floor and indoor directions
   blog/                   Index + [slug]; post bodies are MDX files in /content/blog
   privacy-policy/, terms/ Legal pages from content/pages/*.json
   */opengraph-image.tsx   1200×630 OG images generated with next/og, per route
@@ -104,7 +106,29 @@ are invented in the data; the site renders "to be confirmed" states until they a
 - GTM container ID → `NEXT_PUBLIC_GTM_ID` (slot in `components/layout/Gtm.tsx`)
 - `content/testimonials.json` holds SAMPLE testimonials for layout; replace with consented Google reviews
 - Wire `app/api/lead/route.ts` to the follow-up backend (currently validates and logs)
+- Re-run `npm run qr` against the live domain before any QR code is printed, and confirm the arrival steps in `content/pages/location.json` with the clinic (security desk, lift bank, parking)
 - `/dr-daksha-patel` → `/about` is a temporary (307) redirect while the client reviews the merged page; set `permanent: true` in `next.config.ts` at launch
+
+## QR code
+
+A printed QR code points at **`/location`**, never at a Google Maps URL. Maps can only take
+someone to the building; the page is what tells them the clinic is on the 21st floor. Because
+the QR encodes the page, the floor, the arrival steps, the map link and the phone numbers can
+all change later without reprinting anything.
+
+```bash
+npm run qr                                    # https://skinessence2017.com/location
+npm run qr -- https://other-domain.com/location
+```
+
+Writes `public/qr/location-qr.svg` (use this for print) and a 2048px PNG. Error correction is
+level Q with the standard quiet zone, so it survives a scuffed print. **Generate it against the
+domain the site will actually launch on and scan the proof before it goes to press** — the
+committed file encodes `skinessence2017.com`, which only works once that domain serves this
+site. `qrcode` is a devDependency used by the script only; nothing ships to the browser.
+
+Everything the page renders comes from `content/pages/location.json` plus the clinic's own
+files, resolved once in `lib/location-config.ts`. Nothing is hardcoded in the components.
 
 ## Blog
 

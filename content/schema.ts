@@ -456,6 +456,48 @@ export const BlogPostSchema = z.object({
   relatedConcerns: z.array(SlugSchema).default([]),
 });
 
+/**
+ * The QR wayfinding page (/location). A printed QR points here rather than at
+ * Google Maps, so the floor and the way upstairs can change without reprinting.
+ * Anything left out here falls back to the clinic's verified details in
+ * content/locations and content/site.json, so nothing is stated twice.
+ */
+export const LocationPageSchema = z.object({
+  eyebrow: z.string(),
+  metaTitle: MetaTitleSchema,
+  metaDescription: MetaDescriptionSchema,
+  /** The clinic this page leads to; must match a file in content/locations. */
+  locationSlug: SlugSchema,
+  /** Building as it is signposted on the street. */
+  buildingName: z.string(),
+  /** What Google Maps calls the same building, when the two differ. */
+  buildingAka: z.string().optional(),
+  /** Tower or wing, e.g. "Tower T9". */
+  tower: z.string().optional(),
+  /** Office numbers on the floor. */
+  unit: z.string().optional(),
+  /** Nearest landmark, e.g. "Near F Residence". */
+  landmark: z.string().optional(),
+  /** Written out, e.g. "21st Floor". Used in prose and metadata. */
+  floor: z.string(),
+  /** Just the numeral, e.g. "21". Used for the oversized display. */
+  floorNumber: z.string(),
+  /** Keeps the promise honest: Maps reaches the building, this page reaches the floor. */
+  mapsNote: z.string(),
+  /** Indoor directions. `highlight` marks the step that names the floor. */
+  steps: z
+    .array(z.object({ title: z.string(), description: z.string(), highlight: z.boolean().default(false) }))
+    .min(2),
+  help: z.object({ title: z.string(), description: z.string() }),
+  /** Prefilled WhatsApp text for this page: directions, not a booking. */
+  whatsappMessage: z.string(),
+  /** Overrides. Leave out to use the clinic's own map link, phone and WhatsApp number. */
+  googleMapsUrl: z.string().url().optional(),
+  phone: PhoneSchema.optional(),
+  whatsapp: WhatsAppSchema.optional(),
+  todo: z.array(z.string()).default([]),
+});
+
 /* ---------- Inferred types ---------- */
 
 export type Image = z.infer<typeof ImageSchema>;
@@ -481,3 +523,5 @@ export type AboutPage = z.infer<typeof AboutPageSchema>;
 export type BlogPost = z.infer<typeof BlogPostSchema>;
 export type SimplePage = z.infer<typeof SimplePageSchema>;
 export type LegalPage = z.infer<typeof LegalPageSchema>;
+export type LocationPage = z.infer<typeof LocationPageSchema>;
+export type ArrivalStep = LocationPage["steps"][number];

@@ -127,6 +127,46 @@ const STAT_ICONS = {
 
 export type StatIconName = keyof typeof STAT_ICONS;
 
+export const Building2Icon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M3 21h18" />
+    <path d="M5 21V6a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v15" />
+    <path d="M13 21V11a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v10" />
+    <path d="M8 9h2M8 13h2M8 17h2M16 14h1M16 17.5h1" />
+  </svg>
+);
+
+export const ElevatorIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <rect x="4" y="3" width="16" height="18" rx="2" />
+    <path d="M12 3v18" />
+    <path d="M7.4 10.6 8.8 8.4l1.4 2.2" />
+    <path d="M13.8 13.4l1.4 2.2 1.4-2.2" />
+  </svg>
+);
+
+export const NavigationIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M21 3 3 10.4l7.4 3.2L13.6 21 21 3Z" />
+    <path d="m10.4 13.6 4.3-4.3" />
+  </svg>
+);
+
+export const ArrowUpIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M12 19V5" />
+    <path d="m5 12 7-7 7 7" />
+  </svg>
+);
+
+export const DoorIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M4 21h16" />
+    <path d="M7 21V4a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v17" />
+    <circle cx="13.4" cy="12" r=".9" />
+  </svg>
+);
+
 export function StatIcon({ name, ...props }: IconProps & { name: StatIconName }) {
   const Icon = STAT_ICONS[name];
   return <Icon {...props} />;

@@ -26,6 +26,7 @@ every unresolved reference and client TODO.
 | `blog/<slug>.json` + `blog/<slug>.mdx` | One pair per article → `/blog/[slug]`: metadata in JSON, body in MDX |
 | `lead-options.json` | The client's canonical treatment/concern list for the booking form |
 | `machines/*.json` | One file per machine → `/technology/[slug]`; `location` (pune/ahmedabad), brochure `specs`, `treatmentSlugs`; `published: false` hides a draft |
+| `pages/location.json` | The QR wayfinding page at `/location`: building, floor, arrival steps and help copy. See below |
 | `pages/*.json` | Page-level copy: home, treatments index, about (clinic story + hero, meta and photo for the merged About/doctor page), contact, concerns index, blog index, privacy-policy, terms |
 | `image-credits.md` | Source, photographer and licence of every stock photo; add a row whenever a photo is added |
 | `faqs.json`, `principles.json`, `technology.json`, `testimonials.json` | Homepage blocks |
@@ -58,6 +59,29 @@ Same pattern in `concerns/`. Title pattern:
 treatments in priority order. A concern page is 400–700 words across `heroTitle`, `shortDesc`
 (≤ 200 chars, used on cards and in the hero), `intro`, `causes`, `howWeTreat` (≥ 2 titled steps),
 `selfCare`, `whenToSeeDoctor` and `faqs`. Hero image: `public/images/concerns/<slug>.webp` (1200×900).
+
+
+## The /location wayfinding page
+
+A printed QR code opens `/location`, which tells the visitor the clinic is on the 21st floor
+and how to get there. Edit **`pages/location.json`** to change anything on it:
+
+| Field | What it controls |
+| --- | --- |
+| `buildingName`, `buildingAka` | The building, and the name Google Maps shows for it |
+| `tower`, `unit`, `landmark` | Tower, office numbers and the nearest landmark |
+| `floor`, `floorNumber` | "21st Floor" in prose, and the oversized "21" |
+| `steps` | The indoor directions. `highlight: true` marks the step that names the floor |
+| `mapsNote` | The line that keeps the promise honest: Maps reaches the building, the page reaches the floor |
+| `help`, `whatsappMessage` | The "can't find us" block and the prefilled WhatsApp text |
+| `locationSlug` | Which clinic in `locations/` supplies the name, address, phone and map link |
+| `googleMapsUrl`, `phone`, `whatsapp` | Optional overrides; leave them out to use the clinic's own |
+
+The clinic name, address, phone, WhatsApp number and map link are **not** repeated here. They
+come from `locations/<locationSlug>.json` and `site.json`, so this page can never drift from
+the rest of the site. `lib/location-config.ts` resolves the two into one object; the page and
+its components read only that, and hide any action whose link is missing rather than rendering
+a dead button.
 
 ## Add a blog post
 

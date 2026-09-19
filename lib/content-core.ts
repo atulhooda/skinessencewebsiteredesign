@@ -23,6 +23,7 @@ import {
   HomePageSchema,
   LeadOptionSchema,
   LegalPageSchema,
+  LocationPageSchema,
   LocationSchema,
   MachineSchema,
   PrincipleSchema,
@@ -43,6 +44,7 @@ import {
   type LeadOption,
   type LegalPage,
   type Location,
+  type LocationPage,
   type Machine,
   type Principle,
   type SimplePage,
@@ -138,6 +140,11 @@ export function getAboutPage(): AboutPage {
 /** Hero copy for simple index pages: "contact", "concerns", "blog". */
 export function getSimplePage(name: "contact" | "concerns" | "blog"): SimplePage {
   return loadFile(`pages/${name}.json`, SimplePageSchema);
+}
+
+/** The QR wayfinding page at /location. */
+export function getLocationPage(): LocationPage {
+  return loadFile("pages/location.json", LocationPageSchema);
 }
 
 export function getLegalPage(name: "privacy-policy" | "terms"): LegalPage {
@@ -424,6 +431,9 @@ export function buildContentReport(): ContentReport {
     }
     if (!imageExists(m.image.src)) warnings.push(`machines/${m.slug}: image ${m.image.src} is missing from /public`);
   }
+  const locationPage = getLocationPage();
+  if (!getLocation(locationPage.locationSlug)) warnings.push(`pages/location.json: unknown clinic "${locationPage.locationSlug}"`);
+  for (const todo of locationPage.todo) warnings.push(`pages/location.json: TODO ${todo}`);
   const testimonials = loadFile("testimonials.json", TestimonialsFileSchema);
   if (testimonials._note) warnings.push(`testimonials.json: ${testimonials._note}`);
 
