@@ -11,24 +11,27 @@ type Props = { id?: string; eyebrow: string; title: string; locations: Location[
 
 /** Clinic cards (NAP) linking to the location landing pages. */
 export function LocationsSection({ id = "locations", eyebrow, title, locations, site, tone = "white" }: Props) {
+  // Two or more clinics sit in a grid, each photo across the top of its card. These are wide
+  // signage walls, so a portrait column beside the text cropped away the ends of the sign.
+  const grid = locations.length > 1;
   return (
     <SectionCard id={id} headingId={`${id}-heading`} tone={tone}>
       <Container>
         <SectionHeading id={`${id}-heading`} eyebrow={eyebrow} title={title} align="left" size="md" />
-        <ul className={locations.length > 1 ? "mt-10 grid gap-4 md:grid-cols-2" : "mt-10 grid gap-4"}>
+        <ul className={grid ? "mt-10 grid gap-4 md:grid-cols-2" : "mt-10 grid gap-4"}>
           {locations.map((location) => {
             const phone = location.phone ?? site.phone;
             return (
-              <li key={location.slug} className="flex flex-col overflow-hidden rounded-3xl border border-line bg-white md:flex-row">
-                <div className="relative aspect-[3/2] md:aspect-auto md:w-2/5">
+              <li key={location.slug} className={`flex flex-col overflow-hidden rounded-3xl border border-line bg-white ${grid ? "" : "md:flex-row"}`}>
+                <div className={grid ? "relative aspect-[2/1]" : "relative aspect-[2/1] md:aspect-auto md:w-1/2"}>
                   <Image
                     src={location.heroImage.src}
                     alt={location.heroImage.alt}
                     width={location.heroImage.width}
                     height={location.heroImage.height}
                     loading="lazy"
-                    sizes="(min-width: 768px) 30vw, 100vw"
-                    className="h-full w-full object-cover"
+                    sizes="(min-width: 768px) 45vw, 100vw"
+                    className="absolute inset-0 h-full w-full object-cover"
                   />
                 </div>
                 <div className="flex flex-1 flex-col p-6">
