@@ -7,7 +7,7 @@
     "secondaryCta": "Explore Treatments",
     "image": {
       "src": "/images/hero/home.webp",
-      "alt": "Dr. Daksha Patel at the Skin Essence clinic reception",
+      "alt": "Dr. Daksha Patel, MBBS, MD (Skin & VD), smiling at her consultation desk",
       "width": 1200,
       "height": 1400
     }
@@ -71,7 +71,13 @@
   },
   "doctorIntro": {
     "eyebrow": "Meet Your Dermatologist",
-    "title": "Expertise. Experience. Personalised Care."
+    "title": "Expertise. Experience. Personalised Care.",
+    "image": {
+      "src": "/images/doctor/examination-portrait.webp",
+      "alt": "Dr. Daksha Patel during a consultation at her desk",
+      "width": 960,
+      "height": 1200
+    }
   },
   "whyChoose": {
     "eyebrow": "Our Advantages",

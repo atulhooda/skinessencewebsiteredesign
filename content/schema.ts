@@ -380,7 +380,8 @@ export const HomePageSchema = z.object({
       .min(1)
       .max(12),
   }),
-  doctorIntro: SectionCopySchema,
+  /** `image` overrides the doctor's main portrait on the home page only. */
+  doctorIntro: SectionCopySchema.extend({ image: ImageSchema.optional() }),
   whyChoose: SectionCopySchema.extend({ image: ImageSchema }),
   testimonials: SectionCopySchema,
   technology: SectionCopySchema.extend({ description: z.string() }),

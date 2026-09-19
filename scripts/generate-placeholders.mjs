@@ -95,7 +95,7 @@ function svgFor({ w, h, label, palette }) {
 
 // Real photos already in place (from the clinic). The generator skips these.
 const REAL = new Set([
-  "hero/home.webp", "hero/treatments.webp", "doctor/dr-daksha-patel.webp", "doctor/consultation.webp", "doctor/procedure.webp", "doctor/at-desk.webp", "doctor/examination.webp",
+  "hero/home.webp", "hero/treatments.webp", "doctor/dr-daksha-patel.webp", "doctor/consultation.webp", "doctor/procedure.webp", "doctor/at-desk.webp", "doctor/examination.webp", "doctor/examination-portrait.webp",
   "treatments/botox.webp", "treatments/dermal-fillers.webp", "locations/ahmedabad.webp", "clinic/reception.webp",
   "treatments/acne-treatment.webp", "treatments/chemical-peel.webp", "treatments/laser-hair-removal.webp", "treatments/skin-glow-treatment.webp",
   "treatments/hair-transplant.webp", "treatments/hair-loss-treatment.webp", "treatments/bridal-skin-care.webp", "tiles/injectables.webp",

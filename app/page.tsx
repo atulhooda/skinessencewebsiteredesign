@@ -86,7 +86,7 @@ export default function HomePage() {
         eyebrow={home.doctorIntro.eyebrow}
         title={home.doctorIntro.title}
         doctor={doctor}
-        image={doctor.photo}
+        image={home.doctorIntro.image ?? doctor.photo}
         stats={site.stats}
         tone="white"
       />
