@@ -29,6 +29,8 @@ export type LocationConfig = {
   floor: string;
   /** "21" */
   floorNumber: string;
+  /** "st" in "21st Floor"; empty when the floor is not written as an ordinal. */
+  floorSuffix: string;
   addressLines: string[];
   /** "Pune, Maharashtra" */
   cityLine: string;
@@ -74,6 +76,7 @@ export function getLocationConfig(): LocationConfig {
     landmark: page.landmark,
     floor: page.floor,
     floorNumber: page.floorNumber,
+    floorSuffix: page.floor.match(new RegExp(`^${page.floorNumber}(st|nd|rd|th)\\b`, "i"))?.[1] ?? "",
     addressLines: clinic.addressLines,
     cityLine: [clinic.city, clinic.region].filter(Boolean).join(", "),
     country: COUNTRY_NAMES[clinic.country] ?? clinic.country,

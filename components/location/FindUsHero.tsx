@@ -45,7 +45,12 @@ export function FindUsHero({ config }: { config: LocationConfig }) {
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-200">Your destination</p>
             <p className="mt-3">
               <span aria-hidden="true" className="flex items-baseline gap-2.5">
-                <span className="text-7xl font-medium leading-[0.8] tabular-nums sm:text-8xl">{config.floorNumber}</span>
+                <span className="text-7xl font-medium leading-[0.8] tabular-nums sm:text-8xl">
+                  {config.floorNumber}
+                  {config.floorSuffix && (
+                    <span className="-ml-1 align-top text-3xl font-medium leading-none sm:-ml-1.5 sm:text-4xl">{config.floorSuffix}</span>
+                  )}
+                </span>
                 <span className="text-xl font-medium uppercase tracking-[0.18em] text-white/90 sm:text-2xl">Floor</span>
               </span>
               <span className="sr-only">{config.floor}</span>
