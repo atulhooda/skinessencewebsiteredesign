@@ -2,34 +2,37 @@
   "title": "Privacy Policy",
   "metaTitle": "Privacy Policy | Skin Essence",
   "metaDescription": "How Skin Essence, Kalyani Nagar, Pune collects, uses and protects the details you share through this website and its booking form.",
-  "updated": "2026-09-18",
+  "updated": "2026-09-23",
   "intro": "This policy explains what information Skin Essence collects through this website, why we collect it and what we do with it. It covers the website only; information you share during a consultation is part of your medical record and is handled under medical confidentiality.",
   "sections": [
     {
       "heading": "What we collect",
       "paragraphs": [
         "When you use the booking or enquiry form we collect the details you enter: your name, phone number, email address if you give one, the treatment or concern you select, your preferred clinic and date, and any message you write.",
-        "Like most websites, our hosting provider also records basic technical data such as IP address, browser type and the pages visited, which we use in aggregate to keep the site secure and working."
+        "Like most websites, our hosting provider also records basic technical data such as IP address, browser type and the pages visited, which we use in aggregate to keep the site secure and working.",
+        "We also use an analytics service that records how the site is used: the pages you open, what you click and how long you spend on a page. When you submit the booking form, that service receives your name, phone number, email address if you gave one, the treatment or concern and the clinic you selected, and whether you ticked the WhatsApp box. Anything you type in the free-text message box is not sent to it."
       ]
     },
     {
       "heading": "How we use it",
       "paragraphs": [
         "We use your details to contact you about your enquiry, to arrange and confirm appointments, and to answer your questions. We may contact you by phone call, SMS, WhatsApp or email using the details you provided.",
-        "We do not use your details for unrelated marketing, and we do not sell or rent them to anyone."
+        "If you tick \"Send me updates and offers on WhatsApp\" on the form, we may also send you clinic updates and offers on WhatsApp. That box is optional and never ticked for you; leave it alone and you will only hear from us about your own enquiry. You can stop these messages at any time by replying STOP, or by calling or emailing us.",
+        "We do not sell or rent your details to anyone."
       ]
     },
     {
       "heading": "Who we share it with",
       "paragraphs": [
-        "Your details are seen by the clinic's front-desk and clinical team. We use service providers to host the website and deliver messages; they process data on our behalf and only as needed to provide those services.",
+        "Your details are seen by the clinic's front-desk and clinical team. We use service providers to host the website, measure how it is used and deliver messages; they process data on our behalf and only as needed to provide those services.",
         "We may disclose information if required to do so by law."
       ]
     },
     {
       "heading": "Cookies and analytics",
       "paragraphs": [
-        "The site may use cookies and analytics tools to understand how visitors use it, for example which pages are read most. These tools do not tell us who you are. You can block cookies in your browser settings and the site will still work."
+        "The site uses cookies and analytics tools to understand how visitors use it, for example which pages are read most and which treatments people look at before they enquire. Until you send us the booking form these tools do not know who you are. Once you submit it, the enquiry is linked to the name and number you gave, so that we can follow up.",
+        "You can block cookies in your browser settings and the site will still work."
       ]
     },
     {

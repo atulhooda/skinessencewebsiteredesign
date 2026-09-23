@@ -27,6 +27,7 @@ every unresolved reference and client TODO.
 | `lead-options.json` | The client's canonical treatment/concern list for the booking form |
 | `machines/*.json` | One file per machine → `/technology/[slug]`; `location` (pune/ahmedabad), brochure `specs`, `treatmentSlugs`; `published: false` hides a draft |
 | `pages/location.json` | The QR wayfinding page at `/location`: building, floor, arrival steps and help copy. See below |
+| `pages/popup.json` | The entry popup asking for the visitor's details: copy, timing and reach. See below |
 | `pages/*.json` | Page-level copy: home, treatments index, about (clinic story + hero, meta and photo for the merged About/doctor page), contact, concerns index, blog index, privacy-policy, terms |
 | `image-credits.md` | Source, photographer and licence of every stock photo; add a row whenever a photo is added |
 | `faqs.json`, `principles.json`, `technology.json`, `testimonials.json` | Homepage blocks |
@@ -82,6 +83,25 @@ come from `locations/<locationSlug>.json` and `site.json`, so this page can neve
 the rest of the site. `lib/location-config.ts` resolves the two into one object; the page and
 its components read only that, and hide any action whose link is missing rather than rendering
 a dead button.
+
+## The entry popup
+
+`pages/popup.json` drives the dialog that asks visitors for their details. It reuses the
+site's own lead form, so it posts to the same endpoint, obeys the same validation and carries
+the same WhatsApp consent box.
+
+| Field | What it controls |
+| --- | --- |
+| `enabled` | `false` renders nothing at all and ships no dialog code to the browser |
+| `delaySeconds` | How long after the page loads it opens |
+| `repeatAfterDays` | How long someone who closed or sent it is left alone. `0` asks every visit |
+| `excludePaths` | Routes it never interrupts, matched as prefixes. `/location` is excluded because a QR visitor standing outside the building needs directions, not a form |
+| `eyebrow`, `title`, `description`, `dismissLabel`, `footnote` | The copy |
+
+**A dialog that covers the page seconds after it opens is what Google calls an intrusive
+interstitial**, and it can cost mobile rankings on a site whose whole build is search-led. If
+enquiries matter more than rankings, keep it. If rankings dip, raise `delaySeconds`, raise
+`repeatAfterDays`, or set `enabled` to `false`. All three are content changes.
 
 ## Add a blog post
 

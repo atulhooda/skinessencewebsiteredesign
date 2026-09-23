@@ -416,6 +416,30 @@ export const AboutPageSchema = z.object({
   services: z.array(z.string()).min(1),
 });
 
+/**
+ * Entry popup that asks the visitor for their details (client request, 23 Sep 2026).
+ *
+ * A dialog that covers the page straight after it opens is what Google treats as an
+ * intrusive interstitial on mobile, so the timing and reach are content, not code:
+ * raise `delaySeconds`, raise `repeatAfterDays`, add routes to `excludePaths`, or set
+ * `enabled` to false, and nothing needs rebuilding beyond the content check.
+ */
+export const PopupSchema = z.object({
+  enabled: z.boolean().default(true),
+  /** Seconds after the page loads before the popup opens. */
+  delaySeconds: z.number().min(0).max(120).default(3),
+  /** Days before someone who closed or sent it is asked again. 0 = every visit. */
+  repeatAfterDays: z.number().int().min(0).max(365).default(7),
+  /** Routes that must never be interrupted, matched as prefixes. */
+  excludePaths: z.array(z.string()).default([]),
+  eyebrow: z.string(),
+  title: z.string(),
+  description: z.string(),
+  dismissLabel: z.string().default("Not now"),
+  /** Small print under the form. The privacy policy link is added after it. */
+  footnote: z.string().optional(),
+});
+
 /** Hero copy for simple index pages (contact, concerns, blog). */
 export const SimplePageSchema = z.object({
   eyebrow: z.string(),
@@ -525,6 +549,7 @@ export type TreatmentsPage = z.infer<typeof TreatmentsPageSchema>;
 export type AboutPage = z.infer<typeof AboutPageSchema>;
 export type BlogPost = z.infer<typeof BlogPostSchema>;
 export type SimplePage = z.infer<typeof SimplePageSchema>;
+export type Popup = z.infer<typeof PopupSchema>;
 export type LegalPage = z.infer<typeof LegalPageSchema>;
 export type LocationPage = z.infer<typeof LocationPageSchema>;
 export type ArrivalStep = LocationPage["steps"][number];

@@ -26,6 +26,7 @@ import {
   LocationPageSchema,
   LocationSchema,
   MachineSchema,
+  PopupSchema,
   PrincipleSchema,
   SimplePageSchema,
   SiteSchema,
@@ -46,6 +47,7 @@ import {
   type Location,
   type LocationPage,
   type Machine,
+  type Popup,
   type Principle,
   type SimplePage,
   type Site,
@@ -135,6 +137,11 @@ export function getTreatmentsPage(): TreatmentsPage {
 
 export function getAboutPage(): AboutPage {
   return loadFile("pages/about.json", AboutPageSchema);
+}
+
+/** Entry popup asking the visitor for their details. */
+export function getPopup(): Popup {
+  return loadFile("pages/popup.json", PopupSchema);
 }
 
 /** Hero copy for simple index pages: "contact", "concerns", "blog". */

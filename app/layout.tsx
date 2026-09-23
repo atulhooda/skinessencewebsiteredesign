@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/layout/Footer";
+import { LeadPopupMount } from "@/components/lead/LeadPopupMount";
+import { FunnelTracking } from "@/components/layout/FunnelTracking";
 import { Gtm } from "@/components/layout/Gtm";
 import { Header } from "@/components/layout/Header";
 import { StickyBar } from "@/components/layout/StickyBar";
@@ -45,6 +47,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Footer />
         </div>
         <StickyBar />
+        <LeadPopupMount />
+        <FunnelTracking />
       </body>
     </html>
   );

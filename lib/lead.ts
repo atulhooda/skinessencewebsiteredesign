@@ -13,6 +13,12 @@ export const LeadSchema = z.object({
   message: z.string().trim().max(LEAD_LIMITS.messageMax).optional().default(""),
   /** Path the form was submitted from, for attribution. */
   page: z.string().max(200).optional(),
+  /**
+   * WhatsApp marketing consent. The checkbox is named `whatsapp_consent` because
+   * the analytics script matches on that name; an unticked box is simply absent,
+   * which reads as false.
+   */
+  whatsapp_consent: z.preprocess((v) => v === "on" || v === true || v === "true", z.boolean()),
   /** Honeypot. Humans never fill it. */
   website: z.string().optional(),
 });

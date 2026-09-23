@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "delaySeconds": 3,
+  "repeatAfterDays": 7,
+  "excludePaths": ["/location"],
+  "eyebrow": "Book A Consultation",
+  "title": "Not sure which treatment you need?",
+  "description": "Leave your number and the concern you would like help with. Our team will call you back during clinic hours and suggest the right next step.",
+  "dismissLabel": "Not now",
+  "footnote": "We use your details only to contact you about your enquiry."
+}
