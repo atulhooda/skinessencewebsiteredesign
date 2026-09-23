@@ -13,12 +13,17 @@ import Script from "next/script";
  * between them and the clinic. Our honeypot field ("website") is recognised
  * and bot submissions are dropped.
  *
+ * Served from the clinic's own subdomain. That endpoint only accepts requests
+ * from https://skinessence2017.com, so on any other origin (the Vercel staging
+ * URL included) the script loads but its requests are refused, and nothing is
+ * recorded until the real domain serves this site.
+ *
  * The key is a publishable client-side key, not a secret. Set
  * NEXT_PUBLIC_FUNNEL_KEY to "" to switch tracking off, or to another key to
  * point at a different workspace. Add `data-fa-no-capture` to any <form> that
  * should never be captured.
  */
-const API = process.env.NEXT_PUBLIC_FUNNEL_API ?? "https://funnel-agent-production-85a3.up.railway.app";
+const API = process.env.NEXT_PUBLIC_FUNNEL_API ?? "https://track.skinessence2017.com";
 const KEY = process.env.NEXT_PUBLIC_FUNNEL_KEY ?? "wk_52e3aff27656e23165691b6a";
 
 export function FunnelTracking() {
