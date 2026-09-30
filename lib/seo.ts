@@ -6,8 +6,15 @@ export const LOCALITY = "Kalyani Nagar, Pune";
 export const OG_LOCALE = "en_IN";
 export const HOME_TITLE = `MD Dermatologist in ${LOCALITY} | ${SITE_NAME}`;
 
-/** Canonical origin, no trailing slash. Override with NEXT_PUBLIC_SITE_URL. */
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://skinessence2017.com").replace(/\/+$/, "");
+/**
+ * Canonical origin, no trailing slash. Override with NEXT_PUBLIC_SITE_URL.
+ *
+ * www, because that is what the domain actually serves: the apex 308-redirects
+ * to www. Canonicals, og:url, the sitemap, robots.txt and the JSON-LD all read
+ * from here, so this has to match the served host or Google is handed a list of
+ * URLs that redirect and pages go unindexed.
+ */
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.skinessence2017.com").replace(/\/+$/, "");
 
 export function absoluteUrl(path = "/"): string {
   if (/^https?:\/\//.test(path)) return path;

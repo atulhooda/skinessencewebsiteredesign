@@ -16,7 +16,7 @@ import fs from "node:fs";
 import path from "node:path";
 import QRCode from "qrcode";
 
-const origin = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://skinessence2017.com").replace(/\/+$/, "");
+const origin = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.skinessence2017.com").replace(/\/+$/, "");
 const url = process.argv[2] ?? `${origin}/location`;
 
 if (!/^https?:\/\//.test(url)) {

@@ -13,10 +13,9 @@ import Script from "next/script";
  * between them and the clinic. Our honeypot field ("website") is recognised
  * and bot submissions are dropped.
  *
- * Served from the clinic's own subdomain. That endpoint only accepts requests
- * from https://skinessence2017.com, so on any other origin (the Vercel staging
- * URL included) the script loads but its requests are refused, and nothing is
- * recorded until the real domain serves this site.
+ * Served from the clinic's own subdomain. That endpoint allowlists the live
+ * site, www and apex alike, but refuses other origins: on a Vercel preview URL
+ * the script loads and its requests are rejected, so nothing is recorded there.
  *
  * The key is a publishable client-side key, not a secret. Set
  * NEXT_PUBLIC_FUNNEL_KEY to "" to switch tracking off, or to another key to
