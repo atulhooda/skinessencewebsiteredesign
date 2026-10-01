@@ -2,12 +2,19 @@ import Image from "next/image";
 import type { ReactNode } from "react";
 import type { Image as ImageData } from "@/content/schema";
 import type { Crumb } from "@/lib/schema-org";
+import { cn } from "@/lib/cn";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 
 type PageHeroProps = {
-  crumbs: Crumb[];
+  /** Omit when the trail is shown elsewhere, e.g. a page that leads with its content. */
+  crumbs?: Crumb[];
+  /**
+   * "top": the first card on the page, padded to clear the overlaid header.
+   * "section": the same block used further down, without that clearance.
+   */
+  variant?: "top" | "section";
   eyebrow: string;
   title: string;
   description?: string;
@@ -18,7 +25,8 @@ type PageHeroProps = {
 };
 
 /** Inner-page hero card: breadcrumbs, eyebrow, H1, description, CTAs and an optional framed image. */
-export function PageHero({ crumbs, eyebrow, title, description, image, actions, footer }: PageHeroProps) {
+export function PageHero({ crumbs, variant = "top", eyebrow, title, description, image, actions, footer }: PageHeroProps) {
+  const hasCrumbs = Boolean(crumbs?.length);
   return (
     <section aria-labelledby="page-heading" className="relative overflow-hidden rounded-3xl bg-brand-800 text-white md:rounded-4xl">
       <div
@@ -29,9 +37,20 @@ export function PageHero({ crumbs, eyebrow, title, description, image, actions, 
         aria-hidden="true"
         className="absolute inset-0 opacity-40 [background:linear-gradient(112deg,transparent_58%,rgba(255,255,255,0.12)_58.5%,transparent_59.5%)]"
       />
-      <Container size="wide" className="relative px-5 pb-10 pt-24 md:px-10 md:pb-14 md:pt-32 lg:px-14">
-        <Breadcrumbs items={crumbs} />
-        <div className={image ? "mt-8 grid gap-10 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] lg:items-end" : "mt-8 max-w-3xl"}>
+      <Container
+        size="wide"
+        className={cn(
+          "relative px-5 md:px-10 lg:px-14",
+          variant === "top" ? "pb-10 pt-24 md:pb-14 md:pt-32" : "py-12 md:py-16",
+        )}
+      >
+        {crumbs && hasCrumbs && <Breadcrumbs items={crumbs} />}
+        <div
+          className={cn(
+            hasCrumbs && "mt-8",
+            image ? "grid gap-10 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] lg:items-end" : "max-w-3xl",
+          )}
+        >
           <div>
             <Eyebrow tone="light">{eyebrow}</Eyebrow>
             <h1 id="page-heading" className="mt-4 text-4xl font-medium leading-[1.05] sm:text-5xl md:text-6xl">

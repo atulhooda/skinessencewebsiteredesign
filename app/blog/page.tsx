@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { BlogGrid } from "@/components/sections/BlogGrid";
+import { CrumbBar } from "@/components/sections/CrumbBar";
 import { LeadFormSection } from "@/components/sections/LeadFormSection";
 import { PageHero } from "@/components/sections/PageHero";
 import { Button } from "@/components/ui/Button";
@@ -33,9 +34,13 @@ export default function BlogIndexPage() {
           { "@context": "https://schema.org", "@type": "Blog", name: `${site.name} Blog`, url: absoluteUrl(routes.blog), inLanguage: "en-IN", blogPost: posts.map((p) => ({ "@type": "BlogPosting", headline: p.title, url: absoluteUrl(routes.blogPost(p.slug)), datePublished: p.date })) },
         ]}
       />
+      {/* Posts lead the page; the blog's own introduction closes it. The bar keeps
+          the trail and gives the overlaid white header something dark to sit on. */}
+      <CrumbBar crumbs={crumbs} label={page.eyebrow} />
+      <BlogGrid eyebrow="Latest Articles" title="From The Clinic" posts={posts} />
       <PageHero
-        crumbs={crumbs}
-        eyebrow={page.eyebrow}
+        variant="section"
+        eyebrow="About This Blog"
         title={page.title}
         description={page.description}
         image={page.heroImage}
@@ -45,7 +50,6 @@ export default function BlogIndexPage() {
           </Button>
         }
       />
-      <BlogGrid eyebrow="Latest Articles" title="From The Clinic" posts={posts} />
       <LeadFormSection
         eyebrow={home.leadForm.eyebrow}
         title={home.leadForm.title}
