@@ -53,6 +53,7 @@ export function TestimonialSlider({ items, className }: { items: Testimonial[]; 
                   </span>
                   <p className="mt-4 text-lg font-semibold">{t.patient}</p>
                   <p className="text-sm text-white/80">{t.treatment}</p>
+                  {t.source === "google" && <p className="mt-1 text-xs text-white/60">via Google</p>}
                   <div className="mt-3">
                     <Stars rating={t.rating} />
                   </div>

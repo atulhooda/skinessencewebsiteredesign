@@ -270,10 +270,24 @@ export const TestimonialSchema = z.object({
   rating: z.number().int().min(1).max(5),
   /** Optional; the slider shows initials when absent (sample quotes never carry stock faces). */
   image: ImageSchema.optional(),
+  /** Where the quote came from. "google" quotes are labelled as such in the slider. */
+  source: z.enum(["clinic", "google"]).default("clinic"),
+});
+
+/** The clinic's Google Business Profile, for the rating line and the "read them all" link. */
+export const GoogleProfileSchema = z.object({
+  /** Public link to the profile's reviews. The "Get more reviews" short link works. */
+  profileUrl: z.string().url(),
+  /** Average rating as Google shows it. */
+  rating: z.number().min(1).max(5),
+  /** Total number of reviews. */
+  count: z.number().int().min(0),
 });
 
 export const TestimonialsFileSchema = z.object({
   _note: z.string().optional(),
+  /** Omit until the clinic supplies the link; the rating line is then hidden. */
+  google: GoogleProfileSchema.optional(),
   items: z.array(TestimonialSchema).min(1),
 });
 
@@ -540,6 +554,7 @@ export type Stat = z.infer<typeof StatSchema>;
 export type Site = z.infer<typeof SiteSchema>;
 export type LeadOption = z.infer<typeof LeadOptionSchema>;
 export type Testimonial = z.infer<typeof TestimonialSchema>;
+export type GoogleProfile = z.infer<typeof GoogleProfileSchema>;
 export type FaqGroup = z.infer<typeof FaqGroupSchema>;
 export type Principle = z.infer<typeof PrincipleSchema>;
 export type Technology = z.infer<typeof TechnologySchema>;

@@ -13,6 +13,7 @@ import { Button } from "@/components/ui/Button";
 import {
   getDoctorsForLocation,
   getFaqGroups,
+  getGoogleProfile,
   getHomePage,
   getLeadOptions,
   getLocations,
@@ -101,6 +102,7 @@ export default function HomePage() {
         eyebrow={home.testimonials.eyebrow}
         title={home.testimonials.title}
         testimonials={getTestimonials()}
+        google={getGoogleProfile()}
       />
       <TechMosaic
         eyebrow={home.technology.eyebrow}

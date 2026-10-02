@@ -40,6 +40,7 @@ import {
   type Concern,
   type Doctor,
   type FaqGroup,
+  type GoogleProfile,
   type HomePage,
   type Image,
   type LeadOption,
@@ -164,6 +165,11 @@ export function getFaqGroups(): FaqGroup[] {
 
 export function getTestimonials(): Testimonial[] {
   return loadFile("testimonials.json", TestimonialsFileSchema).items;
+}
+
+/** The clinic's Google rating and review link. Undefined until the link is in testimonials.json. */
+export function getGoogleProfile(): GoogleProfile | undefined {
+  return loadFile("testimonials.json", TestimonialsFileSchema).google;
 }
 
 export function getPrinciples(): Principle[] {

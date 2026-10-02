@@ -84,6 +84,24 @@ the rest of the site. `lib/location-config.ts` resolves the two into one object;
 its components read only that, and hide any action whose link is missing rather than rendering
 a dead button.
 
+## Google reviews
+
+`testimonials.json` holds both the quotes and the clinic's Google rating:
+
+| Field | What it does |
+| --- | --- |
+| `google.profileUrl` | Link to the profile's reviews. The "Get more reviews" short link from the Business Profile works |
+| `google.rating`, `google.count` | The rating line under the slider, e.g. "4.9 from 62 Google reviews" |
+| `items[].source` | `"google"` labels that quote "via Google" in the slider; `"clinic"` is the default |
+
+Leave `google` out and the rating line is hidden, so the site never shows an invented
+rating. The numbers are typed in rather than fetched: that keeps the page static, needs no
+Google Cloud key and no third-party script, at the cost of updating them by hand when the
+count moves. Re-check them whenever reviews are added.
+
+**The quotes in this file are still samples.** Replace them with real reviews before launch,
+with written consent, and check them against NMC advertising guidelines for doctors in India.
+
 ## The entry popup
 
 `pages/popup.json` drives the dialog that asks visitors for their details. It reuses the
