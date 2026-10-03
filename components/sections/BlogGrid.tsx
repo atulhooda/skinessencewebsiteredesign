@@ -8,7 +8,9 @@ import { SectionCard } from "@/components/ui/SectionCard";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export function formatPostDate(iso: string): string {
-  return new Intl.DateTimeFormat("en-IN", { day: "numeric", month: "long", year: "numeric" }).format(new Date(`${iso}T00:00:00+05:30`));
+  // The date is an Indian calendar date. Format it in that time zone too: the server runs on
+  // UTC, where midnight in India is still the previous day (3 October would print as 2nd).
+  return new Intl.DateTimeFormat("en-IN", { day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Kolkata" }).format(new Date(`${iso}T00:00:00+05:30`));
 }
 
 type Props = { id?: string; eyebrow: string; title: string; posts: BlogPost[]; tone?: "white" | "muted" };
