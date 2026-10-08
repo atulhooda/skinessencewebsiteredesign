@@ -1,0 +1,35 @@
+{
+  "_note": "Procedure footage filmed at the clinic on 7 Oct 2026. Every clip is cropped to the practitioner's hands and the treatment area so that no patient is identifiable. Keep written patient consent on file before replacing these with uncropped versions.",
+  "eyebrow": "Inside The Clinic",
+  "title": "Treatments In Progress",
+  "description": "Short clips filmed in our treatment rooms in Kalyani Nagar. No sound commentary, just the work as it happens.",
+  "items": [
+    {
+      "src": "/videos/clip-1.mp4",
+      "poster": {
+        "src": "/images/videos/clip-1.webp",
+        "alt": "Gloved hands using a fine instrument on a patient's skin during a facial treatment",
+        "width": 492,
+        "height": 296
+      },
+      "label": "Facial treatment in progress",
+      "duration": "0:30"
+    },
+    {
+      "src": "/videos/clip-2.mp4",
+      "poster": {
+        "src": "/images/videos/clip-2.webp",
+        "alt": "A practitioner preparing a scalp treatment with a syringe and handheld device",
+        "width": 478,
+        "height": 356
+      },
+      "label": "Scalp treatment being prepared",
+      "duration": "0:41"
+    }
+  ],
+  "todo": [
+    "Confirm with the clinic exactly which procedure each clip shows, so the captions can name it instead of describing it generically.",
+    "Confirm written patient consent is on file for all three clips, even cropped.",
+    "Clip 3 is held back: the patient name \"janak\" is burned into the footage. Publish it only once written consent is confirmed, or after the caption is blurred."
+  ]
+}

@@ -274,6 +274,27 @@ export const TestimonialSchema = z.object({
   source: z.enum(["clinic", "google"]).default("clinic"),
 });
 
+/** A short clip filmed at the clinic, shown under the patient stories on the home page. */
+export const ClinicVideoSchema = z.object({
+  /** File under /public/videos. */
+  src: z.string().startsWith("/videos/"),
+  /** Still shown until the visitor presses play; the video itself downloads nothing before that. */
+  poster: ImageSchema,
+  /** Short, factual caption. Do not name a procedure the clinic has not confirmed. */
+  label: z.string(),
+  /** e.g. "0:30", shown on the card. */
+  duration: z.string(),
+});
+
+export const VideosFileSchema = z.object({
+  _note: z.string().optional(),
+  eyebrow: z.string(),
+  title: z.string(),
+  description: z.string().optional(),
+  items: z.array(ClinicVideoSchema).min(1),
+  todo: z.array(z.string()).default([]),
+});
+
 /** The clinic's Google Business Profile, for the rating line and the "read them all" link. */
 export const GoogleProfileSchema = z.object({
   /** Public link to the profile's reviews. The "Get more reviews" short link works. */
@@ -555,6 +576,8 @@ export type Site = z.infer<typeof SiteSchema>;
 export type LeadOption = z.infer<typeof LeadOptionSchema>;
 export type Testimonial = z.infer<typeof TestimonialSchema>;
 export type GoogleProfile = z.infer<typeof GoogleProfileSchema>;
+export type ClinicVideo = z.infer<typeof ClinicVideoSchema>;
+export type VideosFile = z.infer<typeof VideosFileSchema>;
 export type FaqGroup = z.infer<typeof FaqGroupSchema>;
 export type Principle = z.infer<typeof PrincipleSchema>;
 export type Technology = z.infer<typeof TechnologySchema>;

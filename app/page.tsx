@@ -7,12 +7,14 @@ import { HomeHero } from "@/components/sections/HomeHero";
 import { IntakeSection } from "@/components/sections/IntakeSection";
 import { LocationsSection } from "@/components/sections/LocationsSection";
 import { TechMosaic } from "@/components/sections/TechMosaic";
+import { ClinicVideos } from "@/components/sections/ClinicVideos";
 import { TestimonialBand } from "@/components/sections/TestimonialBand";
 import { WhyPatientsStay } from "@/components/sections/WhyPatientsStay";
 import { Button } from "@/components/ui/Button";
 import {
   getDoctorsForLocation,
   getFaqGroups,
+  getClinicVideos,
   getGoogleProfile,
   getHomePage,
   getLeadOptions,
@@ -104,6 +106,7 @@ export default function HomePage() {
         testimonials={getTestimonials()}
         google={getGoogleProfile()}
       />
+      <ClinicVideos videos={getClinicVideos()} />
       <TechMosaic
         eyebrow={home.technology.eyebrow}
         title={home.technology.title}

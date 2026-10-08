@@ -34,3 +34,7 @@ yarn-error.log*
 /videos/
 *.mp4
 *.mov
+
+# Videos published on the site are the exception to the rule above.
+!/public/videos/
+!/public/videos/*.mp4

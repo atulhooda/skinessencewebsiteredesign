@@ -32,6 +32,7 @@ import {
   SiteSchema,
   TechnologyFileSchema,
   TestimonialsFileSchema,
+  VideosFileSchema,
   TreatmentCategorySchema,
   TreatmentSchema,
   TreatmentsPageSchema,
@@ -55,6 +56,7 @@ import {
   type Technology,
   type Testimonial,
   type Treatment,
+  type VideosFile,
   type TreatmentCategory,
   type TreatmentsPage,
 } from "../content/schema.ts";
@@ -165,6 +167,11 @@ export function getFaqGroups(): FaqGroup[] {
 
 export function getTestimonials(): Testimonial[] {
   return loadFile("testimonials.json", TestimonialsFileSchema).items;
+}
+
+/** Short clips filmed in the clinic, shown under the patient stories on the home page. */
+export function getClinicVideos(): VideosFile {
+  return loadFile("videos.json", VideosFileSchema);
 }
 
 /** The clinic's Google rating and review link. Undefined until the link is in testimonials.json. */
