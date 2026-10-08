@@ -12,7 +12,7 @@
         "width": 848,
         "height": 478
       },
-      "label": "Facial treatment in progress",
+      "label": "Facial treatment",
       "duration": "0:30"
     },
     {
@@ -23,7 +23,7 @@
         "width": 478,
         "height": 850
       },
-      "label": "Scalp treatment being prepared",
+      "label": "Scalp treatment",
       "duration": "0:41"
     },
     {
@@ -34,7 +34,7 @@
         "width": 478,
         "height": 850
       },
-      "label": "Scalp treatment in progress",
+      "label": "Scalp treatment",
       "duration": "0:33"
     }
   ],
