@@ -1,35 +1,31 @@
 {
-  "_note": "Procedure footage filmed at the clinic on 7 Oct 2026. Every clip is cropped to the practitioner's hands and the treatment area so that no patient is identifiable. Keep written patient consent on file before replacing these with uncropped versions.",
+  "_note": "Procedure footage filmed at the clinic on 7 Oct 2026, published uncropped at the client's instruction (8 Oct 2026). Patients are identifiable, and clip 3 carries a patient's first name burned into the picture. Written patient consent for public use must be on file at the clinic.",
   "eyebrow": "Inside The Clinic",
   "title": "Treatments In Progress",
   "description": "Short clips filmed in our treatment rooms in Kalyani Nagar. No sound commentary, just the work as it happens.",
   "items": [
     {
       "src": "/videos/clip-1.mp4",
-      "poster": {
-        "src": "/images/videos/clip-1.webp",
-        "alt": "Gloved hands using a fine instrument on a patient's skin during a facial treatment",
-        "width": 492,
-        "height": 296
-      },
+      "poster": { "src": "/images/videos/clip-1.webp", "alt": "A patient having a facial treatment carried out with a fine instrument", "width": 848, "height": 478 },
       "label": "Facial treatment in progress",
       "duration": "0:30"
     },
     {
       "src": "/videos/clip-2.mp4",
-      "poster": {
-        "src": "/images/videos/clip-2.webp",
-        "alt": "A practitioner preparing a scalp treatment with a syringe and handheld device",
-        "width": 478,
-        "height": 356
-      },
+      "poster": { "src": "/images/videos/clip-2.webp", "alt": "A practitioner preparing a scalp treatment with a syringe and handheld device", "width": 478, "height": 850 },
       "label": "Scalp treatment being prepared",
       "duration": "0:41"
+    },
+    {
+      "src": "/videos/clip-3.mp4",
+      "poster": { "src": "/images/videos/clip-3.webp", "alt": "A practitioner delivering a scalp treatment along the hairline", "width": 478, "height": 850 },
+      "label": "Scalp treatment in progress",
+      "duration": "0:33"
     }
   ],
   "todo": [
     "Confirm with the clinic exactly which procedure each clip shows, so the captions can name it instead of describing it generically.",
-    "Confirm written patient consent is on file for all three clips, even cropped.",
-    "Clip 3 is held back: the patient name \"janak\" is burned into the footage. Publish it only once written consent is confirmed, or after the caption is blurred."
+    "Confirm written patient consent for public use is on file for all three clips. They are published uncropped, so every patient is identifiable, and clip 3 shows a patient's first name on screen.",
+    "Ask the clinic whether the \"janak\" caption on clip 3 should be removed; it can be blurred without losing any of the procedure."
   ]
 }

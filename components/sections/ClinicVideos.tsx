@@ -27,14 +27,17 @@ export function ClinicVideos({ id = "clinic-videos", videos }: { id?: string; vi
               key={item.src}
               className="overflow-hidden rounded-3xl border border-brand-100 bg-white transition-shadow hover:shadow-soft"
             >
-              <div className="relative aspect-[4/3] bg-surface-3">
+              {/* Portrait and landscape clips sit side by side, and nothing is cropped at
+                  the client's instruction, so each frame is contained on a dark ground
+                  rather than filled. */}
+              <div className="relative aspect-[3/4] bg-ink">
                 <video
                   controls
                   preload="none"
                   playsInline
                   poster={item.poster.src}
                   aria-label={item.label}
-                  className="absolute inset-0 h-full w-full bg-ink object-cover"
+                  className="absolute inset-0 h-full w-full bg-ink object-contain"
                 >
                   <source src={item.src} type="video/mp4" />
                   Your browser cannot play this video.
