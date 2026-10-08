@@ -28,3 +28,9 @@ yarn-error.log*
 
 # Raw photo drop zone (processed into WebP by Claude/scripts, never shipped)
 /public/images/_incoming/
+
+# Patient videos and clinical photographs. Never commit these: this repo is public,
+# and git history cannot be cleanly erased once published.
+/videos/
+*.mp4
+*.mov
