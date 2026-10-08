@@ -53,7 +53,11 @@ export function LocationsSection({ id = "locations", eyebrow, title, locations, 
                       Serving {[location.area, ...location.nearbyAreas].join(" and ")}. Address and timings confirmed when you call or book.
                     </p>
                   )}
-                  <p className="mt-2 text-sm">
+                  {/* A second clinic's number sits near the page's own description, and Google was
+                      splicing the Ahmedabad number into the Pune homepage snippet. data-nosnippet
+                      keeps it visible to people but out of search snippets. The clinic's own page
+                      carries it normally. */}
+                  <p className="mt-2 text-sm" {...(location.isPrimary ? {} : { "data-nosnippet": true })}>
                     <a href={telUrl(phone)} className="font-medium text-brand-700 hover:underline">
                       {formatPhone(phone)}
                     </a>
