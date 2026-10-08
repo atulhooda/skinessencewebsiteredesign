@@ -1,24 +1,39 @@
 {
   "_note": "Procedure footage filmed at the clinic on 7 Oct 2026, published uncropped at the client's instruction (8 Oct 2026). Patients are identifiable, and clip 3 carries a patient's first name burned into the picture. Written patient consent for public use must be on file at the clinic.",
   "eyebrow": "Inside The Clinic",
-  "title": "Treatments In Progress",
+  "title": "This Is How Treatments Are Done",
   "description": "Short clips filmed in our treatment rooms in Kalyani Nagar. No sound commentary, just the work as it happens.",
   "items": [
     {
       "src": "/videos/clip-1.mp4",
-      "poster": { "src": "/images/videos/clip-1.webp", "alt": "A patient having a facial treatment carried out with a fine instrument", "width": 848, "height": 478 },
+      "poster": {
+        "src": "/images/videos/clip-1.webp",
+        "alt": "A patient having a facial treatment carried out with a fine instrument",
+        "width": 848,
+        "height": 478
+      },
       "label": "Facial treatment in progress",
       "duration": "0:30"
     },
     {
       "src": "/videos/clip-2.mp4",
-      "poster": { "src": "/images/videos/clip-2.webp", "alt": "A practitioner preparing a scalp treatment with a syringe and handheld device", "width": 478, "height": 850 },
+      "poster": {
+        "src": "/images/videos/clip-2.webp",
+        "alt": "A practitioner preparing a scalp treatment with a syringe and handheld device",
+        "width": 478,
+        "height": 850
+      },
       "label": "Scalp treatment being prepared",
       "duration": "0:41"
     },
     {
       "src": "/videos/clip-3.mp4",
-      "poster": { "src": "/images/videos/clip-3.webp", "alt": "A practitioner delivering a scalp treatment along the hairline", "width": 478, "height": 850 },
+      "poster": {
+        "src": "/images/videos/clip-3.webp",
+        "alt": "A practitioner delivering a scalp treatment along the hairline",
+        "width": 478,
+        "height": 850
+      },
       "label": "Scalp treatment in progress",
       "duration": "0:33"
     }
