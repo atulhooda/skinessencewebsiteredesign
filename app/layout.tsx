@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/layout/Footer";
 import { LeadPopupMount } from "@/components/lead/LeadPopupMount";
+import { Analytics } from "@/components/layout/Analytics";
 import { FunnelTracking } from "@/components/layout/FunnelTracking";
 import { Gtm } from "@/components/layout/Gtm";
 import { Header } from "@/components/layout/Header";
@@ -49,6 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <StickyBar />
         <LeadPopupMount />
         <FunnelTracking />
+        <Analytics />
       </body>
     </html>
   );

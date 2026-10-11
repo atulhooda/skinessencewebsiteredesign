@@ -103,6 +103,7 @@ are invented in the data; the site renders "to be confirmed" states until they a
 - Whether to publish starting prices → `priceFrom` on treatments (currently omitted)
 - Hair Transplant and Tattoo Removal are unpublished (redirected) because the client's Sep 2026 service list omits them; confirm before deleting or restoring
 - Breast Reshaping: not in the client's service list; no page and no form option
+- Google Analytics 4 is live on every page via `components/layout/Analytics.tsx` (measurement ID G-4X6MTB1JS6, supplied by the client 11 Oct 2026). `NEXT_PUBLIC_GA_ID=""` switches it off. Two analytics tools now run alongside each other, GA and Funnel Agent; drop one if the page weight becomes a problem
 - GTM container ID → `NEXT_PUBLIC_GTM_ID` (slot in `components/layout/Gtm.tsx`)
 - The entry popup (`components/lead/`, copy and timing in `content/pages/popup.json`) opens a few seconds after any page loads, except `/location`. This is the pattern Google treats as an intrusive interstitial on mobile; watch Search Console after launch and raise the delay, raise the repeat interval or set `enabled: false` if rankings move
 - Analytics loads from the clinic's own subdomain, `https://track.skinessence2017.com`. It accepts both `https://www.skinessence2017.com` and the apex, so it works on the live site, but it refuses the Vercel preview origin: on a preview URL every page logs a CORS error and records nothing, which also costs a Lighthouse best-practices point. Ask the vendor to allowlist a preview domain if the client wants to test the dashboard from one
