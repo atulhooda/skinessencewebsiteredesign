@@ -21,6 +21,7 @@ import {
   DoctorSchema,
   FaqGroupSchema,
   HomePageSchema,
+  LandingPageSchema,
   LeadOptionSchema,
   LegalPageSchema,
   LocationPageSchema,
@@ -44,6 +45,7 @@ import {
   type GoogleProfile,
   type HomePage,
   type Image,
+  type LandingPage,
   type LeadOption,
   type LegalPage,
   type Location,
@@ -167,6 +169,11 @@ export function getFaqGroups(): FaqGroup[] {
 
 export function getTestimonials(): Testimonial[] {
   return loadFile("testimonials.json", TestimonialsFileSchema).items;
+}
+
+/** Ad landing page at /lp/treatments. */
+export function getLandingPage(): LandingPage {
+  return loadFile("pages/lp-treatments.json", LandingPageSchema);
 }
 
 /** Short clips filmed in the clinic, shown under the patient stories on the home page. */

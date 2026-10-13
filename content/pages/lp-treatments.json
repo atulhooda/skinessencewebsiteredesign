@@ -1,0 +1,36 @@
+{
+  "metaTitle": "MD Dermatologist in Kalyani Nagar, Pune | Skin Essence",
+  "metaDescription": "Skin, hair and laser treatments by Dr. Daksha Patel, MD dermatologist in Kalyani Nagar, Pune. Book a consultation or call +91 91577 31020.",
+  "eyebrow": "MD Dermatologist in Kalyani Nagar, Pune",
+  "headline": "Skin And Hair Care, Led By An MD Dermatologist",
+  "subheadline": "Every treatment at Skin Essence starts with a consultation with Dr. Daksha Patel, so the plan fits your skin, your concern and your goals.",
+  "heroImage": {
+    "src": "/images/doctor/at-desk.webp",
+    "alt": "Dr. Daksha Patel, MBBS, MD (Skin & VD), at her consultation desk",
+    "width": 1200,
+    "height": 900
+  },
+  "clinicImage": {
+    "src": "/images/locations/pune.webp",
+    "alt": "Reception of the Skin Essence clinic in Kalyani Nagar, Pune",
+    "width": 1200,
+    "height": 800
+  },
+  "treatments": [
+    { "name": "Laser Hair Reduction", "description": "Long-term hair reduction for women and men, with settings chosen for Indian skin." },
+    { "name": "Acne & Acne Scar Treatment", "description": "Medical care to bring breakouts under control, then procedures to soften the marks and pits they leave behind." },
+    { "name": "Pigmentation & Melasma Treatment", "description": "An assessment of what is causing the dark patches, then a treatment plan matched to your skin type." },
+    { "name": "Chemical Peels", "description": "Clinical-strength peels for texture, tan, dullness and uneven tone, chosen for your skin." },
+    { "name": "Skin Glow Treatments", "description": "Hydra Facial, Mira Peel and Korean Peel for brighter, smoother skin, before an event or as regular care." },
+    { "name": "Hair Fall & PRP Treatment", "description": "A scalp examination to find the cause of hair fall, followed by PRP sessions where they are suited." },
+    { "name": "Skin Tightening", "description": "Non-surgical treatments to firm loose skin on the face and neck." },
+    { "name": "Mole & Wart Removal", "description": "Removal of moles, warts and skin tags in the clinic, done to leave as little mark as possible." }
+  ],
+  "trustPoints": [
+    "Dr. Daksha Patel, MBBS, MD (Skin & VD)",
+    "17+ years in dermatology and cosmetology",
+    "Consultation before every treatment"
+  ],
+  "formTitle": "Book A Consultation",
+  "formDescription": "Leave your details and the clinic will call you back during clinic hours to fix a time."
+}

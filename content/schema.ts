@@ -274,6 +274,29 @@ export const TestimonialSchema = z.object({
   source: z.enum(["clinic", "google"]).default("clinic"),
 });
 
+/**
+ * Ad landing page at /lp/treatments.
+ *
+ * Deliberately standalone content rather than reusing the treatment files:
+ * Google Ads restricts prescription drug and brand names on landing pages in
+ * India, so nothing here may name a drug, an injectable, a peel product brand
+ * or an acid. Keep it that way when editing.
+ */
+export const LandingPageSchema = z.object({
+  metaTitle: MetaTitleSchema,
+  metaDescription: MetaDescriptionSchema,
+  eyebrow: z.string(),
+  headline: z.string(),
+  subheadline: z.string(),
+  heroImage: ImageSchema,
+  clinicImage: ImageSchema,
+  /** Generic treatment names only. No drug, brand or acid names. */
+  treatments: z.array(z.object({ name: z.string(), description: z.string() })).min(4),
+  trustPoints: z.array(z.string()).min(2),
+  formTitle: z.string(),
+  formDescription: z.string(),
+});
+
 /** A short clip filmed at the clinic, shown under the patient stories on the home page. */
 export const ClinicVideoSchema = z.object({
   /** File under /public/videos. */
@@ -577,6 +600,7 @@ export type LeadOption = z.infer<typeof LeadOptionSchema>;
 export type Testimonial = z.infer<typeof TestimonialSchema>;
 export type GoogleProfile = z.infer<typeof GoogleProfileSchema>;
 export type ClinicVideo = z.infer<typeof ClinicVideoSchema>;
+export type LandingPage = z.infer<typeof LandingPageSchema>;
 export type VideosFile = z.infer<typeof VideosFileSchema>;
 export type FaqGroup = z.infer<typeof FaqGroupSchema>;
 export type Principle = z.infer<typeof PrincipleSchema>;

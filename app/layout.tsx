@@ -1,13 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Footer } from "@/components/layout/Footer";
-import { LeadPopupMount } from "@/components/lead/LeadPopupMount";
 import { Analytics } from "@/components/layout/Analytics";
-import { FunnelTracking } from "@/components/layout/FunnelTracking";
-import { Gtm } from "@/components/layout/Gtm";
-import { Header } from "@/components/layout/Header";
-import { StickyBar } from "@/components/layout/StickyBar";
 import { getSite } from "@/lib/content";
 import { HOME_TITLE, OG_LOCALE, SITE_NAME, SITE_URL } from "@/lib/seo";
 
@@ -32,24 +26,20 @@ export const viewport: Viewport = {
   themeColor: "#0c5860",
 };
 
+/**
+ * Document shell only. The site's header, footer, mobile bar and popup live in
+ * app/(site)/layout.tsx so that the ad landing pages under /lp can render
+ * without them: Google Ads reviews the landing page, and the site nav links to
+ * treatments whose names are restricted terms in India. Hiding that chrome with
+ * CSS would leave it in the HTML, so /lp genuinely does not render it.
+ *
+ * Analytics stays here, so it covers every page including /lp.
+ */
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en-IN" className={inter.variable}>
-      <Gtm />
-      <body className="pb-[calc(4.75rem+env(safe-area-inset-bottom))] md:pb-0">
-        <a href="#main" className="skip-link">
-          Skip to content
-        </a>
-        <div className="relative mx-auto w-full max-w-[1600px] px-3 pt-3 md:px-5 md:pt-5">
-          <Header />
-          <main id="main" className="flex flex-col gap-3 md:gap-5">
-            {children}
-          </main>
-          <Footer />
-        </div>
-        <StickyBar />
-        <LeadPopupMount />
-        <FunnelTracking />
+      <body>
+        {children}
         <Analytics />
       </body>
     </html>
