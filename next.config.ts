@@ -44,6 +44,8 @@ const nextConfig: NextConfig = {
       // Renamed to match the client's service list (Sep 2026).
       { source: "/treatments/facial-rejuvenation", destination: "/treatments/skin-glow-treatment", permanent: true },
       { source: "/treatments/body-contouring", destination: "/treatments/fat-reduction", permanent: true },
+      // Treatment withdrawn from the site (Oct 2026). 301 rather than `permanent` (308) as requested.
+      { source: "/treatments/botox", destination: "/treatments/anti-ageing-treatment", statusCode: 301 },
       // Unpublished pending the client's confirmation that these are not offered.
       { source: "/treatments/hair-transplant", destination: "/treatments/hair-loss-treatment", permanent: false },
       { source: "/treatments/tattoo-removal", destination: "/treatments/pigmentation-treatment", permanent: false },

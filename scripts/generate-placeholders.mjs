@@ -31,7 +31,7 @@ const treatments = [
   "acne-treatment", "acne-scar-treatment", "pigmentation-treatment", "melasma-treatment",
   "chemical-peel", "skin-glow-treatment", "skin-tightening-treatment", "anti-ageing-treatment", "bridal-skin-care",
   "paediatric-dermatology", "laser-toning", "laser-hair-removal", "tattoo-removal",
-  "botox", "dermal-fillers", "hair-transplant", "prp-hair-treatment", "hair-loss-treatment",
+  "dermal-fillers", "hair-transplant", "prp-hair-treatment", "hair-loss-treatment",
   "fat-reduction", "mole-and-wart-removal", "signature-mira-peel", "korean-peel",
 ];
 const concerns = [
@@ -53,7 +53,7 @@ const manifest = [
   ...treatments.map((slug, i) => ({ file: `treatments/${slug}.webp`, w: 1200, h: 900, label: `Treatment · ${slug}`, palette: warm(i + 1) })),
   ...concerns.map((slug, i) => ({ file: `concerns/${slug}.webp`, w: 1200, h: 900, label: `Concern · ${slug}`, palette: warm(i + 2) })),
   ...tech.map((slug, i) => ({ file: `tech/${slug}.webp`, w: 800, h: 600, label: `Machine · ${slug}`, palette: warm(i + 3) })),
-  { file: "tiles/injectables.webp", w: 1200, h: 600, label: "Tile · Botox & Dermal Fillers", palette: "mist" },
+  { file: "tiles/injectables.webp", w: 1200, h: 600, label: "Tile · Anti-Ageing", palette: "mist" },
   { file: "locations/pune.webp", w: 1200, h: 800, label: "Kalyani Nagar clinic", palette: "teal" },
   { file: "locations/ahmedabad.webp", w: 1200, h: 800, label: "Ahmedabad clinic", palette: "slate" },
 ];
@@ -96,7 +96,7 @@ function svgFor({ w, h, label, palette }) {
 // Real photos already in place (from the clinic). The generator skips these.
 const REAL = new Set([
   "hero/home.webp", "hero/treatments.webp", "doctor/dr-daksha-patel.webp", "doctor/consultation.webp", "doctor/procedure.webp", "doctor/at-desk.webp", "doctor/examination.webp", "doctor/examination-portrait.webp",
-  "treatments/botox.webp", "treatments/dermal-fillers.webp", "locations/ahmedabad.webp", "clinic/reception.webp",
+  "treatments/dermal-fillers.webp", "locations/ahmedabad.webp", "clinic/reception.webp",
   "treatments/acne-treatment.webp", "treatments/chemical-peel.webp", "treatments/laser-hair-removal.webp", "treatments/skin-glow-treatment.webp",
   "treatments/hair-transplant.webp", "treatments/hair-loss-treatment.webp", "treatments/bridal-skin-care.webp", "tiles/injectables.webp",
   "treatments/skin-tightening-treatment.webp", "treatments/fat-reduction.webp", "treatments/mole-and-wart-removal.webp", "treatments/pigmentation-treatment.webp",

@@ -23,10 +23,6 @@
       "description": "Daily sunscreen, a retinoid and antioxidants, with peels or laser toning, improve texture and tone and protect everything that follows."
     },
     {
-      "title": "Soften expression lines",
-      "description": "Botox relaxes the muscles behind frown lines, forehead lines and crow's feet. Doses are conservative, with a review at two weeks."
-    },
-    {
       "title": "Restore volume",
       "description": "Hyaluronic acid fillers replace lost volume in the cheeks, under the eyes and around the mouth, placed for balance rather than size."
     },
@@ -48,7 +44,6 @@
     "You want a long-term plan rather than a one-off procedure."
   ],
   "treatmentSlugs": [
-    "botox",
     "dermal-fillers",
     "anti-ageing-treatment",
     "skin-tightening-treatment"
@@ -56,15 +51,7 @@
   "faqs": [
     {
       "q": "At what age should I start anti-ageing treatment?",
-      "a": "Sunscreen and a retinoid can start in the mid-twenties. Botox and fillers are considered when lines are visible at rest or volume loss is noticeable, usually from the thirties onwards, and only when they will make a real difference."
-    },
-    {
-      "q": "Will Botox make my face look frozen?",
-      "a": "Not when the dose and injection points are chosen carefully by a dermatologist. The aim is to soften lines while keeping natural expression. Results last around 3 to 5 months."
-    },
-    {
-      "q": "Botox or fillers, which do I need?",
-      "a": "Botox softens lines caused by muscle movement; fillers replace lost volume. Many patients need a little of one, some need both, and some need neither yet."
+      "a": "Sunscreen and a retinoid can start in the mid-twenties. Procedures are considered when lines are visible at rest or volume loss is noticeable, usually from the thirties onwards, and only when they will make a real difference."
     },
     {
       "q": "Are these treatments suitable for Indian skin?",
