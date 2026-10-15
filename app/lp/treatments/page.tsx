@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { LandingForm } from "@/components/lp/LandingForm";
+import { EnquiryForm } from "@/components/lp/EnquiryForm";
 import { TrackedLink } from "@/components/lp/TrackedLink";
 import { CheckIcon, MapPinIcon, NavigationIcon, PhoneIcon, WhatsAppIcon } from "@/components/ui/icons";
-import { getLandingPage, getLeadOptions, getLocations, getPrimaryDoctor, getPrimaryLocation, getSite } from "@/lib/content";
+import { getLandingPage, getPrimaryDoctor, getSite } from "@/lib/content";
 import { formatPhone, routes, telUrl, whatsappUrl } from "@/lib/links";
 import { getLocationConfig } from "@/lib/location-config";
 import { buildMetadata } from "@/lib/seo";
@@ -172,12 +172,7 @@ export default function LandingTreatmentsPage() {
               </h2>
               <p className="mt-3 max-w-xl text-base leading-relaxed text-muted">{page.formDescription}</p>
               <div className="mt-8">
-                <LandingForm
-                  options={getLeadOptions()}
-                  locations={getLocations().map((l) => ({ value: l.slug, label: l.city }))}
-                  defaultLocation={getPrimaryLocation().slug}
-                  whatsappHref={waHref}
-                />
+                <EnquiryForm telHref={telHref} whatsappHref={waHref} />
               </div>
             </div>
           </section>

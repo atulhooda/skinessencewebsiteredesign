@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { FunnelTracking } from "@/components/layout/FunnelTracking";
+import { GclidCapture } from "@/components/lp/GclidCapture";
 
 /**
  * Ad landing pages. No site header, nav, footer, mobile bar or entry popup:
@@ -20,6 +21,7 @@ export default function LandingLayout({ children }: { children: React.ReactNode 
     <div className="pb-[calc(5rem+env(safe-area-inset-bottom))] md:pb-0">
       <main id="main">{children}</main>
       <FunnelTracking />
+      <GclidCapture />
     </div>
   );
 }
