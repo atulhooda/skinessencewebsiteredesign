@@ -7,7 +7,8 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { ArrowDownIcon } from "@/components/ui/icons";
 
 /**
- * Homepage hero: teal gradient card with the doctor's photo on the right.
+ * Homepage hero: teal gradient card with the Kalyani Nagar reception photo on the
+ * right, anchored left so the Skin Essence signage clears the headline.
  * Left column: eyebrow, "MD Dermatologist…" H1 and a trust strip, vertically
  * centred. Right column: intro copy and CTAs, anchored to the bottom.
  */
@@ -21,7 +22,7 @@ export function HomeHero({ hero, site }: { hero: HomePage["hero"]; site: Site })
         aria-hidden="true"
         className="absolute inset-0 bg-[radial-gradient(120%_90%_at_75%_15%,#1d909a_0%,#106d76_45%,#08444a_100%)]"
       />
-      <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_22%)] md:left-[38%] md:[mask-image:linear-gradient(to_right,transparent,black_42%)]">
+      <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_22%)] md:left-[42%] md:[mask-image:linear-gradient(to_right,transparent,black_22%)]">
         <Image
           src={hero.image.src}
           alt={hero.image.alt}
@@ -30,7 +31,7 @@ export function HomeHero({ hero, site }: { hero: HomePage["hero"]; site: Site })
           priority
           fetchPriority="high"
           sizes="(min-width: 768px) 62vw, 100vw"
-          className="h-full w-full object-cover object-[55%_0%] md:object-top"
+          className="h-full w-full object-cover object-[35%_50%] md:object-[0%_50%]"
         />
         <div
           aria-hidden="true"
