@@ -4,7 +4,7 @@ import Link from "next/link";
 import { LandingForm } from "@/components/lp/LandingForm";
 import { TrackedLink } from "@/components/lp/TrackedLink";
 import { CheckIcon, MapPinIcon, NavigationIcon, PhoneIcon, WhatsAppIcon } from "@/components/ui/icons";
-import { getLandingPage, getLeadOptions, getLocations, getPrimaryLocation, getSite } from "@/lib/content";
+import { getLandingPage, getLeadOptions, getLocations, getPrimaryDoctor, getPrimaryLocation, getSite } from "@/lib/content";
 import { formatPhone, routes, telUrl, whatsappUrl } from "@/lib/links";
 import { getLocationConfig } from "@/lib/location-config";
 import { buildMetadata } from "@/lib/seo";
@@ -16,6 +16,10 @@ import { buildMetadata } from "@/lib/seo";
  * no structured data listing the full treatment catalogue, and copy that names
  * no prescription drug, injectable, peel product brand or acid. Edit the copy in
  * content/pages/lp-treatments.json and keep it that way.
+ *
+ * NMC advertising guidelines: no testimonials, counts, doctor photo or booking
+ * language. The enquiry form shows only when `showEnquiryForm` is true in that
+ * file; until the doctor decides, the page offers call and WhatsApp only.
  */
 export function generateMetadata(): Metadata {
   const page = getLandingPage();
@@ -25,6 +29,8 @@ export function generateMetadata(): Metadata {
 export default function LandingTreatmentsPage() {
   const page = getLandingPage();
   const site = getSite();
+  const doctor = getPrimaryDoctor();
+  const showForm = page.showEnquiryForm;
   const clinic = getLocationConfig();
   const telHref = telUrl(site.phone);
   const waHref = whatsappUrl(site.whatsapp, site.whatsappPrefill);
@@ -71,9 +77,16 @@ export default function LandingTreatmentsPage() {
                 ))}
               </ul>
               <div className="mt-8 flex flex-wrap gap-3">
-                <a href="#book" className={`${btn} bg-white text-ink hover:bg-brand-50`}>
-                  Book Consultation
-                </a>
+                {showForm ? (
+                  <a href="#enquiry" className={`${btn} bg-white text-ink hover:bg-brand-50`}>
+                    Enquiry
+                  </a>
+                ) : (
+                  <TrackedLink href={telHref} event="click_call" className={`${btn} bg-white text-ink hover:bg-brand-50`}>
+                    <PhoneIcon className="size-4" />
+                    Call Clinic
+                  </TrackedLink>
+                )}
                 <TrackedLink href={waHref} event="click_whatsapp" external className={`${btn} border border-white/40 bg-white/10 text-white hover:bg-white/20`}>
                   <WhatsAppIcon className="size-4" />
                   WhatsApp
@@ -114,18 +127,7 @@ export default function LandingTreatmentsPage() {
 
         {/* Clinic */}
         <section aria-labelledby="lp-clinic-heading" className="rounded-3xl bg-surface-2 px-5 py-12 md:rounded-4xl md:px-10 md:py-16">
-          <div className="mx-auto grid max-w-[1180px] gap-8 lg:grid-cols-2 lg:items-center">
-            <div className="relative aspect-[3/2] overflow-hidden rounded-3xl">
-              <Image
-                src={page.clinicImage.src}
-                alt={page.clinicImage.alt}
-                width={page.clinicImage.width}
-                height={page.clinicImage.height}
-                loading="lazy"
-                sizes="(min-width: 1024px) 45vw, 100vw"
-                className="absolute inset-0 h-full w-full object-cover"
-              />
-            </div>
+          <div className="mx-auto max-w-[1180px]">
             <div>
               <h2 id="lp-clinic-heading" className="text-2xl font-medium leading-[1.12] sm:text-3xl">
                 Visit The Clinic
@@ -150,45 +152,52 @@ export default function LandingTreatmentsPage() {
                 )}
                 <TrackedLink href={telHref} event="click_call" className={`${btn} bg-brand-600 text-white hover:bg-brand-700`}>
                   <PhoneIcon className="size-4" />
-                  Call {phoneDisplay}
+                  Call Clinic
+                </TrackedLink>
+                <TrackedLink href={waHref} event="click_whatsapp" external className={`${btn} border border-line bg-white text-ink hover:border-ink/25`}>
+                  <WhatsAppIcon className="size-4 text-brand-700" />
+                  WhatsApp
                 </TrackedLink>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Booking form */}
-        <section id="book" aria-labelledby="lp-book-heading" className="scroll-mt-4 rounded-3xl bg-white px-5 py-12 md:rounded-4xl md:px-10 md:py-16">
-          <div className="mx-auto max-w-[860px]">
-            <h2 id="lp-book-heading" className="text-2xl font-medium leading-[1.12] sm:text-3xl md:text-4xl">
-              {page.formTitle}
-            </h2>
-            <p className="mt-3 max-w-xl text-base leading-relaxed text-muted">{page.formDescription}</p>
-            <div className="mt-8">
-              <LandingForm
-                options={getLeadOptions()}
-                locations={getLocations().map((l) => ({ value: l.slug, label: l.city }))}
-                defaultLocation={getPrimaryLocation().slug}
-                whatsappHref={waHref}
-              />
+        {/* Enquiry form, behind showEnquiryForm */}
+        {showForm && (
+          <section id="enquiry" aria-labelledby="lp-enquiry-heading" className="scroll-mt-4 rounded-3xl bg-white px-5 py-12 md:rounded-4xl md:px-10 md:py-16">
+            <div className="mx-auto max-w-[860px]">
+              <h2 id="lp-enquiry-heading" className="text-2xl font-medium leading-[1.12] sm:text-3xl md:text-4xl">
+                {page.formTitle}
+              </h2>
+              <p className="mt-3 max-w-xl text-base leading-relaxed text-muted">{page.formDescription}</p>
+              <div className="mt-8">
+                <LandingForm
+                  options={getLeadOptions()}
+                  locations={getLocations().map((l) => ({ value: l.slug, label: l.city }))}
+                  defaultLocation={getPrimaryLocation().slug}
+                  whatsappHref={waHref}
+                />
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        )}
 
         <footer className="px-2 pb-2 text-center text-xs text-muted">
-          © {new Date().getFullYear()} {site.name}. Information on this page is general and not a substitute for a consultation.{" "}
+          © {new Date().getFullYear()} {site.name}. {doctor.name}, {doctor.qualifications.join(", ")}
+          {doctor.registration ? `, ${doctor.registration}` : ""}. Information on this page is general and not a substitute for a consultation.{" "}
           <Link href={routes.privacy} className="underline underline-offset-2 hover:text-ink">
             Privacy policy
           </Link>
         </footer>
       </div>
 
-      {/* Mobile: call, WhatsApp and book always within thumb reach. */}
+      {/* Mobile: call and WhatsApp (plus the enquiry form when enabled) always within thumb reach. */}
       <nav aria-label="Contact the clinic" className="fixed inset-x-0 bottom-0 z-30 px-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] md:hidden">
-        <ul className="grid grid-cols-3 gap-1 rounded-full bg-ink/95 p-1.5 text-white shadow-float backdrop-blur">
+        <ul className={`grid ${showForm ? "grid-cols-3" : "grid-cols-2"} gap-1 rounded-full bg-ink/95 p-1.5 text-white shadow-float backdrop-blur`}>
           <li>
             <TrackedLink href={telHref} event="click_call" className="flex items-center justify-center gap-2 rounded-full py-3 text-xs font-medium hover:bg-white/10">
-              <PhoneIcon className="size-4" /> Call
+              <PhoneIcon className="size-4" /> Call Clinic
             </TrackedLink>
           </li>
           <li>
@@ -196,11 +205,13 @@ export default function LandingTreatmentsPage() {
               <WhatsAppIcon className="size-4" /> WhatsApp
             </TrackedLink>
           </li>
-          <li>
-            <a href="#book" className="flex items-center justify-center gap-2 rounded-full bg-brand-600 py-3 text-xs font-medium hover:bg-brand-700">
-              Book
-            </a>
-          </li>
+          {showForm && (
+            <li>
+              <a href="#enquiry" className="flex items-center justify-center gap-2 rounded-full bg-brand-600 py-3 text-xs font-medium hover:bg-brand-700">
+                Enquiry
+              </a>
+            </li>
+          )}
         </ul>
       </nav>
     </>

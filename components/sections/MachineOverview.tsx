@@ -40,7 +40,7 @@ export function MachineOverview({ machine, whatsappHref }: { machine: Machine; w
               ))}
             </ul>
             <Button href={routes.book} variant="primary" icon="arrow-right" className="mt-6">
-              Book A Consultation
+              Enquiry
             </Button>
             <p className="mt-3 text-xs text-muted">
               Not sure it is right for you?{" "}

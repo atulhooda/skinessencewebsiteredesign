@@ -42,7 +42,7 @@ export default function ConcernsIndexPage() {
         actions={
           <>
             <Button href={routes.book} variant="light" icon="arrow-right">
-              Book Consultation
+              Enquiry
             </Button>
             <Button href={whatsappHref} variant="outline" icon="arrow-up-right">
               Ask On WhatsApp

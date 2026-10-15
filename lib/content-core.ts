@@ -32,8 +32,6 @@ import {
   SimplePageSchema,
   SiteSchema,
   TechnologyFileSchema,
-  TestimonialsFileSchema,
-  VideosFileSchema,
   TreatmentCategorySchema,
   TreatmentSchema,
   TreatmentsPageSchema,
@@ -42,7 +40,6 @@ import {
   type Concern,
   type Doctor,
   type FaqGroup,
-  type GoogleProfile,
   type HomePage,
   type Image,
   type LandingPage,
@@ -56,9 +53,7 @@ import {
   type SimplePage,
   type Site,
   type Technology,
-  type Testimonial,
   type Treatment,
-  type VideosFile,
   type TreatmentCategory,
   type TreatmentsPage,
 } from "../content/schema.ts";
@@ -167,23 +162,9 @@ export function getFaqGroups(): FaqGroup[] {
   return loadFile("faqs.json", z.array(FaqGroupSchema));
 }
 
-export function getTestimonials(): Testimonial[] {
-  return loadFile("testimonials.json", TestimonialsFileSchema).items;
-}
-
 /** Ad landing page at /lp/treatments. */
 export function getLandingPage(): LandingPage {
   return loadFile("pages/lp-treatments.json", LandingPageSchema);
-}
-
-/** Short clips filmed in the clinic, shown under the patient stories on the home page. */
-export function getClinicVideos(): VideosFile {
-  return loadFile("videos.json", VideosFileSchema);
-}
-
-/** The clinic's Google rating and review link. Undefined until the link is in testimonials.json. */
-export function getGoogleProfile(): GoogleProfile | undefined {
-  return loadFile("testimonials.json", TestimonialsFileSchema).google;
 }
 
 export function getPrinciples(): Principle[] {
@@ -461,8 +442,6 @@ export function buildContentReport(): ContentReport {
   const locationPage = getLocationPage();
   if (!getLocation(locationPage.locationSlug)) warnings.push(`pages/location.json: unknown clinic "${locationPage.locationSlug}"`);
   for (const todo of locationPage.todo) warnings.push(`pages/location.json: TODO ${todo}`);
-  const testimonials = loadFile("testimonials.json", TestimonialsFileSchema);
-  if (testimonials._note) warnings.push(`testimonials.json: ${testimonials._note}`);
 
   return {
     counts: {
@@ -474,7 +453,6 @@ export function buildContentReport(): ContentReport {
       machines: getMachines().length,
       blogPosts: getBlogPosts().length,
       faqGroups: getFaqGroups().length,
-      testimonials: getTestimonials().length,
       leadOptions: getLeadOptions().length,
     },
     warnings,

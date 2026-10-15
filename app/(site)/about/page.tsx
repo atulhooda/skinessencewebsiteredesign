@@ -65,7 +65,7 @@ export default function AboutPage() {
         actions={
           <>
             <Button href={routes.book} variant="light" icon="arrow-right">
-              Book Consultation
+              Enquiry
             </Button>
             <Button href="#doctor" variant="outline" icon="arrow-up-right">
               Meet {doctorShortName}
@@ -105,13 +105,12 @@ export default function AboutPage() {
         title={`${doctor.name}, ${doctor.qualifications.join(", ")}`}
         doctor={doctor}
         image={doctor.photo}
-        stats={site.stats}
         fullBio
         tone="muted"
         action={
           <div className="mt-8 flex flex-wrap gap-3">
             <Button href={routes.book} variant="primary" icon="arrow-right">
-              Book A Consultation
+              Enquiry
             </Button>
             <Button href={whatsappHref} variant="light" icon="arrow-up-right">
               Ask On WhatsApp

@@ -135,7 +135,7 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
             type="checkbox"
             className="mt-px size-4 shrink-0 rounded border-line accent-brand-600"
           />
-          <span>Send me updates and offers on WhatsApp</span>
+          <span>Send me clinic updates on WhatsApp</span>
         </label>
       </div>
       {!brief && (
@@ -204,7 +204,7 @@ export function LeadForm({ options, locations, defaultOption, defaultLocation, w
       </div>
       <div className={cn("flex", modal ? "mt-1" : compact ? "sm:col-span-2 lg:col-span-1 lg:pt-[1.625rem]" : cn("justify-end", full))}>
         <Button type="submit" variant="primary" icon="arrow-right" size="lg" disabled={status.state === "submitting"} className={cn(brief && "w-full justify-between", compact && "lg:w-auto")}>
-          {status.state === "submitting" ? "Sending…" : "Book Consultation"}
+          {status.state === "submitting" ? "Sending…" : "Send Enquiry"}
         </Button>
       </div>
       {status.state === "error" && (

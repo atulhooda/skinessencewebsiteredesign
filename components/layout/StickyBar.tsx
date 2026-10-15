@@ -2,7 +2,7 @@ import { getSite } from "@/lib/content";
 import { routes, telUrl, whatsappUrl } from "@/lib/links";
 import { CalendarIcon, PhoneIcon, WhatsAppIcon } from "@/components/ui/icons";
 
-/** Mobile-only bottom bar: Call | WhatsApp | Book. Hidden from md up. */
+/** Mobile-only bottom bar: Call | WhatsApp | Enquiry. Hidden from md up. */
 export function StickyBar() {
   const site = getSite();
   const item = "flex items-center justify-center gap-2 rounded-full py-3 text-xs font-medium transition-colors";
@@ -29,7 +29,7 @@ export function StickyBar() {
         </li>
         <li>
           <a href={routes.book} className={`${item} bg-brand-600 hover:bg-brand-700`}>
-            <CalendarIcon className="size-4" /> Book
+            <CalendarIcon className="size-4" /> Enquiry
           </a>
         </li>
       </ul>

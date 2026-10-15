@@ -49,17 +49,6 @@ export function HomeHero({ hero, site }: { hero: HomePage["hero"]; site: Site })
             <h1 id="hero-heading" className="mt-5 max-w-3xl text-[2.6rem] font-medium leading-[1.02] sm:text-6xl lg:text-7xl">
               {hero.title}
             </h1>
-            <ul className="mt-8 hidden flex-wrap gap-2 md:flex" aria-label="Clinic at a glance">
-              {site.stats.map((stat) => (
-                <li
-                  key={stat.value}
-                  className="rounded-full border border-white/25 bg-white/10 px-4 py-2 text-sm text-white/90 backdrop-blur-sm"
-                >
-                  <span className="font-semibold text-white">{stat.value}</span>
-                  {stat.short && <span> {stat.short}</span>}
-                </li>
-              ))}
-            </ul>
           </div>
           <div className="flex flex-col justify-end md:max-w-md md:justify-self-end">
             <p className="text-sm leading-relaxed text-white/85 md:text-base">{hero.subtitle}</p>

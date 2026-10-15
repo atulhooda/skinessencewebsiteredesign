@@ -84,7 +84,7 @@ export function HeaderNav({ nav }: { nav: NavData }) {
           </nav>
           <div className="hidden sm:block">
             <Button href={routes.book} variant="outline" icon="arrow-up-right" size="sm">
-              Book Consultation
+              Enquiry
             </Button>
           </div>
         </div>
@@ -182,7 +182,7 @@ export function HeaderNav({ nav }: { nav: NavData }) {
                 </li>
               </ul>
               <Button href={routes.book} variant="primary" icon="arrow-right" className="mt-8" onClick={() => setOpen(false)}>
-                Book Consultation
+                Enquiry
               </Button>
             </div>
           </nav>

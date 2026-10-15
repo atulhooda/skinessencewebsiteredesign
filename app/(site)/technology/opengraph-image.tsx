@@ -8,7 +8,7 @@ export const contentType = OG_CONTENT_TYPE;
 export default function Image() {
   const site = getSite();
   return renderOgImage({
-    eyebrow: `Advanced Technology · ${site.positioning}`,
+    eyebrow: `Clinic Equipment · ${site.positioning}`,
     title: "The Machines Behind Our Treatments",
     subtitle: "Lasers, hydrodermabrasion and skin systems, each explained in detail",
   });

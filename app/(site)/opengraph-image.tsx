@@ -13,7 +13,7 @@ export default function Image() {
   return renderOgImage({
     eyebrow: site.category,
     title: home.hero.title,
-    subtitle: `${doctor.name}, ${doctor.qualifications.join(", ")} · ${doctor.yearsExperience}+ years · ${site.stats[1]?.value} patients treated`,
+    subtitle: `${doctor.name}, ${doctor.qualifications.join(", ")} · ${site.positioning}`,
     footer: `${formatPhone(site.phone)} · ${site.tagline}`,
   });
 }

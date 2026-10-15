@@ -6,9 +6,6 @@ import { PageHero } from "@/components/sections/PageHero";
 import { ProseSection } from "@/components/sections/ProseSection";
 import { Button } from "@/components/ui/Button";
 import { Chip } from "@/components/ui/Chip";
-import { Container } from "@/components/ui/Container";
-import { SectionCard } from "@/components/ui/SectionCard";
-import { StatsRow } from "@/components/ui/StatCard";
 import type { Doctor } from "@/content/schema";
 import { getCategories, getFeaturedTiles, getHomePage, getLeadOptions, getLocation, getLocations, getPrimaryLocation, getSite } from "@/lib/content";
 import { routes, whatsappUrl } from "@/lib/links";
@@ -38,7 +35,7 @@ export function DoctorPage({ doctor }: { doctor: Doctor }) {
         actions={
           <>
             <Button href={routes.book} variant="light" icon="arrow-right">
-              Book Consultation
+              Enquiry
             </Button>
             <Button href={whatsappHref} variant="outline" icon="arrow-up-right">
               Ask On WhatsApp
@@ -56,14 +53,6 @@ export function DoctorPage({ doctor }: { doctor: Doctor }) {
           </div>
         }
       />
-      <SectionCard id="experience" headingId="experience-heading" tone="muted" padding="compact">
-        <Container size="wide">
-          <h2 id="experience-heading" className="sr-only">
-            {doctor.name}&apos;s experience in numbers
-          </h2>
-          <StatsRow stats={site.stats} />
-        </Container>
-      </SectionCard>
       <ProseSection
         id="about-doctor"
         eyebrow={doctor.subheading ?? "Know Your Doctor"}
@@ -78,6 +67,12 @@ export function DoctorPage({ doctor }: { doctor: Doctor }) {
                 <dt className="text-xs text-muted">Qualifications</dt>
                 <dd className="mt-1 font-medium">{doctor.qualifications.join(", ")}</dd>
               </div>
+              {doctor.registration && (
+                <div>
+                  <dt className="text-xs text-muted">Registration</dt>
+                  <dd className="mt-1 font-medium">{doctor.registration}</dd>
+                </div>
+              )}
               <div>
                 <dt className="text-xs text-muted">Experience</dt>
                 <dd className="mt-1 font-medium">{doctor.yearsExperience}+ years in dermatology and cosmetology</dd>
@@ -88,7 +83,7 @@ export function DoctorPage({ doctor }: { doctor: Doctor }) {
               </div>
             </dl>
             <Button href={routes.book} variant="primary" icon="arrow-right" className="mt-6">
-              Book A Consultation
+              Enquiry
             </Button>
           </div>
         }

@@ -4,14 +4,14 @@
     "title": "Skin, Hair, Laser & Cosmetic Treatments",
     "description": "At Skin Essence, we provide comprehensive skin, hair, laser and cosmetic treatments designed around your individual concerns and goals. Our approach begins with understanding your concern and recommending treatment options suited to you.",
     "image": {
-      "src": "/images/hero/treatments.webp",
-      "alt": "Dr. Daksha Patel performing an injectable treatment at Skin Essence",
+      "src": "/images/locations/pune.webp",
+      "alt": "Reception of the Skin Essence clinic in Kalyani Nagar, Pune",
       "width": 1200,
-      "height": 1000
+      "height": 800
     }
   },
   "listing": {
-    "eyebrow": "Advanced Care & Treatments",
+    "eyebrow": "Care & Treatments",
     "title": "What Skin Essence Can Offer You"
   },
   "faq": {

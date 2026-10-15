@@ -31,7 +31,7 @@ const crumbs: Crumb[] = [
 export const metadata: Metadata = buildMetadata({
   title: localTitle("Skin, Hair, Laser & Cosmetic Treatments"),
   description:
-    "Skin, hair, laser and cosmetic treatments at Skin Essence, Kalyani Nagar, Pune, planned by an MD dermatologist. Explore treatments and book a consultation.",
+    "Skin, hair, laser and cosmetic treatments at Skin Essence, Kalyani Nagar, Pune, planned by an MD dermatologist. Call or WhatsApp us.",
   path: routes.treatments,
 });
 
@@ -71,7 +71,7 @@ export default function TreatmentsIndexPage() {
         actions={
           <>
             <Button href={routes.book} variant="light" icon="arrow-right">
-              Book Consultation
+              Enquiry
             </Button>
             <Button href={whatsappHref} variant="outline" icon="arrow-up-right">
               Ask On WhatsApp
@@ -85,7 +85,7 @@ export default function TreatmentsIndexPage() {
         categories={getTreatmentsByCategory()}
         action={
           <Button href={routes.book} variant="primary" icon="arrow-right">
-            Book Consultation
+            Enquiry
           </Button>
         }
       />

@@ -61,7 +61,7 @@ export default async function ConcernPage({ params }: { params: Promise<Params> 
         actions={
           <>
             <Button href={routes.book} variant="light" icon="arrow-right">
-              Book Consultation
+              Enquiry
             </Button>
             <Button href={whatsappHref} variant="outline" icon="arrow-up-right">
               Ask On WhatsApp
@@ -94,7 +94,7 @@ export default async function ConcernPage({ params }: { params: Promise<Params> 
         ]}
         tone="muted"
       />
-      <DoctorIntro eyebrow="Your Dermatologist" title={`${concern.name} Is Assessed And Treated By ${doctor.name}, ${doctor.qualifications.join(", ")}.`} doctor={doctor} image={doctor.photo} tone="white" />
+      <DoctorIntro eyebrow="Your Dermatologist" title={`${concern.name} Is Assessed And Treated By ${doctor.name}, ${doctor.qualifications.join(", ")}.`} doctor={doctor} tone="white" />
       <FaqSection eyebrow="Helpful Answers" title={`${concern.name}: Common Questions`} groups={[{ category: "FAQ", items: concern.faqs }]} tone="muted" />
       <LocationsSection eyebrow="Where To Find Us" title={`Visit Skin Essence In ${location.area}, ${location.city}`} locations={[location]} site={site} />
       <LeadFormSection

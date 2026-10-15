@@ -74,7 +74,7 @@ export default async function MachinePage({ params }: { params: Promise<Params> 
         actions={
           <>
             <Button href={routes.book} variant="light" icon="arrow-right">
-              Book Consultation
+              Enquiry
             </Button>
             <Button href={whatsappHref} variant="outline" icon="arrow-up-right">
               Ask On WhatsApp
@@ -102,7 +102,6 @@ export default async function MachinePage({ params }: { params: Promise<Params> 
         eyebrow="Who Operates It"
         title={`Every ${machine.shortName} session is planned and supervised by ${doctor.name}, ${doctor.qualifications.join(", ")}.`}
         doctor={doctor}
-        image={doctor.photo}
         tone="muted"
       />
       <FaqSection eyebrow="Helpful Answers" title={`${machine.shortName} Questions, Answered Honestly`} groups={[{ category: "FAQ", items: machine.faqs }]} tone="white" />

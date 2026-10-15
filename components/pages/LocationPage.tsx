@@ -47,7 +47,7 @@ export function LocationPage({ location }: { location: Location }) {
         actions={
           <>
             <Button href={routes.book} variant="light" icon="arrow-right">
-              Book Consultation
+              Enquiry
             </Button>
             <Button href={telUrl(phone)} variant="outline" icon="none">
               Call {formatPhone(phone)}
@@ -69,7 +69,7 @@ export function LocationPage({ location }: { location: Location }) {
       />
       <LocationDetails eyebrow="Visit The Clinic" title={`Skin Essence, ${place}`} location={location} site={site} tone="white" />
       {location.intro.length > 1 && <ProseSection id="about-clinic" eyebrow="About This Clinic" title={`Skin, Hair, Laser And Cosmetic Care In ${location.area}`} paragraphs={location.intro.slice(1)} tone="muted" />}
-      {doctor && <DoctorIntro eyebrow="Your Dermatologist" title={`${doctor.name}, ${doctor.qualifications.join(", ")}`} doctor={doctor} image={doctor.photo} stats={site.stats} tone="white" />}
+      {doctor && <DoctorIntro eyebrow="Your Dermatologist" title={`${doctor.name}, ${doctor.qualifications.join(", ")}`} doctor={doctor} tone="white" />}
       <MachinesGrid id="machines" eyebrow="Technology" title={`Machines At Our ${location.city} Clinic`} machines={machines} showClinic={false} tone="muted" />
       <FeaturedTreatments
         eyebrow="Treatments"

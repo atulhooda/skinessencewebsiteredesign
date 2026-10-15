@@ -7,15 +7,11 @@ import { HomeHero } from "@/components/sections/HomeHero";
 import { IntakeSection } from "@/components/sections/IntakeSection";
 import { LocationsSection } from "@/components/sections/LocationsSection";
 import { TechMosaic } from "@/components/sections/TechMosaic";
-import { ClinicVideos } from "@/components/sections/ClinicVideos";
-import { TestimonialBand } from "@/components/sections/TestimonialBand";
 import { WhyPatientsStay } from "@/components/sections/WhyPatientsStay";
 import { Button } from "@/components/ui/Button";
 import {
   getDoctorsForLocation,
   getFaqGroups,
-  getClinicVideos,
-  getGoogleProfile,
   getHomePage,
   getLeadOptions,
   getLocations,
@@ -25,7 +21,6 @@ import {
   getSite,
   getTechnology,
   getTechnologyDisclaimer,
-  getTestimonials,
   getCategories,
   getFeaturedTiles,
   getTreatments,
@@ -35,7 +30,7 @@ import { faqPageJsonLd, medicalClinicJsonLd, websiteJsonLd } from "@/lib/schema-
 import { absoluteUrl, buildMetadata, HOME_TITLE } from "@/lib/seo";
 
 const HOME_DESCRIPTION =
-  "Dr. Daksha Patel, MD dermatologist in Kalyani Nagar, Pune: acne, pigmentation, hair loss, laser and anti-ageing care. Book a consultation.";
+  "Dr. Daksha Patel, MD dermatologist in Kalyani Nagar, Pune: acne, pigmentation, hair loss, laser and anti-ageing care. Call or WhatsApp the clinic.";
 
 export const metadata: Metadata = buildMetadata({ title: HOME_TITLE, description: HOME_DESCRIPTION, path: "/" });
 
@@ -89,8 +84,6 @@ export default function HomePage() {
         eyebrow={home.doctorIntro.eyebrow}
         title={home.doctorIntro.title}
         doctor={doctor}
-        image={home.doctorIntro.image ?? doctor.photo}
-        stats={site.stats}
         tone="white"
       />
       <WhyPatientsStay
@@ -100,13 +93,6 @@ export default function HomePage() {
         principles={getPrinciples()}
         tone="muted"
       />
-      <TestimonialBand
-        eyebrow={home.testimonials.eyebrow}
-        title={home.testimonials.title}
-        testimonials={getTestimonials()}
-        google={getGoogleProfile()}
-      />
-      <ClinicVideos videos={getClinicVideos()} />
       <TechMosaic
         eyebrow={home.technology.eyebrow}
         title={home.technology.title}

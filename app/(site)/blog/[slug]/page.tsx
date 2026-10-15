@@ -80,7 +80,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button href={routes.book} variant="primary" icon="arrow-right">
-              Book Consultation
+              Enquiry
             </Button>
             <Button href={routes.blog} variant="light" icon="arrow-up-right">
               More Articles
@@ -90,7 +90,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
       </SectionCard>
       <RelatedTreatments eyebrow="Related Treatments" title="Treatments Mentioned In This Article" treatments={treatments} categories={getCategories()} tone="muted" />
       <RelatedConcerns eyebrow="Related Concerns" title="Read More About The Concern" concerns={concerns} tone="white" />
-      <DoctorIntro eyebrow="Your Dermatologist" title={`${doctor.name}, ${doctor.qualifications.join(", ")}`} doctor={doctor} image={doctor.photo} tone="muted" />
+      <DoctorIntro eyebrow="Your Dermatologist" title={`${doctor.name}, ${doctor.qualifications.join(", ")}`} doctor={doctor} tone="muted" />
       <LeadFormSection
         eyebrow={home.leadForm.eyebrow}
         title={home.leadForm.title}

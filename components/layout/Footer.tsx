@@ -50,7 +50,7 @@ export function Footer() {
             <p className="mt-4 text-sm text-white/80">{site.positioning}</p>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/70">{site.description}</p>
             <Button href={routes.book} variant="primary" icon="arrow-right" className="mt-7">
-              Book Consultation
+              Enquiry
             </Button>
             <ul className="mt-8 space-y-3 text-sm">
               <li>
@@ -137,7 +137,8 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-xs text-white/70 md:flex-row md:items-center md:justify-between">
           <p>
-            © {year} {site.legalName}. {doctor.name}, {doctor.qualifications.join(", ")}.
+            © {year} {site.legalName}. {doctor.name}, {doctor.qualifications.join(", ")}
+            {doctor.registration ? `, ${doctor.registration}` : ""}.
           </p>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
             <p className="max-w-xl">Information on this site is general and not a substitute for a consultation. Results vary from person to person.</p>

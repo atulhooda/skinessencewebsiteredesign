@@ -48,7 +48,7 @@ export default function ContactPage() {
         actions={
           <>
             <Button href={routes.book} variant="light" icon="arrow-right">
-              Book Consultation
+              Enquiry
             </Button>
             <Button href={telUrl(site.phone)} variant="outline" icon="none">
               Call {formatPhone(site.phone)}

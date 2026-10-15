@@ -49,12 +49,12 @@ export function whatsappUrl(number: string, text?: string): string {
 }
 
 /**
- * "Hi, I want to book a consultation at Skin Essence Kalyani Nagar." + topic →
- * "Hi, I want to book a consultation at Skin Essence Kalyani Nagar for Acne Treatment."
+ * "Hi, I have an enquiry for Skin Essence Kalyani Nagar." + topic →
+ * "Hi, I have an enquiry for Skin Essence Kalyani Nagar about Acne Treatment."
  */
 export function whatsappMessage(prefill: string, topic?: string): string {
   if (!topic) return prefill;
-  return `${prefill.replace(/[.\s]+$/, "")} for ${topic}.`;
+  return `${prefill.replace(/[.\s]+$/, "")} about ${topic}.`;
 }
 
 export function mailtoUrl(email: string): string {

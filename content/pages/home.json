@@ -1,15 +1,15 @@
 {
   "hero": {
-    "eyebrow": "Advanced Skin, Hair, Laser & Cosmetic Clinic",
+    "eyebrow": "Skin, Hair, Laser & Cosmetic Clinic",
     "title": "MD Dermatologist in Kalyani Nagar, Pune",
     "subtitle": "From acne and acne scars to pigmentation, hair loss, unwanted hair and facial rejuvenation, Dr. Daksha Patel, MBBS, MD (Skin & VD), begins by understanding your concern and recommends only the treatment suited to you.",
-    "primaryCta": "Book Consultation",
+    "primaryCta": "Enquiry",
     "secondaryCta": "Explore Treatments",
     "image": {
-      "src": "/images/hero/home.webp",
-      "alt": "Dr. Daksha Patel at the Skin Essence clinic reception",
+      "src": "/images/locations/pune.webp",
+      "alt": "Reception of the Skin Essence clinic in Kalyani Nagar, Pune",
       "width": 1200,
-      "height": 1400
+      "height": 800
     }
   },
   "intake": {
@@ -18,7 +18,7 @@
     "rest": "And We'll Call You Back With The Right Next Step."
   },
   "treatments": {
-    "eyebrow": "Advanced Care & Treatments",
+    "eyebrow": "Care & Treatments",
     "title": "Our Treatments",
     "featured": [
       {
@@ -71,13 +71,7 @@
   },
   "doctorIntro": {
     "eyebrow": "Meet Your Dermatologist",
-    "title": "Expertise. Experience. Personalised Care.",
-    "image": {
-      "src": "/images/doctor/examination-portrait.webp",
-      "alt": "Dr. Daksha Patel during a consultation at her desk",
-      "width": 960,
-      "height": 1200
-    }
+    "title": "Expertise. Experience. Personalised Care."
   },
   "whyChoose": {
     "eyebrow": "Our Advantages",
@@ -89,12 +83,8 @@
       "height": 900
     }
   },
-  "testimonials": {
-    "eyebrow": "Patient Stories",
-    "title": "Hear From Patients Who Shared Your Concerns"
-  },
   "technology": {
-    "eyebrow": "Advanced Technology",
+    "eyebrow": "Clinic Equipment",
     "title": "The Machines Behind Our Treatments",
     "description": "Laser, energy-based and body-contouring platforms operated under Dr. Daksha Patel's supervision, including the MiraPeel, Qyros Nd:YAG, Coolite BOLT and Hydra Facial systems in Kalyani Nagar."
   },
@@ -107,8 +97,8 @@
     "title": "Our Clinics In Pune And Ahmedabad"
   },
   "leadForm": {
-    "eyebrow": "Book A Consultation",
+    "eyebrow": "Enquiry",
     "title": "Ready To Take The First Step?",
-    "description": "Book a consultation at Skin Essence and discuss your skin, hair, laser or cosmetic concerns with our team. Tell us what you're looking for, and we'll help you understand the suitable treatment options for your individual needs."
+    "description": "Send an enquiry to Skin Essence and discuss your skin, hair, laser or cosmetic concerns with our team. Tell us what you're looking for, and we'll help you understand the suitable treatment options for your individual needs."
   }
 }

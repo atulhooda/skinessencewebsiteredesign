@@ -19,7 +19,7 @@ const crumbs: Crumb[] = [
 export const metadata: Metadata = buildMetadata({
   title: "Dermatology Lasers & Machines in Kalyani Nagar, Pune | Skin Essence",
   description:
-    "The lasers, hydrodermabrasion and skin systems used at Skin Essence in Kalyani Nagar, Pune and Ahmedabad, each explained in detail. Book a consultation.",
+    "The lasers, hydrodermabrasion and skin systems used at Skin Essence in Kalyani Nagar, Pune and Ahmedabad, each explained in detail. Call us.",
   path: routes.technology,
 });
 
@@ -49,14 +49,14 @@ export default function TechnologyIndexPage() {
       />
       <PageHero
         crumbs={crumbs}
-        eyebrow={`Advanced Technology · ${site.positioning}`}
+        eyebrow={`Clinic Equipment · ${site.positioning}`}
         title="The Machines Behind Our Treatments"
         description="Every laser and skin system at Skin Essence, what it does, what it treats and which treatments run on it. All are operated under Dr. Daksha Patel's supervision, with settings chosen for Indian skin."
         image={heroImage}
         actions={
           <>
             <Button href={routes.book} variant="light" icon="arrow-right">
-              Book Consultation
+              Enquiry
             </Button>
             <Button href={routes.treatments} variant="outline" icon="arrow-up-right">
               See Treatments

@@ -201,6 +201,8 @@ export const DoctorSchema = z.object({
   name: z.string(),
   /** e.g. ["MBBS", "MD (Skin & VD)"] */
   qualifications: z.array(z.string()).min(1),
+  /** State medical council registration, shown wherever the doctor is named as the practitioner (NMC disclosure). */
+  registration: z.string().optional(),
   title: z.string(),
   yearsExperience: z.number().int(),
   /** e.g. "Expertise. Experience. Personalised Care." */
@@ -219,21 +221,12 @@ export const DoctorSchema = z.object({
 
 /* ---------- Site-wide ---------- */
 
-export const StatSchema = z.object({
-  value: z.string(),
-  label: z.string(),
-  description: z.string().optional(),
-  /** Compact wording for inline pills, e.g. "of experience". */
-  short: z.string().optional(),
-  icon: z.enum(["calendar", "users", "sparkle", "clock"]).default("sparkle"),
-});
-
 export const SiteSchema = z.object({
   name: z.string(),
   legalName: z.string(),
   /** "Your Skin. Our Expertise." */
   tagline: z.string(),
-  /** "Advanced Skin, Hair, Laser & Cosmetic Clinic" */
+  /** "Skin, Hair, Laser & Cosmetic Clinic" */
   category: z.string(),
   /** "MD Dermatologist in Kalyani Nagar, Pune" */
   positioning: z.string(),
@@ -251,7 +244,6 @@ export const SiteSchema = z.object({
   logoMono: ImageSchema.optional(),
   /** Social profiles. TODO from client. */
   social: z.array(z.object({ label: z.string(), url: z.string().url() })).default([]),
-  stats: z.array(StatSchema).min(3),
   /** Slug of the doctor featured on the homepage and in schema.org markup. */
   primaryDoctor: SlugSchema,
 });
@@ -260,18 +252,6 @@ export const SiteSchema = z.object({
 export const LeadOptionSchema = z.object({
   value: z.string().min(1).max(80),
   label: z.string().min(1).max(80),
-});
-
-export const TestimonialSchema = z.object({
-  quote: z.string().min(40),
-  patient: z.string(),
-  treatment: z.string(),
-  /** 1–5 */
-  rating: z.number().int().min(1).max(5),
-  /** Optional; the slider shows initials when absent (sample quotes never carry stock faces). */
-  image: ImageSchema.optional(),
-  /** Where the quote came from. "google" quotes are labelled as such in the slider. */
-  source: z.enum(["clinic", "google"]).default("clinic"),
 });
 
 /**
@@ -288,51 +268,14 @@ export const LandingPageSchema = z.object({
   eyebrow: z.string(),
   headline: z.string(),
   subheadline: z.string(),
+  /** Show the enquiry form (and its buttons). Off until the doctor decides; the page then offers call and WhatsApp only. */
+  showEnquiryForm: z.boolean().default(false),
   heroImage: ImageSchema,
-  clinicImage: ImageSchema,
   /** Generic treatment names only. No drug, brand or acid names. */
   treatments: z.array(z.object({ name: z.string(), description: z.string() })).min(4),
   trustPoints: z.array(z.string()).min(2),
   formTitle: z.string(),
   formDescription: z.string(),
-});
-
-/** A short clip filmed at the clinic, shown under the patient stories on the home page. */
-export const ClinicVideoSchema = z.object({
-  /** File under /public/videos. */
-  src: z.string().startsWith("/videos/"),
-  /** Still shown until the visitor presses play; the video itself downloads nothing before that. */
-  poster: ImageSchema,
-  /** Short, factual caption. Do not name a procedure the clinic has not confirmed. */
-  label: z.string(),
-  /** e.g. "0:30", shown on the card. */
-  duration: z.string(),
-});
-
-export const VideosFileSchema = z.object({
-  _note: z.string().optional(),
-  eyebrow: z.string(),
-  title: z.string(),
-  description: z.string().optional(),
-  items: z.array(ClinicVideoSchema).min(1),
-  todo: z.array(z.string()).default([]),
-});
-
-/** The clinic's Google Business Profile, for the rating line and the "read them all" link. */
-export const GoogleProfileSchema = z.object({
-  /** Public link to the profile's reviews. The "Get more reviews" short link works. */
-  profileUrl: z.string().url(),
-  /** Average rating as Google shows it. */
-  rating: z.number().min(1).max(5),
-  /** Total number of reviews. */
-  count: z.number().int().min(0),
-});
-
-export const TestimonialsFileSchema = z.object({
-  _note: z.string().optional(),
-  /** Omit until the clinic supplies the link; the rating line is then hidden. */
-  google: GoogleProfileSchema.optional(),
-  items: z.array(TestimonialSchema).min(1),
 });
 
 export const FaqGroupSchema = z.object({
@@ -438,10 +381,8 @@ export const HomePageSchema = z.object({
       .min(1)
       .max(12),
   }),
-  /** `image` overrides the doctor's main portrait on the home page only. */
-  doctorIntro: SectionCopySchema.extend({ image: ImageSchema.optional() }),
+  doctorIntro: SectionCopySchema,
   whyChoose: SectionCopySchema.extend({ image: ImageSchema }),
-  testimonials: SectionCopySchema,
   technology: SectionCopySchema.extend({ description: z.string() }),
   faq: SectionCopySchema,
   locations: SectionCopySchema,
@@ -594,14 +535,9 @@ export type Treatment = z.infer<typeof TreatmentSchema>;
 export type Concern = z.infer<typeof ConcernSchema>;
 export type Location = z.infer<typeof LocationSchema>;
 export type Doctor = z.infer<typeof DoctorSchema>;
-export type Stat = z.infer<typeof StatSchema>;
 export type Site = z.infer<typeof SiteSchema>;
 export type LeadOption = z.infer<typeof LeadOptionSchema>;
-export type Testimonial = z.infer<typeof TestimonialSchema>;
-export type GoogleProfile = z.infer<typeof GoogleProfileSchema>;
-export type ClinicVideo = z.infer<typeof ClinicVideoSchema>;
 export type LandingPage = z.infer<typeof LandingPageSchema>;
-export type VideosFile = z.infer<typeof VideosFileSchema>;
 export type FaqGroup = z.infer<typeof FaqGroupSchema>;
 export type Principle = z.infer<typeof PrincipleSchema>;
 export type Technology = z.infer<typeof TechnologySchema>;
