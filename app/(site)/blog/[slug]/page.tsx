@@ -27,7 +27,8 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const { slug } = await params;
   const post = getBlogPost(slug);
   if (!post) return {};
-  return buildMetadata({ title: post.metaTitle, description: post.metaDescription, path: routes.blogPost(slug), type: "article" });
+  // Drafts exist only on preview deployments; keep them out of any index regardless.
+  return buildMetadata({ title: post.metaTitle, description: post.metaDescription, path: routes.blogPost(slug), type: "article", noIndex: post.status !== "published" });
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<Params> }) {
@@ -69,6 +70,11 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
       />
       <SectionCard id="article" headingId="article-heading" tone="white">
         <Container size="narrow">
+          {post.status !== "published" && (
+            <p role="note" className="mb-8 rounded-2xl border border-urgent/40 bg-urgent/5 px-5 py-4 text-sm font-medium text-urgent">
+              Draft, awaiting the doctor&apos;s approval. This post is not on the live site.
+            </p>
+          )}
           <h2 id="article-heading" className="sr-only">
             Article
           </h2>

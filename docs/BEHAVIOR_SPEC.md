@@ -72,3 +72,40 @@ There is no email field and no free-text field. A hidden honeypot (`website`) is
 - Its only parameter is `form_location: "lp_treatments"`. The name, phone, callback time, gclid and any lead or visitor id are never sent to GA or Google Ads.
 - GA4's built-in form tracking may also send `form_start` and `form_submit`. These carry the form id and field names, never field values.
 - The Call and WhatsApp buttons send `click_call` and `click_whatsapp` with the clinic's own link only.
+
+## Blog publishing
+
+Posts are `content/blog/<slug>.json` with a body in `<slug>.mdx`. The rules are in `lib/blog-policy.ts` and `content/blog-policy.json`, and are enforced when the site builds.
+
+### Status
+
+- A post is live only with `"status": "published"`. A missing `status` means draft. The AI blog writer never writes the field, so everything it adds is a draft.
+- Drafts never appear on the production site: no page (404), no /blog card, no sitemap entry, no JSON-LD.
+- Drafts do appear on Vercel preview deployments, with a "Draft, awaiting the doctor's approval" banner and `noindex`, so they can be reviewed there.
+
+### Approval
+
+- To publish a post that is not listed in `legacy`, set all three fields once the doctor has approved it:
+  - `"status": "published"`
+  - `"approvedBy": "Dr. Daksha Patel"`
+  - `"approvedOn": "YYYY-MM-DD"`
+- `legacy` lists the posts that were live before the approval process began (16 Oct 2026). Never add new posts to it.
+
+### Group A gate (blocks, does not warn)
+
+- A published post must not contain a Group A term (`GROUP_A_TERMS`) anywhere: title, meta fields, excerpt, image alt, file names, body or link URLs.
+- If one does, `next build` and `npm run content:check` fail with the post and the terms. The deploy then fails, so the post cannot go live.
+- `groupAHold` lists the older posts that are allowed to keep their terms until the doctor decides, each with a reason. Never add new posts to it.
+- `npm run content:check` lists every draft and the Group A terms it would need removed.
+
+### AI blog writer
+
+The writer (`skinessence-agent` on Railway) opens a `blog/<slug>` branch and pull request for each post. With `PUBLISH_ALLOW_DIRECT_PUBLISH=false` it never merges, so posts wait as pull requests with a preview.
+
+To publish a post after the doctor's approval:
+
+1. Set `status`, `approvedBy` and `approvedOn` on the pull request's branch.
+2. Check that the preview builds.
+3. Merge.
+
+Group A terms are also in the writer's `QUALITY_BANNED_PHRASES`, so it rewrites them out before a draft is made.

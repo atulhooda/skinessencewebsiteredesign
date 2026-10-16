@@ -1,0 +1,39 @@
+{
+  "_note": "Blog publishing rules: lib/blog-policy.ts and docs/BEHAVIOR_SPEC.md. legacy: posts published before the doctor-approval process (16 Oct 2026); they need no approvedBy/approvedOn. groupAHold: older posts allowed to keep Group A drug terms until the doctor decides (held 16 Oct 2026 pending the Google Ads review). Do not add new posts to either list.",
+  "legacy": [
+    "acne-scar-treatments-explained",
+    "adult-acne-treatment-in-pune",
+    "aftercare-after-cosmetic-procedures-pune",
+    "back-acne-treatment-in-pune",
+    "bridal-skin-care-timeline",
+    "chemical-peel-aftercare",
+    "dark-circles-treatment-in-pune",
+    "dermatologist-skincare-routine-in-pune",
+    "female-hair-thinning-in-pune",
+    "laser-hair-removal-for-men-pune",
+    "laser-hair-removal-indian-skin",
+    "laser-tattoo-removal-process-pune",
+    "laser-toning-for-pigmentation-in-pune",
+    "melasma-treatment-for-indian-skin",
+    "mole-and-wart-removal-in-pune",
+    "non-surgical-fat-reduction-in-pune",
+    "paediatric-skin-rash-evaluation-pune",
+    "post-acne-pigmentation-treatment-kalyani-nagar",
+    "preparing-for-laser-skin-treatment-kalyani-nagar",
+    "prp-hair-treatment-in-pune",
+    "prp-vs-hair-transplant",
+    "skin-glow-treatment-vs-salon-facials-in-pune",
+    "skin-tightening-in-pune",
+    "unwanted-facial-hair-evaluation-in-pune"
+  ],
+  "groupAHold": {
+    "preparing-for-laser-skin-treatment-kalyani-nagar": "isotretinoin timing and dose, adapalene and hydroquinone priming",
+    "melasma-treatment-for-indian-skin": "hydroquinone concentration and ochronosis warning",
+    "chemical-peel-aftercare": "isotretinoin wait times, hydroquinone 4%",
+    "dermatologist-skincare-routine-in-pune": "triamcinolone dose, hydroquinone",
+    "post-acne-pigmentation-treatment-kalyani-nagar": "hydroquinone, tretinoin and adapalene priming",
+    "laser-toning-for-pigmentation-in-pune": "avoid hydroquinone after speckled hypopigmentation",
+    "laser-tattoo-removal-process-pune": "stop Accutane 6 months before",
+    "female-hair-thinning-in-pune": "topical minoxidil as first-line therapy"
+  }
+}

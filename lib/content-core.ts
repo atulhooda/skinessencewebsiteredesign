@@ -57,6 +57,7 @@ import {
   type TreatmentCategory,
   type TreatmentsPage,
 } from "../content/schema.ts";
+import { groupATerms, publishProblems, type BlogPolicy } from "./blog-policy.ts";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
@@ -375,8 +376,37 @@ export function getMachinesForTreatment(treatment: Treatment): Machine[] {
 
 /* ---------- Blog ---------- */
 
+/** Vercel preview deployments (and `next dev`) show drafts so they can be reviewed; production never does. */
+function showDrafts(): boolean {
+  return process.env.VERCEL_ENV === "preview" || process.env.NODE_ENV === "development";
+}
+
+function getBlogPolicy(): BlogPolicy {
+  return memoised("blog-policy", () => readJson("blog-policy.json") as BlogPolicy);
+}
+
+/**
+ * Every post file, drafts included, after the publishing gate: a published post that
+ * breaks lib/blog-policy.ts stops the build here, so it can never reach the live site.
+ */
+export function getAllBlogPosts(): BlogPost[] {
+  return memoised("blog-gated", () => {
+    const posts = loadDir("blog", BlogPostSchema);
+    const policy = getBlogPolicy();
+    const problems = posts.flatMap((post) => {
+      const mdx = path.join(CONTENT_DIR, "blog", `${post.slug}.mdx`);
+      const raw = JSON.stringify(post) + "\n" + (fs.existsSync(mdx) ? fs.readFileSync(mdx, "utf8") : "");
+      return publishProblems(post, raw, policy).map((p) => `blog/${post.slug}: ${p}`);
+    });
+    if (problems.length) throw new Error(`Blog publishing blocked:\n  - ${problems.join("\n  - ")}`);
+    return [...posts].sort((a, b) => b.date.localeCompare(a.date));
+  });
+}
+
+/** Posts on this deployment: published ones, plus drafts on preview deployments. */
 export function getBlogPosts(): BlogPost[] {
-  return [...loadDir("blog", BlogPostSchema)].sort((a, b) => b.date.localeCompare(a.date));
+  const posts = getAllBlogPosts();
+  return showDrafts() ? posts : posts.filter((p) => p.status === "published");
 }
 
 export function getBlogPost(slug: string): BlogPost | undefined {
@@ -443,6 +473,12 @@ export function buildContentReport(): ContentReport {
   if (!getLocation(locationPage.locationSlug)) warnings.push(`pages/location.json: unknown clinic "${locationPage.locationSlug}"`);
   for (const todo of locationPage.todo) warnings.push(`pages/location.json: TODO ${todo}`);
 
+  for (const post of getAllBlogPosts().filter((p) => p.status !== "published")) {
+    const mdx = path.join(CONTENT_DIR, "blog", `${post.slug}.mdx`);
+    const terms = groupATerms(JSON.stringify(post) + "\n" + (fs.existsSync(mdx) ? fs.readFileSync(mdx, "utf8") : ""));
+    warnings.push(`blog/${post.slug}: DRAFT awaiting the doctor's approval, not on the live site${terms.length ? `; contains Group A ${terms.join(", ")}, which blocks publishing` : ""}`);
+  }
+
   return {
     counts: {
       categories: getCategories().length,
@@ -451,7 +487,8 @@ export function buildContentReport(): ContentReport {
       locations: getLocations().length,
       doctors: getDoctors().length,
       machines: getMachines().length,
-      blogPosts: getBlogPosts().length,
+      blogPosts: getAllBlogPosts().filter((p) => p.status === "published").length,
+      blogDrafts: getAllBlogPosts().filter((p) => p.status !== "published").length,
       faqGroups: getFaqGroups().length,
       leadOptions: getLeadOptions().length,
     },

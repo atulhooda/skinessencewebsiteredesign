@@ -480,6 +480,16 @@ export const BlogPostSchema = z.object({
   /** Treatment / concern slugs to link from the post footer. */
   relatedTreatments: z.array(SlugSchema).default([]),
   relatedConcerns: z.array(SlugSchema).default([]),
+  /**
+   * "published" puts the post on the live site; anything else is a draft, shown only on
+   * Vercel preview deployments. Missing = draft, so AI-written posts wait for approval.
+   * Rules in lib/blog-policy.ts.
+   */
+  status: z.enum(["draft", "published"]).default("draft"),
+  /** Who approved publication (the doctor). Required to publish a post that isn't legacy. */
+  approvedBy: z.string().optional(),
+  /** ISO date of that approval. */
+  approvedOn: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
 });
 
 /**

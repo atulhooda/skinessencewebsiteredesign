@@ -46,6 +46,7 @@ const nextConfig: NextConfig = {
       { source: "/treatments/body-contouring", destination: "/treatments/fat-reduction", permanent: true },
       // Treatment withdrawn from the site (Oct 2026). 301 rather than `permanent` (308) as requested.
       { source: "/treatments/botox", destination: "/treatments/anti-ageing-treatment", statusCode: 301 },
+      { source: "/blog/botox-vs-dermal-fillers-in-pune", destination: "/treatments/anti-ageing-treatment", statusCode: 301 },
       // Unpublished pending the client's confirmation that these are not offered.
       { source: "/treatments/hair-transplant", destination: "/treatments/hair-loss-treatment", permanent: false },
       { source: "/treatments/tattoo-removal", destination: "/treatments/pigmentation-treatment", permanent: false },
